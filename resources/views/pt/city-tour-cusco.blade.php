@@ -51,7 +51,8 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Cusco City Tour
+				<?php $titulo='Cusco City Tour'; echo $titulo; ?>
+                
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
@@ -250,8 +251,8 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 50.00 <i
-                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -338,7 +339,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

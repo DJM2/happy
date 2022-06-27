@@ -57,7 +57,7 @@
                                         <li><a href="{{ route('happy-experiencia-tour') }}" class="nav-link">Happy
                                                 Experience
                                                 tour</a></li>
-                                        <li><a href="{{ route('city-tour-portugues') }}" class="nav-link">Happy city
+                                        <li><a href="{{ route('happy-city-tour') }}" class="nav-link">Happy city
                                                 tour Full
                                                 Day</a></li>
                                         <li><a href="{{ route('valle-sagrado-2-dias-portugues') }}"

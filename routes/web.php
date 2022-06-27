@@ -124,7 +124,7 @@ Route::get('pt/blog', function(){return view('pt/blog');})->name('blog-portugues
 /*Tradicionales*/
 Route::get('pt/city-tour-cusco', function(){return view('pt/city-tour-cusco');})->name('city-tour-portugues');
 Route::get('pt/happy-experiencia-tour', function(){return view('pt/happy-experiencia-tour');})->name('happy-experiencia-tour');
-Route::get('pt/happy-city-tour', function(){return view('pt/happy-city-tour');})->name('city-tour-portugues');
+Route::get('pt/happy-city-tour', function(){return view('pt/happy-city-tour');})->name('happy-city-tour');
 Route::get('pt/valle-sagrado-2-dias', function(){return view('pt/valle-sagrado-2-dias');})->name('valle-sagrado-2-dias-portugues');
 Route::get('pt/vale-sagrado-dos-incas', function(){return view('pt/vale-sagrado-dos-incas');})->name('vale-sagrado-dos-incas');
 Route::get('pt/maras-moray-e-salineras', function(){return view('pt/maras-moray-e-salineras');})->name('maras-moray-e-salineras');

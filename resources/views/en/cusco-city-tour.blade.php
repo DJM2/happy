@@ -43,12 +43,10 @@
     </div>
     </div>
     </div>
-
-
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Cusco City Tour
+                <?php $titulo='Cusco City Tour'; echo $titulo; ?>
             </h1>
             
             <p class="p-titulo">

@@ -12,7 +12,7 @@
     <meta name="description"
         content="It is a good alternative to get to Machupicchu, although the Lares valley is very extensive, this means that there are different routes in Cusco, Perú." />
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/en/happy-experience-tour">
+    <link rel="canonical" href="https://happyperutours.com/pt/happy-experiencia-tour">
 </head>
 
 <body>
@@ -49,7 +49,10 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Happy City Tour
+                <?php 
+                $titulo='Happy City Tour';
+                echo $titulo;
+                ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
@@ -262,9 +265,9 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        <h4 class="price"><span>From:</span><i class="icon-dollar"></i> 60.00 <i
-                            class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
-                        @include('layouts.book-ingles')
+                        <h4 class="price"><span>A partir de:</span><i class="icon-dollar"></i> 60.00 <i
+                            class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -342,7 +345,7 @@
         </div>
     </section>
   
-    @include('layouts.english-foot')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

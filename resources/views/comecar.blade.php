@@ -348,7 +348,7 @@
         </div>
         <!-----------Fin Tours full width---------->
     </section>
-    @include('layouts.foot-castellano')
+    @include('layouts.portugues-foot')
 
 </body>
 

@@ -50,7 +50,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Happy City Tour Dia Inteiro
+				<?php $titulo='Happy City Tour dia enteiro'; echo $titulo; ?>
             </h1>
             @if (session()->has('flash'))
                 <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        @include('layouts.book-castellano')
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -328,7 +328,7 @@
     </section>
 
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

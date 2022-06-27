@@ -1,22 +1,22 @@
 <div class="fondo-book">
-    <h4 class="text-center">Book now!</h4>
+    <h4 class="text-center">Agende agora!</h4>
     <form style="color: #fff" method="POST" action="{{ route('book2') }}">
         @csrf
         <div class="form-row">
             <div class="form-group col-md-12">
-                <label for="email" class="input-form">Email:</label>
-                <input type="email" class="form-control" name="email" placeholder="Required*" required>
+                <label for="email" class="input-form">E-mail:</label>
+                <input type="email" class="form-control" name="email" placeholder="Requeridos*" required>
             </div>
             <div class="form-group col-md-12">
-                <label for="name" class="input-form">Name:</label>
-                <input type="text" class="form-control" name="name" placeholder="Required*" required>
+                <label for="name" class="input-form">Nome:</label>
+                <input type="text" class="form-control" name="name" placeholder="Requeridos*" required>
             </div>
             <div class="form-group col-md-12">
-                <label for="da" class="input-form">Date Arrive:</label>
+                <label for="da" class="input-form">Data de chegada:</label>
                 <input type="date" class="form-control" name="da">
             </div>
             <div class="form-group col-md-12">
-                <label for="tour">Select Tour:</label>
+                <label for="tour">Selecionar passeio:</label>
                 {{-- <input type="text" readonly class="form-control" name="tour" value="{{$titulo}}"> --}}
                 <select class="form-control" name="tour">
                     <option value="City Tour Cusco" selected>Happy City Tour</option>
@@ -48,24 +48,24 @@
                 </select>
             </div>
             <div class="form-group col-md-6">
-                <label for="adultos" class="input-form">Adults:</label>
+                <label for="adultos" class="input-form">Adult@ts:</label>
                 <input type="number" class="form-control" name="adultos"
-                    placeholder="Adults">
+                    placeholder="Número">
             </div>
             <div class="form-group col-md-6">
-                <label for="childs" class="input-form">Children:</label>
+                <label for="childs" class="input-form">Crianças:</label>
                 <input type="number" class="form-control" name="childs"
-                    placeholder="Children">
+                    placeholder="Número">
             </div>
         </div>
 
         <div class="form-group">
-            <label for="mensaje" class="input-form">Message:</label>
+            <label for="mensaje" class="input-form">Mensagem:</label>
             <textarea class="form-control" name="mensaje" rows="3" style="height: 40px"
-                placeholder="Message:" required></textarea>
+                placeholder="Escreva sua mensagem aqui..." required></textarea>
         </div>
         <div class="form-group text-center">
-            <button type="submit" class="boton-happy">Send</button>
+            <button type="submit" class="boton-happy">Mandar</button>
         </div>
 
     </form>
