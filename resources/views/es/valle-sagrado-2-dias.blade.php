@@ -54,14 +54,14 @@
                 <i class="icon-dollar"></i> 450.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -138,7 +138,7 @@
                     <p class="p-tours text-center">
                         <fuerte>DIA 01:</fuerte>
                     </p>
-                   
+
 
                     <p class="p-tours">
                         Empezamos con nuestro tour al Valle Sagrado de los Incas temprano con el recojo desde los puntos
@@ -161,6 +161,13 @@
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DIA 02:</fuerte>
+                    </p>
+                    <p class="p-tours">
+                        Al día siguiente después del desayuno intentaremos tomar el primer bus a las 5:30 am con destino
+                        a la ciudad inca de MACHUPICCHU, tendremos una visita guiada por los principales templos y
+                        alrededores en un tiempo de 3 horas, que incluirá fotos, también un tiempo libre razonable para
+                        descansar; Para regresar a la ciudad del Cusco, debe estar 30 minutos antes de la hora indicada
+                        en el boleto de tren en la estación respectiva.<br> Arribo a Cusco a las 7pm.
                     </p>
                     <table class="table text-center">
                         <thead>
@@ -263,7 +270,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Notas Importantes:
                                     </button>
                                 </h5>
@@ -287,8 +295,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/es/valle-sagrado-2-dias"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -297,7 +305,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 450.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
+                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
                         @include('layouts.book-castellano')
                     </div>
                 </div>
@@ -308,7 +316,8 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.jpg') }}"
                                     alt="lares trek tour">

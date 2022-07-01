@@ -51,7 +51,8 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Maras, Moray e Salineras
+                <?php $titulo='Maras, Moray e Salineras'; echo $titulo; ?>
+                
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Maras - Moray &nbsp;&nbsp;
@@ -244,7 +245,7 @@
                     <script async defer crossorigin="anonymous"
                         src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
                         nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/maras-moray-salineras-tour"
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/maras-moray-e-salineras"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
@@ -331,7 +332,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

@@ -5,14 +5,14 @@
     @include('layouts.links')
     <title>Vale Sagrado dos Incas | Travel Agency Perú Happy Peru Tours</title>
     <meta name="description"
-        content="El Tour al Valle Sagrado de los Incas el cual dura todo el día te llevará a los lugares más clásicos; PISAQ sitio arqueológico, MERCADO TRADICIONAL, OLLANTAYTAMBO Y CHINCHERO.">
+        content="O passeio ao Vale Sagrado dos Incas, que dura o dia todo, o levará aos lugares mais clássicos; Sítio arqueológico PISAQ, MERCADO TRADICIONAL, OLLANTAYTAMBO E CHINCHERO.">
     <meta name="keywords"
-        content="Cusco, Tour Valle Sagrado, Valle Sagrado de los Incas, Valle Sagrado full day, Tour a Pisaq, Tour a Ollantaytambo, chinchero, Valle sagrado de los incas, Inca Tours, tours exclusivos en el valle sagrado">
+        content="Cusco, Vale Sagrado, Vale Sagrado dos Incas, Vale Sagrado dia inteiro, Passeio a Pisaq, Passeio a Ollantaytambo, Chinchero, Vale Sagrado dos Incas, Passeios Inca, passeios exclusivos no vale sagrado">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tour al Valle Sagrado de los Incas | Travel Agency Perú" />
     <meta property="og:image"
         content="https://happyperutours.com/img/thumbnail/tour-valle-sagrado-ollantaytambo-pinkuylluna.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/es/valle-sagrado-full-day">
+    <link rel="canonical" href="https://happyperutours.com/pt/vale-sagrado-dos-incas">
 </head>
 
 <body>
@@ -48,11 +48,11 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Valle Sagrado dos Incas
+                <?php $titulo='Vale Sagrado dos Incas'; echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Vale Sagrado&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 80.00
+                <i class="icon-dollar"></i><?php $precio = 80; echo $precio; ?>.00 
             </p>
             @if (session()->has('flash'))
                 <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -262,15 +262,15 @@
                     <script async defer crossorigin="anonymous"
                         src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
                         nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/valle-sagrado-full-day"
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/vale-sagrado-dos-incas"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 80.00 <i
-                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                                @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -352,7 +352,8 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

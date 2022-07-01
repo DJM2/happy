@@ -3,17 +3,17 @@
 
 <head>
     @include('layouts.links')
-    <title>Tour Choquequirao 4 días | Travel Agency Perú</title>
+    <title>Tour Choquequirao 4 dias | Agência de viagens Peru</title>
     <meta name="description"
-        content="CHOQUEQUIRAO es el segundo sitio arqueológico más conocido igual de impresionante que Machupicchu, este sitio arqueológico es conocido como la hermana de Machupicchu ">
+        content="CHOQUEQUIRAO é o segundo sítio arqueológico mais conhecido tão impressionante quanto Machupicchu, este sítio arqueológico é conhecido como a irmã de Machupicchu">
     <meta name="keywords"
-        content="Cusco, Tour Choquequirao, Choquequirao tour, CHoquequirao 4 dias, CHoquequirao 4 dias tour, Choquequirao caminata, Inca Tours, Tour exclusivo en Choquequirao, Salineras tour, tour exclusivo moray, salineras, moray">
+        content="Cusco, Choquequirao Tour, Choquequirao tour, Choquequirao 4 dias, CHoquequirao 4 dias tour, Choquequirao trek, Inca Tours, Tour exclusivo em Choquequirao, tour Salineras, tour exclusivo moreia, minas de sal, moreia">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Choquequirao 4 days tour | Travel Agency Perú" />
+    <meta property="og:title" content="Tour Choquequirao 4 dias | Agência de viagens Peru" />
     <meta property="og:image" content="https://happyperutours.com/img/panoramic/choquequirao-inca-trail-4-days.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/es/choquequirao-tour-4-dias">
+    <link rel="canonical" href="https://happyperutours.com/pt/passeio-choquequirao-4-dias">
 </head>
- 
+
 <body>
     <!-----Boton wasa---------->
     <a href="https://bit.ly/3CRGLAE" class="whatsapp" target="_blank"> <i class="icon-whatsapp"></i></a>
@@ -50,21 +50,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Choquequirao 4 días trek
+                <?php $titulo = 'Choquequirao 4 dias de caminhada';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Choquequirao &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 500.00
+                <i class="icon-dollar"></i> <?php $precio = 500;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos o mais breve possível
+                        possível.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -74,14 +76,14 @@
         <div class="container">
             <h2 class="h2-happy">
                 <o>Choquequirao</o>
-                <m>Tour caminata 4 días</m>
+                <m>Caminhada 4 dias</m>
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <div class="row">
                 <div class="col-lg-3 display">
                     <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
+                        <h4 class="text-center">Passeios semelhantes</h4>
                         <a href="perurail-valle-sagrado-tour">
                             <p>Peru Rail y Valle Sagrado</p>
                         </a>
@@ -112,64 +114,62 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Precio</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Preço</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Moderada</td>
-                                <td>4 días</td>
-                                <td>$500.00 por adulto</td>
+                                <td>Moderado</td>
+                                <td>4 dias</td>
+                                <td>US$ 500,00</td>
                             </tr>
                         </tbody>
                     </table>
-                    <h5 class="h5-tours">Vista General:</h5>
+                    <h5 class="h5-tours">Visão global:</h5>
                     <p class="p-tours">
-                        CHOQUEQUIRAO (3033 m.s.n.m.)es el segundo sitio arqueológico más conocido igual de impresionante
-                        que Machupicchu, este sitio arqueológico es conocido como la hermana menor de Machupicchu en
-                        Sudamérica, el nombre tiene un significado que es “cuna dorada”. De acuerdo a la historia fue un
-                        centro urbano inca que tuvo funciones similares a otros sitios incas de la región del Cusco
-                        especialmente como Machupicchu. No mucha gente tiene el privilegio de llegar a esta gran
-                        ciudadela, pero es una buena opción para estar en contacto con la naturaleza y sentirse parte de
-                        ella.
+                        CHOQUEQUIRAO (3033 m.) é o segundo sítio Arqueológico mais conhecido, tão impressionante quanto
+                        Machu Picchu, este sítio arqueológico é conhecido como a irmã mais nova de Machu Picchu na
+                        América do Sul, o nome tem um significado que é "berço de ouro". Segundo a história, era um
+                        centro urbano inca que tinha funções semelhantes a outros sítios incas na região de Cusco,
+                        especialmente como Machu Picchu. Poucas pessoas têm o privilégio de chegar a esta grande
+                        cidadela, mas é uma boa opção estar em contato com a natureza e se sentir parte dela.
                     </p><br>
-                    <h5 class="h5-tours"> Itinerario:</h5>
+                    <h5 class="h5-tours"> Roteiro:</h5>
                     <p class="p-tours text-center">
                         <fuerte>DÍA 01:</fuerte>
                     </p>
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Moderada</td>
+                                <td>Moderado</td>
                                 <td>6 horas</td>
                                 <td>14 km</td>
                             </tr>
                         </tbody>
                     </table>
-                   
+
                     <p class="p-tours">
-                        El recojo del hotel será muy temprano 4:30 am, tomaremos un transporte privado turístico que nos
-                        llevará hacia el poblado de CACHORA (2900 m.s.n.m.) aquí se hará una pequeña parada para el
-                        desayuno opcional, continuaremos la ruta hasta llegar al lugar denominado CAPULIYOC inicio de
-                        nuestra caminata, donde también nos encontraremos con el resto del equipo de nuestro viaje
-                        (arriero, cocinero, asistente y caballos) que nos acompañarán durante la aventura, este equipo
-                        está liderado por el cocinero o chef quien se encargará de toda la organización en cuanto a la
-                        alimentación y campamento del grupo. Iniciando nuestra caminata podremos divisar el majestuoso
-                        valle del Apurímac acompañado de uno de los Apus o protectores más altos de la zona “El nevado
-                        llamado PADREYOC”; durante el camino conoceremos más acerca de la zona, su clima, frutas
-                        nativas, abundante vegetación y variedad de fauna hasta llegar a las orillas del río Apurímac
-                        (Dios que habla), de aguas cristalinas donde se practica el rafting, luego de usar el puente
-                        para cruzar el río ascenderemos hasta nuestro primer campamento llamado SANTA ROSA (1800
-                        M.S.N.M.),
+                        O guia irá buscá-lo no seu hotel às 4h30, pegaremos um transporte turístico privado que nos
+                        levará à cidade de CACHORA (2900 m.) onde haverá uma pequena parada para café da manhã opcional
+                        , continuaremos o percurso até chegarmos ao local denominado CAPULIYOC, início da nossa
+                        caminhada, onde também encontraremos o resto da equipa da nossa viagem (arrieiro, cozinheiro,
+                        ajudante e cavalos) que nos acompanharão durante a aventura, esta equipa é liderado pelo
+                        cozinheiro ou chef que cuidará de toda a organização da alimentação e acampamento do grupo.
+                        Começando nossa caminhada poderemos ver o majestoso vale de Apurímac acompanhado por um dos Apus
+                        ou protetores mais altos da região "O nevado chamado PADREYOC"; No caminho conheceremos mais
+                        sobre a região, seu clima, frutas nativas, vegetação abundante e fauna variada até chegarmos às
+                        margens do rio Apurímac (Deus que fala), de águas cristalinas onde se pratica o rafting, após o
+                        uso da ponte para atravessar o rio subiremos ao nosso primeiro acampamento chamado SANTA ROSA
+                        (1800 m.).
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DÍA 02:</fuerte>
@@ -177,29 +177,28 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Moderada</td>
+                                <td>Moderado</td>
                                 <td>5 horas</td>
                                 <td>9 km</td>
                             </tr>
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Muy temprano por la mañana tendrán un despierto con el tradicional té de coca para luego de un
-                        consistente desayuno iniciar nuestra caminata de ascenso en forma de zig-zag hasta MARAMPATA
-                        lugar donde será nuestro segundo campamento, al llegar degustaremos del almuerzo y tendremos un
-                        descanso, recuperar energías y poder apreciar una vista impresionante el valle desde otro punto
-                        de ubicación, luego del almuerzo se realizará una caminata de 2 horas para visitar el sitio
-                        arqueológico de CHOQUEQUIRAO y posteriormente retornar a nuestro lugar de campamento, muchos
-                        años atrás los viajeros o aventureros tenía la oportunidad de acampar en el mismo complejo
-                        arqueológico, pero hoy en día ya no es posible por la puesta en valor que tiene este sitio
-                        arqueológico.
+                        Bem cedo pela manhã acordaremos com o tradicional chá de coca e depois de um consistente café da
+                        manhã iniciaremos nossa caminhada ascendente em forma de zigue-zague até MARAMPATA, onde estará
+                        nosso segundo acampamento, na chegada, degustaremos o almoço e teremos um descanso,
+                        recuperaremos as energias e poderemos apreciar uma vista impressionante do vale desde outro
+                        local, após o almoço faremos uma caminhada de 2 horas para visitar o sítio arqueológico de
+                        CHOQUEQUIRAO e posteriormente retornar ao nosso acampamento , há muitos anos os Viajantes ou
+                        aventureiros tinham a oportunidade de acampar no mesmo complexo arqueológico, mas hoje já não é
+                        possível devido ao valor que este sítio arqueológico tem.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DÍA 03:</fuerte>
@@ -207,27 +206,26 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Moderada</td>
+                                <td>Moderado</td>
                                 <td>6 horas</td>
                                 <td>10 km</td>
                             </tr>
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Nuestra aventura continua, con un delicioso desayuno muy temprano para nuestro retorno, si se
-                        tiene suerte este día podremos apreciar el vuelo de algunos cóndores, nuestra caminata de
-                        regreso será por la misma ruta en esta oportunidad descenderemos hacia el valle lograr cruzar el
-                        río y tener el almuerzo en PLAYA ROSALINA para luego subir hasta la localidad de CHIQUISCA.
-                        Donde tendremos el último campamento arribando a este entre las 4 y 5 de la tarde. Éste último
-                        campamento es conocido por su clima cálido frutas exóticas como la chirimoya, agua tibia para
-                        tomar un baño y descansar.
+                        A nossa aventura continua, com um delicioso café da Manhã desistiremos pelo nosso regresso,
+                        teremos sorte, poderemos apreciar a voz de alguns condores, a nossa caminhada de Volta será o
+                        mesmo caminho, desta vez desceremos em direcção ao rio e almoce na PLAYA ROSALINA e pode subir
+                        até à cidade de CHIQUISCA. Onde teremos nosso último acampamento
+                        neste chegando entre 4 e 5 da tarde. Este último acampamento é conhecido pelos frutos do clima
+                        quente, água fresca para tomar banho e descansar.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DÍA 04:</fuerte>
@@ -235,28 +233,28 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Moderada</td>
+                                <td>Moderado</td>
                                 <td>4 horas</td>
                                 <td>4 km</td>
                             </tr>
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Nuestro último día de aventura inicia con el despierto tradicional de un té de coca, luego una
-                        energizante desayuno e iniciar nuestra caminata de ascenso por aproximadamente 4 horas hasta
-                        CAPULIYOC donde el chef nos espera con un delicioso almuerzo, CAPULIYOC es el lugar perfecto
-                        para las fotografías del valle del Apurímac, la montaña nevada de PADREYOC y si tenemos suerte
-                        poder ver el vuelo de cóndores. Antes de abordar el bus turístico que nos conducirá a Cusco
-                        haremos nuestra despedida con todo el equipo que nos acompañó durante la travesía con un momento
-                        de apreciación, gratitudes y últimas fotografías con nuestros amigos, arribaremos a la ciudad
-                        del Cusco entre las 5 a 6 de la tarde.
+                        Nosso último dia de aventura começa com o tradicional despertar com um chá de coca, depois um
+                        café da manhã energizante e iniciar nossa caminhada de subida por aproximadamente 4 horas para
+                        CAPULIYOC onde o chef nos espera com um delicioso almoço, CAPULIYOC é o lugar perfeito para
+                        fotos do vale Apurímac, a montanha coberta de neve de PADREYOC e se tivermos a sorte veremos o
+                        vôo dos condores. Antes de pegar o ônibus turístico que nos levará a Cusco, faremos nossa
+                        despedida com toda a equipe que nos acompanhou durante a viagem ,com um momento de
+                        agradecimento, gratidão e últimas fotos com nossos amigos. Chegaremos na cidade de Cusco entre
+                        5h às 18h até tarde.
                     </p>
                     <div id="accordion">
                         <div class="card">
@@ -264,7 +262,7 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Incluye:
+                                        Inclui:
                                     </button>
                                 </h5>
                             </div>
@@ -272,20 +270,19 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &check; Recojo del hotel <br>
-                                    &check; Transporte turístico Cusco- Capuliyoc y viceversa<br>
-                                    &check; Tickets de ingreso a Choquequirao<br>
-                                    &check; 3 desayunos, 4 almuerzos, 3 cenas, 3 horas de té (opción vegetariana)<br>
-                                    &check; Snacks<br>
-                                    &check; Guía profesional bilingüe<br>
-                                    &check; Cocinero profesional<br>
-                                    &check; Equipo de campamento (carpa y colchoneta)<br>
-                                    &check; Arriero o conductor de los caballos<br>
-                                    &check; Caballo (7 kilos por persona)<br>
-                                    &check; Caballo (para todo el equipo de campamento y cocina)<br>
-                                    &check; Botiquín de primeros auxilios<br>
-                                    &check; Oxígeno<br>
-                                    &check; Alcohol y Gel desinfectantes parte del protocolo de bioseguridad
+                                    &check; Transporte turístico Cusco- Capuliyoc e vice-versa<br>
+                                    &check; Bilhetes de entrada para Choquequirao<br>
+                                    &check; 3 cafés da manhã, 4 almoços, 3 jantares, 3 horas de chá (opção vegetariana)<br>
+                                    &check; Lanches<br>
+                                    &check; Guia profissional bilíngüe<br>
+                                    &check; Cozinheiro profissional<br>
+                                    &check; Equipamento de acampamento (barraca e colção)<br>
+                                    &check; Arrieiro ou cavaleiro.<br>
+                                    &check; Cavalo (7 quilos por pessoa)<br>
+                                    &check; Cavalo (para todos os equipamentos de acampamento e cozinha)<br>
+                                    &check; Maleta de primeiros socorros<br>
+                                    &check; Oxigênio<br>
+                                    &check; Álcool e desinfetantes em gel fazem parte do protocolo de biossegurança
                                 </div>
                             </div>
                         </div>
@@ -294,20 +291,19 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        No incluye:
+                                        Não inclui:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10008; Primer desayuno <br>
+                                    &#10008; Primeiro café da manhã<br>
                                     &#10008; Bebidas extras<br>
-                                    &#10008; Bolsa de dormir<br>
-                                    &#10008; Bastones de caminata<br>
-                                    &#10008; Propinas<br>
-                                    &#10008; Renta de bolsa de dormir (20 dólares)<br>
-                                    &#10008; Renta de bastones de caminata (20 dólares)
+                                    &#10008; Saco de dormir<br>
+                                    &#10008; Cajados <br>
+                                    &#10008; Aluguel de saco de dormir ($ 20)<br>
+                                    &#10008; Aluguel de bengala ($ 20)
                                 </div>
                             </div>
                         </div>
@@ -317,32 +313,28 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Qué necesitas llevar
+                                        O que você precisa trazer:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Pasaporte original <br>
-                                    &#10034;Bolsa de dormir<br>
-                                    &#10034;Bloqueador solar<br>
-                                    &#10034;Repelente de mosquitos<br>
-                                    &#10034;Snacks (chocolates, dulces, frutos secos etc.)<br>
-                                    &#10034;Linterna<br>
-                                    &#10034;Cámara fotográfica<br>
-                                    &#10034;Baterías extras<br>
-                                    &#10034;Portabebidas<br>
-                                    &#10034;Poncho de lluvia<br>
-                                    &#10034;Alcohol en gel<br>
-                                    &#10034;Bastones de caminata<br>
-                                    &#10034;Ropa extra<br>
-                                    &#10034;Sandalias<br>
-                                    &#10034;Gorras para el sol y frío<br>
-                                    &#10034;Dinero extra<br>
-                                    &#10034;Botiquín o medicinas personales
-
-
+                                    &#10034; Passaporte original<br>
+                                    &#10034; Saco de dormir<br>
+                                    &#10034; Protetor solar<br>
+                                    &#10034; Repelente de mosquitos<br>
+                                    &#10034; Lanches (chocolates, doces, nozes etc.)<br>
+                                    &#10034; Lanterna<br>
+                                    &#10034; Câmera fotográfica<br>
+                                    &#10034; Baterias extras<br>
+                                    &#10034; Garrafa de agua. <br>
+                                    &#10034; Capa de chuva<br>
+                                    &#10034; Álcool em gel<br>
+                                    &#10034; Chinelos <br>
+                                    &#10034; Chapeu e Boné<br>
+                                    &#10034; Dinheiro extra<br>
+                                    &#10034; Maleta de primeiros socorros ou medicamentos pessoais
                                 </div>
                             </div>
                         </div>
@@ -350,33 +342,34 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Notas Importantes:
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Anotações importantes:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Salidas diarias.<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
-                                    americanos.<br>
-                                    &#10034; Los precios no incluyen el IGV (18%). <br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
-                                    su pasaporte o cédula de identidad en forma obligatoria. <br>
-                                    &#10034; Para concretar su reserva solicitamos el pago del 50%.
+                                    &#10034; Saídas diárias.<br>
+                                        &#10034; Os preços são por pessoa e expressos em dólares americanos (US $).<br>
+                                        &#10034; Os preços não incluem impostos (18%). <br>
+                                        &#10034; Assim que a reserva for aceite, o passageiro deve enviar por e-mail a
+                                        cópia
+                                        do seu passaporte ou carteira de identidade de forma obrigatória. <br>
+                                        &#10034; Para fazer sua reserva solicitamos o pagamento de 50%.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- ShareThis BEGIN -->
-                    <p style="padding-top: 2em; color:#000" class="text-center">Compartir</p>
+                    <p style="padding-top: 2em; color:#000" class="text-center">Compartilhar</p>
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/choquequirao-tour-4-dias"
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/passeio-choquequirao-4-dias"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
@@ -384,13 +377,13 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 500.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
             <!-- Gallery -->
-            <h3 class="h2-happy">Galería de Imágenes</h3>
+            <h3 class="h2-happy">Galeria de imagens</h3>
             <div class="photo-gallery" style="padding-bottom: 3em">
                 <div class="container">
                     <div class="row photos">
@@ -401,7 +394,8 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/choquequirao-tour-4-days.jpg') }}"
                                     alt="lares tour 4 days">
@@ -421,12 +415,12 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/camino-choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/camino-choquequirao.jpg') }}">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-choquequirao.jpg') }}">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
                             </a>
@@ -437,7 +431,7 @@
             <div class="row">
                 <div class="col-lg-12 display2">
                     <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
+                        <h4 class="text-center">Passeios semelhantes</h4>
                         <a href="perurail-valle-sagrado-tour">
                             <p>Peru Rail y Valle Sagrado</p>
                         </a>
@@ -468,7 +462,7 @@
         </div>
     </section>
 
-   @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

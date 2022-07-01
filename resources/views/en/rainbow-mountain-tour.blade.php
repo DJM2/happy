@@ -49,7 +49,7 @@
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Vinicunca &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 100.00
+                <i class="icon-dollar"></i> <?php $precio=100; echo $precio ?>.00
             </p>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -284,8 +284,8 @@
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/trek-to-rainbow-mountain.jpg') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/trek-to-rainbow-mountain.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/trek-to-rainbow-mountain.webp') }}"
+                                    alt="Trek to rainbow mountain">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">

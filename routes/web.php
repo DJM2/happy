@@ -143,6 +143,7 @@ Route::get('pt/trilha-inca-2-dias', function(){return view('pt/trilha-inca-2-dia
 /*Alternativos*/
 Route::get('pt/7-lagoas-tour', function(){return view('pt/7-lagoas-tour');})->name('7-lagoas-tour');
 Route::get('pt/humantay-lagoa', function(){return view('pt/humantay-lagoa');})->name('humantay-lagoa');
+Route::get('pt/huchuy-qosqo', function(){return view('pt/huchuy-qosqo');})->name('huchuy-qosqo-portugues');
 Route::get('pt/qeswachaca-tour', function(){return view('pt/qeswachaca-tour');})->name('qeswachaca-portugues');
 Route::get('pt/vinicunca-montanha', function(){return view('pt/vinicunca-montanha');})->name('vinicunca-montanha');
 Route::get('pt/waqrapukara-full-day', function(){return view('pt/waqrapukara-full-day');})->name('waqrapukara-full-day');

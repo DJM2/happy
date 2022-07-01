@@ -3,15 +3,15 @@
 
 <head>
     @include('layouts.links')
-    <title>Valle Sagrado de los Incas y Camino Inca a Machu Picchu</title>
+    <title>Vale Sagrado dos Incas e Trilha Inca a Machu Picchu</title>
     <meta name="description"
-        content="El Tour al Valle Sagrado de los Incas el cual dura 3 días te llevará a los lugares más clásicos; PISAQ, MERCADO TRADICIONAL, Ollantaytambo, Maras, Moray">
+        content="O passeio ao Vale Sagrado dos Incas, que dura 3 dias, o levará aos lugares mais clássicos; PISAQ, MERCADO TRADICIONAL, Ollantaytambo, Maras, Moray">
     <meta name="keywords"
-        content="Cusco, Tour Valle Sagrado, Valle Sagrado de los Incas, Valle  Sagrado, tour en el valle sagrado, sacred valley tour de 3 días, viaja al valle sagrado, que es el valle sagrado">
+        content="Cusco, Vale Sagrado, Vale Sagrado dos Incas, Vale Sagrado, passeio no vale sagrado, passeio no vale sagrado de 3 dias, viagem ao vale sagrado, que é o vale sagrado">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Valle Sagrado de los Incas y Camino Inca a Machu Picchu" />
     <meta property="og:image" content="https://happyperutours.com/img/thumbnail/sacred-valley-3-days-tour.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/es/valle-sagrado-3-dias">
+    <link rel="canonical" href="https://happyperutours.com/pt/vale-sagrado-e-trilha-inca">
 </head>
 
 <body>
@@ -48,21 +48,21 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Valle Sagrado & Camino Inca
+                <?php $titulo = 'Vale Sagrado e Trilha Inca';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
-                <i class="icon-map-marker"></i> Cusco - Valle Sagrado - Machupicchu &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 570.00
+                <i class="icon-map-marker"></i> Cusco - Vale Sagrado - Machu picchu &nbsp;&nbsp;
+                <i class="icon-dollar"></i> <?php $precio = 570; echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos assim que possível.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -71,40 +71,40 @@
     <section>
         <div class="container">
             <h2 class="h2-happy">
-                <o>Tour de Valle Sagrado &</o>
-                <m>Camino Inca 3 días</m>
+                <o>Passeio Vale Sagrado e</o>
+                <m>Trilha Inca 3 dias</m>
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <div class="row">
                 <div class="col-lg-3 display">
                     <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
-                        <a href="choquequirao-tour-4-dias">
-                            <p>Choquequirao tour 4 días</p>
+                        <h4 class="text-center">Passeios semelhantes</h4>
+                        <a href="passeio-choquequirao-4-dias">
+                            <p>Choquequirao passeio 4 días</p>
                         </a>
                         <a href="valle-sagrado-2-dias">
-                            <p>Valle Sagrado tour 2 días</p>
+                            <p>Vale Sagrado 2 dias</p>
                         </a>
-                        
-                        <a href="inca-trail-4-dias">
-                            <p>Inca Trail a Machu Picchu 4 días</p>
+
+                        <a href="trilha-inca-4-dias">
+                            <p>Trilha Inca a Machu Picchu 4 dias</p>
                         </a>
-                        <a href="tour-7-lagunas-ausangate">
-                            <p>Ausangate 7 lagunas</p>
+                        <a href="7-lagoas-tour">
+                            <p>Ausangate 7 lagoas</p>
                         </a>
-                        <a href="tour-salkantay-5-dias">
-                            <p>Salkantay Tour 5 días</p>
+                        <a href="salkantay-5-dias">
+                            <p>Salkantay passeio 5 días</p>
                         </a>
-                      
-                        <a href="valle-sagrado-full-day">
-                            <p>Valle Sagrado Full Day</p>
+
+                        <a href="vale-sagrado-dos-incas">
+                            <p>Vale Sagrado Full Day</p>
                         </a>
-                        <a href="inca-trail-2-dias">
-                            <p>Camin Inca 2 dias</p>
+                        <a href="trilha-inca-2-dias">
+                            <p>Trilha Inca 2 dias</p>
                         </a>
-                        <a href="caminata-lares-4-dias">
-                            <p>Caminata Lares 4d/3n</p>
+                        <a href="lares-trekking-4-dias">
+                            <p>Caminhada Lares 4d/3n</p>
                         </a>
                     </div>
                 </div>
@@ -112,40 +112,40 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Precio</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Preço</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Fácil</td>
-                                <td>3 días</td>
+                                <td>3 dias</td>
                                 <td>$570.00 por adulto</td>
                             </tr>
                         </tbody>
                     </table>
-                    <h5 class="h5-tours">Vista General:</h5>
+                    <h5 class="h5-tours">Visão Global:</h5>
                     <p class="p-tours">
-                        El Tour al Valle Sagrado de los Incas el cual dura todo el día te llevará a los lugares más
-                        clásicos; PISAQ sitio arqueológico, MERCADO TRADICIONAL Y OLLANTAYTAMBO. El Valle Sagrado
-                        llamado así por ser el principal abastecedor de alimentos del imperio incaico, se asienta en las
-                        orillas del río Urubamba. Los incas construyeron centros arqueológicos, a lo largo de sus
-                        riberas, que replicaban las constelaciones que ellos conocían del cielo andino por lo que esto
-                        contribuye, aún más, a la hermosura de este encantador valle. Conectándonos en seguida con el
-                        camino inca que inicia en el km 104 donde disfrutaremos de una naturaleza única conectada con
-                        cultura cuando se camine por el gran camino inca que conduce a Machu Picchu y la gran
-                        oportunidad de visitar la ciudadela en dos turnos por la tarde y por la mañana .
+                        O Tour ao Vale Sagrado dos Incas que dura o dia todo levará você aos lugares mais clássicos;
+                        Sítio arqueológico de PISAQ, MERCADO TRADICIONAL E OLLANTAYTAMBO. O Vale Sagrado, batizado por
+                        ser o principal fornecedor de alimentos para o império inca, fica às margens do rio Urubamba. Os
+                        incas construíram centros Arqueológicos, ao longo de suas margens, que reproduziam as
+                        constelações que eles conheciam do céu andino, o que contribui ainda mais para a beleza deste
+                        encantador vale. Conectando-se imediatamente com a trilha Inca que começa no km 104, onde
+                        desfrutaremos de uma natureza única conectada à cultura ao percorrer a grande trilha Inca que
+                        leva a Machu Picchu e a grande oportunidade de visitar a cidadela em dois turnos da tarde e da
+                        manhã.
                     </p><br>
-                    <h5 class="h5-tours"> Itinerario:</h5>
+                    <h5 class="h5-tours"> ROTEIRO:</h5>
                     <p class="p-tours text-center">
                         <fuerte>DIA 01:</fuerte>
                     </p>
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
+                                <th scope="col">Nível de dificuldade</th>
+                                <th scope="col">Duração</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -156,23 +156,21 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Empezamos con nuestro tour al Valle Sagrado de los Incas temprano cerca de las 08:00 hrs. Con el
-                        recojo desde los puntos permitidos en el centro histórico de la ciudad, nos dirigimos al sitio
-                        arqueológico de PISAQ, ubicado a 32 Km. (20 millas) desde la ciudad de Cusco, a 2,972 m.s.n.m.
-                        Lugar que posee el mejor sistema de andenería logrado por los Incas en todos los Andes,
-                        construcciones de arquitectura en piedra y templos importantes de la cultura inca. Podremos
-                        visitar el "MERCADO INDIO" la feria de artesanías, entre las que sobresalen hermosas artesanías
-                        textiles y artesanías en cerámica con reproducciones de piezas arqueológicas incaicas. Luego nos
-                        dirigiremos al poblado de Urubamba, el cual se encuentra dentro del circuito del Valle Sagrado,
-                        degustaremos de un delicioso almuerzo buffet con una variada gastronomía de platos locales e
-                        internacionales.<br><br>
+                        Começamos nossa excursão ao Vale Sagrado dos Incas por volta das 08:00 h. Com a retirada nos
+                        pontos permitidos no centro histórico da cidade, nos dirigimos ao sítio arqueológico de PISAQ,
+                        localizado a 32 km (20 milhas) da cidade de Cusco, a 2.972 m. Local que possui o melhor sistema
+                        de andenería alcançado pelos Incas em todos os Andes, construções arquitetônicas de pedra e
+                        importantes templos da cultura Inca. Poderemos visitar o "MERCADO INDIANO" a feira de
+                        artesanato, entre a qual se destacam belos artesanatos têxteis e cerâmicos com reproduções de
+                        peças arqueológicas incas. Em seguida iremos para a cidade de Urubamba, que está localizada
+                        dentro do circuito Vale Sagrado, degustaremos um delicioso almoço buffet com uma gastronomia
+                        variada de pratos locais e internacionais. <br><br>
+                        Continuaremos nosso tour em direção à cidade de OLLANTAYTAMBO, localizada a 97 km (60 milhas) de
+                        Cusco, a 2.846 metros acima do nível do mar. Esta cidade tem a complexidade e a beleza das
+                        construções incas e da cidade contemporânea. No topo do complexo arqueológico destacam-se
+                        edifícios de importância religiosa e astronômica, além de uma vista panorâmica de Ollantaytambo
+                        denominada POVO INCA VIVO. Teremos jantar incluído antes de irmos descansar.
 
-                        Continuaremos nuestro recorrido y nos dirigiremos hacia el poblado de OLLANTAYTAMBO, se ubica a
-                        97 Km. (60 millas) desde Cusco, a 2,846 m.s.n.m. Este poblado tiene la complejidad y belleza de
-                        las construcciones incaicas y el pueblo contemporáneo. En la cumbre del complejo arqueológico
-                        destacan construcciones de importancia religiosa y astronómica, así como también una vista
-                        panorámica de Ollantaytambo denominado PUEBLO INCA VIVIENTE. Tendremos la cena incluida antes de
-                        ir a descansar.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DIA 02:</fuerte>
@@ -180,9 +178,10 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Nível de dificuldade:</th>
+                                <th scope="col">Duração:</th>
+                                <th scope="col">Distância:</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -194,15 +193,14 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Este día luego del desayuno muy temprano abordaremos el tren que nos conducirá hacia el km 104 o
-                        inicio de nuestro camino inca arribando a este punto a las 8.55 am aprox. Luego de hacer el
-                        respectivo control de ingreso a la red de caminos inca comenzamos la caminata visitando el
-                        primer sitio arqueológico de CHACHABAMBA (2100m.s.n.m) ascenderemos hasta WIÑAYWAYNA (2650
-                        m.s.n.m)por tiempo de 3 horas, ya en el lugar visitaremos el sitio arqueológico del mismo nombre
-                        y tendremos la hora del almuerzo, continuaremos por un camino llano hasta la puerta del sol o
-                        INTI PUNKU desde allí se tiene una vista agradable de Machupicchu, empezamos a descender
-                        observando el atardecer en la ciudadela. Seguimos nuestra aventura hasta el hotel en aguas
-                        calientes, lugar de cena y pernocte.
+                        Neste dia depois do café da manhã bem cedo pegaremos o trem que nos levará ao km 104 ou ao
+                        início de nossa trilha Inca chegando neste ponto às 8h55 aproximadamente. <br>Depois de fazer o
+                        respectivo controle de entrada à rede viária inca, iniciamos a caminhada visitando o primeiro
+                        sítio arqueológico de CHACHABAMBA (2100m.) subiremos a WIÑAYWAYNA (2650 m.) por um tempo de 3
+                        horas, já no local visitaremos o sítio arqueológico de mesmo nome e teremos hora do almoço,
+                        continuaremos por um caminho plano até a Porta do Sol ou INTI PUNKU, de lá teremos uma agradável
+                        vista de Machu Picchu, começamos a descer vendo o pôr do sol na cidadela. <br>Continuamos nossa
+                        aventura até o hotel em Aguas Calientes, onde jantaremos e pernoitaremos.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DIA 03:</fuerte>
@@ -210,9 +208,9 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Nível de dificuldade:</th>
+                                <th scope="col">Duração:</th>
+                                <th scope="col">Distância:</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -224,11 +222,11 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        El ascenso a la ciudadela de Machupicchu será muy temprano intentaremos tomar el primer bus a
-                        las 5:30am para arribar a la ciudadela y poder disfrutar de los primeros rayos de sol en lugares
-                        importantes de Machu Picchu. La visita guiada tiene una duración de 3 horas, luego tendrán un
-                        tiempo libre para disfrutar de la fotografía en esta maravilla. El tren de retorno a Cusco
-                        estará programado para la tarde con la llegada al hotel de Cusco a las 8:30pm aprox.
+                        A subida à cidadela de Machu Picchu será muito cedo, tentaremos pegar o primeiro ônibus às 5h30
+                        para chegar à cidadela e poder desfrutar dos primeiros raios de sol em lugares importantes de
+                        Machu Picchu . A visita guiada dura 3 horas, depois vocês terão tempo livre para curtir a
+                        fotografia desta maravilha. O trem de retorno a Cusco será programado para a tarde com a chegada
+                        ao hotel de Cusco às 20h30 aproximadamente.
                     </p>
 
                     <div id="accordion">
@@ -237,7 +235,7 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Incluye:
+                                        Inclui:
                                     </button>
                                 </h5>
                             </div>
@@ -245,21 +243,21 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &check; Recojo del hotel <br>
-                                    &check; Guía profesional de turismo<br>
-                                    &check; Transporte turístico valle sagrado<br>
+                                    &check; Traslado do hotel <br>
+                                    &check; Guia de turismo profissional<br>
+                                    &check; Transporte turístico no vale sagrado<br>
                                     &check; Transporte turístico Ollantaytambo - Cusco<br>
-                                    &check; Ticket de tren Ollantaytambo – km 104<br>
-                                    &check; Ticket de tren retorno a Ollantaytambo<br>
-                                    &check; Tickets de ingreso al camino inca y Machupicchu<br>
-                                    &check; Almuerzo en el valle sagrado<br>
-                                    &check; Almuerzo box lunch para la caminata 2do día<br>
-                                    &check; Cena en Ollantaytambo 1era noche<br>
-                                    &check; Cena en aguas calientes 2da noche<br>
-                                    &check; 2 tickets de bus Machupicchu – aguas calientes y viceversa<br>
-                                    &check; Hostal en Ollantaytambo<br>
-                                    &check; Hostal en aguas calientes<br>
-                                    &check; Primeros auxilios y balón de oxígeno
+                                    &check; Bilhete de trem Ollantaytambo - km 104<br>
+                                    &check; Bilhete de trem de volta para Ollantaytambo<br>
+                                    &check; Ingressos para a trilha Inca e Machu Picchu<br>
+                                    &check; Almoço no vale sagrado<br>
+                                    &check; Lanche para caminhada 2º dia<br>
+                                    &check; Jantar em Ollantaytambo 1ª noite<br>
+                                    &check; Jantar em Aguas Calientes 2ª noite<br>
+                                    &check; 2 bilhetes de ônibus Machu Picchu - Aguas Calientes e vice-versa<br>
+                                    &check; Hostel em Ollantaytambo<br>
+                                    &check; Hostel em aguas calientes<br>
+                                    &check; Maleta de Primeiros socorros e balão de oxigênio
                                 </div>
                             </div>
                         </div>
@@ -268,19 +266,19 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        No incluye:
+                                        Não inclui:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10008; Primer desayuno <br>
-                                    &#10008; Ultimo almuerzo<br>
-                                    &#10008; Ticket de ingreso a los sitios arqueológicos en el valle sagrado BTG. <br>
-                                    &#10008; Tercer ticket de bus tercer día bajada opcional<br>
-                                    &#10008; Bastones de caminata<br>
-                                    &#10008; Propinas
+                                    &#10008; Primeiro café da manhã <br>
+                                    &#10008; Último almoço<br>
+                                    &#10008; Bilhete de entrada para os sítios arqueológicos no vale sagrado BTG. <br>
+                                    &#10008; Terceira passagem de ônibus, terceiro dia de descida opcional.<br>
+                                    &#10008; Cajados <br>
+                                    &#10008; Dicas
                                 </div>
                             </div>
                         </div>
@@ -288,28 +286,29 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        ¿Qué necesitas llevar?:
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        O que você precisa trazer
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Pasaporte original <br>
-                                    &#10034; Bloqueador solar<br>
+                                    &#10034; Passaporte original <br>
+                                    &#10034; Protetor solar<br>
                                     &#10034; Repelente de mosquitos<br>
-                                    &#10034; Snacks (chocolates, dulces, frutos secos etc.) <br>
-                                    &#10034; Cámara fotográfica <br>
-                                    &#10034; Portabebidas <br>
-                                    &#10034; Poncho de lluvia <br>
-                                    &#10034; Polos extra <br>
-                                    &#10034; Alcohol en gel <br>
-                                    &#10034; Bastones de caminata <br>
-                                    &#10034; Sandalias <br>
-                                    &#10034; Gorras para el sol <br>
-                                    &#10034; Dinero extra <br>
-                                    &#10034; Botiquín o medicinas personales
+                                    &#10034; Lanches (chocolates, doces, nozes etc.) <br>
+                                    &#10034; Câmera fotográfica <br>
+                                    &#10034; Garrafa de água <br>
+                                    &#10034; Capa de Chuva <br>
+                                    &#10034; Roupa extra <br>
+                                    &#10034; Álcool em gel <br>
+                                    &#10034; Cajados <br>
+                                    &#10034; Chinelos <br>
+                                    &#10034; Chapéu e Boné <br>
+                                    &#10034; Dinheiro extra <br>
+                                    &#10034; Mleta de primeiros socorros ou medicamentos pessoais <br>
 
                                 </div>
                             </div>
@@ -320,33 +319,33 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseNotas" aria-expanded="false"
                                         aria-controls="collapseNotas">
-                                        Notas Importantes:
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseNotas" class="collapse" aria-labelledby="notas"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    &#10034; Salidas diarias. <br>
-                                    &#10034; Los precios no incluyen el IGV (18%).<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
-                                    americanos.<br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
-                                    su pasaporte o cedula de identidad en forma obligatoria.<br>
-                                    &#10034; Para concretar su reserva solicitamos el pago del 50%.
+                                        Anotações Importantes:
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseNotas" class="collapse" aria-labelledby="notas"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        &#10034; Saídas diárias.<br>
+                                        &#10034; Os preços são por pessoa e expressos em dólares americanos (US $).<br>
+                                        &#10034; Os preços não incluem impostos (18%). <br>
+                                        &#10034; Assim que a reserva for aceite, o passageiro deve enviar por e-mail a
+                                        cópia
+                                        do seu passaporte ou carteira de identidade de forma obrigatória. <br>
+                                        &#10034; Para fazer sua reserva solicitamos o pagamento de 50%.
 
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- ShareThis BEGIN -->
-                    <p style="padding-top: 2em; color:#000" class="text-center">Compartir</p>
+                    <p style="padding-top: 2em; color:#000" class="text-center">Compartilhar</p>
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/valle-sagrado-3-dias"
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/vale-sagrado-e-trilha-inca"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
@@ -354,18 +353,19 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 570.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                                @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
             <!-- Gallery -->
-            <h3 class="h2-happy">Galería de Imágenes</h3>
+            <h3 class="h2-happy">Galeria de Imagens</h3>
             <div class="photo-gallery" style="padding-bottom: 3em">
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/sacred-valley-3-days-tour.jpg') }}"
                                     alt="Valle Sagrado 3 días" loading="lazy">
@@ -387,8 +387,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/sacred-valley-3-days.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/sacred-valley-3-days.jpg') }}"
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/sacred-valley-3-days.jpg') }}"
                                     alt="Valle sagrado de los incas">
                             </a>
                         </div>
@@ -412,32 +411,32 @@
             <div class="row">
                 <div class="col-lg-12 display2">
                     <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
-                        <a href="choquequirao-tour-4-dias">
-                            <p>Choquequirao tour 4 días</p>
+                        <h4 class="text-center">Passeios semelhantes</h4>
+                        <a href="passeio-choquequirao-4-dias">
+                            <p>Choquequirao passeio 4 días</p>
                         </a>
                         <a href="valle-sagrado-2-dias">
-                            <p>Valle Sagrado tour 2 días</p>
+                            <p>Vale Sagrado 2 dias</p>
                         </a>
-                        
-                        <a href="inca-trail-4-dias">
-                            <p>Inca Trail a Machu Picchu 4 días</p>
+
+                        <a href="trilha-inca-4-dias">
+                            <p>Trilha Inca a Machu Picchu 4 dias</p>
                         </a>
-                        <a href="tour-7-lagunas-ausangate">
-                            <p>Ausangate 7 lagunas</p>
+                        <a href="7-lagoas-tour">
+                            <p>Ausangate 7 lagoas</p>
                         </a>
-                        <a href="tour-salkantay-5-dias">
-                            <p>Salkantay Tour 5 días</p>
+                        <a href="salkantay-5-dias">
+                            <p>Salkantay passeio 5 días</p>
                         </a>
-                      
-                        <a href="valle-sagrado-full-day">
-                            <p>Valle Sagrado Full Day</p>
+
+                        <a href="vale-sagrado-dos-incas">
+                            <p>Vale Sagrado Full Day</p>
                         </a>
-                        <a href="inca-trail-2-dias">
-                            <p>Camin Inca 2 dias</p>
+                        <a href="trilha-inca-2-dias">
+                            <p>Trilha Inca 2 dias</p>
                         </a>
-                        <a href="caminata-lares-4-dias">
-                            <p>Caminata Lares 4d/3n</p>
+                        <a href="lares-trekking-4-dias">
+                            <p>Caminhada Lares 4d/3n</p>
                         </a>
                     </div>
                 </div>
@@ -445,7 +444,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

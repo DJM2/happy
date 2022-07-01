@@ -3,15 +3,15 @@
 
 <head>
     @include('layouts.links')
-    <title>Caminata a Lares, Tour de 4 days Cusco, Perú | Travel Agency Perú</title>
+    <title>Caminhada para Lares, tour de 4 dias Cusco, Peru | Agência de viagens Peru</title>
     <meta name="description"
-        content="Es una buena alternativa para poder llegar a Machu Picchu si bien es cierto el valle de Lares es muy extenso esto hace que haya distintas rutas">
+        content="É uma boa alternativa para chegar a Machu Picchu, embora seja verdade que o Vale de Lares seja muito extenso, isso significa que existem diferentes rotas">
     <meta name="keywords"
-        content="Cusco tour, Tour Lares 4 dias, lares tour, Pucapucara, Tambomachay, Tour exclusivo en Lares, caminata Lares, caminata machu picchu, tour en lares, lares 4 dias">
+        content="Tour Cusco, Lares Tour 4 dias, Lares tour, Pucapucara, Tambomachay, Tour exclusivo em Lares, Lares trek, Machu Picchu trek, Lares tour, Lares 4 dias">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Caminata a Lares, Tour de 4 days Cusco, Perú | Travel Agency Perú" />
+    <meta property="og:title" content="Caminhada para Lares, tour de 4 dias Cusco, Peru | Agência de viagens Peru" />
     <meta property="og:image" content="https://happyperutours.com/img/galeria/lares-tour-4-days.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/es/caminata-lares-4-dias">
+    <link rel="canonical" href="https://happyperutours.com/pt/lares-trekking-4-dias">
 </head>
 
 <body>
@@ -48,23 +48,25 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Caminata a Lares 4 días
+                <?php $titulo = 'Caminhada para Lares 4 dias';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Lares &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 600.00
+                <i class="icon-dollar"></i> <?php $precio = 600;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos o mais breve possível
+                        possível.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
-            
+
         </div>
     </div>
     </div>
@@ -72,15 +74,15 @@
     <section>
         <div class="container">
             <h2 class="h2-happy">
-                <o>Caminata a Lares</o>
-                <m> 4 días, 3 noches</m>
+                <o>Caminhada para Lares</o>
+                <m>4 dias, 3 noites</m>
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <div class="row">
                 <div class="col-lg-3 display">
                     <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
+                        <h4 class="text-center">Passeios semelhantes</h4>
                         <a href="perurail-valle-sagrado-tour">
                             <p>Peru Rail y Valle Sagrado</p>
                         </a>
@@ -111,42 +113,42 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Precio</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Preço</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Moderado</td>
-                                <td>4 días</td>
-                                <td>$600.00 por adulto</td>
+                                <td>4 dias</td>
+                                <td>US$ 600,00 por adulto</td>
                             </tr>
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Es una buena alternativa para poder llegar a <strong> Machu Picchu</strong> si bien es cierto el
-                        valle de Lares es
-                        muy extenso esto hace que haya distintas rutas que nos conducirán a un solo objetivo el valle
-                        sagrado de los incas. La ruta que ofrecemos nos mostrará la belleza de los Andes Peruanos, su
-                        gente andina, costumbres y tradiciones que van pasando de generación en generación; es una ruta
-                        de senderismo que inicia con los baños termales muy conocidos, luego atravesaremos partes altas
-                        de los andes hermosas vistas de maravillosos paisajes que nos acompañarán durante el recorrido,
-                        la caminata no es muy concurrida como el camino inca pero se disfruta de la misma manera porque
-                        podremos estar en contacto con la naturaleza y sus pueblos nativos, observaremos una variedad de
-                        flora, fauna salvaje y doméstica, para luego llegar al valle sagrado de los incas y finalmente
-                        conectarnos hacia Machupicchu.
+                        É uma boa alternativa para chegar a <strong> Machu Picchu</strong>, embora o vale de Lares seja
+                        muito extenso,
+                        isso significa que existem diferentes rotas que nos levarão a um único objetivo, “o vale sagrado
+                        dos Incas”. O roteiro que oferecemos nos mostrará a beleza dos Andes peruanos, seu povo andino,
+                        costumes e tradições que são passadas de geração em geração. É uma rota de caminhada que começa
+                        com o desfrute das fontes termais , depois cruzaremos partes altas da Cordilheira dos Andes,
+                        belas vistas de maravilhosas paisagens que nos acompanharão durante o passeio, a caminhada não é
+                        muito movimentada como a trilha Inca, mas é apreciada da mesma forma porque poderemos estar em
+                        contato com a natureza e seus povos andinos, observaremos uma variedade de flora, fauna
+                        silvestre e doméstica, para então chegar ao vale Sagrado dos Incas e finalmente conectar a Machu
+                        Picchu.
                     </p><br>
-                    <h5 class="h5-tours"> Itinerario:</h5>
+                    <h5 class="h5-tours"> Roteiro:</h5>
                     <p class="p-tours text-center">
                         <fuerte>Día 01:</fuerte>
                     </p>
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -158,25 +160,25 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Este día iniciaremos con el recojo del hotel a las 5:00 am, abordaremos el bus turístico privado
-                        para dirigirnos hacia la localidad de LARES donde se encuentran los BAÑOS TERMALES, con un
-                        tiempo de recorrido aproximado de 3 horas; durante el trayecto pasaremos por una parte del valle
-                        sagrado teniendo vistas impresionantes de los nevados que protegen nuestro valle y que son parte
-                        de la Cordillera de los Andes, al llegar a los baños termales denominados también termo-
-                        medicinales por estar compuesto por aguas volcánicas y otros minerales, mucha gente de lugar
-                        acude a estos baños para tratar problemas con los hueso, el estrés, enfermedades reumáticas y
-                        otros, luego nos alistamos para continuar nuestra aventura esta vez volveremos a tomar el bus
-                        para conducirnos hacia el lugar de inicio de nuestro trekking ubicado a pie de la carretera
-                        (3050 m.s.n.m.) será también el punto de encuentro con el arriero y los caballos que nos
-                        apoyaran con todo el equipo de campamento, después de 2 horas y media de caminata ascendente
-                        arribaremos al pueblo de KISWARANI, donde nos espera el primer almuerzo, esta zona por la altura
-                        a la que se encuentra es conocida como la zona del cultivo de papa, durante el trayecto el guía
-                        les irá mostrando el modus vivendus de la población y sus actividades cotidianas como la forma
-                        de cultivo de la papa orgánica. Luego de un riquísimo almuerzo los arrieros o llameros nos darán
-                        una pequeña explicación acerca de la crianza de sus llamas o alpacas consideradas sagradas en el
-                        tiempo de los incas, continuando nuestro recorrido haremos una caminata de 2 horas
-                        aproximadamente hasta nuestro lugar de campamento donde nuestro equipo nos espera con las
-                        tiendas listas, bebidas calientes y posteriormente la cena.
+                        Neste dia O guia irá buscá-lo no seu hotel às 5:00 da manhã, pegaremos o ônibus turístico
+                        privado com destino à cidade de LARES onde estão localizadas as FONTES TERMAIS , com um tempo de
+                        viagem aproximado de 3 horas; Durante a viagem passaremos por uma parte do Vale Sagrado, que tem
+                        vistas impressionantes das montanhas nevadas que protegem nosso vale e que fazem parte da
+                        Cordilheira dos Andes, quando chegarmos às fontes termais tomaremos um bom banho relaxante
+                        nessas águas quentes; também conhecidas como termo-medicinais porque elas são compostas de águas
+                        vulcânicas e outros minerais, muitos locais vão a essas agua termais para tratar problemas
+                        ósseos, estresse, doenças reumáticas e outros, e para continuar nossa aventura vamos pegar o
+                        ônibus novamente para nos levar ao início local do nosso trekking localizado ao pé da estrada
+                        (3050 m) será também o ponto de encontro com o arrieiro e os cavalos que nos apoiarão com todo o
+                        equipamento de acampamento, após 2 horas e meia de caminhada ascendente chegaremos na localidade
+                        de KISWARANI, onde se teremos nosso almoço, esta zona devido à altura a que se situa é conhecida
+                        como zona de cultivo da batata, durante a viagem o guia irá narrando o modo de vida da população
+                        e as suas atividades do día día, como a forma de cultivo de batata biológica. Após um delicioso
+                        almoço, os criadores de camelídeos nos darão uma breve explicação sobre a criação de suas lhamas
+                        e alpacas consideradas sagradas no tempo dos Incas, continuando nossa jornada faremos uma
+                        caminhada de aproximadamente 2 horas até nosso acampamento onde nossa equipe nos espera com as
+                        barracas prontas, bebidas quentes e o jantar.
+
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>Día 02:</fuerte>
@@ -184,9 +186,9 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -198,22 +200,22 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        El despierto será muy temprano con un tradicional té de coca para preparar nuestro cuerpo para
-                        altura, con los primeros rayos de sol veremos a la gente local alistándose para su día cotidiano
-                        como es pastoreo de sus animales, una vez finalizado el desayuno tendremos unos minutos para
-                        alistar nuestras cosas personales y proveernos de agua hervida y algunos snacks para el camino,
-                        iniciaremos con ascenso en forma de zigzag de 4 horas aproximadamente hasta llegar a la parte
-                        más alta del viaje llamado el PASO DEL CÓNDOR o PASO DE PACHACUTEC (4670 m.s.n.m.) llegado a
-                        este punto la vista será impresionante divisamos alpacas, llamas, lagunas o lagos naturales,
-                        estaremos rodeados de los picos más altos de las montañas y nevados como el PITUSIRAY (5700
-                        m.s.n.m) antes de iniciar el descenso disfrutaremos de una bebida caliente, después de 1 hora de
-                        descenso tendremos el almuerzo para luego continuar por 3 horas más de descenso y poder arribar
-                        a nuestro campamento llamado CANCHA CANCHA (3750m.s.n.m.), es uno de los pueblos donde todavía
-                        no llega la tecnología por tal razón todavía sus pobladores practican costumbres incas como en
-                        la construcción de sus viviendas utilizando la piedra, invitamos a todos ustedes a llevar apoyo
-                        como útiles escolares para los niños de la zona pues se disfrutará momentos para compartir con
-                        ellos. Visitaremos una de las viviendas locales para conocer la forma de crianza de los cuyes y
-                        aprender un poco de su textilería tradicional.
+                        O despertar será muito cedo com um tradicional chá de coca para preparar o nosso corpo para a
+                        altitude, com os primeiros raios de sol veremos a população local preparar-se para o seu
+                        dia-a-dia como pastorear seus animais. Depoi do café da manhã teremos alguns minutos para
+                        preparar nossas coisas pessoais e nos abastecer de água fervida e alguns petiscos para a
+                        caminhada, começaremos com uma subida em ziguezague de aproximadamente 4 horas até chegarmos ao
+                        ponto mais alto da viagem chamado PASO DEL CÓNDOR ou PASO DE PACHACUTEC (4670 msnm) neste ponto
+                        a vista será impressionante veremos alpacas, lhamas, lagoas ou lagos naturais, estaremos
+                        rodeados pelos picos mais altos das montanhas e montanhas cobertas de neve como PITUSIRAY (5700
+                        m), antes de começar a descida desfrutaremos de uma bebida quente, após 1 hora de descida
+                        almoçaremos e depois continuaremos por mais 3 horas de descida e poderemos chegar ao nosso
+                        acampamento chamado CANCHA CANCHA (3 750m), é uma das cidades onde a tecnologia ainda não
+                        chegou, por isso seus habitantes ainda praticam costumes incas como a construção de suas casas
+                        de pedra, convidamos a todos a trazerem apoios como material escolar para as crianças da
+                        zona,porque irá desfrutar de momentos para compartilhar com elas. Visitaremos uma das casas
+                        locais para aprender como os porquinhos da índia são criados e conhecer um pouco de seus
+                        tradicionais tecidos.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>Día 03:</fuerte>
@@ -221,9 +223,9 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -235,19 +237,18 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Este día será un tanto diferente, pero de igual manera se iniciará con el té de coca tradicional
-                        de despierto y luego de un delicioso desayuno comenzaremos la aventura del día, descenderemos
-                        por un tiempo de 4 horas hasta llegar al punto final del recorrido llamado HUARAN
-                        (2700m.s.n.m.), a medida del descenso podremos sentir el cambio de temperatura gracias a los
-                        microclimas de la zona, de la misma manera las zonas de cultivo irán cambiando puesto que ya se
-                        podrán apreciar otros productos de cultivo como maíz, quinua, kiwicha, frutas como el durazno,
-                        palta o aguacate, nísperos y otros. HUARAN será el punto de despedida con el arriero y cocinero
-                        que nos acompañaron durante el trayecto, luego de una ceremonia de gratitud y apreciación
-                        abordaremos nuestro bus turístico que nos llevará hasta el pueblo de Ollantaytambo, aquí
-                        tendremos un tiempo para visitar las qolqas o graneros del tiempo de los incas, disfrutaremos un
-                        momento por los alrededores del pueblo conocido como PUEBLO INCA VIVIENTE, luego de una cena en
-                        un restaurante local nos dirigiremos hacia la estación de tren para abordar el tren que nos
-                        llevará a Machupicchu; teniendo nuestra última noche en un confortable hotel.
+                        Este dia será um pouco diferente, mas da mesma forma começará com o tradicional chá de coca e
+                        após um delicioso café da manhã iniciaremos a aventura do dia, desceremos por um tempo de 4
+                        horas até chegarmos ao ponto final da rota denominada HUARAN (2700m), à medida que descemos
+                        poderemos sentir a mudança de temperatura graças aos microclimas da área, da mesma forma que as
+                        áreas de cultivo mudarão , outros produtos agrícolas serão apreciados como milho, quinoa,
+                        kiwicha, frutas como: pêssegos, abacates, nêsperas e outros. HUARAN será o ponto de despedida do
+                        arrieiro e cozinheiro que nos acompanharam durante a viagem, após uma cerimônia de agradecimento
+                        e apreço embarcaremos em nosso ônibus turístico que nos levará até a cidade de Ollantaytambo,
+                        aqui teremos tempo para visitar as qolqas ou celeiros da época dos Incas, desfrutaremos de um
+                        momento à volta da vila conhecida como POVO INCA VIVO, depois de um jantar num restaurante
+                        local, iremos à estação ferroviária para embarcar no comboio que nos levará a Machu Picchu;
+                        tendo nossa última noite em um hotel confortável.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>Día 04:</fuerte>
@@ -255,9 +256,9 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Distância</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -269,18 +270,17 @@
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Éste día será para nosotros un reto de tratar de ser uno de los primeros grupos en visitar la
-                        ciudadela de Machupicchu por ello el despierto será muy temprano 4:00 am para poder estar a
-                        tiempo en la estación de bus porque también habrá mucha gente teniendo el mismo objetivo, el
-                        primer bus partirá a las 5:30am con un recorrido de 30 minutos estaremos haciendo nuestro
-                        ingreso a la ciudadela a las 6.00am, el tour guiado tiene una duración aproximada de 3 horas
-                        conociendo los lugares más importantes y resaltantes de Machupicchu luego de ello tendrán un
-                        tiempo libre racional para tomar fotografías y llenarse de energías que solo este lugar
-                        maravilloso puede ofrecer, también tendrán la opción de poder realizar una pequeña caminata
-                        hacia el INTIPUNKU o puerta del sol desde donde podrán tomar fotografías panorámicas de
-                        Machupicchu, se les recomienda bajar a aguas calientes para el almuerzo puesto que hay más
-                        opciones, el tren de retorno a Cusco partirá a las 4:20pm arribando a la ciudad del Cusco a las
-                        8:30 pm hasta el hotel.
+                        Este dia será um desafio para nós tentarmos ser um dos primeiros grupos a visitar a cidadela de
+                        Machupicchu, pois o despertar será bem cedo às 4:00 da manhã para podermos chegar a tempo na
+                        estação de ônibus, porque também haverá muitas pessoas com o mesmo objetivo, o primeiro ônibus
+                        sairá às 5h30 com um passeio de 30 minutos, estaremos fazendo nossa entrada na cidadela às 6h00,
+                        o passeio guiado dura aproximadamente 3 horas conhecendo os lugares mais importantes e os
+                        destaques de Machu Picchu depois disso terão um tempo racional livre para tirar fotos e
+                        encher-se de energia que só este lugar maravilhoso pode oferecer,vocês também terão a opção de
+                        poder dar um pequeno passeio até o INTIPUNKU ou Porta del Sol de onde podem tirar fotos
+                        panorâmicas de Machu Picchu, recomenda-se descer ao povo de Aguas Calientes para almoçar pois há
+                        mais opções, o trem de volta a Cusco sairá às 4:20 pm, chegando à cidade de Cusco às 20h30 para
+                        o hotel.
                     </p>
 
                     <div id="accordion">
@@ -289,7 +289,7 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Incluye:
+                                        Inclui:
                                     </button>
                                 </h5>
                             </div>
@@ -297,24 +297,26 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &check; Recojo del hotel <br>
-                                    &check; Transporte turístico Cusco- Baños termales - Kiswarani<br>
+                                    &check; Traslado do hotel <br>
+                                    &check; Transporte turístico Cusco- Banhos termais - Kiswarani<br>
                                     &check; Transporte turístico Huarán- Ollantaytambo<br>
-                                    &check; Ticket de tren turístico Ollantaytambo – Aguas Calientes – Ollantaytambo<br>
-                                    &check; 1 vía de bus turístico aguas calientes – Machupicchu<br>
-                                    &check; Tickets de ingreso a baños termales y lares<br>
-                                    &check; 3 desayunos, 4 almuerzos, 3 cenas, 3 horas de té (opción vegetariana)<br>
-                                    &check; Guía profesional bilingüe<br>
-                                    &check; Cocinero profesional<br>
-                                    &check; Agua hervida 3 mañanas<br>
-                                    &check; Snacks<br>
-                                    &check; Equipo de campamento (carpa y colchoneta)<br>
-                                    &check; Arriero o conductor de los caballos<br>
-                                    &check; Caballo (7 kilos por persona)<br>
-                                    &check; Caballo (para todo el equipo de campamento y cocina)<br>
-                                    &check; Botiquín de primeros auxilios<br>
-                                    &check; Oxígeno<br>
-                                    &check; Alcohol y Gel desinfectantes parte del protocolo de bioseguridad
+                                    &check; Bilhete de trem turístico Ollantaytambo - Aguas Calientes -
+                                    Ollantaytambo<br>
+                                    &check; 1 bilhete de ônibus turístico Aguas Calientes - Machu Picchu<br>
+                                    &check; Bilhetes de entrada para banhos termais e Lares<br>
+                                    &check; 3 cafés da manhã, 4 almoços, 3 jantares, 3 horas de chá (opção
+                                    vegetariana)<br>
+                                    &check; Guia profissional bilíngüe<br>
+                                    &check; Cozinheiro profissional<br>
+                                    &check; Água fervida <br>
+                                    &check; Lanches<br>
+                                    &check; Equipamento de acampamento (barraca e colchão)<br>
+                                    &check; Arrieiro ou cavaleiro<br>
+                                    &check; Cavalo (7 quilos por pessoa)<br>
+                                    &check; Cavalo (para todos os equipamentos de acampamento e cozinha)<br>
+                                    &check; Maleta de primeiros socorros<br>
+                                    &check; Oxigênio<br>
+                                    &check; Álcool e desinfetantes em gel fazem parte do protocolo de biossegurança<br>
                                 </div>
                             </div>
                         </div>
@@ -323,21 +325,20 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        No Incluye:
+                                        Não inclui:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10008; Primer desayuno <br>
-                                    &#10008; Ultimo almuerzo <br>
+                                    &#10008; Primeiro café da manhã<br>
+                                    &#10008; Último almoço<br>
                                     &#10008; Bebidas extras <br>
-                                    &#10008; Bolsa de dormir <br>
-                                    &#10008; Bastones de caminata <br>
-                                    &#10008; Propinas <br>
-                                    &#10008; Renta de bolsa de dormir (20 dólares) <br>
-                                    &#10008; Renta de bastones de caminata (20 dólares)
+                                    &#10008; Saco de dormir<br>
+                                    &#10008; Cajados <br>
+                                    &#10008; Aluguel de saco de dormir ($ 20)<br>
+                                    &#10008; Aluguel de bengala ($ 20)
 
                                 </div>
                             </div>
@@ -348,30 +349,30 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Qué necesitas llevar
+                                        O que você precisa trazer:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Pasaporte original<br>
-                                    &#10034; Bolsa de dormir<br>
-                                    &#10034; Bloqueador solar <br>
+                                    &#10034; Passaporte original<br>
+                                    &#10034; Saco de dormir<br>
+                                    &#10034; Protetor solar<br>
                                     &#10034; Repelente de mosquitos <br>
-                                    &#10034; Snacks (chocolates, dulces, frutos secos etc.) <br>
-                                    &#10034; Linterna <br>
-                                    &#10034; Cámara fotográfica <br>
+                                    &#10034; Lanches (chocolates, doces, nozes etc.)<br>
+                                    &#10034; Lanterna<br>
+                                    &#10034; Câmera fotográfica<br>
                                     &#10034; Baterías extras <br>
-                                    &#10034; Portabebidas <br>
-                                    &#10034; Poncho de lluvia <br>
-                                    &#10034; Alcohol en gel <br>
-                                    &#10034; Bastones de caminata <br>
-                                    &#10034; Ropa extra <br>
-                                    &#10034; Sandalias <br>
-                                    &#10034; Gorras para el sol y frío <br>
-                                    &#10034; Dinero extra <br>
-                                    &#10034; Botiquín o medicinas personales
+                                    &#10034; Garrafa de agua <br>
+                                    &#10034; Capa de chuva <br>
+                                    &#10034; Álcool em gel<br>
+                                    &#10034; Cajados <br>
+                                    &#10034; Roupa extra<br>
+                                    &#10034; Chinelos <br>
+                                    &#10034; Chapéu e Boné <br>
+                                    &#10034; Dinheiro extrabr>
+                                    &#10034; Medicamentos pessoais
                                 </div>
                             </div>
                         </div>
@@ -379,33 +380,34 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Notas Importantes:
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Anotações importantes:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Salidas diarias.<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
-                                    americanos.<br>
-                                    &#10034; Los precios no incluyen el IGV (18%). <br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
-                                    su pasaporte o cédula de identidad en forma obligatoria. <br>
-                                    &#10034; Para concretar su reserva solicitamos el pago del 50%.
+                                    &#10034; Saídas diárias.<br>
+                                    &#10034; Os preços são por pessoa e expressos em dólares americanos (US $).<br>
+                                    &#10034; Os preços não incluem impostos (18%). <br>
+                                    &#10034; Assim que a reserva for aceite, o passageiro deve enviar por e-mail a
+                                    cópia
+                                    do seu passaporte ou carteira de identidade de forma obrigatória. <br>
+                                    &#10034; Para fazer sua reserva solicitamos o pagamento de 50%.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- ShareThis BEGIN -->
-                    <p style="padding-top: 2em; color:#000" class="text-center">Compartir</p>
+                    <p style="padding-top: 2em; color:#000" class="text-center">Compartilhar</p>
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/caminata-lares-4-dias"
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/lares-trekking-4-dias"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
@@ -413,13 +415,13 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 600.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
             <!-- Gallery -->
-            <h3 class="h2-happy">Galería de Imágenes</h3>
+            <h3 class="h2-happy">Galeria de imagens</h3>
             <div class="photo-gallery" style="padding-bottom: 3em">
                 <div class="container">
                     <div class="row photos">
@@ -455,9 +457,8 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/lares-caminata-4-dias.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/lares-caminata-4-dias.jpg') }}" loading="lazy"
-                                    alt="Caminata lares">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-caminata-4-dias.jpg') }}"
+                                    loading="lazy" alt="Caminata lares">
                             </a>
                         </div>
                     </div>
@@ -465,7 +466,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 display2">
-                    <h4 class="text-center">Tours Similares</h4>
+                    <h4 class="text-center">Passeios semelhantes</h4>
                     <div class="similares">
                         <h4 class="text-center">Tours Similares</h4>
                         <a href="cusco-city-tour">
@@ -489,7 +490,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

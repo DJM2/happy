@@ -12,7 +12,7 @@
     <meta property="og:title" content="Cusco, clasico City tour | Travel Agency Perú" />
     <meta name="description" content="Full day city tour en Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay" />
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/es/cusco-city-tour">
+    <link rel="canonical" href="https://happyperutours.com/pt/city-tour-cusco">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
 				<?php $titulo='Cusco City Tour'; echo $titulo; ?>
-                
+                 
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
@@ -243,7 +243,7 @@
                     <script async defer crossorigin="anonymous"
                         src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
                         nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/cusco-city-tour"
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/city-tour-cusco"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 

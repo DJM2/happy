@@ -3,10 +3,10 @@
 
 <head>
     @include('layouts.links')
-    <title>Exclusive Happy City Tour Cusco | Travel Agency Perú</title>
-    <meta name="description" content="Exclusive full day city tour in Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay">
-    <meta name="keywords"
-        content="Cusco, exclusive tour, cusco tour, tour, Pucapucara, Tambomachay, Exclusive Tours in Lares">
+    <title> Happy City Tour Exclusivo Cusco | Travel Agency Perú</title>
+    <meta name="description"
+        content="Exclusivo city tour de dia inteiro em Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay">
+    <meta name="keywords" content="Cusco, tour exclusivo, tour cusco, tour, Pucapucara, Tambomachay, Tours Exclusivos">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Exclusive Happy City Tour Cusco | Travel Agency Perú" />
     <meta name="description"
@@ -32,8 +32,10 @@
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> Português</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('happy-experience-tour') }}'">English</button></li>
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('happy-tour-experiencia') }}'">Español</button>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-experience-tour') }}'">English</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-tour-experiencia') }}'">Español</button>
             </li>
         </ul>
     </li>
@@ -49,8 +51,8 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                <?php 
-                $titulo='Happy City Tour';
+                <?php
+                $titulo = 'Happy City Tour';
                 echo $titulo;
                 ?>
             </h1>
@@ -59,14 +61,13 @@
                 <i class="icon-dollar"></i> 60.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos assim que possível.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -74,36 +75,39 @@
     <div class="traditional"></div>
     <section>
         <div class="container">
-            <h2 class="h2-happy"><o>Exclusive </o> <m>Happy City Tour</m> </h2>
+            <h2 class="h2-happy">
+                <o>Exclusivo </o>
+                <m>Happy City Tour</m>
+            </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <div class="row">
                 <div class="col-lg-3 display">
 
                     <div class="similares">
-                        <h4 class="text-center">Similar Tours</h4>
-                        <a href="inca-trail-2-days">
-                            <p>Inca Trail 2 days</p>
+                        <h4 class="text-center">Passeios semelhantes</h4>
+                        <a href="trilha-inca-2-dias">
+                            <p> Trilha Inca 2 dias</p>
                         </a>
-                        <a href="inca-trail-4-days">
-                            <p>Inca trail 4 days</p>
+                        <a href="trilha-inca-4-dias">
+                            <p>Trilha Inca 4 dias</p>
                         </a>
-                        <a href="inca-jungle-4-days-tour">
-                            <p>Inka jungle to Machu Picchu</p>
+                        <a href="selva-inca-4-dias">
+                            <p>Selva Inka à Machu Picchu</p>
                         </a>
-                        <a href="lares-trek-4-days">
-                            <p>Lares trek 4d/3n</p>
+                        <a href="lares-trekking-4-dias">
+                            <p>Lares Caminhada 4d/3n</p>
                         </a>
-                        <a href="choquequirao-4-days-tour">
-                            <p>Choquequirao Inca Trail</p>
+                        <a href="paseio-choquequirao-4-dias">
+                            <p>Choquequirao 4 dias</p>
                         </a>
-                        <a href="maras-moray-salineras-tour">
-                            <p>Maras, Moray & Salineras</p>
+                        <a href="maras-moray-e-salineras">
+                            <p>Maras, Moray e Salineras</p>
                         </a>
-                        <a href="salkantay-trek-tour-5-days">
-                            <p>Salkantay trek tour 5 days</p>
+                        <a href="salkantay-5-dias">
+                            <p>Tour Salkantay 5 dias</p>
                         </a>
-                        <a href="cusco-city-tour">
+                        <a href="city-tour-cusco">
                             <p>Cusco City tour</p>
                         </a>
                     </div>
@@ -112,55 +116,55 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificulty</th>
-                                <th scope="col">Duration</th>
-                                <th scope="col">Price</th>
+                                <th scope="col">Nível de dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Preço</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Easy</td>
-                                <td>8 hours</td>
-                                <td>$60.00 per adult</td>
+                                <td>Fácil</td>
+                                <td>8 horas</td>
+                                <td>$60.00 por adulto</td>
                             </tr>
                         </tbody>
                     </table>
                     <p class="p-tours">
-                        Once you arrive in Cusco, it may not suit you 100% well, so you will need to acclimatize and the
-                        best way is to spend time in Cusco without making much effort and this tour will be a good
-                        option in order to know the way of local peoples life in Cusco, the market tour, cooking classes
-                        and the pisco sour show are interesting because they offer us different things compared to other
-                        tours. This is more to be in contact with local people; for example, using the local service
-                        transport and how they trade organic products, vegetables, fruits and others all day long. ¡¡¡Do
-                        not be surprised ¡¡if on the way you hear the saleswomen say for example "Papito lindo"
-                        "treasure" or for the girls "mamita linda" "Chaska ñawi" are some of the affectionate Cusco
-                        expressions these people use this expressions in order to sell their products in the market. “If
-                        you don't feel 100% beautiful, don't worry in the markets of Cusco, the saleswoman will make you
-                        feel beautiful and happy.
+                        Depois de chegar em Cusco, pode não servir 100% para você, então você precisará se aclimatar e a
+                        melhor maneira é passar um tempo em Cusco sem fazer muito esforço e este passeio será uma boa
+                        opção para conhecer o jeito de vida da população local em Cusco, o passeio pelo mercado, as
+                        aulas de culinária e o show de pisco sour são interessantes porque nos oferecem coisas
+                        diferentes em comparação com outros passeios. Isso é mais para ficar em contato com a população
+                        local; por exemplo, usando o serviço de transporte local e como eles comercializam produtos
+                        orgânicos, vegetais, frutas e outros durante todo o dia. Não se surpreenda se no caminho você
+                        ouvir as vendedoras dizerem, por exemplo, "Papito lindo" "tesouro" ou para as meninas "mamita
+                        linda" "Chaska ñawi" são algumas das expressões afetuosas de Cusco que usam para vender seus
+                        produtos. “Se você não se sente 100% bonito ou bonita, não se preocupe, nos mercados de Cusco,
+                        os comerciantes farão você se sentir bonito e feliz.
                     </p><br>
-                    <h5 class="h5-tours"> Itinerary:</h5>
-                   
+                    <h5 class="h5-tours"> ROTEIRO:</h5>
+
                     <p class="p-tours">
-                        The Guide will pick you up from the hotel at 9:00 am and then go to the nearest public bus
-                        service stop, we will take the bus to one of the most famous markets in Cusco VINOCANCHON the
-                        travel time will be 30 minutes, During the route, the guide is in charge of explaining
-                        curiosities about the use of public transport, names of the districts or other stops until we
-                        reach our destination. Once we arrive at the market we will get ready to have unique experiences
-                        and many surprises that we will find on our tour. Remember that all these staple products that
-                        we find are organic produced in the mountains and valleys of Cusco, the tour will be made
-                        through the different sections of properly classified products; the most interesting thing we
-                        will see is the typical food section; for example: the lamb's head soup or the big portion of
-                        food they serve on a plate. Continuing with the tour we will visit the traditional CHICHERIAS or
-                        Andean bars where we will taste the traditional corn beer better known as CHICHA, we will know
-                        how to prepare and ferment it. Then we will board our tourist van that will take us to the town
-                        of HUASAO "Capital of Andean quackery in Peru CHAMANS" where Mamá GENARA is waiting for us to
-                        give us cooking classes, we will prepare a rich quinoa soup, ajíaco de ollucos (one type of
-                        potato) with a famous rousted guinea pig accompanying our Andean lunch with mote con queso and
-                        its inevitable CHICHA MORADA refreshing drink that does not contain alcohol. We will have the
-                        opportunity to see the breeding of guinea pigs and perhaps be able to feed them. Finally comes
-                        the most expected THE PISCO SOUR SHOW (national drink of Peru) we will know its ingredients and
-                        we will learn how to prepare; After a toast to this day of unforgettable experiences, we will
-                        return to Cusco arriving at the hotel at approximately 5:00 pm.
+                        O Guia irá buscá-lo no hotel às 9h00 e depois irá ao ponto de ônibus público mais próximo,
+                        pegaremos o ônibus para um dos mercados mais famosos de Cusco VINOCANCHON o tempo de viagem será
+                        de 30 minutos, durante o percurso, o guia se encarrega de explicar curiosidades sobre o uso do
+                        transporte público, nomes dos bairros ou outras paradas até chegarmos ao nosso destino. Assim
+                        que chegarmos ao mercado nos preparamos para ter experiências únicas e muitas surpresas que
+                        encontraremos em nossa jornada. <br> Lembre-se que todos estes produtos básicos que encontramos são
+                        orgânicos produzidos nas montanhas e vales de Cusco, o passeio será feito através das diferentes
+                        seções de produtos devidamente classificados; O mais interessante que veremos é a seção de
+                        comidas típicas; por exemplo: o caldo de cabeça de borrego ou vão admirar a quantidade de porção
+                        que servem no prato. Continuando com o passeio visitaremos os tradicionais CHICHERÍAS ou bares
+                        andinos onde degustaremos a tradicional cerveja de milho mais conhecida como CHICHA, saberemos
+                        como prepará-la e fermentá-la. <br>Depois embarcaremos em nossa van de turismo que nos levará ao
+                        povoado de HUASAO "capital do curanderismo andino no Peru ¨xamã " onde Mama GENARA nos espera
+                        para dar aulas de culinária, prepararemos uma rica sopa de quinua, creme de batatas amarelas,
+                        acompanhando nosso almoço andino com um milho com queijo e sua inevitável bebida refrescante
+                        CHICHA MORADA que não contém álcool. <br>Teremos a oportunidade de ver a criação de
+                        porquinhos-da-índia e talvez poder alimentá-los. Por fim vem o mais esperado THE PISCO SOUR SHOW
+                        (bebida nacional do Peru), conheceremos seus ingredientes e aprenderemos a preparar; Depois de
+                        um brinde a este dia de experiências inesquecíveis, retornaremos a Cusco chegando ao hotel
+                        aproximadamente às 17 horas.
                     </p>
                     <div id="accordion">
                         <div class="card">
@@ -168,7 +172,7 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        It includes:
+                                        Inclui:
                                     </button>
                                 </h5>
                             </div>
@@ -176,12 +180,12 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &check; Pick up from the hotel<br>
-                                    &check; Professional guide<br>
-                                    &check; Public transport tickets<br>
-                                    &check; Tourist transport<br>
-                                    &check; Tasting of CHICHA<br>
-                                    &check; Andean lunch<br>
+                                    &check; Recolho no hotel<br>
+                                    &check; Guia profissional<br>
+                                    &check; Bilhetes de transporte público<br>
+                                    &check; Transporte turístico<br>
+                                    &check;Degustação de CHICHA<br>
+                                    &check; Almoço andino<br>
                                     &check; Pisco Sour
                                 </div>
                             </div>
@@ -191,15 +195,15 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Does not include:
+                                        Não inclui::
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10008; Purchases in the market<br>
-                                    &#10008; Tips or gratitude
+                                    &#10008; Compras de mercado<br>
+                                    &#10008; Gorjetas 
                                 </div>
                             </div>
                         </div>
@@ -209,22 +213,22 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        What you need to bring
+                                        O que você precisa trazer
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Original passport<br>
-                                    &#10034; Sunscreen<br>
-                                    &#10034; Photographic camera<br>
-                                    &#10034; Drink holder<br>
-                                    &#10034; Rain poncho<br>
-                                    &#10034; Alcohol gel<br>
-                                    &#10034; Sun caps<br>
-                                    &#10034; Extra money<br>
-                                    &#10034; First-aid kit or personal medicines
+                                    &#10034; Passaporte original<br>
+                                    &#10034; Protetor solar<br>
+                                    &#10034; Câmera fotográfica<br>
+                                    &#10034; Garrafa de agua<br>
+                                    &#10034; Capa de chuva<br>
+                                    &#10034; Álcool em gel<br>
+                                    &#10034; Chapéu<br>
+                                    &#10034; Dinheiro extra<br>
+                                    &#10034; Maleta de primeiros socorros ou medicamentos pessoais
                                 </div>
                             </div>
                         </div>
@@ -232,47 +236,47 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Important notes:
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Anotações Importantes:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Daily departures.<br>
-                                    &#10034; Prices are per person and are expressed in (US $) American dollars.<br>
-                                    &#10034; Prices do not include VAT (18%).<br>
-                                    &#10034; Once the reservation is accepted, the passenger must send by e-mail the
-                                    copy of his
-                                    passport or identity card in a compulsory way.<br>
-                                    &#10034; To make your reservation we request the payment of 50%.
+                                    &#10034; Saídas diárias.<br>
+                                    &#10034; Os preços são por pessoa e expressos em dólares americanos (US $).<br>
+                                    &#10034; Os preços não incluem impostos (18%). <br>
+                                    &#10034; Assim que a reserva for aceite, o passageiro deve enviar por e-mail a cópia
+                                    do seu passaporte ou carteira de identidade de forma obrigatória. <br>
+                                    &#10034; Para fazer sua reserva solicitamos o pagamento de 50%.
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- ShareThis BEGIN -->
-                    <p style="padding-top: 2em; color:#000" class="text-center">Share this</p>
+                    <p style="padding-top: 2em; color:#000" class="text-center">Compartilhar</p>
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/en/happy-experience-tour"
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/happy-experiencia-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        <h4 class="price"><span>A partir de:</span><i class="icon-dollar"></i> 60.00 <i
-                            class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                        <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 60.00 <i
+                                class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
                         @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
             <!-- Gallery -->
-            <h3 class="h2-happy">Images Gallery</h3>
+            <h3 class="h2-happy">Galeria de Imagens</h3>
             <div class="photo-gallery" style="padding-bottom: 3em">
                 <div class="container">
                     <div class="row photos">
@@ -302,7 +306,8 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/happy-experience-cusco.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience-cusco.jpg') }}">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/happy-experience-cusco.jpg') }}">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
@@ -318,33 +323,36 @@
                 <div class="col-lg-12 display2">
                     <h4 class="text-center">Similar Tours</h4>
                     <div class="similares">
-                        <a href="inca-trail-2-days">
-                            <p>Inca Trail 2 days</p>
+                        <a href="trilha-inca-2-dias">
+                            <p> Trilha Inca 2 dias</p>
                         </a>
-                        <a href="inca-trail-4-days">
-                            <p>Inca trail 4 days</p>
+                        <a href="trilha-inca-4-dias">
+                            <p>Trilha Inca 4 dias</p>
                         </a>
-                        <a href="inca-jungle-4-days-tour">
-                            <p>Inka jungle to Machu Picchu</p>
+                        <a href="selva-inca-4-dias">
+                            <p>Selva Inka à Machu Picchu</p>
                         </a>
-                        <a href="lares-trek-4-days">
-                            <p>Lares trek 4d/3n</p>
+                        <a href="lares-trekking-4-dias">
+                            <p>Lares Caminhada 4d/3n</p>
                         </a>
-                        <a href="choquequirao-4-days-tour">
-                            <p>Choquequirao Inca Trail</p>
+                        <a href="paseio-choquequirao-4-dias">
+                            <p>Choquequirao 4 dias</p>
                         </a>
-                        <a href="maras-moray-salineras-tour">
-                            <p>Maras, Moray & Salineras</p>
+                        <a href="maras-moray-e-salineras">
+                            <p>Maras, Moray e Salineras</p>
                         </a>
-                        <a href="salkantay-trek-tour-5-days">
-                            <p>Salkantay trek tour 5 days</p>
+                        <a href="salkantay-5-dias">
+                            <p>Tour Salkantay 5 dias</p>
+                        </a>
+                        <a href="city-tour-cusco">
+                            <p>Cusco City tour</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-  
+
     @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>

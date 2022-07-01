@@ -120,7 +120,7 @@
                 <div class="col-lg-12">
                     <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt=""
                         width="100%">
-                    <span>Foto: </span><a href="" class="a-seo">Vinicunca(montanha de 7 cores)</a>
+                    <span>Foto: </span><a class="a-seo">Vinicunca(montanha de 7 cores)</a>
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="Iam">
@@ -205,7 +205,7 @@
                                 alt="Inca Rail 360° tour en tren" loading="lazy">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-titulo">Tour en tren Inca Rail 360°</h5>
+                            <h5 class="card-titulo">Excursão de trem 360° do Inca Rail</h5>
                             <p class="card-text">Le ofrecemos una viaje maravilloso a Machu Picchu, rodeado de un
                                 hermoso paisaje.</p>
                             <a href="es/inca-trail-360°-tren-tour" class="boton-happy-2">Mais info</a>
@@ -220,9 +220,9 @@
                                 alt="Choquequirao Tour 4 dias" loading="lazy">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-titulo">Choquequirao 4D/3N</h5>
-                            <p class="card-text">Choquequirao es un sitio arqueológico muy impresionante como
-                                Machupicchu.</p>
+                            <h5 class="card-titulo">Choquequirao 4 dias</h5>
+                            <p class="card-text">Choquequirao é um sítio arqueológico muito impressionante como
+                                Machu Picchu.</p>
                             <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 4 Días</span>
                                 <span class="price-card"><i class="icon-usd"></i>500.00</span><br>
@@ -239,9 +239,9 @@
                                 alt="Inca Rail Voyager tour en tren">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-titulo">Tour en tren Inca Rail Voyager</h5>
-                            <p class="card-text">Iniciaremos la travesía disfrutando de un excelente e increíble
-                                paisaje andino</p>
+                            <h5 class="card-titulo">Excursão de trem Inca Rail Voyager</h5>
+                            <p class="card-text">Começaremos a viagem desfrutando de um excelente e incrível
+                                paisagem andina</p>
                             <a href="es/inca-rail-voyager-tren" class="boton-happy-2">Mais info</a>
                         </div>
                     </div>
@@ -254,9 +254,9 @@
                                 alt="Inca Rail Voyager tour en tren">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-titulo">Vinicunca: Montaña de colores</h5>
-                            <p class="card-text">La montaña de 7 colores o montaña arco iris, son algunos nombres
-                                que tiene Vinicunca</p>
+                            <h5 class="card-titulo">Vinicunca: Montanha de cores</h5>
+                            <p class="card-text">A montanha das 7 cores ou montanha arco-íris, são alguns nomes
+                                O que tem Vinicunca?</p>
                             <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
@@ -267,20 +267,20 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
-                        <a href="es/maras-moray-salineras-tour">
+                        <a href="{{route('maras-moray-e-salineras')}}">
                             <img class="card-img-top"
                                 src="{{ asset('img/thumbnail/tour-valle-sagrado-moray-andenes.webp') }}"
                                 alt="Inca Rail Voyager tour en tren">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-titulo">Maras, Moray & Salineras</h5>
-                            <p class="card-text">Tour a las SALINERAS DE MARAS y el sitio arqueológico de
-                                experimentación agrícola de MORAY</p>
+                            <h5 class="card-titulo">Maras, Moray e Salineras</h5>
+                            <p class="card-text">Visita às SALINERAS DE MARAS e ao sítio arqueológico de
+                                MORAY experimentação agrícola</p>
                             <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
                             </div>
-                            <a href="es/maras-moray-salineras-tour" class="boton-happy-2">Mais info</a>
+                            <a href="{{route('maras-moray-e-salineras')}}" class="boton-happy-2">Mais info</a>
                         </div>
                     </div>
                 </div>
@@ -316,24 +316,23 @@
                 </div>
                 <div class="full-width inca-trail">
                     <div class="black">
-                        <h2>Camino Inca</h2>
-                        <p>Qué necesitas saber sobre el Camino Inca</p>
-                        <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer
-                                articulo</a> </button>
+                        <h2>Trilha inca</h2>
+                        <p>O que você precisa saber sobre a Trilha Inca</p>
+                        <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">leia o artigo</a> </button>
                     </div>
                 </div>
                 <div class="full-width food">
                     <div class="black">
-                        <h2>Gastronomía de Perú</h2>
+                        <h2>Gastronomia do Peru</h2>
                         <p>La exquisita gastronomía peruana.</p>
-                        <button> <a href="blog/blog-castellano/gastronomia-peruana">Leer artículo</a> </button>
+                        <button> <a href="blog/blog-castellano/gastronomia-peruana">leia o artigo</a> </button>
                     </div>
                 </div>
                 <div class="full-width vinicunca">
                     <div class="black">
                         <h2>Vinicunca</h2>
                         <p>La famosa montaña de colores</p>
-                        <button> <a href="blog/blog-castellano/vinicunca-castellano">Leer artículo</a> </button>
+                        <button> <a href="blog/blog-castellano/vinicunca-castellano">leia o artigo</a> </button>
                     </div>
                 </div>
                 <div class="full-width puno">
@@ -348,7 +347,7 @@
         </div>
         <!-----------Fin Tours full width---------->
     </section>
-    @include('layouts.portugues-foot')
+    @include('layouts.foot-portugues')
 
 </body>
 

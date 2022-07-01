@@ -280,7 +280,7 @@
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/trek-to-rainbow-mountain.jpg') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/trek-to-rainbow-mountain.jpg') }}"
+                                    src="{{ asset('img/thumbnail/trek-to-rainbow-mountain.webp') }}"
                                     alt="caminata montaña 7 colores">
                             </a>
                         </div>

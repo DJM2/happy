@@ -61,7 +61,7 @@
                                                 tour Full
                                                 Day</a></li>
                                         <li><a href="{{ route('valle-sagrado-2-dias-portugues') }}"
-                                                class="nav-link">Valle Sagrado & Machu
+                                                class="nav-link">Vale Sagrado & Machu
                                                 Picchu</a></li>
                                         <li><a href="{{ route('vale-sagrado-dos-incas') }}" class="nav-link">Vale
                                                 Sagrado dos Incas</a></li>
@@ -76,7 +76,7 @@
                                         <li><a href="{{ route('passeio-choquequirao-4-dias') }}"
                                                 class="nav-link">Choquequirao 4
                                                 dias</a></li>
-                                        <li><a href="{{ route('huchuy-qosqo-2-dias') }}" class="nav-link">Huchuy
+                                        <li><a href="{{ route('huchuy-qosqo-2-dias-portugues') }}" class="nav-link">Huchuy
                                                 Qosqo &
                                                 Machu Picchu</a></li>
                                         <li><a href="{{ route('trilha-inca-4-dias') }}" class="nav-link">Trilha Inca
@@ -106,7 +106,7 @@
                                     <ul class="dropdown arrow-top">
                                         <li><a href="{{ route('7-lagoas-tour') }}" class="nav-link">7 Lagoas</a>
                                         </li>
-                                        <li><a href="#" class="nav-link">Huchuy Qosqo</a></li>
+                                        <li><a href="{{ route('huchuy-qosqo-portugues') }}" class="nav-link">Huchuy Qosqo</a></li>
                                         <li><a href="{{ route('humantay-lagoa') }}" class="nav-link">Lagoa
                                                 Humantay</a>
                                         </li>

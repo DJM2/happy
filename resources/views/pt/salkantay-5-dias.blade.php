@@ -3,15 +3,16 @@
 
 <head>
     @include('layouts.links')
-    <title>Salkantay Trek 5 días | Travel Agency Perú</title>
+    <title>Trilha Salkantay 5 dias | Agência de viagens Peru</title>
     <meta name="description"
-        content="La caminata esconde magníficos paisajes naturales y nos invita a descubrir las maravillas de las regiones del Perú. Iniciando en la región Quechua donde...">
+        content="A caminhada esconde magníficas paisagens naturais e nos convida a descobrir as maravilhas das regiões do Peru. Começando na região Quechua onde...">
     <meta name="keywords"
-        content="Cusco, Tour salknatay, Salkantay trek, salkantay trek tour, tour to salkantay, salkantay 5 days tour, 5 days trek salkantay">
+        content="Cusco, Tour salkantay, Salkantay trek, salkantay trek tour, tour a salkantay, salkantay 5 dias tour, 5 dias trek salkantay">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Salkantay Trek 5 días | Travel Agency Perú" />
+    <meta property="og:title" content="Trilha Salkantay 5 dias | Agência de viagens Peru" />
     <meta property="og:image" content="https://happyperutours.com/img/thumbnail/salkantay-trek.jpgg" />
-    <link rel="canonical" href="https://happyperutours.com/es/tour-salkantay-5-dias">
+    <link rel="canonical" href="https://happyperutours.com/pt/trilha-inca-2-dias">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 </head>
 
 <body>
@@ -37,474 +38,500 @@
                     onclick="window.location.href='{{ route('salkantay-5-dias-español') }}'">Español</button>
             </li>
         </ul>
-    </div>
-    </nav>
-    </div>
-    </div>
-    </div>
-    </div>
+        </div>
+        </nav>
+        </div>
+        </div>
+        </div>
+        </div>
 
 
-    <div class="container form">
-        <div class="abs-center form-index">
-            <h1 class="text-center h1-pages">
-                Salkantay Trek 5 días
-            </h1>
-            <p class="p-titulo">
-                <i class="icon-map-marker"></i> Cusco - Salkantay - Machupicchu&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 500.00
-            </p>
-            @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+        <div class="container form">
+            <div class="abs-center form-index">
+                <h1 class="text-center h1-pages">
+                    <?php $titulo = 'Trilha Salkantay 5 dias';
+                    echo $titulo; ?>
+                </h1>
+                <p class="p-titulo">
+                    <i class="icon-map-marker"></i> Cusco - Salkantay - Machupicchu&nbsp;&nbsp;
+                    <i class="icon-dollar"></i> <?php $precio = 500;
+                    echo $precio; ?>.00
                 </p>
-            </div>
-            @endif
-        </div>
-    </div>
-    </div>
-    <div class="lares"></div>
-    <section>
-        <div class="container">
-            <h2 class="h2-happy">
-                <o>Caminata en Salkantay</o>
-                <m> de 5 días</m>
-            </h2>
-            <div class="separador-naranja"></div>
-            <div class="separador-azul"></div>
-            <div class="row">
-                <div class="col-lg-3 display">
-
-                    <div class="similares">
-                        <h4 class="text-center">Tours Similares</h4>
-                        <a href="valle-sagrado-2-dias">
-                            <p>Valle Sagrado 2 días</p>
-                        </a>
-                        <a href="cusco-city-tour">
-                            <p>Cusco City Tour</p>
-                        </a>
-                      
-                        <a href="tour-7-lagunas-ausangate">
-                            <p>Ausangate 7 lagunas tour</p>
-                        </a>
-                        <a href="caminata-lares-4-dias">
-                            <p>Caminata Lares 4d/3n</p>
-                        </a>
-                      
-                        <a href="inca-trail-360°-tren-tour">
-                            <p>Inca Rail 360° Tour en tren</p>
-                        </a>
-                        <a href="qeswachaca-tour">
-                            <p>Qeswachaca Tour</p>
-                        </a>
-                        <a href="choquequirao-tour-4-dias">
-                            <p>Choquequirao 4D/3N</p>
-                        </a>
-                        <a href="inca-trail-4-dias">
-                            <p>Camino Inca a Machupicchu 4 días</p>
-                        </a>
+                @if (session()->has('flash'))
+                    <div style="text-align:center" class="alert alert-success alert-dismissible fade show"
+                        role="alert">
+                        <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos o mais breve possível
+                            possível.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </p>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Precio</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Difícil</td>
-                                <td>5 días</td>
-                                <td>$500.00 por adulto</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h5 class="h5-tours">Vista General:</h5>
-                    <p class="p-tours">
-                        Considerado una de las mejores caminatas del mundo, es la forma más increíble de llegar a
-                        MACHUPICCHU; esta ruta de senderismo atraviesa uno de los nevados más importantes de la ciudad
-                        del Cusco que es el SALKANTAY (6270 m.s.n.m.), la caminata esconde magníficos paisajes naturales
-                        y nos invita a descubrir las maravillas de las regiones del Perú. Iniciando en la región Quechua
-                        3000 m.s.n.m. luego acampar sobre los 3900 m.s.n.m. región Puna, hasta llegar al paso del
-                        SALKANTAY 4650 m.s.n.m. y finalmente conocer nuestra ceja de selva o selva alta 1900 m.s.n.m.
-                        durante su trayecto se aprecia la gran variedad de flora y fauna silvestre. Un día antes de
-                        llegar a nuestro objetivo que es MACHU PICCHU podremos ascender a una de las últimas
-                        construcciones incas LLACTAPATA desde donde divisamos la gran ciudadela de MACHUPICCHU con una
-                        vista impresionante del valle.
-                    </p><br>
-                    <h5 class="h5-tours"> Itinerario:</h5>
-                    <p class="p-tours text-center">
-                        <fuerte>DIA 01:</fuerte>
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Moderado</td>
-                                <td>6 horas</td>
-                                <td>12 km</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
-                        El recojo del hotel será a las 4:30 de la mañana, tomaremos el bus privado turístico hacia el
-                        pueblo de Mollepata por alrededor de 2 horas y 30 minutos, en éste lugar tendremos el desayuno
-                        opcional luego continuaremos en bus por aproximadamente 1 hora hasta CHALLACANCHA, punto de
-                        inicio de nuestra caminata y lugar de encuentro con el resto de equipo de nuestro grupo,
-                        tendremos tiempo suficiente para poder organizar nuestras mochilas, cosas personales, equipo de
-                        campamento, equipo de cocina y los caballos que serán nuestro medio de transporte durante los 3
-                        primeros días. A pocos minutos de iniciar la caminata llegaremos a un antiguo canal inca por
-                        donde continuaremos el trayecto, desde este lugar también tendremos una vista impresionante del
-                        nevado del HUMANTAY, al cabo de tres horas de caminata llegaremos a SORAYPAMPA (3900 m.s.n.m.)
-                        donde tendremos el primer almuerzo y primer campamento, después del almuerzo haremos una pequeña
-                        caminata para conocer la hermosa laguna Humantay, famosa en la región de Cusco. Retornaremos
-                        justo para la hora del té y posteriormente la cena que nos proveerá el equipo de cocina; por la
-                        noche se recomienda tomarse unos minutos para observar las estrellas puesto que nos encontramos
-                        en un lugar alto, limpio sin contaminación y es fácil divisar las constelaciones.
-                    </p>
-                    <p class="p-tours text-center">
-                        <fuerte>DIA 02:</fuerte>
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Difícil</td>
-                                <td>9 horas</td>
-                                <td>18 km</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
-                        Muy temprano su guía le despertará con un té de coca caliente, éste día estará lleno de
-                        sorpresas por todos los paisajes que encontrarás en el camino, luego del desayuno nos
-                        dirigiremos hacia la parte más alta de la caminata esto nos tomará un aproximado de 4 horas, la
-                        parte más alta o llamado también el PASO DE SALKANTAY está elevado sobre 4650 m.s.n.m. desde
-                        este punto podremos apreciar el majestuoso nevado del SALKANTAY 6280 m.s.n.m. para llegar al
-                        paso la caminata ascendente será un poco difícil pero NO imposible si lo hacemos a pasos lentos,
-                        una vez arriba el guía hará una explicación del lugar para luego iniciar el descenso por el
-                        valle siempre apreciando hermosos panoramas que nos brinda la naturaleza, después de 1 hora
-                        aproximadamente llegaremos al lugar de almuerzo HUAYRACMACHAY, una vez terminado el descanso y
-                        disfrutado un riquísimo almuerzo continuaremos el descenso por el valle por un tiempo de 3 horas
-                        pero en esta parte el paisaje cambiará, tendremos exuberante flora y fauna, este microclima de
-                        la parte alta de los andes es conocido como bosque nuboso parecido a la selva entonces alistamos
-                        cámaras porque empezaremos a ver animales en su hábitat natural, flores y orquídeas, este día
-                        terminará aproximadamente 5:30 pm en el segundo campamento CHAULLAY (2800 M.S.N.M.)
-                    </p>
-                    <p class="p-tours text-center">
-                        <fuerte>DIA 03:</fuerte>
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Moderado</td>
-                                <td>9 horas</td>
-                                <td>18 km</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
-                        Este día también es interesante porque a medida que descendemos el clima va cambiando de frío a
-                        más húmedo, el paisaje se va tornando más verde y el guía irá mostrándoles todo durante la ruta.
-                        El desayuno será muy temprano porque trataremos de ser los primeros de todos los grupos en salir
-                        del campamento y así tener la oportunidad de ver animales, disfrutar la tranquilidad de la
-                        caminata y tener tiempo para algunas actividades como hacer el tour del café o visitar las aguas
-                        termales de Santa teresa, el trayecto en este día será gradual con algunas pequeñas subidas y
-                        caminos planos por aproximadamente 5 horas luego arribaremos a nuestro último campamento llamado
-                        LA PLAYA, llegando entre la 1 o 2 de la tarde, allí el guía les dará opciones para algunas
-                        actividades extras. La cena será temprano porque todavía el siguiente día será largo.
-                    </p>
-                    <p class="p-tours text-center">
-                        <fuerte>DIA 04:</fuerte>
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Moderado</td>
-                                <td>9 horas</td>
-                                <td>18 km</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
-                        El despertar será con un té caliente para iniciar la mañana tendremos tiempo suficiente para
-                        alistara todo nuestro equipo y luego del desayuno iniciaremos nuestra caminata por casi 3 horas
-                        hasta llegar al sitio arqueológico de LLACTAPATA tomando la ventaja de la mañana fresca antes
-                        que llegue el sol, el sitio arqueológico es un hermoso lugar que se encuentra dentro de la
-                        vegetación con un clima cálido y húmedo, lugar privilegiado porque desde allí se podrá apreciar
-                        no solo la montaña del Machupicchu y Waynapicchu si no también la ciudadela Inca de Machupicchu,
-                        hermosa vista que quedará para el recuerdo, seguidamente continuaremos nuestra aventura
-                        descendiendo hacia el valle del AOBAMBA donde tomaremos el almuerzo también este lugar es
-                        espectacular por tener caídas de agua o cascadas y agua fresca para tomar un baño, luego del
-                        almuerzo caminaremos por un aproximado de 40 minutos hacia el poblado de <strong>
-                            HIDROELÉCTRICA,</strong> de
-                        donde tomaremos un camino a lo largo de la línea férrea por 3 horas hasta llegar al pueblo de
-                        <strong>AGUAS CALIENTES,</strong> aquí nos espera una cena en un confortable restaurante y la
-                        última noche en un
-                        hostal.
-                    </p>
-                    <p class="p-tours text-center">
-                        <fuerte>DIA 05:</fuerte>
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Distancia</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Fácil</td>
-                                <td>3 horas</td>
-                                <td>6 km</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
-                        Éste día será para nosotros un reto de tratar de ser uno de los primeros grupos en visitar la
-                        ciudadela de Machupicchu por ello el despierto será muy temprano 4:00 am para poder estar a
-                        tiempo en la estación de bus porque también habrá mucha gente teniendo el mismo objetivo, el
-                        primer bus partirá a las 5:30am con un recorrido de 30 minutos estaremos haciendo nuestro
-                        ingreso a la ciudadela a las 6.00am, el tour guiado tiene una duración aproximada de 3 horas
-                        conociendo los lugares más importantes y resaltantes de Machupicchu luego de ello tendrán un
-                        tiempo libre racional para tomar fotografías y llenarse de energías que solo este lugar
-                        maravilloso puede ofrecer, también tendrán la opción de poder realizar una pequeña caminata
-                        hacia el INTIPUNKU o puerta del sol desde donde podrán tomar fotografías panorámicas de
-                        Machupicchu, se les recomienda bajar a aguas calientes para el almuerzo puesto que hay mas
-                        opciones, el tren de retorno a Cusco partirá a las 4:20pm arribando a la ciudad del Cusco a las
-                        8:30 pm hasta el hotel.
-                    </p>
-
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0 text-center">
-                                    <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Incluye:
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    &check; Recojo del hotel <br>
-                                    &check; Transporte turístico Cusco- Challa cancha <br>
-                                    &check; Tren turístico Aguas Calientes – Machupicchu <br>
-                                    &check; Transporte turístico Ollantaytambo – Cusco <br>
-                                    &check; 1 vía de bus turístico Aguas Calientes – Machupicchu <br>
-                                    &check; Tickets de ingreso a Mollepata, ruta Salkantay y Machupicchu <br>
-                                    &check; 4 desayunos, 4 almuerzos, 4 cenas, 3 horas de té (opción vegetariana) <br>
-                                    &check; Snacks <br>
-                                    &check; Guía profesional bilingüe <br>
-                                    &check; Cocinero profesional <br>
-                                    &check; Equipo de campamento (carpa y colchoneta) <br>
-                                    &check; Arriero o conductor de los caballos <br>
-                                    &check; Caballo (7 kilos por persona) <br>
-                                    &check; Caballo (para todo el equipo de campamento y cocina) <br>
-                                    &check; Botiquín de primeros auxilios <br>
-                                    &check; Oxígeno <br>
-                                    &check; Alcohol y Gel desinfectantes parte del protocolo de bioseguridad
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0 text-center">
-                                    <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        No incluye:
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    &#10008; Primer desayuno <br>
-                                    &#10008; Ultimo almuerzo<br>
-                                    &#10008; 2do ticket de bus turístico (Machupicchu- aguas calientes) opcional.<br>
-                                    &#10008; Bolsas para dormir<br>
-                                    &#10008; Costo de actividades extra<br>
-                                    &#10008; Propinas
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h5 class="mb-0 text-center">
-                                    <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        ¿Qué necesitas llevar?:
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    &#10034; Pasaporte original <br>
-                                    &#10034; Bloqueador solar<br>
-                                    &#10034; Repelente de mosquitos<br>
-                                    &#10034; Snacks (chocolates, dulces, frutos secos etc.) <br>
-                                    &#10034; Cámara fotográfica <br>
-                                    &#10034; Portabebidas <br>
-                                    &#10034; Poncho de lluvia <br>
-                                    &#10034; Polos extra <br>
-                                    &#10034; Alcohol en gel <br>
-                                    &#10034; Bastones de caminata <br>
-                                    &#10034; Sandalias <br>
-                                    &#10034; Gorras para el sol <br>
-                                    &#10034; Dinero extra <br>
-                                    &#10034; Botiquín o medicinas personales
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="notas">
-                                <h5 class="mb-0 text-center">
-                                    <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseNotas" aria-expanded="false"
-                                        aria-controls="collapseNotas">
-                                        Notas Importantes:
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseNotas" class="collapse" aria-labelledby="notas"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    &#10034; Salidas diarias. <br>
-                                    &#10034; Los precios no incluyen el IGV (18%).<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
-                                    americanos.<br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
-                                    su pasaporte o cedula de identidad en forma obligatoria.<br>
-                                    &#10034; Para concretar su reserva solicitamos el pago del 50%.
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ShareThis BEGIN -->
-                    <p style="padding-top: 2em; color:#000" class="text-center">Compartir</p>
-                    <div class="sharethis-inline-share-buttons"></div>
-                    <div id="fb-root"></div>
-                    <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/tour-salkantay-5-dias"
-                        data-width="100%" data-numposts="5"></div>
-                    <!-- ShareThis END -->
-
-                </div>
-                <div class="col-lg-3">
-                    <div class="similares">
-                        <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 500.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
-                        @include('layouts.book-castellano')
-                    </div>
-                </div>
-            </div>
-            <!-- Gallery -->
-            <h3 class="h2-happy">Galería de Imágenes</h3>
-            <div class="photo-gallery" style="padding-bottom: 3em">
-                <div class="container">
-                    <div class="row photos">
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.jpg') }}"
-                                    alt="Tour de Salkantay">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-adventure.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-adventure.jpg') }}"
-                                    alt="Salkantay tour">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-tour-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour-trek.jpg') }}"
-                                    alt="Salkantay 5 dias">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.jpg') }}" alt="salkantay a machu picchu">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-start-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/salkantay-start-trek.jpg') }}" alt="machu picchu por salkantay">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!----Similar responsive--------->
-            <div class="row">
-                <div class="col-lg-12 display2">
-                    <h4 class="text-center">Similar Tours</h4>
-                    <div class="similares">
-                        <a href="cusco-city-tour">
-                            <p>Cusco City Tour</p>
-                        </a>
-                        <a href="">
-                            <p>Huchuy Qosqo & Machu picchu</p>
-                        </a>
-                        <a href="">
-                            <p>Inka jungle</p>
-                        </a>
-                        <a href="lares-trek-4-days">
-                            <p>Lares trek 4d/3n</p>
-                        </a>
-                        <a href="">
-                            <p>Choquequirao 4D/3N</p>
-                        </a>
-                    </div>
-                </div>
+                @endif
             </div>
         </div>
-    </section>
-    @include('layouts.foot-castellano')
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+        </div>
+        <div class="lares"></div>
+        <section>
+            <div class="container">
+                <h2 class="h2-happy">
+                    <o>Trilha Salkantay</o>
+                    <m> por 5 dias</m>
+                </h2>
+                <div class="separador-naranja"></div>
+                <div class="separador-azul"></div>
+                <div class="row">
+                    <div class="col-lg-3 display">
+
+                        <div class="similares">
+                            <h4 class="text-center">Passeios semelhantes</h4>
+                            <a href="valle-sagrado-2-dias">
+                                <p>Valle Sagrado 2 días</p>
+                            </a>
+                            <a href="city-tour-cusco">
+                                <p>Cusco City Tour</p>
+                            </a>
+
+                            <a href="7-lagoas-tour">
+                                <p>Ausangate 7 lagoas</p>
+                            </a>
+                            <a href="lares-trekking-4-dias">
+                                <p>Caminhada Lares 4d/3n</p>
+                            </a>
+
+                            <a href="inca-rail-360°">
+                                <p>Inca Rail 360° Passeio de trem</p>
+                            </a>
+                            <a href="qeswachaca-tour">
+                                <p>Qeswachaca Tour</p>
+                            </a>
+                            <a href="passeio-choquequirao-4-dias">
+                                <p>Choquequirao 4D/3N</p>
+                            </a>
+                            <a href="trilha-inca-4-dias">
+                                <p>Trilha Inca a Machupicchu 4 días</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Difícil</td>
+                                    <td>5 dias</td>
+                                    <td>US$ 500,00 por adulto</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h5 class="h5-tours">Visão global:</h5>
+                        <p class="p-tours">
+                            Considerada uma das melhores trilhas do mundo, é a maneira mais incrível de chegar a
+                            MACHUPICCHU; Esta rota de caminhada atravessa uma das montanhas nevadas mais importantes da
+                            cidade de Cusco que é SALKANTAY (6270 m.), a caminhada esconde magníficas paisagens naturais
+                            e nos convida a descobrir as maravilhas das regiões do Peru. Começando na região Quechua
+                            3000 m. então acampe em 3.900 m. Região de Puna, até atingir o ponto mais alto de SALKANTAY
+                            4650 m. e finalmente conhecer nossa sobrancelha de selva ou selva alta 1900 m. Durante o
+                            trajeto pode-se apreciar uma grande variedade de flora e fauna. Um dia antes de atingir
+                            nossa meta, que é MACHU PICCHU, poderemos subir a uma das últimas construções incas
+                            LLACTAPATA de onde podemos avistar a grande cidadela de MACHUPICCHU com uma vista
+                            impressionante do vale.
+                        </p><br>
+                        <h5 class="h5-tours"> Roteiro:</h5>
+                        <p class="p-tours text-center">
+                            <fuerte>DIA 01:</fuerte>
+                        </p>
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Distância</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Moderado</td>
+                                    <td>6 horas</td>
+                                    <td>12 km</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-tours">
+                            O guia irá buscá-lo em seu hotel às 4:30 da manhã, pegaremos o ônibus turístico privado para
+                            o povo de Mollepata por cerca de 2 horas e 30 minutos, neste local teremos café da manhã
+                            opcional e depois continuaremos de ônibus por aproximadamente 1 hora até CHALLACANCHA, ponto
+                            de partida de nossa caminhada e ponto de encontro com o resto da equipe do nosso grupo,
+                            teremos tempo suficiente para organizar nossas mochilas, coisas pessoais, equipamentos de
+                            camping, equipamento de cozinha e os cavalos, esse será o nosso meio de transporte durante
+                            os primeiros 3 dias. <br><br>
+                            Poucos minutos depois de iniciar a caminhada chegaremos a um antigo
+                            canal Inca através do qual continuaremos a viagem, deste lugar também teremos uma vista
+                            impressionante da HUMANTAY nevada, após três horas de caminhada chegaremos a SORAYPAMPA
+                            (3900 m) onde teremos o primeiro almoço e primeiro acampamento, após o almoço faremos uma
+                            curta caminhada para ver a bela lagoa Humantay, famosa na região de Cusco. Voltaremos apenas
+                            para a hora do chá e depois o jantar fornecido pelo equipe de cozinha; À noite é
+                            recomendável reservar alguns minutos para observar as estrelas, pois estamos em um local
+                            alto, limpo, sem poluição e é fácil ver as constelações.
+                        </p>
+                        <p class="p-tours text-center">
+                            <fuerte>DIA 02:</fuerte>
+                        </p>
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Distância</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Difícil</td>
+                                    <td>9 horas</td>
+                                    <td>18 km</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-tours">
+                            Muito cedo o seu guia irá acordá-lo com um chá quente de coca, este dia será repleto de
+                            surpresas por todas as paisagens que você encontrará pelo caminho, após o café da manhã
+                            iremos para o ponto mais alto do passeio. levará aproximadamente 4 horas, a parte mais alta
+                            ou também chamada de SALKANTAY PASS é elevada a 4650 metros acima do nível do mar deste
+                            ponto, poderemos apreciar o majestoso pico nevado SALKANTAY 6280 m. <br><br>
+                            Para chegar ao topo, a caminhada de ascensão será um pouco difícil mas NÃO impossível se o
+                            fizermos a passos
+                            lentos, uma vez no topo o guia explicará o local e depois iniciará a descida pelo vale
+                            apreciando sempre os belos panoramas que a natureza nos oferece. , depois de aproximadamente
+                            1 hora chegaremos ao local do almoço HUAYRACMACHAY, uma vez que o descanso estiver terminado
+                            e tivermos desfrutado de um delicioso almoço continuaremos a descida pelo vale por um tempo
+                            de 3 horas mas nesta parte a paisagem mudará, teremos flora e fauna exuberantes, esse
+                            microclima da parte alta dos Andes é conhecido como uma floresta nublada semelhante à selva,
+                            por isso preparamos câmeras porque começaremos a ver animais em seu habitat natural, flores
+                            e orquídeas, este dia terminará aproximadamente às 17h30 no segundo acampamento CHAULLAY
+                            (2800 m.)
+                        </p>
+                        <p class="p-tours text-center">
+                            <fuerte>DIA 03:</fuerte>
+                        </p>
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Distância</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Moderado</td>
+                                    <td>9 horas</td>
+                                    <td>18 km</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-tours">
+                            Este dia também é interessante porque à medida que descemos o tempo muda de frio para mais
+                            úmido, a paisagem torna-se mais verde e o guia vai mostrar-te tudo ao longo do percurso. O
+                            café da manhã será bem cedo pois tentaremos ser os primeiros de todos os grupos a deixar o
+                            acampamento e assim ter a oportunidade de ver os animais, curtir a tranquilidade do passeio
+                            e ter tempo para algumas atividades como fazer o tour do café ou visitar as águas termais de
+                            Santa Teresa, a jornada neste dia será gradativa com algumas pequenas subidas e estradas
+                            planas por aproximadamente 5 horas, depois chegaremos ao nosso último acampamento chamado LA
+                            PLAYA, chegando entre 1 ou 2 da tarde, lá o guia lhe dará opções para algumas atividades
+                            extras. O jantar será cedo porque o dia seguinte ainda será longo.
+                        </p>
+                        <p class="p-tours text-center">
+                            <fuerte>DIA 04:</fuerte>
+                        </p>
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Distância</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Moderado</td>
+                                    <td>9 horas</td>
+                                    <td>18 km</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-tours">
+                            O despertar será com um chá quente, pela manhã teremos tempo suficiente para prepararmos
+                            todos os nossos equipamentos e após do café da manhã iniciaremos a nossa caminhada durante
+                            quase 3 horas até chegarmos ao sítio arqueológico de LLACTAPATA aproveitando a manhã fresca
+                            antes de o sol chegar, o sítio arqueológico é um lindo lugar que fica dentro da vegetação
+                            com um clima quente e úmido, um lugar privilegiado porque de lá você poderá apreciar não só
+                            a montanha de Machupicchu e Waynapicchu, senão também a Cidadela inca de Machu Picchu, linda
+                            vista que ficará para ser lembrada, então continuaremos nossa aventura descendo em direção
+                            ao vale AOBAMBA onde almoçaremos, também este lugar é espetacular por ter cachoeiras e água
+                            doce para tomar banho, após o almoço caminharemos por volta de 40 minutos até a localidade
+                            de HIDROELÉCTRICA, de onde caminharemos ao longo da linha ferrovíaria por 3 horas até
+                            chegarmos à cidade de<strong> AGUAS CALIENTES</strong>, aqui um jantar nos espera em um
+                            confortável
+                            restaurante e a última noite em um hostel.
+                        </p>
+                        <p class="p-tours text-center">
+                            <fuerte>DIA 05:</fuerte>
+                        </p>
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Dificuldade</th>
+                                    <th scope="col">Duração</th>
+                                    <th scope="col">Distância</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Fácil</td>
+                                    <td>3 horas</td>
+                                    <td>6 km</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="p-tours">
+                            Este dia será um desafio para tentar ser um dos primeiros grupos a visitar a cidadela de
+                            Machupicchu, pois o despertar será bem cedo às 4h para podermos chegar a tempo na estação de
+                            ônibus porque também haverá muitas pessoas com o mesmo objetivo, o primeiro ônibus sairá às
+                            5h30 com um passeio de 30 minutos, estaremos fazendo nossa entrada na cidadela às 6h00, o
+                            passeio guiado dura aproximadamente 3 horas conhecendo os lugares mais importantes e os
+                            destaques de Machu Picchu, depois disso terão um tempo racional livre para tirar fotos e
+                            encher-se de energia que só este lugar maravilhoso pode oferecer, voces também terão a opção
+                            de poder dar um pequeno passeio até o INTIPUNKU ou Porta del Sol de onde podem tirar fotos
+                            panorâmicas de Machu Picchu, recomenda-se descer a AGUAS CALIENTES para almoçar pois há mais
+                            opções, o trem de volta a Cusco sairá às 4:20 pm chegando à cidade de Cusco às 20h30 para o
+                            hotel.
+                        </p>
+
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Inclui:
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        &check; Traslado do hotel até o ponto de inicio da trilha.<br>
+                                        &check; Transporte turístico Cusco- Challacancha<br>
+                                        &check; Trem turístico Machu Picchu- Ollantaytambo.<br>
+                                        &check; Transporte turístico Ollantaytambo - Cusco<br>
+                                        &check; Bilhete de ônibus Aguas Calientes - Machu Picchu<br>
+                                        &check; Bilhetes de entrada para Mollepata, rota Salkantay e Machupicchu<br>
+                                        &check; 4 cafés da manhã, 4 almoços, 4 jantares, 3 horas de chá (opção
+                                        vegetariana) <br>
+                                        &check; Lanches<br>
+                                        &check; Guia profissional bilíngüe <br>
+                                        &check; Cozinheiro profissional<br>
+                                        &check; Equipamento de acampamento (barraca e colchão)<br>
+                                        &check; Arrieiro ou cavaleiro <br>
+                                        &check; Cavalo (7 quilos por pessoa) <br>
+                                        &check; Cavalo (para todos os equipamentos de acampamento e cozinha).<br>
+                                        &check; Maleta de primeiros socorros.<br>
+                                        &check; Oxigênio.<br>
+                                        &check; Álcool e desinfetantes em gel fazem parte do protocolo de biossegurança
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Não inclui:
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        &#10008; Primeiro café da manhã<br>
+                                        &#10008; Último almoço<br>
+                                        &#10008; Bebidas extras<br>
+                                        &#10008; 2ª passagem de ônibus turístico (Machupicchu- Aguas Calientes) opcional.<br>
+                                        &#10008; Saco de dormir<br>
+                                        &#10008; Custo de atividades extras
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            O que você precisa trazer:
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        &#10034; Passaporte original<br>
+                                        &#10034; Saco de dormir<br>
+                                        &#10034; Protetor  solar<br>
+                                        &#10034; Repelente de mosquitos<br>
+                                        &#10034; Lanches (chocolates, doces, nozes etc.)<br>
+                                        &#10034; Lanterna<br>
+                                        &#10034; Câmera fotográfica <br>
+                                        &#10034; Baterias extras <br>
+                                        &#10034; Garrafa de água<br>
+                                        &#10034; Capa de chuva<br>
+                                        &#10034; Álcool em gel<br>
+                                        &#10034; Cajados <br>
+                                        &#10034; Roupa extra <br>
+                                        &#10034; Chapéu e Boné<br>
+                                        &#10034; Dinheiro extra<br>
+                                        &#10034; Medicamentos pessoais<br>
+                                        &#10034; Chinelos 
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="notas">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
+                                            data-target="#collapseNotas" aria-expanded="false"
+                                            aria-controls="collapseNotas">
+                                            Anotações importantes:
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseNotas" class="collapse" aria-labelledby="notas"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        &#10034; Saídas diárias.<br>
+                                        &#10034; Os preços são por pessoa e expressos em dólares americanos (US $).<br>
+                                        &#10034; Os preços não incluem impostos (18%). <br>
+                                        &#10034; Assim que a reserva for aceite, o passageiro deve enviar por e-mail a
+                                        cópia
+                                        do seu passaporte ou carteira de identidade de forma obrigatória. <br>
+                                        &#10034; Para fazer sua reserva solicitamos o pagamento de 50%.
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ShareThis BEGIN -->
+                        <p style="padding-top: 2em; color:#000" class="text-center">Compartilhar</p>
+                        <div class="sharethis-inline-share-buttons"></div>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                            nonce="RA0e6tQN"></script>
+                        <div class="fb-comments" data-href="https://happyperutours.com/pt/salkantay-5-dias"
+                            data-width="100%" data-numposts="5"></div>
+                        <!-- ShareThis END -->
+
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="similares">
+                            <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 500.00 <i
+                                    class="icon-info-circle price-info" data-title="Preço por adulto"></i></h4>
+                            @include('layouts.book-portugues')
+                        </div>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <h3 class="h2-happy">Galeria de imagens</h3>
+                <div class="photo-gallery" style="padding-bottom: 3em">
+                    <div class="container">
+                        <div class="row photos">
+                            <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="{{ asset('img/galeria/salkantay-tour.jpg') }}" data-lightbox="photos">
+                                    <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.jpg') }}"
+                                        alt="Tour de Salkantay">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="{{ asset('img/galeria/salkantay-adventure.jpg') }}" data-lightbox="photos">
+                                    <img class="img-fluid"
+                                        src="{{ asset('img/thumbnail/salkantay-adventure.jpg') }}"
+                                        alt="Salkantay tour">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="{{ asset('img/galeria/salkantay-tour-trek.jpg') }}" data-lightbox="photos">
+                                    <img class="img-fluid"
+                                        src="{{ asset('img/thumbnail/salkantay-tour-trek.jpg') }}"
+                                        alt="Salkantay 5 dias">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="{{ asset('img/galeria/salkantay-trek.jpg') }}" data-lightbox="photos">
+                                    <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.jpg') }}"
+                                        alt="salkantay a machu picchu">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 item">
+                                <a href="{{ asset('img/galeria/salkantay-start-trek.jpg') }}"
+                                    data-lightbox="photos">
+                                    <img class="img-fluid"
+                                        src="{{ asset('img/thumbnail/salkantay-start-trek.jpg') }}"
+                                        alt="machu picchu por salkantay">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----Similar responsive--------->
+                <div class="row">
+                    <div class="col-lg-12 display2">
+                        <h4 class="text-center">Passeios semelhantes</h4>
+                        <div class="similares">
+                            <a href="valle-sagrado-2-dias">
+                                <p>Valle Sagrado 2 días</p>
+                            </a>
+                            <a href="city-tour-cusco">
+                                <p>Cusco City Tour</p>
+                            </a>
+
+                            <a href="7-lagoas-tour">
+                                <p>Ausangate 7 lagoas</p>
+                            </a>
+                            <a href="lares-trekking-4-dias">
+                                <p>Caminhada Lares 4d/3n</p>
+                            </a>
+
+                            <a href="inca-rail-360°">
+                                <p>Inca Rail 360° Passeio de trem</p>
+                            </a>
+                            <a href="qeswachaca-tour">
+                                <p>Qeswachaca Tour</p>
+                            </a>
+                            <a href="passeio-choquequirao-4-dias">
+                                <p>Choquequirao 4D/3N</p>
+                            </a>
+                            <a href="trilha-inca-4-dias">
+                                <p>Trilha Inca a Machupicchu 4 días</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        @include('layouts.foot-portugues')
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
 </body>
 
