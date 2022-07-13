@@ -24,14 +24,12 @@
     </div>
 
     @include('layouts.english')
-    <li>
-        <a href="terminos">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="terminos" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('terminos') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('terminos') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -43,7 +41,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:2em">
-                Terms & Conditions
+                <?php $titulo = 'Terms & Conditions'; echo $titulo; ?>        
             </h1>
         </div>
     </div>

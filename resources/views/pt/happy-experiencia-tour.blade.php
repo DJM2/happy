@@ -3,12 +3,12 @@
 
 <head>
     @include('layouts.links')
-    <title> Happy City Tour Exclusivo Cusco | Travel Agency Perú</title>
+    <title> Happy City Tour Exclusivo Cusco | Agência de viagens Perú</title>
     <meta name="description"
         content="Exclusivo city tour de dia inteiro em Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay">
     <meta name="keywords" content="Cusco, tour exclusivo, tour cusco, tour, Pucapucara, Tambomachay, Tours Exclusivos">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Exclusive Happy City Tour Cusco | Travel Agency Perú" />
+    <meta property="og:title" content="Exclusive Happy City Tour Cusco | Agência de viagens Perú" />
     <meta name="description"
         content="It is a good alternative to get to Machupicchu, although the Lares valley is very extensive, this means that there are different routes in Cusco, Perú." />
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
@@ -58,7 +58,7 @@
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 60.00
+                <i class="icon-dollar"></i> <?php $precio = 60; echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
                 <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">

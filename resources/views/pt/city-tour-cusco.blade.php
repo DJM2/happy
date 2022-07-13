@@ -3,13 +3,13 @@
 
 <head>
     @include('layouts.links')
-    <title>Cusco, clasico City tour | Travel Agency Perú</title>
+    <title>Cusco, clasico City tour | Agência de viagens Perú</title>
     <meta name="description"
         content="Aliamos este circuito a um momento de partilha de momentos com a população local conhecendo as suas praças principais, o mercado tradicional da cidade e os pratos típicos.">
     <meta name="keywords"
         content="Cusco, tour exclusivo, tour cusco, tour Peru, Pucapucara, Tambomachay, Tour em Cusco, viagem a Cusco, tour exclusivo em cusoo, cusco dia inteiro, conhecendo cusco">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Cusco, clasico City tour | Travel Agency Perú" />
+    <meta property="og:title" content="Cusco, clasico City tour | Agência de viagens Perú" />
     <meta name="description" content="Full day city tour en Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay" />
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
     <link rel="canonical" href="https://happyperutours.com/pt/city-tour-cusco">
@@ -38,7 +38,6 @@
                     onclick="window.location.href='{{ route('city-tour-castellano') }}'">Español</button></li>
         </ul>
     </li>
-    </li>
     </ul>
     </div>
     </nav>
@@ -56,7 +55,7 @@
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 50.00
+                <i class="icon-dollar"></i> <?php $precio = 60;  echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
                 <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -86,7 +85,7 @@
                         <a href="happy-city-tour">
                             <p>Happy City Tour full day</p>
                         </a>
-                        <a href="huchuy-qosqo-4-dias">
+                        <a href="huchuy-qosqo-2-dias">
                             <p>Huchuy Qosqo & Machu picchu</p>
                         </a>
                         <a href="selva-inca-4-dias">
@@ -312,26 +311,27 @@
                         <a href="happy-city-tour">
                             <p>Happy City Tour full day</p>
                         </a>
-                        <a href="huchuy-qosqo-4-dias">
-                            <p>Huchuy Qosqo & Machu Picchu</p>
+                        <a href="huchuy-qosqo-2-dias">
+                            <p>Huchuy Qosqo & Machu picchu</p>
                         </a>
                         <a href="selva-inca-4-dias">
-                            <p>Inka jungle 4 días</p>
+                            <p>Selva Inca 4 dias</p>
                         </a>
                         <a href="lares-trekking-4-dias">
-                            <p>Caminhada Lares 4 días</p>
+                            <p>Lares caminhada 4d/3n</p>
                         </a>
                         <a href="passeio-choquequirao-4-dias">
                             <p>Choquequirao 4D/3N</p>
-                            <a href="humantay-lagoa">
-                                <p>Tour Lagoa Humantay</p>
-                            </a>
-                            <a href="valle-sagrado-2-dias">
-                                <p>Vale Sagrado 2 días</p>
-                            </a>
-                            <a href="salkantay-4-dias">
-                                <p>Tour Salkantay 4 días</p>
-                            </a>
+                        </a>
+                        <a href="humantay-lagoa">
+                            <p>Tour Lagoa Humantay</p>
+                        </a>
+                        <a href="valle-sagrado-2-dias">
+                            <p>Vale Sagrado 2 dias</p>
+                        </a>
+                        <a href="salkantay-4-dias">
+                            <p>Tour Salkantay 4 dias</p>
+                        </a>
                         </a>
                     </div>
                 </div>

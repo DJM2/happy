@@ -10,7 +10,8 @@
         content="Cusco, Tour inca jungle, inca jungle tour, inca jungle 4 dias, inka jungle 4 dias tour, llegar a machu picchu por inca jungle, Inca Tours, caminata por inca jungle, tour a machu picchu, trek a aguas calientes">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Inca Jungle tour de 4 días | Travel Agency Perú" />
-    <meta property="og:image" content="https://happyperutours.com/img/panoramic/inca-jungle-Machupicchu-tour-x-travel-peru.jpg" />
+    <meta property="og:image"
+        content="https://happyperutours.com/img/panoramic/inca-jungle-Machupicchu-tour-x-travel-peru.jpg" />
     <link rel="canonical" href="https://happyperutours.com/es/inca-jungle-4-dias-tour">
 </head>
 
@@ -26,40 +27,45 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/inca-jungle-4-days-tour">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/inca-jungle-4-days-tour" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('inca-jungle-4-days') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('selva-inca-4-dias') }}'">Portugués</button></li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
     </div>
     </div>
     </div>
+
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Inca Jungle, tour de 4 días
+                <?php $titulo = 'Inca Jungle, tour de 4 días';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Machupicchu &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 450.00
+                <i class="icon-dollar"></i> <?php $precio = 450;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -323,7 +329,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         ¿Qué necesitas llevar?:
                                     </button>
                                 </h5>
@@ -379,17 +386,19 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/inca-jungle-4-dias-tour
-                        data-width=" 100%" data-numposts="5"></div>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments"
+                        data-href="https://happyperutours.com/es/inca-jungle-4-dias-tour
+                        data-width="
+                        100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 450.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
+                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
                         @include('layouts.book-castellano')
                     </div>
                 </div>

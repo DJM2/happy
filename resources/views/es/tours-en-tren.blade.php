@@ -28,14 +28,12 @@
     </div>
 
     @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/tours-in-train">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/tours-in-train" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('train-english') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('tren-portugues') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -46,7 +44,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Tours en tren a Machu Picchu
+                <?php $titulo='Tours en tren a Machu Picchu'; echo $titulo; ?>     
             </h1>
         </div>
     </div>

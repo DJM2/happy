@@ -4,8 +4,10 @@
 <head>
     @include('layouts.links')
     <title>Sacred Valley full day tour | Travel Agency Perú</title>
-    <meta name="description" content="The Tour to the Sacred Valley of the Incas which lasts all day will take you to the most classic places.">
-    <meta property="og:description" content="The Tour to the Sacred Valley of the Incas which lasts all day will take you to the most classic places.">
+    <meta name="description"
+        content="The Tour to the Sacred Valley of the Incas which lasts all day will take you to the most classic places.">
+    <meta property="og:description"
+        content="The Tour to the Sacred Valley of the Incas which lasts all day will take you to the most classic places.">
     <meta name="keywords"
         content="Cusco, tour en el valle sagrado, Sacred Valley, Sacred Valley of the Incas, Inca Tours, Exclusive Tours in Sacred Valley">
     <meta property="og:type" content="website" />
@@ -27,14 +29,17 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/valle-sagrado-full-day">
-            <idioma>Español</idioma>
-        </a>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('valle-sagrado-de-los-incas') }}'">Español</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('vale-sagrado-dos-incas') }}'">Portugués</button></li>
+        </ul>
     </li>
-    <li><a href="../es/valle-sagrado-full-day" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
+
     </ul>
     </div>
     </nav>
@@ -47,21 +52,24 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Sacred Valley of the Incas
+                <?php $titulo = 'Sacred Valley of the Incas';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Sacred Valley &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 80.00
-            @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
-            @endif
+                <i class="icon-dollar"></i> <?php $precio = 80;
+                echo $precio; ?>.00
+                @if (session()->has('flash'))
+                    <div style="text-align:center" class="alert alert-success alert-dismissible fade show"
+                        role="alert">
+                        <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                            possible.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </p>
+                    </div>
+                @endif
         </div>
     </div>
     </div>
@@ -135,7 +143,7 @@
                         sea level. It will lead to an exciting and unforgettable experience of our tour.
                     </p><br>
                     <h5 class="h5-tours"> Itinerary:</h5>
-                  
+
                     <p class="p-tours">
                         We start with our tour to the Sacred Valley of the Incas early around 08:00 a.m. With the pick
                         up from the points allowed in the historic center of the city, we go to the archaeological site
@@ -184,7 +192,7 @@
                                     &check; Tourist transport <br>
                                     &check; Professional bilingual tour guide<br>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
@@ -234,7 +242,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Important notes:
                                     </button>
                                 </h5>
@@ -258,8 +267,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/en/sacred-valley-full-day"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -267,7 +276,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>From:</span><i class="icon-dollar"></i> 80.00 <i
-                            class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
+                                class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
                         @include('layouts.book-ingles')
                     </div>
                 </div>
@@ -278,47 +287,51 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.jpg') }}"
-                                    alt="lares trek tour">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                    alt="Machu Picchu andenes" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-fortaleza-inca.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-fortaleza-inca.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-fortaleza-inca.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-fortaleza-inca.webp') }}"
+                                    alt="Tour Sacred Valley Ollantaytambo" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico.jpg') }}"
-                                    alt="tour a lares">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico.webp') }}"
+                                    alt="Machu Picchu panoramic tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/tour-valle-sagrado-chinchero-templo-exterior.jpg') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-chinchero-templo-exterior.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-chinchero-templo-exterior.webp') }}"
+                                    alt="Temple of CHinchero" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-pisaq-ruinas.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-pisaq-ruinas.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-pisaq-ruinas.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-pisaq-ruinas.webp') }}"
+                                    alt="Pisaq in the Sacred Valley" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-pinkuylluna.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-pinkuylluna.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-pinkuylluna.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-pinkuylluna.webp') }}"
+                                    alt="Pinkuylluna tour Ollantaytambo" loading="lazy">
                             </a>
                         </div>
                     </div>

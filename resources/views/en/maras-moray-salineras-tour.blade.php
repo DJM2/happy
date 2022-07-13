@@ -26,13 +26,15 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/maras-moray-salineras-tour">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/maras-moray-salineras-tour" class="nav-link" id="idioma-responsive">Español</a>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('maras-moray-salineras') }}'">Español</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('maras-moray-e-salineras') }}'">Portugués</button></li>
+        </ul>
     </li>
     </ul>
     </div>
@@ -46,21 +48,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Salt mines & Maras - Moray Tour
+                <?php $titulo = 'Salt mines & Maras - Moray Tour';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Maras - Moray &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 60.00
+                <i class="icon-dollar"></i> <?php $precio = 60;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                        possible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -83,7 +87,7 @@
                             <p>Peru Rail & Sacred Valley</p>
                         </a>
                         <a href="happy-experience-tour">
-                            <p>Exclusive Tour Happy Experience</p> 
+                            <p>Exclusive Tour Happy Experience</p>
                         </a>
                         <a href="inca-jungle-4-days-tour">
                             <p>Inka jungle</p>
@@ -103,7 +107,7 @@
                         <a href="qeswachaca-tour">
                             <p>Tour Qeswachaca</p>
                         </a>
-                       
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -133,7 +137,7 @@
                         harvesting method hasn't changed much yet.
                     </p><br>
                     <h5 class="h5-tours"> Itinerary:</h5>
-                   
+
                     <p class="p-tours">
                         We start early around 8:00 am, with the pick up from the allowed points in the historic center
                         of the city and we go to visit MORAY, located 62 km from the city of Cusco with an altitude of
@@ -216,7 +220,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Important notes:
                                     </button>
                                 </h5>
@@ -240,8 +245,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/en/maras-moray-salineras-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -250,7 +255,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>From:</span><i class="icon-dollar"></i> 60.00 <i
-                            class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
+                                class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
                         @include('layouts.book-ingles')
                     </div>
                 </div>
@@ -261,42 +266,47 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-en-maras-moray.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-maras-moray.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/tour-en-maras-moray.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-maras-moray.webp') }}"
+                                    alt="Maras moray tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras.jpg') }}"
-                                    alt="lares tour 4 days">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/pueblo-de-cuyes.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/pueblo-de-cuyes.jpg') }}"
-                                    alt="tour a lares">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras-extraccion-de-sal.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras-extraccion-de-sal.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras.webp') }}"
+                                    alt="Sacred Valley of the Incas" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray-andenes.jpg') }}"
+                            <a href="{{ asset('img/galeria/pueblo-de-cuyes.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/pueblo-de-cuyes.webp') }}"
+                                    alt="Pueblo de cuyes Chinchero" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras-extraccion-de-sal.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray-andenes.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras-extraccion-de-sal.webp') }}"
+                                    alt="Maras moray Sacred Valley" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray-andenes.webp') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray-andenes.webp') }}"
+                                    alt="Tour Sacred Valley of the incas" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.webp') }}"
+                                data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.webp') }}"
+                                    alt="Tour in Moray Sacred Valley" loading="lazy">
                             </a>
                         </div>
                     </div>

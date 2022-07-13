@@ -31,15 +31,12 @@
     </div>
 
     @include('layouts.blog-menu-castellano')
-    <li>
-        <a href="../blog-ingles/what-you-need-to-know-about-inca-trail">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../blog-ingles/what-you-need-to-know-about-inca-trail" class="nav-link"
-            id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-inca-trail') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-inca-trail') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>

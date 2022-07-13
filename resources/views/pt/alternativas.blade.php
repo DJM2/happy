@@ -85,6 +85,25 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index">
+                        <a href="lima-ica-paracas-3-dias-tour">
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/lima-ica-paracas-tour.webp') }}"
+                                alt="Ilhas Ballestas" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Lima - Ica - Paracas</h5>
+                            <p class="card-text">
+                                Desfrute de um turismo cheio de cultura, história, aliado a aventura.
+                            </p>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 3 Días</span>
+                                <span class="price-card"><i class="icon-usd"></i>350.00</span><br>
+                            </div>
+                            <a href="lima-ica-paracas-3-dias-tour" class="boton-happy-2">Mais informação</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index">
                         <a href="en/ausangate-7-lakes-tour">
                             <img class="card-img-top" src="{{ asset('img/thumbnail/ausangate-7-lagoons.webp') }}"
                                 alt="Ausangate trek 7 lagoons tour" loading="lazy">

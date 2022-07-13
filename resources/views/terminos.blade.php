@@ -34,13 +34,12 @@
     <div class="site-navbar-wrap">
 
         @include('layouts.spanish')
-        <li>
-            <a href="terms-and-conditions">
-                <idioma>English</idioma>
-            </a>
-        </li>
-        <li><a href="terms-and-conditions" class="nav-link" id="idioma-responsive">English</a></li>
-        </ul>
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">English</button></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">Portugués</button ></li>
+            </ul></li>
     </div>
     </nav>
     </div>
@@ -50,7 +49,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:2em">
-                Términos y Condiciones
+                <?php $titulo='Términos y Condiciones'; echo $titulo; ?>     
             </h1>
         </div>
     </div>

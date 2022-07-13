@@ -9,10 +9,12 @@ Route::get('/', function () {return view('index');})->name('index');
 Route::get('en/traditional', function(){return view('en/traditional');})->name('traditional');
 Route::get('en/adventure', function(){return view('en/adventure');})->name('adventure');
 Route::get('alternatives', function(){return view('alternatives');})->name('alternatives-english');
-Route::get('about-us', function(){return view('about-us');});
-Route::get('terms-and-conditions', function(){return view('terms-and-conditions');});
-Route::get('faqs', function(){return view('faqs');});
+Route::get('en/tours-in-train', function(){return view('en/tours-in-train');})->name('train-english');
+Route::get('about-us', function(){return view('about-us');})->name('about-us');
+Route::get('terms-and-conditions', function(){return view('terms-and-conditions');})->name('terms');
+Route::get('faqs', function(){return view('faqs');})->name('faqs');
 Route::get('testimonials', function(){return view('testimonials');})->name('testimonials');
+Route::get('en/tours-around-peru', function(){return view('en/tours-around-peru');})->name('around');
 
 /*Traditional tours*/
 Route::get('en/cusco-city-tour', function(){return view('en/cusco-city-tour');})->name('city-tour-english');
@@ -20,7 +22,7 @@ Route::get('en/happy-experience-tour', function(){return view('en/happy-experien
 Route::get('en/happy-city-tour-full-day', function(){return view('en/happy-city-tour-full-day');})->name('happy-city-tour-english');
 Route::get('en/sacred-valley-2-days', function(){return view('en/sacred-valley-2-days');})->name('sacred-valley-2-days');
 Route::get('en/sacred-valley-full-day', function(){return view('en/sacred-valley-full-day');})->name('sacred-valley-of-the-incas');
-Route::get('en/maras-moray-salineras-tour', function(){return view('en/maras-moray-salineras-tour');});
+Route::get('en/maras-moray-salineras-tour', function(){return view('en/maras-moray-salineras-tour');})->name('maras-moray-salt-mines');
 /*Adventure Tours */
 Route::get('en/salkantay-trek-tour-5-days', function(){return view('en/salkantay-trek-tour-5-days');})->name('salkantay-5-days');
 Route::get('en/inca-trail-4-days', function(){return view('en/inca-trail-4-days');})->name('inca-trail-4-days');
@@ -38,8 +40,8 @@ Route::get('en/qeswachaca-tour', function(){return view('en/qeswachaca-tour');})
 Route::get('en/rainbow-mountain-tour', function(){return view('en/rainbow-mountain-tour');})->name('rainbow-mountain');
 Route::get('en/waqrapukara-full-day-tour', function(){return view('en/waqrapukara-full-day-tour');})->name('waqrapukara-tour');
 Route::get('en/huchuy-qosqo-2-days', function(){return view('en/huchuy-qosqo-2-days');})->name('huchuy-qosqo-2-days');
+
 /*Tour by train */
-Route::get('en/tours-in-train', function(){return view('en/tours-in-train');})->name('train-english');
 Route::get('en/inca-trail-360°-train-tour', function(){return view('en/inca-trail-360°-train-tour');})->name('inca-trail-360°-english');
 Route::get('en/inca-rail-first-class', function(){return view('en/inca-rail-first-class');})->name('inca-rail-first-class');
 Route::get('en/inca-rail-voyager-train', function(){return view('en/inca-rail-voyager-train');})->name('inca-rail-voyager-english');
@@ -48,25 +50,28 @@ Route::get('en/hiram-binghan-train-tour', function(){return view('en/hiram-bingh
 Route::get('en/perurail-sacred-valley-tour', function(){return view('en/perurail-sacred-valley-tour');})->name('perurail-sacred-valley');
 Route::get('en/perurail-vistadome-train', function(){return view('en/perurail-vistadome-train');})->name('perurail-vistadome-english');
 
+//Tours Around Perú
+Route::get('en/lima-ica-paracas-3-days', function(){return view('en/lima-ica-paracas-3-days');})->name('lima-paracas-3-days');
 /*Blog */
 Route::get('blog-peru', function(){return view('blog-peru');})->name('blog-english');
-Route::get('blog/blog-ingles/what-you-need-to-know-about-inca-trail', function(){return view('blog/blog-ingles/what-you-need-to-know-about-inca-trail');});
-Route::get('blog/blog-ingles/peruvian-gastronomy', function(){return view('blog/blog-ingles/peruvian-gastronomy');});
-Route::get('blog/blog-ingles/vinicunca', function(){return view('blog/blog-ingles/vinicunca');});
-Route::get('blog/blog-ingles/puno-tourist-information', function(){return view('blog/blog-ingles/puno-tourist-information');});
+Route::get('blog/blog-ingles/what-you-need-to-know-about-inca-trail', function(){return view('blog/blog-ingles/what-you-need-to-know-about-inca-trail');})->name('blog-inca-trail');
+Route::get('blog/blog-ingles/peruvian-gastronomy', function(){return view('blog/blog-ingles/peruvian-gastronomy');})->name('blog-gastronomy');
+Route::get('blog/blog-ingles/vinicunca', function(){return view('blog/blog-ingles/vinicunca');})->name('blog-vinicunca-english');
+Route::get('blog/blog-ingles/puno-tourist-information', function(){return view('blog/blog-ingles/puno-tourist-information');})->name('blog-puno-english');
 
 
 /*ESPAÑOL*/
 
 Route::get('inicio', function () {return view('inicio');})->name('inicio');
-Route::get('nosotros', function(){return view('nosotros');});
-Route::get('testimonios', function(){return view('testimonios');});
-Route::get('terminos', function(){return view('terminos');});
-Route::get('preguntas-frecuentes-peru', function(){return view('preguntas-frecuentes-peru');});
+Route::get('nosotros', function(){return view('nosotros');})->name('nosotros');
+Route::get('testimonios', function(){return view('testimonios');})->name('testimonios');
+Route::get('terminos', function(){return view('terminos');})->name('terminos');
+Route::get('preguntas-frecuentes-peru', function(){return view('preguntas-frecuentes-peru');})->name('preguntas');
 Route::get('es/aventuras', function () {return view('es/aventuras');})->name('aventuras');
 Route::get('es/tradicional', function () {return view('es/tradicional');})->name('tradicional');
 Route::get('es/tours-alternativos', function () {return view('es/tours-alternativos');})->name('alternativos-castellano');
 Route::get('es/tours-en-tren', function () {return view('es/tours-en-tren');})->name('tren-castellano');
+Route::get('es/alrededor-de-peru', function () {return view('es/alrededor-de-peru');})->name('alrededor-de-peru');
 
 
 /*Tradicionales*/
@@ -75,12 +80,12 @@ Route::get('es/happy-city-tour-full-day', function () {return view('es/happy-cit
 Route::get('es/tour-happy-experience', function () {return view('es/tour-happy-experience');})->name('happy-tour-experiencia');
 Route::get('es/valle-sagrado-2-dias', function () {return view('es/valle-sagrado-2-dias');})->name('valle-sagrado-2-dias');
 Route::get('es/valle-sagrado-full-day', function () {return view('es/valle-sagrado-full-day');})->name('valle-sagrado-de-los-incas');
-Route::get('es/maras-moray-salineras-tour', function () {return view('es/maras-moray-salineras-tour');});
+Route::get('es/maras-moray-salineras-tour', function () {return view('es/maras-moray-salineras-tour');})->name('maras-moray-salineras');
 
 /*Aventura*/
 Route::get('es/inca-trail-4-dias', function () {return view('es/inca-trail-4-dias');})->name('inca-trail-4-dias');
-Route::get('es/tour-salkantay-4-dias', function () {return view('es/tour-salkantay-4-dias');})->name('salkantay-4-dias-español');
-Route::get('es/tour-salkantay-5-dias', function () {return view('es/tour-salkantay-5-dias');})->name('salkantay-5-dias-español');
+Route::get('es/tour-salkantay-4-dias', function () {return view('es/tour-salkantay-4-dias');})->name('salkantay-4-dias-tour');
+Route::get('es/tour-salkantay-5-dias', function () {return view('es/tour-salkantay-5-dias');})->name('salkantay-5-dias-tour');
 Route::get('es/inca-trail-2-dias', function () {return view('es/inca-trail-2-dias');})->name('inca-trail-2-dias');
 Route::get('es/valle-sagrado-3-dias', function () {return view('es/valle-sagrado-3-dias');})->name('valle-sagrado-3-dias');
 Route::get('es/inca-jungle-4-dias-tour', function () {return view('es/inca-jungle-4-dias-tour');})->name('inca-jungle-4-dias');
@@ -90,27 +95,31 @@ Route::get('es/huchuy-qosqo-a-machu-picchu', function () {return view('es/huchuy
 
 /*Tours Alternativos*/
 Route::get('es/vinicunca-tour', function () {return view('es/vinicunca-tour');})->name('vinicunca-tour');
-Route::get('es/waqrapukara-full-day-tour', function () {return view('es/waqrapukara-full-day-tour');})->name('waqrapukara-tour-español');
+Route::get('es/waqrapukara-full-day-tour', function () {return view('es/waqrapukara-full-day-tour');})->name('waqrapukara-tour');
 Route::get('es/tour-7-lagunas-ausangate', function () {return view('es/tour-7-lagunas-ausangate');})->name('7-lagunas-tour');
 Route::get('es/tour-laguna-humantay', function () {return view('es/tour-laguna-humantay');})->name('laguna-humantay');
-Route::get('es/qeswachaca-tour', function () {return view('es/qeswachaca-tour');})->name('qeswachaca-español');
+Route::get('es/qeswachaca-tour', function () {return view('es/qeswachaca-tour');})->name('qeswachaca');
 Route::get('es/huchuy-qosqo-2-dias', function () {return view('es/huchuy-qosqo-2-dias');})->name('huchuy-qosqo-2-dias');
 
 /*Tours en Tren*/
-Route::get('es/inca-trail-360°-tren-tour', function () {return view('es/inca-trail-360°-tren-tour');})->name('inca-trail-360°-español');
-Route::get('es/peru-rail-tren-expedition', function () {return view('es/peru-rail-tren-expedition');})->name('perurail-expedition-español');
+Route::get('es/inca-trail-360°-tren-tour', function () {return view('es/inca-trail-360°-tren-tour');})->name('inca-trail-360°');
+Route::get('es/peru-rail-tren-expedition', function () {return view('es/peru-rail-tren-expedition');})->name('perurail-expedition-tour');
 Route::get('es/perurail-valle-sagrado-tour', function () {return view('es/perurail-valle-sagrado-tour');})->name('perurail-valle-sagrado');
-Route::get('es/tren-perurail-vistadome', function () {return view('es/tren-perurail-vistadome');})->name('perurail-vistadome-español');
+Route::get('es/tren-perurail-vistadome', function () {return view('es/tren-perurail-vistadome');})->name('perurail-vistadome-tour');
 Route::get('es/inca-rail-primera-clase', function () {return view('es/inca-rail-primera-clase');})->name('inca-rail-primera-clase');
-Route::get('es/inca-rail-voyager-tren', function () {return view('es/inca-rail-voyager-tren');})->name('inca-rail-voyager-español');
-Route::get('es/hiram-binghan-tour-en-tren', function () {return view('es/hiram-binghan-tour-en-tren');})->name('hiram-bingham-español');
+Route::get('es/inca-rail-voyager-tren', function () {return view('es/inca-rail-voyager-tren');})->name('inca-rail-voyager-tour');
+Route::get('es/hiram-binghan-tour-en-tren', function () {return view('es/hiram-binghan-tour-en-tren');})->name('hiram-bingham');
+
+
+//Tours alrededor de Perú
+Route::get('es/lima-ica-paracas-3-dias', function(){return view('es/lima-ica-paracas-3-dias');})->name('lima-paracas-3-dias');
 
 /*Blog  Castellano */
 Route::get('blog-peru-castellano', function(){return view('blog-peru-castellano');})->name('blog-castellano');
-Route::get('blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca', function(){return view('blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca');});
-Route::get('blog/blog-castellano/gastronomia-peruana', function(){return view('blog/blog-castellano/gastronomia-peruana');});
-Route::get('blog/blog-castellano/vinicunca-castellano', function(){return view('blog/blog-castellano/vinicunca-castellano');});
-Route::get('blog/blog-castellano/informacion-turistica-puno', function(){return view('blog/blog-castellano/informacion-turistica-puno');});
+Route::get('blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca', function(){return view('blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca');})->name('blog-camino-inca');
+Route::get('blog/blog-castellano/gastronomia-peruana', function(){return view('blog/blog-castellano/gastronomia-peruana');})->name('blog-gastronomia');
+Route::get('blog/blog-castellano/vinicunca-castellano', function(){return view('blog/blog-castellano/vinicunca-castellano');})->name('blog-vinicunca');
+Route::get('blog/blog-castellano/informacion-turistica-puno', function(){return view('blog/blog-castellano/informacion-turistica-puno');})->name('blog-puno');
 
 
 /*PORTUGUES*/
@@ -120,7 +129,7 @@ Route::get('pt/aventura', function(){return view('pt/aventura');})->name('aventu
 Route::get('pt/alternativas', function(){return view('pt/alternativas');})->name('alternativas-portugues');
 Route::get('pt/passeios-de-trem', function(){return view('pt/passeios-de-trem');})->name('tren-portugues');
 Route::get('pt/blog', function(){return view('pt/blog');})->name('blog-portugues');
-
+ 
 /*Tradicionales*/
 Route::get('pt/city-tour-cusco', function(){return view('pt/city-tour-cusco');})->name('city-tour-portugues');
 Route::get('pt/happy-experiencia-tour', function(){return view('pt/happy-experiencia-tour');})->name('happy-experiencia-tour');
@@ -148,6 +157,7 @@ Route::get('pt/qeswachaca-tour', function(){return view('pt/qeswachaca-tour');})
 Route::get('pt/vinicunca-montanha', function(){return view('pt/vinicunca-montanha');})->name('vinicunca-montanha');
 Route::get('pt/waqrapukara-full-day', function(){return view('pt/waqrapukara-full-day');})->name('waqrapukara-full-day');
 
+
 /*Tours de tren*/
 Route::get('pt/inca-rail-360°', function(){return view('pt/inca-rail-360°');})->name('inca-rail-360°');
 Route::get('pt/inca-rail-primeira-classe', function(){return view('pt/inca-rail-primeira-classe');})->name('inca-rail-primeira-classe');
@@ -156,6 +166,9 @@ Route::get('pt/perurail-expedition', function(){return view('pt/perurail-expedit
 Route::get('pt/perurail-hiram-bingham', function(){return view('pt/perurail-hiram-bingham');})->name('perurail-hiram-bingham');
 Route::get('pt/perurail-vale-sagrado', function(){return view('pt/perurail-vale-sagrado');})->name('perurail-vale-sagrado');
 Route::get('pt/perurail-vistadome', function(){return view('pt/perurail-vistadome');})->name('perurail-vistadome');
+
+//Tours Around Perú
+Route::get('pt/lima-ica-paracas-3-dias-tour', function(){return view('pt/lima-ica-paracas-3-dias-tour');})->name('lima-paracas-3-dias-portugues');
 
 /*Book Español */
 Route::post('book1', function(){ 

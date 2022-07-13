@@ -17,7 +17,7 @@
     <link rel="canonical" href="https://happyperutours.com/inicio" />
     <meta property="og:image" content="https://happyperutours.com/img/happy-peru-tours-travel-agency.jpg" />
 </head>
- 
+
 <body>
     <!-----Boton wasa---------->
     <a href="https://bit.ly/3CRGLAE" class="whatsapp" target="_blank"> <i class="icon-whatsapp"></i></a>
@@ -35,15 +35,17 @@
 
         @include('layouts.spanish')
         <li class="has-children">
-            <idioma><a href="aventuras"><span class="icon-language"></span> Español</a></idioma>
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
-                <li><button class="btn-lang" onclick="window.location='/'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location='comecar'">Português</button ></li>
-            </ul></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('index') }}'">English</button>
+                </li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('comecar') }}'">Portugués</button></li>
+            </ul>
+        </li>
         </li>
         </ul>
-    </div>
-    </nav>
+        </nav>
     </div>
     </div>
     </div>
@@ -55,14 +57,14 @@
                 <m> Ver disponibilidad.</m>
             </h1>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
             <form style="color: #fff" method="POST" action="{{ route('book-index') }}">
                 @csrf
@@ -88,8 +90,7 @@
                 </div>
 
                 <div class="form-group">
-                    <textarea class="form-control" name="mensaje" rows="3" style="height: 40px"
-                        placeholder="Mensaje:"></textarea>
+                    <textarea class="form-control" name="mensaje" rows="3" style="height: 40px" placeholder="Mensaje:"></textarea>
                 </div>
                 <div class="form-group text-center">
                     <button type="submit" class="boton-happy">Enviar</button>
@@ -119,7 +120,8 @@
                     </p>
                 </div>
                 <div class="col-lg-12">
-                    <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt="" width="100%">
+                    <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt=""
+                        width="100%">
                     <span>Foto: </span><a href="" class="a-seo">Vinicunca (Montaña de 7 colores)</a>
                 </div>
                 <div class="col-lg-12 text-center">
@@ -152,7 +154,7 @@
                             <h5 class="card-titulo">Caminata Lares 4d/3n</h5>
                             <p class="card-text">Es una buena alternativa para poder llegar a Machu Picchu si bien
                                 es cierto...</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 4 Días</span>
                                 <span class="price-card"><i class="icon-usd"></i>600.00</span><br>
                             </div>
@@ -170,7 +172,7 @@
                             <h5 class="card-titulo">City Tour tradicional</h5>
                             <p class="card-text">UNESCO declaró a Cusco como centro del patrimonio mundial en 1983,
                                 por su belleza e historia.</p>
-							<div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>50.00</span><br>
                             </div>
@@ -189,7 +191,7 @@
                             <h5 class="card-titulo">Happy Experience Tour</h5>
                             <p class="card-text">Happy experience tour (mercado. clases de cocina y el show del
                                 pisco sour</p>
-							<div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
                             </div>
@@ -223,7 +225,7 @@
                             <h5 class="card-titulo">Choquequirao 4D/3N</h5>
                             <p class="card-text">Choquequirao es un sitio arqueológico muy impresionante como
                                 Machupicchu.</p>
-							<div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 4 Días</span>
                                 <span class="price-card"><i class="icon-usd"></i>500.00</span><br>
                             </div>
@@ -257,7 +259,7 @@
                             <h5 class="card-titulo">Vinicunca: Montaña de colores</h5>
                             <p class="card-text">La montaña de 7 colores o montaña arco iris, son algunos nombres
                                 que tiene Vinicunca</p>
-							<div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
                             </div>
@@ -276,7 +278,7 @@
                             <h5 class="card-titulo">Maras, Moray & Salineras</h5>
                             <p class="card-text">Tour a las SALINERAS DE MARAS y el sitio arqueológico de
                                 experimentación agrícola de MORAY</p>
-							<div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
                                 <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
                             </div>
@@ -318,7 +320,8 @@
                     <div class="black">
                         <h2>Camino Inca</h2>
                         <p>Qué necesitas saber sobre el Camino Inca</p>
-                        <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer articulo</a> </button>
+                        <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer
+                                articulo</a> </button>
                     </div>
                 </div>
                 <div class="full-width food">
@@ -342,7 +345,7 @@
                         <button> <a href="blog/blog-castellano/informacion-turistica-puno">View Tours</a> </button>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-----------Fin Tours full width---------->

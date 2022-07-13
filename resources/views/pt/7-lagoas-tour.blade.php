@@ -3,17 +3,17 @@
 
 <head>
     @include('layouts.links')
-    <title>7 Lagoas Ausangate | Travel Agency Perú Happy Peru Tours</title>
+    <title>7 Lagoas Ausangate |Agência de viagens Happy Peru Tours</title>
     <meta name="description"
         content="A grande cordilheira dos Andes e suas majestosas montanhas cobertas de neve, Cusco não é estranho a essas maravilhas, dentro da cordilheira de Vilcanota tem belas montanhas.">
     <meta name="keywords"
         content="7 lagoas, 7 lagoas Ausangate, passeio pelo Ausangate, passeio 7 lagoas, passeio Ausangate, majestoso Ausangate, passeio 7 lagoas pelo Ausangate">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="7 Lagoas Ausangate | Travel Agency Perú Happy Peru Tours" />
+    <meta property="og:title" content="7 Lagoas Ausangate | Agência de viagens Happy Peru Tours" />
     <meta name="description"
         content="A grande cordilheira dos Andes e suas majestosas montanhas cobertas de neve, Cusco não é estranho a essas maravilhas, dentro da cordilheira de Vilcanota tem belas montanhas." />
     <meta property="og:image" content="https://happyperutours.com/img/galeria/ausangate-tour.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/pt/waqrapukara-full-day">
+    <link rel="canonical" href="https://happyperutours.com/pt/7-lagoas-tour">
 </head>
 
 <body>
@@ -85,29 +85,29 @@
                     <div class="col-lg-3 display">
                         <div class="similares">
                             <h4 class="text-center">Passeios semelhantes</h4>
-                            <a href="tour-laguna-humantay">
-                                <p>Laguna Humantay Tour</p>
+                            <a href="humantay-lagoa">
+                                <p>Lagoa Humantay Tour</p>
                             </a>
-                            <a href="happy-city-tour-full-day">
+                            <a href="happy-city-tour">
                                 <p>Happy City Tour Full day</p>
                             </a>
-                            <a href="maras-moray-salineras-tour">
-                                <p>Maras, Moray y Salineras</p>
+                            <a href="maras-moray-e-salineras">
+                                <p>Maras, Moray e Salineras</p>
                             </a>
                             <a href="qeswachaca-tour">
                                 <p>Queswachaca Tour</p>
                             </a>
-                            <a href="vinicunca-tour">
-                                <p>Vinicunca: Montaña de Colores</p>
+                            <a href="vinicunca-montanha">
+                                <p>Vinicunca: Montanha de Cores</p>
                             </a>
-                            <a href="cusco-city-tour">
+                            <a href="city-tour-cusco">
                                 <p>Cusco City Tour</p>
                             </a>
-                            <a href="tour-happy-experience">
+                            <a href="happy-experiencia-tour">
                                 <p>Happy Experience Tour Exclusivo</p>
                             </a>
-                            <a href="valle-sagrado-full-day">
-                                <p>Valle Sagrado Full Day</p>
+                            <a href="vale-sagrado-dos-incas">
+                                <p>Vale Sagrado Full Day</p>
                             </a>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                         <script async defer crossorigin="anonymous"
                             src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
                             nonce="RA0e6tQN"></script>
-                        <div class="fb-comments" data-href="https://happyperutours.com/pt/waqrapukara-full-day"
+                        <div class="fb-comments" data-href="https://happyperutours.com/pt/7-lagoas-tour"
                             data-width="100%" data-numposts="5"></div>
                         <!-- ShareThis END -->
 
@@ -314,29 +314,29 @@
                     <div class="col-lg-12 display2">
                         <div class="similares">
                             <h4 class="text-center">Passeios semelhantes</h4>
-                            <a href="tour-laguna-humantay">
-                                <p>Laguna Humantay Tour</p>
+                            <a href="humantay-lagoa">
+                                <p>Lagoa Humantay Tour</p>
                             </a>
-                            <a href="happy-city-tour-full-day">
+                            <a href="happy-city-tour">
                                 <p>Happy City Tour Full day</p>
                             </a>
-                            <a href="maras-moray-salineras-tour">
-                                <p>Maras, Moray y Salineras</p>
+                            <a href="maras-moray-e-salineras">
+                                <p>Maras, Moray e Salineras</p>
                             </a>
                             <a href="qeswachaca-tour">
                                 <p>Queswachaca Tour</p>
                             </a>
-                            <a href="vinicunca-tour">
-                                <p>Vinicunca: Montaña de Colores</p>
+                            <a href="vinicunca-montanha">
+                                <p>Vinicunca: Montanha de Cores</p>
                             </a>
-                            <a href="cusco-city-tour">
+                            <a href="city-tour-cusco">
                                 <p>Cusco City Tour</p>
                             </a>
-                            <a href="tour-happy-experience">
+                            <a href="happy-experiencia-tour">
                                 <p>Happy Experience Tour Exclusivo</p>
                             </a>
-                            <a href="valle-sagrado-full-day">
-                                <p>Valle Sagrado Full Day</p>
+                            <a href="vale-sagrado-dos-incas">
+                                <p>Vale Sagrado Full Day</p>
                             </a>
                         </div>
                     </div>

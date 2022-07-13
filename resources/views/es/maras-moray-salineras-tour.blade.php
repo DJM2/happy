@@ -4,7 +4,8 @@
 <head>
     @include('layouts.links')
     <title>Tour en Maras, Moray & Salineras Cusco | Travel Agency Perú</title>
-    <meta name="description" content="Tour a las SALINERAS DE MARAS y el sitio arqueológico de experimentación agrícola de MORAY, un
+    <meta name="description"
+        content="Tour a las SALINERAS DE MARAS y el sitio arqueológico de experimentación agrícola de MORAY, un
     interesante y divertido recorrido de medio día">
     <meta name="keywords"
         content="Cusco, Tour Maras, Tour Moray, Valle Sagrado, Valle Sagrado de los Incas, Inca Tours, Tours Exclusivos en Valle Sagrado, Salineras, Tour Exclusivo Moray">
@@ -26,16 +27,19 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/maras-moray-salineras-tour">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/maras-moray-salineras-tour" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish-tours')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('maras-moray-salt-mines') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('maras-moray-e-salineras') }}'">Portugués</button>
+                </li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -47,21 +51,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Maras, Moray & Salineras
+                <?php $titulo = 'Maras, Moray y Salineras';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Maras - Moray &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 60.00
+                <i class="icon-dollar"></i> <?php $precio = 60;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -83,7 +89,7 @@
                             <p>Peru Rail y Valle Sagrado </p>
                         </a>
                         <a href="tour-happy-experience">
-                            <p>Tour Exclusivo Happy Experience</p> 
+                            <p>Tour Exclusivo Happy Experience</p>
                         </a>
                         <a href="inca-jungle-4-dias-tour">
                             <p>Inka jungle</p>
@@ -132,7 +138,7 @@
                         minas hace unos 2.000 años, el método de cosecha aún no ha cambiado mucho.
                     </p><br>
                     <h5 class="h5-tours"> Itinerario:</h5>
-                   
+
                     <p class="p-tours">
                         Tour a las SALINERAS DE MARAS y el sitio arqueológico de experimentación agrícola de<strong>
                             MORAY,</strong> un
@@ -185,7 +191,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Notas Importantes:
                                     </button>
                                 </h5>
@@ -212,8 +219,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/es/maras-moray-salineras-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -222,7 +229,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 60.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
+                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
                         @include('layouts.book-castellano')
                     </div>
                 </div>
@@ -239,7 +246,8 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/tour-valle-sagrado-maras.jpg') }}"
                                     alt="lares tour 4 days">
@@ -266,7 +274,8 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
                             </a>

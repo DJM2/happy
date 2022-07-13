@@ -28,14 +28,13 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/aventuras">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/aventuras" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('aventuras') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('aventura-portugues') }}'">Portugués</button ></li>
+        </ul></li>
     </ul>
     </div>
     </nav>

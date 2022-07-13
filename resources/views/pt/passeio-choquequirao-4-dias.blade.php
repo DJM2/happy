@@ -84,29 +84,29 @@
                 <div class="col-lg-3 display">
                     <div class="similares">
                         <h4 class="text-center">Passeios semelhantes</h4>
-                        <a href="perurail-valle-sagrado-tour">
-                            <p>Peru Rail y Valle Sagrado</p>
+                        <a href="perurail-vale-sagrado">
+                            <p>Peru Rail Vale Sagrado</p>
                         </a>
-                        <a href="huchuy-qosqo-a-machu-picchu">
-                            <p>Huchuy Qosqo y Machu picchu</p>
+                        <a href="huchuy-qosqo-2-dias">
+                            <p>Huchuy Qosqo e Machu picchu</p>
                         </a>
-                        <a href="inca-jungle-4-dias-tour">
-                            <p>Inka jungle</p>
+                        <a href="selva-inca-4-dias">
+                            <p>Selva Inca 4 dias</p>
                         </a>
-                        <a href="maras-moray-salineras-tour">
-                            <p>Maras, Moray y Salineras</p>
+                        <a href="maras-moray-e-salineras">
+                            <p>Maras, Moray e Salineras</p>
                         </a>
-                        <a href="tour-salkantay-4-dias">
-                            <p>Salkantay 4 dias</p>
+                        <a href="salkantay-4-dias">
+                            <p>Salkantay passeio 4 dias</p>
                         </a>
-                        <a href="vinicunca-tour">
-                            <p>Vinicunca: Montaña de Colores</p>
+                        <a href="vinicunca-montanha">
+                            <p>Vinicunca: Montanha de Cores</p>
                         </a>
                         <a href="inca-trail-4-dias">
                             <p>Camino Inca a Machu Picchu 4 días</p>
                         </a>
-                        <a href="valle-sagrado-3-dias">
-                            <p>Valle Sagrado Tour 3 días</p>
+                        <a href="vale-sagrado-e-trilha-inca">
+                            <p>Vale Sagrado e Trilha Inca 3 días</p>
                         </a>
                     </div>
                 </div>
@@ -432,29 +432,29 @@
                 <div class="col-lg-12 display2">
                     <div class="similares">
                         <h4 class="text-center">Passeios semelhantes</h4>
-                        <a href="perurail-valle-sagrado-tour">
-                            <p>Peru Rail y Valle Sagrado</p>
+                        <a href="perurail-vale-sagrado">
+                            <p>Peru Rail Vale Sagrado</p>
                         </a>
-                        <a href="huchuy-qosqo-a-machu-picchu">
-                            <p>Huchuy Qosqo y Machu picchu</p>
+                        <a href="huchuy-qosqo-2-dias">
+                            <p>Huchuy Qosqo e Machu picchu</p>
                         </a>
-                        <a href="inca-jungle-4-dias-tour">
-                            <p>Inka jungle</p>
+                        <a href="selva-inca-4-dias">
+                            <p>Selva Inca 4 dias</p>
                         </a>
-                        <a href="maras-moray-salineras-tour">
-                            <p>Maras, Moray y Salineras</p>
+                        <a href="maras-moray-e-salineras">
+                            <p>Maras, Moray e Salineras</p> 
                         </a>
-                        <a href="tour-salkantay-4-dias">
-                            <p>Salkantay 4 dias</p>
+                        <a href="salkantay-4-dias">
+                            <p>Salkantay passeio 4 dias</p>
                         </a>
-                        <a href="vinicunca-tour">
-                            <p>Vinicunca: Montaña de Colores</p>
+                        <a href="vinicunca-montanha">
+                            <p>Vinicunca: Montanha de Cores</p>
                         </a>
                         <a href="inca-trail-4-dias">
                             <p>Camino Inca a Machu Picchu 4 días</p>
                         </a>
-                        <a href="valle-sagrado-3-dias">
-                            <p>Valle Sagrado Tour 3 días</p>
+                        <a href="vale-sagrado-e-trilha-inca">
+                            <p>Vale Sagrado e Trilha Inca 3 días</p>
                         </a>
                     </div>
                 </div>

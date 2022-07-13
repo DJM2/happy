@@ -3,13 +3,13 @@
 
 <head>
     @include('layouts.links')
-    <title>Huchuy Qosqo, excursão de 2 dias | Travel Agency Perú</title>
+    <title>Huchuy Qosqo, excursão de 2 dias | Agência de viagens Perú</title>
     <meta name="description"
         content="HUCHUY QOSQO, dois termos quechua que significam “LITTLE CUSCO”; É uma fortaleza construída na parte alta do bairro LAMAY no VALE SAGRADO.">
     <meta name="keywords"
         content="Cusco, Huchuy Qosqo Tour 2 dias, Huchuy Qosqo, Huchuy Qosqo Tour, Huchuy Qosqo Tour, Reserve Huchuy Qosqo, Inca Tours, Tours exclusivos em Cusco, Reserve Huchuy Qosqo Peru, caminho huchuy qosqo, tour huchuy qosqo">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Huchuy Qosqo, excursão de 1 dia | Travel Agency Perú" />
+    <meta property="og:title" content="Huchuy Qosqo, excursão de 1 dia | Agência de viagens Perú" />
     <meta property="og:image" content="https://happyperutours.com/img/thumbnail/huchuy-qosqo-tour-2-days.webp" />
     <link rel="canonical" href="https://happyperutours.com/pt/huchuy-qosqo-2-dias">
 </head>
@@ -365,22 +365,30 @@
                 <div class="row">
                     <div class="col-lg-12 display2">
                         <h4 class="text-center">Passeios semelhantes</h4>
-                        <div class="similares">
-                            <a href="city-tour-cusco">
-                                <p>Cusco City Tour</p>
-                            </a>
-                            <a href="huchuy-qosqo">
-                                <p>Huchuy Qosqo Full Day</p>
-                            </a>
-                            <a href="selva-inca-4-dias">
-                                <p>Selva Inka 4 dias</p>
-                            </a>
-                            <a href="lares-trekking-4-dias">
-                                <p>Caminhada Lares 4d/3n</p>
-                            </a>
-                            <a href="passeio-choquequirao-4-dias">
-                                <p>Choquequirao 4D/3N</p>
-                            </a>
+                        <a href="trilha-inca-4-dias">
+                            <p>Trilha Inca a Machu Picchu 4 dias</p>
+                        </a>
+                        <a href="selva-inca-4-dias">
+                            <p>Selva Inca 4 dias</p>
+                        </a>
+                        <a href="passeio-choquequirao-4-dias">
+                            <p>Passeio Choquequirao 4 dias</p>
+                        </a>
+                        <a href="7-lagoas-tour">
+                            <p>Ausangate 7 lagoas</p>
+                        </a>
+                        <a href="vale-sagrado-e-trilha-inca">
+                            <p>Vale Sagrado e trilha Inca 3 dias</p>
+                        </a>
+                        <a href="salkantay-5-dias">
+                            <p>Salkantay 5 dias</p>
+                        </a>
+                        <a href="lares-trekking-4-dias">
+                            <p>Lares Caminhada 4d/3n</p>
+                        </a>
+                        <a href="salkantay-4-dias">
+                            <p>Salkantay 4 dias</p>
+                        </a>
                         </div>
                     </div>
                 </div>

@@ -28,14 +28,12 @@
     </div>
 
     @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/vinicunca-tour">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/vinicunca-tour" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('vinicunca-tour') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('vinicunca-montanha') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -45,7 +43,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Rainbow Mountain
+                <?php $titulo = 'Rainbow Mountain'; echo $titulo; ?>       
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Vinicunca &nbsp;&nbsp;
