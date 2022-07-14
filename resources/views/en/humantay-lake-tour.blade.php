@@ -26,7 +26,7 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
@@ -261,34 +261,39 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/humantay-lake.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/humantay-lake.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/humantay-lake.jpg') }}">
+                                    src="{{ asset('img/thumbnail/humantay-lake.webp') }}"
+                                    alt="humantay lake" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-humantay-soraypampa.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-humantay-soraypampa.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-humantay-soroypampa.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-humantay-soroypampa.webp') }}"
+                                    alt="tour humantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-humantay-turista.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-humantay-turista.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-humantay-turista.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-humantay-turista.webp') }}"
+                                    alt="humantay lake tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/trekking-salkantay-arribo.jpg') }}"
+                            <a href="{{ asset('img/galeria/trekking-salkantay-arribo.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/trekking-salkantay-arribo.jpg') }}">
+                                    src="{{ asset('img/thumbnail/trekking-salkantay-arribo.webp') }}"
+                                    alt="trekking salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-humantay-laguna.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-humantay-laguna.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-humantay-laguna.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-humantay-laguna.webp') }}"
+                                    alt="humantay lake" loading="lazy">
                             </a>
                         </div>
                         

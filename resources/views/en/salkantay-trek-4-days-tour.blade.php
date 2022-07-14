@@ -27,11 +27,11 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('salkantay-4-dias-español') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('salkantay-4-dias-tour') }}'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location.href='{{ route('salkantay-4-dias') }}'">Portugués</button ></li>
         </ul></li>
     </div>
@@ -406,38 +406,41 @@
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/salkantay-tour.webp') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.jpg') }}"
-                                    alt="lares trek tour">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.webp') }}"
+                                    alt="salkantay tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-adventure.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-adventure.jpg') }}"
-                                    alt="lares tour 4 days">
+                            <a href="{{ asset('img/galeria/salkantay-adventure.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-adventure.webp') }}"
+                                    alt="tour salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-tour-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour-trek.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/salkantay-tour-trek.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour-trek.webp') }}"
+                                    alt="trek salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.jpg') }}">
+                            <a href="{{ asset('img/galeria/salkantay-trek.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.webp') }}"
+                                alt="trekking salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-start-trek.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/salkantay-start-trek.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/salkantay-start-trek.jpg') }}">
+                                    src="{{ asset('img/thumbnail/salkantay-start-trek.webp') }}"
+                                    alt="trek salkantay 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.webp') }}"
+                                    alt="tour machupicchu" loading="lazy">
                             </a>
                         </div>
                     </div>

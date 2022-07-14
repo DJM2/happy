@@ -339,28 +339,27 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/visit-huchuy-qosqo.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/visit-huchuy-qosqo.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/visit-huchuy-qosqo.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/visit-huchuy-qosqo.webp') }}"
+                                    alt="TOur Huchuy Qosqo" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/cueva-huchuy-qosqo.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/cueva-huchuy-qosqo.jpg') }}"
-                                    alt="lares tour 4 days">
+                            <a href="{{ asset('img/galeria/cueva-huchuy-qosqo.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/cueva-huchuy-qosqo.webp') }}"
+                                    alt="lares tour 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/huchuy-qosqo-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/huchuy-qosqo-tour.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/huchuy-qosqo-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/huchuy-qosqo-tour.webp') }}"
+                                    alt="tour a lares" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/huchuy-qosqo-tour-2-days.jpg') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/huchuy-qosqo-tour-2-days.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/huchuy-qosqo-tour-2-days.jpg') }}">
+                                    src="{{ asset('img/thumbnail/huchuy-qosqo-tour-2-days.webp') }}" loading="lazy">
                             </a>
                         </div>
                     </div>

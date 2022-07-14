@@ -281,39 +281,43 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-exclusive.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-exclusive.jpg') }}"
-                                    alt="tour exclusivo cusco">
+                            <a href="{{ asset('img/galeria/happy-cusco-exclusive.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-exclusive.webp') }}"
+                                    alt="Happy Experience Tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-experience.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-experience.jpg') }}"
-                                    alt="city tour cusco">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-tour.jpg') }}"
-                                    alt="exclusivo city tour cusco">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience.jpg') }}"
-                                    alt="tour exclusivo cusco">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience-cusco.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/happy-cusco-experience.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/happy-experience-cusco.jpg') }}">
+                                    src="{{ asset('img/thumbnail/happy-cusco-experience.webp') }}"
+                                    alt="Happy Cusco Tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/happy-cusco-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-tour.webp') }}"
+                                    alt="Cusco City Tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience.webp') }}"
+                                    alt="Tour around Cusco Happy Peru" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience-cusco.webp') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/happy-experience-tour.jpg') }}">
+                                    src="{{ asset('img/thumbnail/happy-experience-cusco.webp') }}" loading="lazy"
+                                    alt="Travel TO Cusco">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/happy-experience-tour.webp') }}" loading="lazy"
+                                    alt="Gastronomy tour Cusco">
                             </a>
                         </div>
                     </div>

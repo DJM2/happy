@@ -398,40 +398,38 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/camino-inca.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-inca.jpg') }}"
-                                    alt="lares trek tour" loading="lazy">
+                            <a href="{{ asset('img/galeria/camino-inca.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-inca.webp') }}"
+                                    alt="Inca Trailto Machu Picchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/camino-inca-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-inca-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/camino-inca-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-inca-tour.webp') }}"
                                     alt="lares tour 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-trail-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-trail-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/inca-trail-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-trail-tour.webp') }}"
                                     alt="tour a lares" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-trail.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-trail.jpg') }}"
-                                    loading="lazy">
+                            <a href="{{ asset('img/galeria/inca-trail.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-trail.webp') }}" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/turistas-camino-inca.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/turistas-camino-inca.jpg') }}"
-                                    loading="lazy">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/camino-inca-machu-picchu.jpg') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/turistas-camino-inca.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/camino-inca-machu-picchu.jpg') }}" loading="lazy">
+                                    src="{{ asset('img/thumbnail/turistas-camino-inca.webp') }}" alt="Inca Trail turists" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/camino-inca-machu-picchu.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/camino-inca-machu-picchu.webp') }}" alt="Inca Trail 4 days" loading="lazy">
                             </a>
                         </div>
 

@@ -240,44 +240,47 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-en-maras-moray.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-maras-moray.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/tour-en-maras-moray.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-maras-moray.webp') }}"
+                                    alt="Maras moray tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras.webp') }}"
+                                    alt="Sacred Valley of the Incas" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/pueblo-de-cuyes.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/pueblo-de-cuyes.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/pueblo-de-cuyes.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/pueblo-de-cuyes.webp') }}"
+                                    alt="Pueblo de cuyes Chinchero" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras-extraccion-de-sal.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-maras-extraccion-de-sal.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras-extraccion-de-sal.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-maras-extraccion-de-sal.webp') }}"
+                                    alt="Maras moray Sacred Valley" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray-andenes.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray-andenes.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray-andenes.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray-andenes.webp') }}"
+                                    alt="Tour Sacred Valley of the incas" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.webp') }}"
+                                    alt="Tour in Moray Sacred Valley" loading="lazy">
                             </a>
                         </div>
                     </div>

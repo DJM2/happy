@@ -34,7 +34,7 @@
             <li><button class="btn-lang"
                     onclick="window.location.href='{{ route('inca-rail-voyager-english') }}'">English</button></li>
             <li><button class="btn-lang"
-                    onclick="window.location.href='{{ route('inca-rail-voyager-español') }}'">Español</button>
+                    onclick="window.location.href='{{ route('inca-rail-voyager-tour') }}'">Español</button>
             </li>
         </ul>
     </div>
@@ -47,12 +47,12 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Tren Inca Rail Voyager
+                <?php $titulo='Tren Inca Rail Voyager'; echo $titulo;?>
             </h1>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
+                <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos o mais breve possível
+                    possível.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -211,14 +211,14 @@
                     <script async defer crossorigin="anonymous"
                                         src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
                                         nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/inca-rail-voyager-tren"
+                    <div class="fb-comments" data-href="https://happyperutours.com/pt/inca-rail-voyager"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
 
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        @include('layouts.book-castellano')
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -228,22 +228,22 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-voyager.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-rail-voyager.jpg') }}"
+                            <a href="{{ asset('img/galeria/inca-rail-voyager.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-rail-voyager.webp') }}"
                                     alt="Inca rail voyager" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-voyager-train.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/inca-rail-voyager-train.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/inca-rail-voyager-train.jpg') }}"
+                                    src="{{ asset('img/thumbnail/inca-rail-voyager-train.webp') }}"
                                     alt="lares tour 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-360-train-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/inca-rail-360-train-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/inca-train-360-train-tour.jpg') }}"
+                                    src="{{ asset('img/thumbnail/inca-train-360-train-tour.webp') }}"
                                     alt="tour a lares" loading="lazy">
                             </a>
                         </div>
@@ -256,17 +256,17 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-llama.png') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-llama.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-llama.png') }}" loading="lazy"
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-llama.webp') }}" loading="lazy"
                                     alt="Machu Picchu llama">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}"
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
                                     loading="lazy" alt="Tour to Machu Picchu by voyager train">
                             </a>
                         </div>
@@ -298,7 +298,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

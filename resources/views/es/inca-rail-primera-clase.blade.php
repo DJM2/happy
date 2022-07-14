@@ -246,48 +246,48 @@
                     <div class="container">
                         <div class="row photos">
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class-tour.jpg') }}"
+                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class-tour.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-rail-fisrt-class-tour.jpg') }}"
-                                        alt="lares trek tour">
+                                        src="{{ asset('img/thumbnail/inca-rail-fisrt-class-tour.webp') }}"
+                                        alt="inca rail first class" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}"
-                                    data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-rail-first-class.jpg') }}"
-                                        alt="lares tour 4 days">
+                                        src="{{ asset('img/thumbnail/inca-rail-first-class.webp') }}"
+                                        alt="inca rail first class tour" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-360-train-tour.jpg') }}"
-                                    data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/inca-rail-360-train-tour.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-train-360-train-tour.jpg') }}"
-                                        alt="tour a lares">
+                                        src="{{ asset('img/thumbnail/inca-train-360-train-tour.webp') }}"
+                                        alt="inca train 360° tour" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
                                 <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                        alt="machupicchu" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/tour-machu-picchu-ruinas.png') }}"
-                                    data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/tour-machu-picchu-ruinas.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-ruinas.png') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-ruinas.webp') }}"
+                                        alt="machupicchu" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
+                                <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
+                                        alt="tour machupicchu" loading="lazy">
                                 </a>
                             </div>
                         </div>

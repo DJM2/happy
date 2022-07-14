@@ -27,11 +27,11 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('qeswachaca-español') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('qeswachaca') }}'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location.href='{{ route('qeswachaca-portugues') }}'">Portugués</button ></li>
         </ul></li>
     </div>
@@ -265,16 +265,16 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/QESWACHACA.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/QESWACHACA.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/QESWACHACA.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/QESWACHACA.webp') }}"
+                                    alt="qeswachaca tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/qeswachaca-bridge.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/qeswachaca-bridge.jpg') }}"
-                                    alt="lares tour 4 days">
-                            </a>
+                            <a href="{{ asset('img/galeria/qeswachaca-bridge.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/qeswachaca-bridge.webp') }}"
+                                    alt="qeswachaca bridge tour" loading="lazy">
+                            </a> 
                         </div>
                     </div>
                 </div>

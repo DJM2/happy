@@ -369,45 +369,45 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/sacred-valley-3-days-tour.webp') }}"
+                                    alt="sacred valley 3 days tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/short-inca-trail-to-machu-picchu.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/sacred-valley-3-days-tour.jpg') }}"
-                                    alt="Valle Sagrado 3 días" loading="lazy">
+                                    src="{{ asset('img/thumbnail/short-inca-trail-to-machu-picchu.webp') }}"
+                                    alt="short inca trail" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/short-inca-trail-to-machu-picchu.jpg') }}"
+                            <a href="{{ asset('img/galeria/short-inca-trail.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/short-inca-trail.webp') }}"
+                                    alt="inca trail to machupicchu" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/sacred-valley-3-days.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/sacred-valley-3-days.webp') }}" 
+                                    alt="sacred valley 3 dias" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/sacred-valley-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/sacred-valley-tour.webp') }}"
+                                    alt="sacred valley tour">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/machu-picchu-sacred-valley.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/short-inca-trail-to-machu-picchu.jpg') }}"
-                                    alt="camino inca corto a Machu Picchu">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/short-inca-trail.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/short-inca-trail.jpg') }}"
-                                    alt="Corto camino Inca" loading="lazy">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/sacred-valley-3-days.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/sacred-valley-3-days.jpg') }}"
-                                    alt="Valle sagrado de los incas">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/sacred-valley-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/sacred-valley-tour.jpg') }}"
-                                    alt="Tour al Valle sagrado">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/machu-picchu-sacred-valley.jpg') }}"
-                                data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/machu-picchu-sacred-valley.jpg') }}"
-                                    alt="Machu Picchu Valle sagrado">
+                                    src="{{ asset('img/thumbnail/machu-picchu-sacred-valley.webp') }}"
+                                    alt="sacred valley to machupicchu" loading="lazy">
                             </a>
                         </div>
                     </div>

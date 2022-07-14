@@ -322,48 +322,51 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.jpg') }}"
-                                    alt="lares trek tour">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                    alt="Tour to Machu Picchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-calles-del-cusco.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-calles-del-cusco.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-calles-del-cusco.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/city-tour-calles-del-cusco.webp') }}"
+                                    alt="Cusco Streets" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico.jpg') }}"
-                                    alt="tour a lares">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico.webp') }}"
+                                    alt="Machu Picchu Panoramic" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/tour-valle-sagrado-chinchero-templo-exterior.jpg') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-chinchero-templo-exterior.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-chinchero-templo-exterior.webp') }}"
+                                    alt="Sacred Valley and Chinchero" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-pisaq-ruinas.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-pisaq-ruinas.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-pisaq-ruinas.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-pisaq-ruinas.webp') }}"
+                                    alt="Pisaq Sacred Valley of the incas" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-fortaleza-inca.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-ollantaytambo-fortaleza-inca.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-fortaleza-inca.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-ollantaytambo-fortaleza-inca.webp') }}"
+                                    alt="ollantaytambo TOur" loading="lazy">
                             </a>
                         </div>
                     </div>

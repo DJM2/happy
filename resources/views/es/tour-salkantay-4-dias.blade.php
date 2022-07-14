@@ -421,40 +421,41 @@
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/salkantay-tour.webp') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.jpg') }}"
-                                    alt="Tour a salkantay">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour.webp') }}"
+                                    alt="salkantay tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-adventure.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-adventure.jpg') }}"
-                                    alt="Aventura en Peru salkantay">
+                            <a href="{{ asset('img/galeria/salkantay-adventure.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-adventure.webp') }}"
+                                    alt="tour salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-tour-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour-trek.jpg') }}"
-                                    alt="Caminata a salkantay 4 dias">
+                            <a href="{{ asset('img/galeria/salkantay-tour-trek.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-tour-trek.webp') }}"
+                                    alt="trek salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.jpg') }}"
-                                    alt="llega a machu picchu desde salkantay" loading="lazy">
+                            <a href="{{ asset('img/galeria/salkantay-trek.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-trek.webp') }}"
+                                alt="trekking salkantay" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/salkantay-start-trek.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/salkantay-start-trek.jpg') }}"
-                                    alt="comienzo de la caminata a salkantay">
+                            <a href="{{ asset('img/galeria/salkantay-start-trek.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/salkantay-start-trek.webp') }}"
+                                    alt="trek salkantay 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.jpg') }}"
-                                    alt="Machu Picchu sorprendente">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.webp') }}"
+                                    alt="tour machupicchu" loading="lazy">
                             </a>
                         </div>
                     </div>

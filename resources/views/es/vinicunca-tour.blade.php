@@ -270,38 +270,38 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/montana-de-colores-trekking.jpg') }}"
+                            <a href="{{ asset('img/galeria/montana-de-colores-trekking.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/montana-de-colores-trekking.jpg') }}"
-                                    alt="montaña de colores">
+                                    src="{{ asset('img/thumbnail/montana-de-colores-trekking.webp') }}"
+                                    alt="rainbow mountain" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/vinicunca-7-colores.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/vinicunca-7-colores.jpg') }}"
-                                    alt="vinicunca">
+                            <a href="{{ asset('img/galeria/vinicunca-7-colores.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/vinicunca-7-colores.webp') }}"
+                                    alt="vinicunca 7 colors" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/trek-to-rainbow-mountain.jpg') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/trek-to-rainbow-mountain.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/trek-to-rainbow-mountain.webp') }}"
-                                    alt="caminata montaña 7 colores">
+                                    alt="Trek to rainbow mountain" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/turista en-vinicunca.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/turista en-vinicunca.jpg') }}"
-                                    alt="montaña vinicunca">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/fauna-llamas-vinicunca.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/turista en-vinicunca.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/fauna-llamas-vinicunca.jpg') }}"
-                                    alt="montaña de colores">
+                                    src="{{ asset('img/thumbnail/turista en-vinicunca.webp') }}"
+                                    alt="vinicunca tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/fauna-llamas-vinicunca.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/fauna-llamas-vinicunca.webp') }}"
+                                    alt="rainbow mountain tour" loading="lazy">
                             </a>
                         </div>
                     </div>

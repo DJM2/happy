@@ -269,43 +269,44 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/trek-to-waqrapucara.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/trek-to-waqrapucara.jpg') }}"
-                                    alt="waqrapukara tour">
+                            <a href="{{ asset('img/galeria/trek-to-waqrapucara.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/trek-to-waqrapucara.webp') }}"
+                                    alt="trek to waqrapukara" loading="lazy">  
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/waqrapucara-full-day-tour.webp') }}"
+                                    alt="waqrapukara full day" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/waqrapukara-cusco-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.webp') }}"
+                                    alt="waqrapukara tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/waqrapukara-happy-peru.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/waqrapukara-happy-peru.webp') }}"
+                                    alt="tour to waqrapukara" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/waqrapukara-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-tour.webp') }}"
+                                    alt="waqrapukara cusco tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/waqrapukara-tour-full-day.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapucara-full-day-tour.jpg') }}"
-                                    alt="waqrapukara full day">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-cusco-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.jpg') }}"
-                                    alt="Waqrapukara cusco">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-happy-peru.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-happy-peru.jpg') }}"
-                                    alt="tour a waqrapukara">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-tour.jpg') }}"
-                                    alt="Tour a Waqrapukara">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-tour-full-day.jpg') }}"
-                                data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-tour-full-day.jpg') }}"
-                                    alt="Cusco - waqrapukara">
+                                    src="{{ asset('img/thumbnail/waqrapukara-tour-full-day.webp') }}"
+                                    alt="waqrapukara tour full day" loading="lazy">
                             </a>
                         </div>
                     </div>

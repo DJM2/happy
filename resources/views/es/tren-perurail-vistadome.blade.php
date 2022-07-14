@@ -236,47 +236,47 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-vistadome-tour-train.jpg') }}"
+                            <a href="{{ asset('img/galeria/perurail-vistadome-tour-train.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/perurail-vistadome-tour-train.jpg') }}"
-                                    alt="Inca rail voyager" loading="lazy">
+                                    src="{{ asset('img/thumbnail/perurail-vistadome-tour-train.webp') }}"
+                                    alt="peru rail vistadome" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-vistadome.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/perurail-vistadome.jpg') }}"
-                                    alt="tren panoramico vistadome" loading="lazy">
+                            <a href="{{ asset('img/galeria/perurail-vistadome.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/perurail-vistadome.webp') }}"
+                                    alt="peru rail vistadome tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-rail-first-class.jpg') }}"
-                                    alt="tren primera clase" loading="lazy">
+                            <a href="{{ asset('img/galeria/inca-rail-fisrt-class.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/inca-rail-first-class.webp') }}" alt="inca rail first class"
+                                    loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.webp') }}" loading="lazy"
+                                    alt="hiram bingham train tour">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/perurail-vistadome-train-tour.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.jpg') }}" loading="lazy"
-                                    alt="Machu Picchu tour train">
+                                    src="{{ asset('img/thumbnail/perurail-vistadome-train-tour.webp') }}"
+                                    loading="lazy" alt="vistadome train tour">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-vistadome-train-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/perurail-vistadome-train-tour.jpg') }}"
-                                    loading="lazy" alt="tren vistadome machupicchu">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
-                                data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}"
-                                    loading="lazy" alt="Tour to Machu Picchu by voyager train">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
+                                    loading="lazy" alt="Tour to Machu Picchu">
                             </a>
                         </div>
                     </div>

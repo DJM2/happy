@@ -83,7 +83,7 @@ Route::get('es/valle-sagrado-full-day', function () {return view('es/valle-sagra
 Route::get('es/maras-moray-salineras-tour', function () {return view('es/maras-moray-salineras-tour');})->name('maras-moray-salineras');
 
 /*Aventura*/
-Route::get('es/inca-trail-4-dias', function () {return view('es/inca-trail-4-dias');})->name('inca-trail-4-dias');
+Route::get('es/inca-trail-4-dias', function () {return view('es/inca-trail-4-dias');})->name('inca-trail-4-dias'); 
 Route::get('es/tour-salkantay-4-dias', function () {return view('es/tour-salkantay-4-dias');})->name('salkantay-4-dias-tour');
 Route::get('es/tour-salkantay-5-dias', function () {return view('es/tour-salkantay-5-dias');})->name('salkantay-5-dias-tour');
 Route::get('es/inca-trail-2-dias', function () {return view('es/inca-trail-2-dias');})->name('inca-trail-2-dias');
@@ -95,7 +95,7 @@ Route::get('es/huchuy-qosqo-a-machu-picchu', function () {return view('es/huchuy
 
 /*Tours Alternativos*/
 Route::get('es/vinicunca-tour', function () {return view('es/vinicunca-tour');})->name('vinicunca-tour');
-Route::get('es/waqrapukara-full-day-tour', function () {return view('es/waqrapukara-full-day-tour');})->name('waqrapukara-tour');
+Route::get('es/waqrapukara-full-day-tour', function () {return view('es/waqrapukara-full-day-tour');})->name('waqrapukara-tour-castellano');
 Route::get('es/tour-7-lagunas-ausangate', function () {return view('es/tour-7-lagunas-ausangate');})->name('7-lagunas-tour');
 Route::get('es/tour-laguna-humantay', function () {return view('es/tour-laguna-humantay');})->name('laguna-humantay');
 Route::get('es/qeswachaca-tour', function () {return view('es/qeswachaca-tour');})->name('qeswachaca');

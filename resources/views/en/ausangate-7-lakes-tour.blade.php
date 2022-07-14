@@ -268,33 +268,35 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/ausangate-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/ausangate-tour.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/ausangate-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/7-lagunas-tour.webp') }}"
+                                    alt="7 lagoons tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-7-lagoon.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-7-lagoon.jpg') }}"
-                                    alt="lares tour 4 days">
+                            <a href="{{ asset('img/galeria/tour-7-lagoon.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-7-lagoon.webp') }}"
+                                    alt="7 lagoons tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/7-lagoons-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/7-lagoons-tour.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/7-lagoons-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/7-lagoons-tour.webp') }}"
+                                    alt="7 lagoons tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/ausangate-7-lagoons.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/ausangate-7-lagoons.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/ausangate-7-lagoons.jpg') }}">
+                                    src="{{ asset('img/thumbnail/ausangate-7-lagoons.webp') }}"
+                                    alt="ausangate 7 lagoons" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/ausangate-tour-7-lagoons.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/ausangate-tour-7-lagoons.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/ausangate-7-lagoons-tour.jpg') }}">
+                                    src="{{ asset('img/thumbnail/ausangate-7-lagoons-tour.webp') }}"
+                                    alt="ausangate 7 lagoons tour" loading="lazy">
                             </a>
                         </div>
                     </div>

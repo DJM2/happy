@@ -27,7 +27,7 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
@@ -228,45 +228,45 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-sacred-valley-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/perurail-sacred-valley-tour.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/perurail-sacred-valley-tour.jpg') }}"
-                                    alt="Inca rail voyager" loading="lazy">
+                                    src="{{ asset('img/thumbnail/perurail-sacred-valley-tour.webp') }}"
+                                    alt="peru rail sacred valley" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-sacred-valley.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/perurail-sacred-valley.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/perurail-sacred-valley.jpg') }}"
-                                    alt="lares tour 4 days" loading="lazy">
+                                    src="{{ asset('img/thumbnail/perurail-sacred-valley.webp') }}"
+                                    alt="sacred valley train tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/inca-rail-fisrt-class.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/inca-rail-first-class.jpg') }}" alt="tour a lares"
+                                    src="{{ asset('img/thumbnail/inca-rail-first-class.webp') }}" alt="inca rail first class"
                                     loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.jpg') }}" loading="lazy"
+                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.webp') }}" loading="lazy"
                                     alt="Machu Picchu tour train">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/perurail-expedition.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/perurail-expedition.jpg') }}"
-                                    loading="lazy" alt="Machu Picchu llama">
+                            <a href="{{ asset('img/galeria/perurail-expedition.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/perurail-expedition.webp') }}"
+                                    loading="lazy" alt="peru rail expedition">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}"
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
                                     loading="lazy" alt="Tour to Machu Picchu by voyager train">
                             </a>
                         </div>

@@ -409,21 +409,21 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-jungle-4-days.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-jungle-4-days.jpg') }}"
-                                    alt="Inca jungle 4 dias">
+                            <a href="{{ asset('img/galeria/inca-jungle-4-days.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-jungle-4-days.webp') }}"
+                                    alt="inca jungle 4 days" loading="lazy"> 
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inka-jungle-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inka-jungle-tour.jpg') }}"
-                                    alt="caminata inca jungle por 4 dias">
+                            <a href="{{ asset('img/galeria/inka-jungle-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inka-jungle-tour.webp') }}"
+                                    alt="inca jungle tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-jungle-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-jungle-tour.jpg') }}"
-                                    alt="tour a machu picchu caminata">
+                            <a href="{{ asset('img/galeria/inca-jungle-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-jungle-tour.webp') }}"
+                                    alt="inca jungle tour" loading="lazy">
                             </a>
                         </div>
                     </div>

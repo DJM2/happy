@@ -427,39 +427,40 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/lares-trek-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-trek-tour.jpg') }}"
+                            <a href="{{ asset('img/galeria/lares-trek-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-trek-tour.webp') }}"
                                     alt="lares trek tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/lares-tour-4-days.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-tour-4-days.jpg') }}"
+                            <a href="{{ asset('img/galeria/lares-tour-4-days.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-tour-4-days.webp') }}"
                                     alt="lares tour 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-a-lares.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-a-lares.jpg') }}"
-                                    alt="tour a lares" loading="lazy">
+                            <a href="{{ asset('img/galeria/tour-a-lares.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-a-lares.webp') }}"
+                                    alt="tour lares" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-en-lares.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-lares.jpg') }}"
-                                    alt="tour en lares" loading="lazy">
+                            <a href="{{ asset('img/galeria/tour-en-lares.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/tour-en-lares.webp') }}"
+                                    alt="tour in lares" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/lares-tour-peru.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-tour-peru.jpg') }}"
-                                    loading="lazy" alt="Lares tour caminata 4 dias">
+                            <a href="{{ asset('img/galeria/lares-tour-peru.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-tour-peru.webp') }}"
+                                alt="tour in lares peru" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/lares-caminata-4-dias.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/lares-caminata-4-dias.jpg') }}"
-                                    loading="lazy" alt="Caminata lares">
+                            <a href="{{ asset('img/galeria/lares-caminata-4-dias.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/lares-caminata-4-dias.webp') }}"
+                                     alt="lares trek 4 days" loading="lazy">
                             </a>
                         </div>
                     </div>

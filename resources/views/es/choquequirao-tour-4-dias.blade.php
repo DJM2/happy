@@ -398,41 +398,44 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/puente-choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/puente-choquequirao.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/puente-choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/puente-choquequirao.webp') }}"
+                                    alt="Trek to Choquequirao" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.jpg') }}"
+                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/choquequirao-tour-4-days.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/choquequirao-tour-4-days.webp') }}"
+                                    alt="Choquequirao 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/choquequirao.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/choquequirao.webp') }}"
+                                    alt="Choquequirao" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao-tour-peru.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/choquequirao-tour-peru.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.jpg') }}">
+                                    src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.webp') }}"
+                                    alt="Choquequirao tour Cusco" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/camino-choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-choquequirao.jpg') }}">
+                            <a href="{{ asset('img/galeria/camino-choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-choquequirao.webp') }}"
+                                    alt="Trek CHoquequirao 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.webp') }}"
+                                    alt="Sacred Valley to Choquequirao" loading="lazy">
                             </a>
                         </div>
                     </div>

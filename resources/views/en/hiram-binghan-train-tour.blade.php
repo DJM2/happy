@@ -29,11 +29,11 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('hiram-bingham-español') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('hiram-bingham') }}'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location.href='{{ route('perurail-hiram-bingham') }}'">Portugués</button ></li>
         </ul></li>
     </div>
@@ -237,43 +237,46 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/hiram-bingham.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham.webp') }}"
+                                    alt="hiram bingham train" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.webp') }}"
+                                    alt="hiram binghamn train tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham-train.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham-train.webp') }}"
+                                    alt="train hiram bingham" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.webp') }}"
+                                    alt="tour machupicchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes-asombrosos.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes-asombrosos.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes-asombrosos.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes-asombrosos.webp') }}"
+                                    alt="tour to machupicchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                    alt="trek to machupicchu" loading="lazy">
                             </a>
                         </div>
                     </div>

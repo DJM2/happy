@@ -27,11 +27,11 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
+    @include('layouts.english')
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('waqrapukara-tour-español') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('waqrapukara-tour-castellano') }}'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location.href='{{ route('waqrapukara-full-day') }}'">Portugués</button ></li>
         </ul></li>
     </div>
@@ -257,44 +257,44 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/trek-to-waqrapucara.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/trek-to-waqrapucara.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/trek-to-waqrapucara.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/trek-to-waqrapucara.webp') }}"
+                                    alt="trek to waqrapukara" loading="lazy">  
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapucara-full-day-tour.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/waqrapucara-full-day-tour.webp') }}"
+                                    alt="waqrapukara full day" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-cusco-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/waqrapukara-cusco-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.webp') }}"
+                                    alt="waqrapukara tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-happy-peru.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/waqrapukara-happy-peru.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-happy-peru.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/waqrapukara-happy-peru.webp') }}"
+                                    alt="tour to waqrapukara" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-tour.jpg') }}"
-                                    alt="lares tour 4 days">
+                            <a href="{{ asset('img/galeria/waqrapukara-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-tour.webp') }}"
+                                    alt="waqrapukara cusco tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapukara-tour-full-day.jpg') }}"
+                            <a href="{{ asset('img/galeria/waqrapukara-tour-full-day.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-tour-full-day.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/waqrapukara-tour-full-day.webp') }}"
+                                    alt="waqrapukara tour full day" loading="lazy">
                             </a>
                         </div>
                     </div>

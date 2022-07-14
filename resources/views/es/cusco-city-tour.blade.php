@@ -264,44 +264,44 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-qoricancha.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-qoricancha.jpg') }}"
-                                    loading="lazy">
+                            <a href="{{ asset('img/galeria/city-tour-qoricancha.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-qoricancha.webp') }}"
+                                    loading="lazy" alt="City Tour Cusco">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.jpg') }}" loading="lazy">
+                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.webp') }}">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-sacsayhuaman.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-sacsayhuaman.jpg') }}"
-                                    loading="lazy">
+                            <a href="{{ asset('img/galeria/city-tour-sacsayhuaman.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-sacsayhuaman.webp') }}"
+                                    loading="lazy" alt="Tour in Sacsayhuaman">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.jpg') }}"
-                                    loading="lazy">
+                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.webp') }}"
+                                    loading="lazy" alt="Temple of Koricancha">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-tambomachay.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-tambomachay.jpg') }}"
-                                    loading="lazy">
+                            <a href="{{ asset('img/galeria/city-tour-tambomachay.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/city-tour-tambomachay.webp') }}"
+                                    loading="lazy" alt="Tour to Tambomachay Cusco">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-tambomachay-fuente.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-tambomachay-fuente.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-tambomachay-fuente.jpg') }}"
-                                    loading="lazy">
+                                    src="{{ asset('img/thumbnail/city-tour-tambomachay-fuente.webp') }}"
+                                    loading="lazy" alt="Fount of Tambomachay">
                             </a>
                         </div>
                     </div>

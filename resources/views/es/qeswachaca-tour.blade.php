@@ -277,16 +277,16 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/QESWACHACA.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/QESWACHACA.jpg') }}"
-                                    alt="qeswachaca">
+                            <a href="{{ asset('img/galeria/QESWACHACA.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/QESWACHACA.webp') }}"
+                                    alt="qeswachaca tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/qeswachaca-bridge.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/qeswachaca-bridge.jpg') }}"
-                                    alt="Tour a qeswachaca">
-                            </a>
+                            <a href="{{ asset('img/galeria/qeswachaca-bridge.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/qeswachaca-bridge.webp') }}"
+                                    alt="qeswachaca bridge tour" loading="lazy">
+                            </a> 
                         </div>
                     </div>
                 </div>

@@ -34,7 +34,7 @@
             <li><button class="btn-lang"
                     onclick="window.location.href='{{ route('hiram-bingham-english') }}'">English</button></li>
             <li><button class="btn-lang"
-                    onclick="window.location.href='{{ route('hiram-bingham-español') }}'">Español</button>
+                    onclick="window.location.href='{{ route('hiram-bingham') }}'">Español</button>
             </li>
         </ul>
     </div>
@@ -48,7 +48,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Hiram Binghan
+                <?php $titulo='Tren Hiram Binghan'; echo $titulo ?>
             </h1>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        @include('layouts.book-castellano')
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
             </div>
@@ -235,43 +235,46 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/hiram-bingham.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham.webp') }}"
+                                    alt="hiram bingham train" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.jpg') }}"
-                                    alt="lares tour 4 days">
+                                    src="{{ asset('img/thumbnail/hiram-bingham-train-tour.webp') }}"
+                                    alt="hiram binghamn train tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham-train.jpg') }}"
-                                    alt="tour a lares">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/hiram-bingham-train.webp') }}"
+                                    alt="train hiram bingham" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-sorprendente.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-sorprendente.webp') }}"
+                                    alt="tour machupicchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes-asombrosos.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes-asombrosos.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes-asombrosos.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes-asombrosos.webp') }}"
+                                    alt="tour to machupicchu" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.jpg') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                    alt="trek to machupicchu" loading="lazy">
                             </a>
                         </div>
                     </div>
@@ -302,7 +305,7 @@
         </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

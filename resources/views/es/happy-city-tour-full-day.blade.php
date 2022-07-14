@@ -272,31 +272,31 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-city-tour-cusco.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-city-tour-cusco.jpg') }}"
-                                    alt="Happy city tour" loading="lazy">
+                            <a href="{{ asset('img/galeria/happy-city-tour-cusco.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-city-tour-cusco.webp') }}"
+                                    alt="City Tour In Cusco" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.jpg') }}" loading="lazy"
-                                    alt="City tour en Cusco">
+                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.webp') }}"
+                                    alt="Downtown Cusco" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/pollo-a-la-brasa.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/pollo-a-la-brasa.jpg') }}"
-                                    alt="Pollo a la brasa" loading="lazy">
+                            <a href="{{ asset('img/galeria/pollo-a-la-brasa.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/pollo-a-la-brasa.webp') }}"
+                                    alt="Pollo a la Brasa Perú" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.jpg') }}"
-                                    alt="qoricancha city tour" loading="lazy">
+                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.webp') }}"
+                                    alt="Museo de Qoricancha" loading="lazy">
                             </a>
                         </div>
                     </div>

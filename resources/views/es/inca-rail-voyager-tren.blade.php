@@ -237,23 +237,22 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-voyager.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-rail-voyager.jpg') }}"
+                            <a href="{{ asset('img/galeria/inca-rail-voyager.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/inca-rail-voyager.webp') }}"
                                     alt="Inca rail voyager" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-voyager-train.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/inca-rail-voyager-train.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/inca-rail-voyager-train.jpg') }}"
+                                    src="{{ asset('img/thumbnail/inca-rail-voyager-train.webp') }}"
                                     alt="lares tour 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/inca-rail-360-train-tour.jpg') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/inca-rail-360-train-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/inca-train-360-train-tour.jpg') }}"
+                                    src="{{ asset('img/thumbnail/inca-train-360-train-tour.webp') }}"
                                     alt="tour a lares" loading="lazy">
                             </a>
                         </div>
@@ -266,18 +265,17 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-llama.png') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-llama.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-llama.png') }}" loading="lazy"
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-llama.webp') }}" loading="lazy"
                                     alt="Machu Picchu llama">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
+                            <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}"
+                                    src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
                                     loading="lazy" alt="Tour to Machu Picchu by voyager train">
                             </a>
                         </div>

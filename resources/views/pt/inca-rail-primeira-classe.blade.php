@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Inca Rail Tour en tren de primera clase | Travel Agency Perú" />
     <meta property="og:image" content="https://happyperutours.com/img/panoramic/inca-rail-tour-train.webp" />
-    <link rel="canonical" href="https://happyperutours.com/es/inca-rail-primera-clase">
+    <link rel="canonical" href="https://happyperutours.com/pt/inca-rail-primeira-classe">
 </head>
 
 <body>
@@ -47,12 +47,12 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Inca Rail Primera clase
+                <?php $titulo='Inca Rail Primera clase'; echo $titulo; ?>
             </h1>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
+                <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos o mais breve possível
+                    possível.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -231,7 +231,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
-                        @include('layouts.book-castellano')
+                        @include('layouts.book-portugues')
                     </div>
                 </div>
                 <!-- Gallery -->
@@ -240,47 +240,48 @@
                     <div class="container">
                         <div class="row photos">
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class-tour.jpg') }}"
+                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class-tour.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-rail-fisrt-class-tour.jpg') }}"
-                                        alt="lares trek tour">
+                                        src="{{ asset('img/thumbnail/inca-rail-fisrt-class-tour.webp') }}"
+                                        alt="inca rail first class" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}" data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-rail-first-class.jpg') }}"
-                                        alt="lares tour 4 days">
+                                        src="{{ asset('img/thumbnail/inca-rail-first-class.webp') }}"
+                                        alt="inca rail first class tour" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-360-train-tour.jpg') }}"
-                                    data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/inca-rail-360-train-tour.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/inca-train-360-train-tour.jpg') }}"
-                                        alt="tour a lares">
+                                        src="{{ asset('img/thumbnail/inca-train-360-train-tour.webp') }}"
+                                        alt="inca train 360° tour" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
                                 <a href="{{ asset('img/galeria/tour-machu-picchu-andenes.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-andenes.webp') }}"
+                                        alt="machupicchu" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/tour-machu-picchu-ruinas.png') }}"
-                                    data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/tour-machu-picchu-ruinas.webp') }}" data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-ruinas.png') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-ruinas.webp') }}"
+                                        alt="machupicchu" loading="lazy">
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.png') }}"
+                                <a href="{{ asset('img/galeria/tour-machu-picchu-panoramico-chullito.webp') }}"
                                     data-lightbox="photos">
                                     <img class="img-fluid"
-                                        src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.png') }}">
+                                        src="{{ asset('img/thumbnail/tour-machu-picchu-panoramico-chullito.webp') }}"
+                                        alt="tour machupicchu" loading="lazy">
                                 </a>
                             </div>
                         </div>
@@ -311,7 +312,7 @@
             </div>
     </section>
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

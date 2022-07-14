@@ -112,7 +112,7 @@
                                             tour
                                             en tren</a></li>
                                     <li><a href="{{ route('inca-rail-primera-clase') }}" class="nav-link">Inca Rail
-                                            first class tour en tren</a>
+                                            primera clase en tren</a>
                                     </li>
                                     <li><a href="{{ route('inca-rail-voyager-tour') }}" class="nav-link">Inca Rail
                                             Voyager
