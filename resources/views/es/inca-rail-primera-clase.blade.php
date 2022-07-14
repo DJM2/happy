@@ -26,16 +26,19 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/inca-rail-first-class">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/inca-rail-first-class" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('inca-rail-first-class') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('inca-rail-primeira-classe') }}'">Portugués</button>
+                </li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -46,17 +49,18 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Inca Rail Primera clase
+                <?php $titulo = 'Inca Rail Primera clase';
+                echo $titulo; ?>
             </h1>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -152,7 +156,8 @@
                                     &check; Cóctel de bienvenida.<br>
                                     &check; Menú gourmet.<br>
                                     &check; Pasajes en tren ida y vuelta Cusco - Machu Picchu - Cusco.<br>
-                                    &check; Pasajes de bus de subida y bajada de Aguas Calientes - Machu Picchu - Aguas<br>
+                                    &check; Pasajes de bus de subida y bajada de Aguas Calientes - Machu Picchu -
+                                    Aguas<br>
                                     &check; Calientes.<br>
                                     &check; Guía profesional de turismo en idioma ingles o español.<br>
                                     &check; Boleto de admisión a la ciudad Inca de Machu Picchu.<br>
@@ -211,8 +216,8 @@
                         <div class="sharethis-inline-share-buttons"></div>
                         <div id="fb-root"></div>
                         <script async defer crossorigin="anonymous"
-                                                src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                                nonce="RA0e6tQN"></script>
+                            src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                            nonce="RA0e6tQN"></script>
                         <div class="fb-comments" data-href="https://happyperutours.com/es/inca-rail-primera-clase"
                             data-width="100%" data-numposts="5"></div>
                         <!-- ShareThis END -->
@@ -222,10 +227,12 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
-                    <div class="fb-comments" data-href="https://happyperutours.com/es/inca-rail-primera-clase
-                        data-width="100%" data-numposts="5"></div>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments"
+                        data-href="https://happyperutours.com/es/inca-rail-primera-clase
+                        data-width="100%"
+                        data-numposts="5"></div>
                     <!-- ShareThis END -->
                 </div>
                 <div class="col-lg-3">
@@ -247,7 +254,8 @@
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item">
-                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}" data-lightbox="photos">
+                                <a href="{{ asset('img/galeria/inca-rail-fisrt-class.jpg') }}"
+                                    data-lightbox="photos">
                                     <img class="img-fluid"
                                         src="{{ asset('img/thumbnail/inca-rail-first-class.jpg') }}"
                                         alt="lares tour 4 days">

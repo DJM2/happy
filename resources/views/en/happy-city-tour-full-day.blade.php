@@ -27,13 +27,15 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/happy-city-tour-full-day">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/happy-city-tour-full-day" class="nav-link" id="idioma-responsive">Español</a>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-city-tour-castellano') }}'">Español</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-city-tour') }}'">Portugués</button></li>
+        </ul>
     </li>
     </ul>
     </div>
@@ -47,17 +49,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Happy City Tour Full Day
+                <?php $titulo = ' Happy City Tour Full Day';
+                echo $titulo; ?>
             </h1>
+            <p class="p-titulo">
+                <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
+                <i class="icon-dollar"></i> <?php $precio = 50;
+                echo $precio; ?>.00
+            </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                        possible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -216,10 +224,10 @@
                                     &#10034; Sunscreen<br>
                                     &#10034; Photographic camera<br>
                                     &#10034; Canteen <br>
-                                    &#10034; Rain poncho <br> 
-                                    &#10034; Alcohol gel     <br>                         
-                                    &#10034; Sun caps            <br>                        
-                                    &#10034; Extra money             <br>                       
+                                    &#10034; Rain poncho <br>
+                                    &#10034; Alcohol gel <br>
+                                    &#10034; Sun caps <br>
+                                    &#10034; Extra money <br>
                                     &#10034; First-aid kit or personal mediciness
                                 </div>
                             </div>
@@ -228,7 +236,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Important notes:
                                     </button>
                                 </h5>
@@ -247,22 +256,22 @@
                             </div>
                         </div>
                     </div>
-                   <!-- ShareThis BEGIN -->
-                   <p style="padding-top: 2em; color:#000" class="text-center">Share this</p>
-                   <div class="sharethis-inline-share-buttons"></div>
-                   <div id="fb-root"></div>
-                   <script async defer crossorigin="anonymous"
-                                       src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                       nonce="RA0e6tQN"></script>
-                   <div class="fb-comments" data-href="https://happyperutours.com/en/happy-city-tourfull-day"
-                       data-width="100%" data-numposts="5"></div>
-                   <!-- ShareThis END -->
+                    <!-- ShareThis BEGIN -->
+                    <p style="padding-top: 2em; color:#000" class="text-center">Share this</p>
+                    <div class="sharethis-inline-share-buttons"></div>
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous"
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
+                    <div class="fb-comments" data-href="https://happyperutours.com/en/happy-city-tourfull-day"
+                        data-width="100%" data-numposts="5"></div>
+                    <!-- ShareThis END -->
 
                 </div>
                 <div class="col-lg-3">
                     <div class="similares">
                         @include('layouts.book-ingles')
-                     </div>
+                    </div>
                 </div>
             </div>
             <!-- Gallery -->
@@ -271,29 +280,31 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-city-tour-cusco.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/happy-city-tour-cusco.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/happy-city-tour-cusco.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-city-tour-cusco.webp') }}"
+                                    alt="City Tour In Cusco" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.jpg') }}">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/pollo-a-la-brasa.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/pollo-a-la-brasa.jpg') }}"
-                                    alt="tour a lares">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.jpg') }}"
+                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.jpg') }}">
+                                    src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.webp') }}"
+                                    alt="Downtown Cusco" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/pollo-a-la-brasa.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/pollo-a-la-brasa.webp') }}"
+                                    alt="Pollo a la Brasa Perú" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/city-tour-qoricancha-sincretismo.webp') }}"
+                                data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/city-tour-qoricancha-sincretismo.webp') }}"
+                                    alt="Museo de Qoricancha" loading="lazy">
                             </a>
                         </div>
                     </div>

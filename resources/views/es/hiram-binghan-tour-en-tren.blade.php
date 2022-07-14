@@ -26,16 +26,18 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/hiram-binghan-train-tour">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/hiram-binghan-train-tour" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('hiram-bingham-english') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('perurail-hiram-bingham') }}'">Portugués</button></li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -47,17 +49,18 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Hiram Binghan
+                <?php $titulo = 'Hiram Binghan';
+                echo $titulo; ?>
             </h1>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -160,10 +163,11 @@
                                     &check; Almuerzo gourmet a bordo.<br>
                                     &check; Coche observatorio para disfrutar de los paisajes de la ruta.<br>
                                     &check; Show de música en vivo.<br>
-                                    &check;  Sala de espera VIP en la estación Machu Picchu.<br>
-                                    &check;  Bus de subida hacia la ciudadela de Machu Picchu.<br>
+                                    &check; Sala de espera VIP en la estación Machu Picchu.<br>
+                                    &check; Bus de subida hacia la ciudadela de Machu Picchu.<br>
                                     &check; Boleto de entrada a la ciudadela de Machu Picchu.<br>
-                                    &check; Un guía turístico para un grupo máximo de 14 personas en español y/o inglés.<br>
+                                    &check; Un guía turístico para un grupo máximo de 14 personas en español y/o
+                                    inglés.<br>
                                     &check; Té de la tarde en el hotel Belmond Sanctuary Lodge.<br>
                                     &check; Cena gourmet.<br>
                                     &check; Servicio de asistencia.
@@ -190,7 +194,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Notas importantes:
                                     </button>
                                 </h5>
@@ -199,12 +204,15 @@
                                 data-parent="#accordion">
                                 <div class="card-body">
                                     &#10034; Salidas diarias. <br>
-                                    &#10034; Menores de 0-2 años no pagan siempre y cuando vayan en el regazo de los padres.<br>
+                                    &#10034; Menores de 0-2 años no pagan siempre y cuando vayan en el regazo de los
+                                    padres.<br>
                                     &#10034; Menores de 3-16 años tienen un descuento especial.<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares americanos.<br>
+                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
+                                    americanos.<br>
                                     &#10034; Los precios no incluyen el IGV (18%).<br>
                                     &#10034; El servicio de tour es grupal.<br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de su pasaporte o cedula de identidad en forma obligatoria.<br>
+                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
+                                    su pasaporte o cedula de identidad en forma obligatoria.<br>
                                     &#10034; Para concretar su reserva solicitamos el pago del 40%.
                                 </div>
                             </div>
@@ -215,8 +223,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/es/hiram-binghan-tour-en-tren"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -240,7 +248,8 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/hiram-bingham-train-tour.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/hiram-bingham-train-tour.jpg') }}"
                                     alt="lares tour 4 days">

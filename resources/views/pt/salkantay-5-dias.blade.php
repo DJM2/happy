@@ -54,9 +54,8 @@
                 </h1>
                 <p class="p-titulo">
                     <i class="icon-map-marker"></i> Cusco - Salkantay - Machupicchu&nbsp;&nbsp;
-                    <i class="icon-dollar"></i> <?php $precio = 500;
-                    echo $precio; ?>.00
-                </p>
+                    <i class="icon-dollar"></i> <?php $precio = 500; echo $precio; ?>.00
+                </p> 
                 @if (session()->has('flash'))
                     <div style="text-align:center" class="alert alert-success alert-dismissible fade show"
                         role="alert">

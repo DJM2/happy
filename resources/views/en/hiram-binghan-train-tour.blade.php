@@ -30,14 +30,12 @@
     </div>
 
     @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/hiram-binghan-tour-en-tren">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/hiram-binghan-tour-en-tren" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('hiram-bingham-español') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('perurail-hiram-bingham') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -49,7 +47,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Hiram Binghan
+                <?php $titulo = 'Hiram Binghan'; echo $titulo; ?>             
             </h1>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">

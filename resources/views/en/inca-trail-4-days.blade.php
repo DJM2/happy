@@ -28,13 +28,12 @@
     </div>
 
     @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/inca-trail-4-dias">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/inca-trail-4-dias" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('inca-trail-4-dias') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('trilha-inca-4-dias') }}'">Portugués</button ></li>
+        </ul></li>
     </ul>
     </div>
     </nav>
@@ -47,11 +46,11 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Inca trail 4 days
+                <?php $titulo = 'Inca trail 4 days'; echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Machupicchu &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 650.00
+                <i class="icon-dollar"></i> <?php $precio = 650; echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">

@@ -3,13 +3,13 @@
 
 <head>
     @include('layouts.links')
-    <title>Passeio à lagoa Humantay | Travel Agency Perú</title>
+    <title>Passeio à lagoa Humantay | Agência de Viagem Perú</title>
     <meta name="description"
         content="LAGO HUMANTAY, hoje considerado um dos destinos turísticos naturais mais populares, localizado no sopé do nevado HUMANTAY. Excursão humana de dia inteiro.">
     <meta name="keywords"
         content="Cusco, Lago Humantay, Humantay tour, Humantay lagoa tour, Humantay Laguna tour, dia inteiro Humantay, conheça Humantay, a lagoa humantay">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Tour a la laguna Humantay | Travel Agency Perú" />
+    <meta property="og:title" content="Tour a la laguna Humantay | Agência de Viagem Perú" />
     <meta property="og:description"
         content="LAGO HUMANTAY, hoje considerado um dos destinos turísticos naturais mais populares, localizado no sopé do nevado HUMANTAY. Excursão humana de dia inteiro." />
     <meta property="og:image" content="https://happyperutours.com/img/galeria/humantay-lake.jpg" />
@@ -319,30 +319,30 @@
                         <div class="similares">
                             <div class="similares">
                                 <h4 class="text-center">Passeios semelhantes</h4>
-                                <a href="vale-sagrado-dos-incas">
-                                    <p>Vale Sagrado Dia Inteiro</p>
-                                </a>
-                                <a href="7-lagoas-tour">
-                                    <p>Ausangate 7 lagoas</p>
-                                </a>
-                                <a href="happy-city-tour">
-                                    <p>Happy City Tour Dia inteiro</p>
-                                </a>
-                                <a href="maras-moray-salineras-tour">
-                                    <p>Maras, Moray e Salineras</p>
-                                </a>
-                                <a href="tour-happy-experience">
-                                    <p>Happy Experience Tour Exclusivo</p>
-                                </a>
-                                <a href="qeswachaca-tour">
-                                    <p>Queswachaca Tour</p>
-                                </a>
-                                <a href="vinicunca-tour">
-                                    <p>Vinicunca: Montanha de Cores</p>
-                                </a>
-                                <a href="cusco-city-tour">
-                                    <p>Cusco City Tour</p>
-                                </a>
+                            <a href="vale-sagrado-dos-incas">
+                                <p>Vale Sagrado Dia Inteiro</p>
+                            </a>
+                            <a href="7-lagoas-tour">
+                                <p>Ausangate 7 lagoas</p>
+                            </a>
+                            <a href="happy-city-tour">
+                                <p>Happy City Tour Dia inteiro</p>
+                            </a>
+                            <a href="maras-moray-salineras-tour">
+                                <p>Maras, Moray e Salineras</p>
+                            </a>
+                            <a href="tour-happy-experience">
+                                <p>Happy Experience Tour Exclusivo</p>
+                            </a>
+                            <a href="qeswachaca-tour">
+                                <p>Queswachaca Tour</p>
+                            </a>
+                            <a href="vinicunca-tour">
+                                <p>Vinicunca: Montanha de Cores</p>
+                            </a>
+                            <a href="cusco-city-tour">
+                                <p>Cusco City Tour</p>
+                            </a>
                             </div>
                         </div>
                     </div>

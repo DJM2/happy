@@ -28,14 +28,12 @@
     </div>
 
     @include('layouts.blog-menu')
-    <li>
-        <a href="nosotros">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="nosotros" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('nosotros') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('nosotros') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -45,7 +43,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:2.5em">
-                About Happy perú Tours
+                <?php $titulo = 'About Happy perú Tours'; echo $titulo; ?>        
             </h1>
         </div>
     </div>

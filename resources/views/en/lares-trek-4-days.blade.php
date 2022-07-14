@@ -1,18 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     @include('layouts.links')
-    <title>Lares Trek Tour 4 days Cusco, Perú | Travel Agency Perú</title>
-    <meta name="description" content="It is a good alternative to get to Machupicchu, although the Lares valley is very extensive, this means that there are different routes in Cusco, Perú.">
+    <title>Caminata a Lares, Tour de 4 days Cusco, Perú | Travel Agency Perú</title>
+    <meta name="description"
+        content="Es una buena alternativa para poder llegar a Machu Picchu si bien es cierto el valle de Lares es muy extenso esto hace que haya distintas rutas">
     <meta name="keywords"
-        content="Cusco, Tour Lares 4 days, lares tour, Pucapucara, Tambomachay, Exclusive Tours in Lares">
+        content="Cusco tour, Tour Lares 4 dias, lares tour, Pucapucara, Tambomachay, Tour exclusivo en Lares, caminata Lares, caminata machu picchu, tour en lares, lares 4 dias">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Lares Trek Tour 4 days Cusco, Perú | Travel Agency Perú" />
-    <meta property=":ogdescription"
-        content="It is a good alternative to get to Machupicchu, although the Lares valley is very extensive, this means that there are different routes in Cusco, Perú." />
+    <meta property="og:title" content="Caminata a Lares, Tour de 4 days Cusco, Perú | Travel Agency Perú" />
     <meta property="og:image" content="https://happyperutours.com/img/galeria/lares-tour-4-days.jpg" />
-    <link rel="canonical" href="https://happyperutours.com/en/lares-trek-4-days">
+    <link rel="canonical" href="https://happyperutours.com/es/caminata-lares-4-dias">
 </head>
 
 <body>
@@ -28,42 +27,39 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/caminata-lares-4-dias">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/caminata-lares-4-dias" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('caminata-a-lares-4-dias') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('lares-trekking-4-dias') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
     </div>
     </div>
     </div>
-
-
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Lares Trek 4 Days
+                <?php $titulo='Trek to Lares 4 days'; echo $titulo; ?>     
             </h1>
             <p class="p-titulo">
-                <i class="icon-map-marker"></i> Cusco - Lares&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 600.00
+                <i class="icon-map-marker"></i> Cusco - Lares &nbsp;&nbsp;
+                <i class="icon-dollar"></i> <?php $precio = 600; echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
+                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                    posible.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </p>
             </div>
             @endif
+            
         </div>
     </div>
     </div>
@@ -485,7 +481,7 @@
         </div>
     </section>
 
-    @include('layouts.english-foot')
+    @include('layouts.foot-castellano')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

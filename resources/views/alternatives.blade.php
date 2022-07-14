@@ -32,14 +32,12 @@
     </div>
 
     @include('layouts.english')
-    <li>
-        <a href="es/tours-alternativos">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="es/tours-alternativos" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('alternativos-castellano') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('alternativas-portugues') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -51,7 +49,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Alternative Tours
+                <?php $titulo = 'Alternative Tours'; echo $titulo; ?>       
             </h1>
         </div>
     </div>
@@ -83,6 +81,25 @@
         <div class="container">
             <h2 class="h2-happy">Tours for Perú</h2>
             <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index">
+                        <a href="lima-ica-paracas-3-days">
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/lima-ica-paracas-tour.webp') }}"
+                                alt="Ballestas Islands" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Lima - Ica - Paracas</h5>
+                            <p class="card-text">
+                                Enjoy a tourism full of culture and history, combined with adventure.
+                            </p>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 3 Days</span>
+                                <span class="price-card"><i class="icon-usd"></i>350.00</span><br>
+                            </div>
+                            <a href="lima-ica-paracas-3-days" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index">
                         <a href="en/ausangate-7-lakes-tour">
@@ -194,6 +211,113 @@
                                     <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
                                 </div>
                             <a href="en/waqrapukara-full-day-tour" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <!------Trenes----------->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index">
+                        <a href="{{route('inca-trail-360°-english')}}">
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/inca-train-360.webp') }}"
+                                alt="Camino Inca de 2 días" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Inca Rail 360°</h5>
+                            <p class="card-text">Experience a unique way to travel to Machu Picchu, exploring
+                                the Andean landscape like never before.
+                            </p>
+                            <a href="{{route('inca-trail-360°-english')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('inca-rail-first-class')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumbnail/inca-rail-fisrt-class-tour.webp') }}"
+                                alt="Camino Inca de 4 dias" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Inca Rail First Class</h5>
+                            <p class="card-text">The First Class offers you maximum comfort and space on board.
+                                Enjoy a unique landscape in the Observatory-Lounge</p>
+                            <a href="{{route('inca-rail-first-class')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('inca-rail-voyager-english')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.webp') }}"
+                                alt="Caminata a Huchuy Qosqo" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">IncaRail Voyager train</h5>
+                            <p class="card-text">Delight in the incredible landscape that surrounds the road to
+                                Machu
+                                Picchu between snowy peaks, imposing... </p>
+                            <a href="{{route('inca-rail-voyager-english')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('perurail-expedition-english')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumbnail/sacred-valley-of-the-incas.webp') }}"
+                                alt="Valle Sagrado y Machu Picchu">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">PeruRail tren Expeditions</h5>
+                            <p class="card-text">This tourist service has all the comforts on board and
+                                with a decoration inspired by the Inca culture</p>
+                            <a href="{{route('perurail-expedition-english')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('perurail-vistadome-english')}}">
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/perurail-vistadome.webp') }}"
+                                alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">PeruRail tren Vistadome</h5>
+                            <p class="card-text">The train to Machu Picchu PeruRail Vistadome offers a
+                                different to travel to the citadel of Machu Picchu</p>
+                            <a href="{{route('perurail-vistadome-english')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('hiram-bingham-english')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumbnail/hiram-bingham-train-tour.webp') }}" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Luxury train Hiram Bingham</h5>
+                            <p class="card-text">Travel to Machu Picchu on the luxurious Hiram Bingham train and
+                                enjoy the dining car, bar and observatory.
+                            </p>
+                            <a href="{{route('hiram-bingham-english')}}" class="boton-happy-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index" style="width: 18rem;">
+                        <a href="{{route('perurail-sacred-valley')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumbnail/perurail-sacred-valley-tour.webp') }}" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">PeruRail & Valle Sagrado</h5>
+                            <p class="card-text">You will embark on an unforgettable journey, dazzled by the
+                                majestic Andean landscapes, enjoying a
+                                excellent luxury service on board the train.
+                            </p>
+                            <a href="{{route('perurail-sacred-valley')}}" class="boton-happy-2">More Info</a>
                         </div>
                     </div>
                 </div>

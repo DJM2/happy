@@ -9,45 +9,51 @@
     <meta name="keywords"
         content="inca rail, peru destino turistico, El idioma quechua, Conoce vinicunca, Informacion sobre el camino Inca, tours para cusco, gastronomia Peru">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Hapy Perú Tours, te presenta temas interesantes para disfrutar mejor el turismo en Perú" />
-    <meta property="og:description" content="Blog de turismo en Perú, naturaleza, gastronomía, cultura e historia, aventura, entretenimiento y uno de los legados más impresionantes del planeta."" />
+    <meta property="og:title"
+        content="Hapy Perú Tours, te presenta temas interesantes para disfrutar mejor el turismo en Perú" />
+    <meta property="og:description"
+        content="Blog de turismo en Perú, naturaleza, gastronomía, cultura e historia, aventura, entretenimiento y uno de los legados más impresionantes del planeta."" />
     <meta property="og:image" content="https://happyperutours.com/img/happy-peru-tours-travel-agency.jpg" />
     <link rel="canonical" href="https://happyperutours.com/blog-peru-castellano">
 </head>
 
 <body>
-     <!-----Boton wasa---------->
-     <a href="https://bit.ly/3CRGLAE" class="whatsapp" target="_blank"> <i class="icon-whatsapp"></i></a>
-     <!---FIn botonwasa------------>
-     <div class="site-mobile-menu site-navbar-target">
-         <div class="site-mobile-menu-header">
-             <div class="site-mobile-menu-close mt-3">
-                 <span class="icon-close2 js-menu-toggle"></span>
-             </div>
-         </div>
-         <div class="site-mobile-menu-body"></div>
-     </div>
-     <!-- .site-mobile-menu -->
-     <div class="site-navbar-wrap">
- 
-         @include('layouts.spanish')
-         <li>
-             <a href="blog-peru">
-                 <idioma>English</idioma>
-             </a>
-         </li>
-         <li><a href="blog-peru" class="nav-link" id="idioma-responsive">English</a></li>
-         </ul>
-     </div>
-     </nav>
-     </div>
-     </div>
-     </div>
-     </div> 
+    <!-----Boton wasa---------->
+    <a href="https://bit.ly/3CRGLAE" class="whatsapp" target="_blank"> <i class="icon-whatsapp"></i></a>
+    <!---FIn botonwasa------------>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('blog-english') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('blog-portugues') }}'">Portugués</button></li>
+            </ul>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    </div>
+    </div>
+    </div>
+    </div>
+    
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:5em">
-                Peru Blog
+                <?php $titulo = 'Peru Blog';
+                echo $titulo; ?>
             </h1>
         </div>
     </div>
@@ -77,7 +83,7 @@
             </p><br><br><br>
         </div>
     </section>
-    
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -87,7 +93,8 @@
                 <div class="black">
                     <h2>Camino Inca</h2>
                     <p>Qué necesitas saber sobre el Camino Inca</p>
-                    <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer articulo</a> </button>
+                    <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer articulo</a>
+                    </button>
                 </div>
             </div>
             <div class="full-width food">
@@ -111,7 +118,7 @@
                     <button> <a href="blog/blog-castellano/informacion-turistica-puno">Leer articulo</a> </button>
                 </div>
             </div>
-            
+
         </div>
     </div>
 

@@ -9,7 +9,8 @@
     <meta name="keywords"
         content="Cusco, Tour Choquequirao, Choquequirao tour, CHoquequirao 4 days, CHoquequirao 4 days tour, Choquequirao trek, Inca Tours, Exclusive Tours in Choquequirao, Salt mines, Exclusive Moray tour">
     <meta property="og:type" content="website" />
-    <meta property="og:content" content="CHOQUEQUIRAO is the second best-known archaeological site just as impressive as Machupicchu, this archaeological site is known as the sister of Machupicchu" />
+    <meta property="og:content"
+        content="CHOQUEQUIRAO is the second best-known archaeological site just as impressive as Machupicchu, this archaeological site is known as the sister of Machupicchu" />
     <meta property="og:image" content="https://happyperutours.com/img/panoramic/choquequirao-inca-trail-4-days.jpg" />
     <link rel="canonical" href="https://happyperutours.com/en/choquequirao-4-days-tour">
 </head>
@@ -27,13 +28,16 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/choquequirao-tour-4-dias">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/choquequirao-tour-4-dias" class="nav-link" id="idioma-responsive">Español</a>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('tour-choquequirao-4-dias') }}'">Español</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('passeio-choquequirao-4-dias') }}'">Portugués</button>
+            </li>
+        </ul>
     </li>
     </ul>
     </div>
@@ -47,21 +51,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Choquequirao 4 days trek
+                <?php $titulo = 'Choquequirao 4 days trek';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Choquequirao&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 500.00
+                <i class="icon-dollar"></i> <?php $precio = 500;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                        possible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -336,7 +342,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Important notes:
                                     </button>
                                 </h5>
@@ -360,8 +367,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/en/choquequirao-4-days-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -370,9 +377,9 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>From:</span><i class="icon-dollar"></i> 500.00 <i
-                            class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
+                                class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
                         @include('layouts.book-ingles')
-                     </div>
+                    </div>
                 </div>
             </div>
             <!-- Gallery -->
@@ -381,42 +388,44 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/puente-choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/puente-choquequirao.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/puente-choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/puente-choquequirao.webp') }}"
+                                    alt="Trek to Choquequirao" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/choquequirao-tour-4-days.jpg') }}"
-                                    alt="lares tour 4 days">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/choquequirao.jpg') }}"
-                                    alt="tour a lares">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/choquequirao-tour-peru.jpg') }}"
+                            <a href="{{ asset('img/galeria/choquequirao-tour-4-days.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.jpg') }}">
+                                    src="{{ asset('img/thumbnail/choquequirao-tour-4-days.webp') }}"
+                                    alt="Choquequirao 4 days" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/camino-choquequirao.jpg') }}"
+                            <a href="{{ asset('img/galeria/choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/choquequirao.webp') }}"
+                                    alt="Choquequirao" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/choquequirao-tour-peru.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.webp') }}"
+                                    alt="Choquequirao tour Cusco" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/camino-choquequirao.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/camino-choquequirao.webp') }}"
+                                    alt="Trek CHoquequirao 4 days" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.webp') }}"
                                 data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/camino-choquequirao.jpg') }}">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/tour-valle-sagrado-moray.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.jpg') }}">
+                                    src="{{ asset('img/thumbnail/tour-valle-sagrado-moray.webp') }}"
+                                    alt="Sacred Valley to Choquequirao" loading="lazy">
                             </a>
                         </div>
                     </div>

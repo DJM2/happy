@@ -30,14 +30,12 @@
     </div>
 
     @include('layouts.blog-menu-castellano')
-    <li>
-        <a href="../blog-ingles/vinicunca">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../blog-ingles/vinicunca" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-vinicunca-english') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-vinicunca-english') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>

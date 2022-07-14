@@ -4,8 +4,10 @@
 <head>
     @include('layouts.links')
     <title>Tours alternativos en Perú, disfruta de los mejores tours alternativos</title>
-    <meta name="description" content="Encuentra con Happy Perú Tours, distintos tipos de tours alternativos para viajar y conocer Perú.">
-    <meta name="keywords" content="Cusco, Tour Lares 4 dias, Machu Picchu tour, 7 lagunas tour, huchuy qosqo, Lima Tour, Tambomachay, tours exclusivos
+    <meta name="description"
+        content="Encuentra con Happy Perú Tours, distintos tipos de tours alternativos para viajar y conocer Perú.">
+    <meta name="keywords"
+        content="Cusco, Tour Lares 4 dias, Machu Picchu tour, 7 lagunas tour, huchuy qosqo, Lima Tour, Tambomachay, tours exclusivos
         en Perú, laguna humantay, qeswachaca tour, vinicunca tour">
     <meta property="og:type" content="website" />
     <meta name="description" content="Encuentra distintos tipos de tours alternativos para viajar y conocer Perú." />
@@ -25,16 +27,19 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../alternatives">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../alternatives" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('alternatives-english') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('alternativas-portugues') }}'">Portugués</button></li>
+            </ul>
+        </li>
+        </ul>
     </div>
     </nav>
     </div>
@@ -45,7 +50,8 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Tours alternativos para Perú
+                <?php $titulo = 'Tours alternativos para Perú';
+                echo $titulo; ?>
             </h1>
         </div>
     </div>
@@ -77,6 +83,25 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index">
+                        <a href="lima-ica-paracas-3-dias">
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/lima-ica-paracas-tour.webp') }}"
+                                alt="Islas Ballestas" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-titulo">Lima - Ica - Paracas</h5>
+                            <p class="card-text">
+                                Disfruta de un turismo lleno de cultura, historia, combinado con aventura.
+                            </p>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 3 Días</span>
+                                <span class="price-card"><i class="icon-usd"></i>350.00</span><br>
+                            </div>
+                            <a href="lima-ica-paracas-3-dias" class="boton-happy-2">Más Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card card-index">
                         <a href="tour-7-lagunas-ausangate">
                             <img class="card-img-top" src="{{ asset('img/thumbnail/ausangate-7-lagoons.webp') }}"
                                 alt="Camino Inca de 2 días" loading="lazy">
@@ -98,18 +123,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="huchuy-qosqo-a-machu-picchu">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/huchuy-qosqo-tour-2-days.webp') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/huchuy-qosqo-tour-2-days.webp') }}"
                                 alt="Caminata a Huchuy Qosqo" loading="lazy">
                         </a>
                         <div class="card-body">
                             <h5 class="card-titulo">Huchuy Qosqo trek</h5>
                             <p class="card-text">En este tour podrás llegar a Machu Picchu mediante la muy bella
                                 caminata de Huchuy Qosqo </p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
+                                <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
+                            </div>
                             <a href="huchuy-qosqo-a-machu-picchu" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -124,10 +148,10 @@
                             <h5 class="card-titulo">Laguna Humantay</h5>
                             <p class="card-text">La LAGUNA HUMANTAY, hoy en día considerado uno de los destinos
                                 turísticos naturales más hermosos.</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
+                                <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
+                            </div>
                             <a href="tour-laguna-humantay" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -142,10 +166,10 @@
                             <h5 class="card-titulo">Puente Qeswachaca</h5>
                             <p class="card-text">Este es el ultimo de los puentes Incas: Qeswachaca con una gran
                                 tradicion milenaria.</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
+                                <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
+                            </div>
                             <a href="qeswachaca-tour" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -161,10 +185,10 @@
                             <h5 class="card-titulo">Vinicunca: Montaña de colores</h5>
                             <p class="card-text">La montaña de 7 colores o montaña arco iris, son algunos nombres
                                 que tiene Vinicunca</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
+                                <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
+                            </div>
                             <a href="vinicunca-tour" class="boton-happy-2">Más info</a>
                         </div>
                     </div>
@@ -179,10 +203,10 @@
                             <h5 class="card-titulo">Waqrapucara Full day</h5>
                             <p class="card-text">Cuyos términos quechua significa “fortaleza en forma de cuernos”,
                                 es una nueva ruta de aventura.</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 Día</span>
+                                <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
+                            </div>
                             <a href="waqrapukara-full-day-tour" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>

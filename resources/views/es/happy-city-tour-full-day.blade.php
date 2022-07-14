@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
     <link rel="canonical" href="https://happyperutours.com/es/hapy-city-tour-full-day">
 </head>
- 
+
 <body>
     <!-----Boton wasa---------->
     <a href="https://bit.ly/3CRGLAE" class="whatsapp" target="_blank"> <i class="icon-whatsapp"></i></a>
@@ -26,16 +26,18 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/happy-city-tour-full-day">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/happy-city-tour-full-day" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('happy-city-tour-english') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('happy-city-tour') }}'">Portugués</button></li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -47,17 +49,18 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Happy City Tour Full Day
+                <?php $titulo = 'Happy City Tour Full Day';
+                echo $titulo; ?>
             </h1>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -99,7 +102,7 @@
                         <a href="tour-laguna-humantay">
                             <p>Tour Laguna Humantay</p>
                         </a>
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -225,7 +228,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Notas Importantes:
                                     </button>
                                 </h5>
@@ -249,8 +253,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/es/happy-city-tour-full-day"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -269,13 +273,13 @@
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/happy-city-tour-cusco.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/happy-city-tour-cusco.jpg') }}" alt="Happy city tour"
-                                    loading="lazy">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-city-tour-cusco.jpg') }}"
+                                    alt="Happy city tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/city-tour-plaza-de-armas.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/city-tour-plaza-de-armas.jpg') }}" loading="lazy"
                                     alt="City tour en Cusco">
@@ -327,7 +331,7 @@
         </div>
     </section>
 
-    
+
     @include('layouts.foot-castellano')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>

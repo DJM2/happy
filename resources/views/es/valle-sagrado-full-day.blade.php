@@ -26,29 +26,32 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/sacred-valley-full-day">
-            <idioma>English</idioma>
-        </a>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+    @include('layouts.spanish')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('sacred-valley-of-the-incas') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('vale-sagrado-dos-incas') }}'">Portugués</button ></li>
+        </ul>
     </li>
-    <li><a href="../en/sacred-valley-full-day" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
-    </div>
-    </nav>
-    </div>
-    </div>
-    </div>
-    </div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+    
+        
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Valle Sagrado de los Incas
+                <?php $titulo='Valle Sagrado de los Incas'; echo $titulo; ?>         
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Valle Sagrado&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 80.00
+                <i class="icon-dollar"></i> <?php $precio = 80; echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">

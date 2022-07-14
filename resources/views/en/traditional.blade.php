@@ -25,15 +25,13 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/tradicional">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/tradicional" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
+    @include('layouts.english')
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('tradicional') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('tradicional-portugues') }}'">Portugués</button ></li>
+        </ul></li> 
     </ul>
     </div>
     </nav>
@@ -42,11 +40,10 @@
     </div>
     </div>
 
-
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Traditional Tours
+                <?php $titulo = 'Traditional Tours'; echo $titulo; ?>           
             </h1>
         </div>
     </div>
@@ -61,7 +58,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index">
                         <a href="cusco-city-tour">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.webp') }}"
                                 alt="Lares tour trek">
                         </a>
                         <div class="card-body">
@@ -79,7 +76,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="happy-experience-tour">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.webp') }}"
                                 alt="Traditional City Tour">
                         </a>
                         <div class="card-body">
@@ -99,7 +96,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="happy-city-tour-full-day">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.jpg') }}"
+                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -114,7 +111,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="sacred-valley-2-days">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/inca-trail-first-class-tour.jpg') }}"
+                                src="{{ asset('img/thumbnail/inca-trail-first-class-tour.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -133,7 +130,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="sacred-valley-full-day">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.jpg') }}"
+                                src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -152,7 +149,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="maras-moray-salineras-tour">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.png') }}"
+                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">

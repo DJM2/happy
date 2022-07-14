@@ -28,14 +28,12 @@
     </div>
 
     @include('layouts.blog-menu-castellano')
-    <li>
-        <a href="../blog-ingles/puno-tourist-information">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../blog-ingles/puno-tourist-information" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-puno-english') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-puno-english') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>

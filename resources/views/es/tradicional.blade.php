@@ -27,16 +27,18 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/traditional">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/traditional" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('traditional') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('tradicional-portugues') }}'">Portugués</button></li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -48,7 +50,8 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Tours Tradicionales
+                <?php $titulo = 'Tours Tradicionales';
+                echo $titulo; ?>
             </h1>
         </div>
     </div>
@@ -68,13 +71,13 @@
                         </a>
                         <div class="card-body">
                             <h5 class="card-titulo">Cusco City tour</h5>
-                            <p class="card-text">UNESCO declaró a 
+                            <p class="card-text">UNESCO declaró a
                                 Cusco como centro del patrimonio mundial en 1983,
                                 por su belleza e historia...</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>50.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
+                                <span class="price-card"><i class="icon-usd"></i>50.00</span><br>
+                            </div>
                             <a href="cusco-city-tour" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -89,10 +92,10 @@
                             <h5 class="card-titulo">Happy Experience Tour</h5>
                             <p class="card-text">Experiencia Happy Perú, tour en mercado local, clases de cocina y
                                 show de pisco sour.</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
+                                <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
+                            </div>
                             <a href="tour-happy-experience" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -123,10 +126,10 @@
                             <h5 class="card-titulo">Valle Sagrado y Machu Picchu</h5>
                             <p class="card-text">El Tour al Valle Sagrado de los Incas el cual dura todo el día te
                                 llevará a los lugares más clásicos...</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 2 días</span>
-                                    <span class="price-card"><i class="icon-usd"></i>450.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 2 días</span>
+                                <span class="price-card"><i class="icon-usd"></i>450.00</span><br>
+                            </div>
                             <a href="valle-sagrado-2-dias" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -142,10 +145,10 @@
                             <h5 class="card-titulo">Valle Sagrado</h5>
                             <p class="card-text">El Tour al Valle Sagrado de los Incas el cual dura todo el día te
                                 llevará a los lugares más clásicos...</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>80.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
+                                <span class="price-card"><i class="icon-usd"></i>80.00</span><br>
+                            </div>
                             <a href="valle-sagrado-full-day" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>
@@ -161,10 +164,10 @@
                             <h5 class="card-titulo">Maras, Moray y Salineras</h5>
                             <p class="card-text">Tour a las SALINERAS DE MARAS y el sitio arqueológico de
                                 experimentación agrícola de MORAY, un...</p>
-                                <div class="line-card">
-                                    <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
-                                    <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
-                                </div>
+                            <div class="line-card">
+                                <span class="duration-card"><i class="icon-clock-o"></i> 1 día</span>
+                                <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
+                            </div>
                             <a href="maras-moray-salineras-tour" class="boton-happy-2">Más Info</a>
                         </div>
                     </div>

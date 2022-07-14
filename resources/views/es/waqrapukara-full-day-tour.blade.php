@@ -26,40 +26,45 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
-
-    @include('layouts.spanish-tours')
-    <li class="has-children">
-        <idioma><a><span class="icon-language"></span> Español</a></idioma>
-        <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang">English</button></li>
-            <li><button class="btn-lang">Português</button ></li>
-        </ul></li>
-    </li>
-    </ul>
+    <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        @include('layouts.spanish')
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('waqrapukara-tour') }}'">English</button></li>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('waqrapukara-full-day') }}'">Portugués</button></li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
     </div>
     </div>
     </div>
+
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Tour a Waqrapukara
+                <?php $titulo = 'Tour a Waqrapukara';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Waqrapukara&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 100.00
+                <i class="icon-dollar"></i> <?php $precio = 100;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
-                    posible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Su mensaje fué enviado con éxito, Le responderemos en la mayor brevedad
+                        posible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -129,7 +134,7 @@
                         uno de los ríos mas importantes del Cusco llamado APURIMAC.
                     </p><br>
                     <h5 class="h5-tours"> Itinerario:</h5>
-                   
+
                     <p class="p-tours">
                         El recojo del hotel será a las 4:30 am, tomaremos la ruta sur de la ciudad del Cusco y después
                         de 2 horas en bus llegaremos a SANGARARA, aquí tendremos el desayuno; continuaremos por unos 30
@@ -190,7 +195,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         ¿Qué necesitas llevar?:
                                     </button>
                                 </h5>
@@ -242,8 +248,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/es/waqrakucara-full-day-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -252,7 +258,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>Desde:</span><i class="icon-dollar"></i> 100.00 <i
-                            class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
+                                class="icon-info-circle price-info" data-title="Precio por adulto"></i></h4>
                         @include('layouts.book-castellano')
                     </div>
                 </div>
@@ -269,7 +275,8 @@
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/waqrapucara-full-day-tour.jpg') }}"
+                                data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/waqrapucara-full-day-tour.jpg') }}"
                                     alt="waqrapukara full day">
@@ -277,15 +284,13 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/waqrapukara-cusco-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.jpg') }}"
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-cusco-tour.jpg') }}"
                                     alt="Waqrapukara cusco">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/waqrapukara-happy-peru.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/waqrapukara-happy-peru.jpg') }}"
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/waqrapukara-happy-peru.jpg') }}"
                                     alt="tour a waqrapukara">
                             </a>
                         </div>

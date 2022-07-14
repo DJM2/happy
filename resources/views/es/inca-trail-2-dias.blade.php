@@ -28,14 +28,12 @@
     </div>
 
     @include('layouts.spanish-tours')
-    <li>
-        <a href="../en/inca-trail-2-days">
-            <idioma>English</idioma>
-        </a>
-    </li>
-    <li><a href="../en/inca-trail-2-days" class="nav-link" id="idioma-responsive">English</a>
-    </li>
-    </ul>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> Español</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('inca-trail-2-days') }}'">English</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('trilha-inca-2-dias') }}'">Portugués</button ></li>
+        </ul></li>
     </div>
     </nav>
     </div>
@@ -47,7 +45,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Inca trail 2 días
+                <?php $titulo='Inca trail 2 días'; echo $titulo; ?>           
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Machupicchu &nbsp;&nbsp;

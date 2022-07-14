@@ -30,13 +30,12 @@
     </div>
 
     @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/huchuy-qosqo-a-machu-picchu">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/huchuy-qosqo-a-machu-picchu" class="nav-link" id="idioma-responsive">Español</a>
-    </li>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('huchuy-qosqo-a-machu-picchu') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('huchuy-qosqo-2-dias-portugues') }}'">Portugués</button ></li>
+        </ul></li>
     </ul>
     </div>
     </nav>
@@ -47,11 +46,13 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                Huchuy Qosqo & Machu Picchu
+                <?php $titulo = 'Huchuy Qosqo & Machu Picchu'; echo $titulo; ?>
+                
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco - Sacred Valley - Machupicchu&nbsp;&nbsp;
-                <i class="icon-dollar"></i> 580.00
+                <i class="icon-dollar"></i> <?php $precio = 500;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
             <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">

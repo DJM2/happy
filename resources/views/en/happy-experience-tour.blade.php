@@ -4,7 +4,8 @@
 <head>
     @include('layouts.links')
     <title>Exclusive Happy City Tour Cusco | Travel Agency Perú</title>
-    <meta name="description" content="Exclusive full day city tour in Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay">
+    <meta name="description"
+        content="Exclusive full day city tour in Cusco, Sacsayhuaman, Koricancha, Pucapucara, Tambomachay">
     <meta name="keywords"
         content="Cusco, exclusive tour, cusco tour, tour, Pucapucara, Tambomachay, Exclusive Tours in Lares">
     <meta property="og:type" content="website" />
@@ -29,12 +30,14 @@
     </div>
 
     @include('layouts.english-tours-menu')
-    <li>
-        <a href="../es/tour-happy-experience">
-            <idioma>Español</idioma>
-        </a>
-    </li>
-    <li><a href="../es/tour-happy-experience" class="nav-link" id="idioma-responsive">Español</a>
+    <li class="has-children">
+        <idioma><a><span class="icon-language"></span> English</a></idioma>
+        <ul class="dropdown arrow-top" style="width: 120px">
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-tour-experiencia') }}'">Español</button></li>
+            <li><button class="btn-lang"
+                    onclick="window.location.href='{{ route('happy-experiencia-tour') }}'">Portugués</button></li>
+        </ul>
     </li>
     </ul>
     </div>
@@ -48,21 +51,23 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages">
-                Happy City Tour
+                <?php $titulo = 'Happy City Tour';
+                echo $titulo; ?>
             </h1>
             <p class="p-titulo">
                 <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
-                <i class="icon-dollar"></i> 60.00
+                <i class="icon-dollar"></i> <?php $precio = 60;
+                echo $precio; ?>.00
             </p>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                        possible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
         </div>
     </div>
@@ -70,7 +75,10 @@
     <div class="traditional"></div>
     <section>
         <div class="container">
-            <h2 class="h2-happy"><o>Exclusive </o> <m>Happy City Tour</m> </h2>
+            <h2 class="h2-happy">
+                <o>Exclusive </o>
+                <m>Happy City Tour</m>
+            </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <div class="row">
@@ -135,7 +143,7 @@
                         feel beautiful and happy.
                     </p><br>
                     <h5 class="h5-tours"> Itinerary:</h5>
-                   
+
                     <p class="p-tours">
                         The Guide will pick you up from the hotel at 9:00 am and then go to the nearest public bus
                         service stop, we will take the bus to one of the most famous markets in Cusco VINOCANCHON the
@@ -228,7 +236,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         Important notes:
                                     </button>
                                 </h5>
@@ -252,8 +261,8 @@
                     <div class="sharethis-inline-share-buttons"></div>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous"
-                                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
-                                        nonce="RA0e6tQN"></script>
+                        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=588015035734857&autoLogAppEvents=1"
+                        nonce="RA0e6tQN"></script>
                     <div class="fb-comments" data-href="https://happyperutours.com/en/happy-experience-tour"
                         data-width="100%" data-numposts="5"></div>
                     <!-- ShareThis END -->
@@ -262,7 +271,7 @@
                 <div class="col-lg-3">
                     <div class="similares">
                         <h4 class="price"><span>From:</span><i class="icon-dollar"></i> 60.00 <i
-                            class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
+                                class="icon-info-circle price-info" data-title="Price per adult"></i></h4>
                         @include('layouts.book-ingles')
                     </div>
                 </div>
@@ -273,38 +282,43 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-exclusive.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-exclusive.jpg') }}"
-                                    alt="lares trek tour">
+                            <a href="{{ asset('img/galeria/happy-cusco-exclusive.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-exclusive.webp') }}"
+                                    alt="Happy Experience Tour" loading="lazy">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-experience.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-experience.jpg') }}"
-                                    alt="lares tour 4 days">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-cusco-tour.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-tour.jpg') }}"
-                                    alt="tour a lares">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience.jpg') }}"
-                                    alt="tour en lares">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience-cusco.jpg') }}" data-lightbox="photos">
-                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience-cusco.jpg') }}">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/happy-experience-tour.jpg') }}" data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/happy-cusco-experience.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid"
-                                    src="{{ asset('img/thumbnail/happy-experience-tour.jpg') }}">
+                                    src="{{ asset('img/thumbnail/happy-cusco-experience.webp') }}"
+                                    alt="Happy Cusco Tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-cusco-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-cusco-tour.webp') }}"
+                                    alt="Cusco City Tour" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid" src="{{ asset('img/thumbnail/happy-experience.webp') }}"
+                                    alt="Tour around Cusco Happy Peru" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience-cusco.webp') }}"
+                                data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/happy-experience-cusco.webp') }}" loading="lazy"
+                                    alt="Travel TO Cusco">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item">
+                            <a href="{{ asset('img/galeria/happy-experience-tour.webp') }}" data-lightbox="photos">
+                                <img class="img-fluid"
+                                    src="{{ asset('img/thumbnail/happy-experience-tour.webp') }}" loading="lazy"
+                                    alt="Gastronomy tour Cusco">
                             </a>
                         </div>
                     </div>
@@ -340,7 +354,7 @@
             </div>
         </div>
     </section>
-  
+
     @include('layouts.english-foot')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>

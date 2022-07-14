@@ -3,13 +3,13 @@
 
 <head>
     @include('layouts.links')
-    <title>Happy City Tour Cusco Dia Inteiro | Travel Agency Perú</title>
+    <title>Happy City Tour Cusco Dia Inteiro | Agência de viagens Perú</title>
     <meta name="description"
         content="Aliamos este circuito a um momento de partilha de momentos com a população local conhecendo as suas praças principais, o mercado tradicional da cidade e os pratos típicos.">
     <meta name="keywords"
         content="Cusco, tour exclusivo, tour cusco, tour Peru, Pucapucara, Tambomachay, Tour em Cusco, viagem a Cusco, tour exclusivo em cusoo, cusco dia inteiro, conhecendo cusco">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Happy City Tour Cusco Full Day | Travel Agency Perú" />
+    <meta property="og:title" content="Happy City Tour Cusco Full Day | Agência de viagens Perú" />
     <meta property="og:image" content="https://happyperutours.com/img/cusco-view.jpg" />
     <link rel="canonical" href="https://happyperutours.com/pt/happy-city-tour">
 </head>
@@ -52,6 +52,10 @@
             <h1 class="text-center h1-pages">
 				<?php $titulo='Happy City Tour dia enteiro'; echo $titulo; ?>
             </h1>
+            <p class="p-titulo">
+                <i class="icon-map-marker"></i> Cusco &nbsp;&nbsp;
+                <i class="icon-dollar"></i> <?php $precio=60;  echo $precio; ?>.00
+            </p>
             @if (session()->has('flash'))
                 <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
                     <p class="text-center">Sua mensagem foi enviada com sucesso, responderemos assim que possível.
@@ -301,26 +305,31 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 display2">
-                    <h4 class="text-center">Passeios semelhantes</h4>
-                    <div class="similares">
-                        <a href="city-tour-cusco">
-                            <p>Cusco City Tour</p>
-                        </a>
-                        <a href="happy-experiencia-tour">
-                            <p>Happy City Tour</p>
-                        </a>
-                        <a href="valle-sagrado-2-dias">
-                            <p>Vale Sagrado & Machu Picchu</p>
-                        </a>
-                        <a href="lares-trekking-4-dias">
-                            <p>Lares caminhada de 4d/3n</p>
-                        </a>
-                        <a href="perurail-vistadome">
-                            <p>Passeio de trem Vistadome</p>
-                        </a>
-                        <a href="inca-rail-primeira-classe">
-                            <p>Passeio de trem Primeira classe</p>
-                        </a>
+                    <h4 class="text-center">Passeios Semelhantes</h4>
+                    <a href="city-tour-cusco">
+                        <p>Cusco City Tour</p>
+                    </a>
+                    <a href="happy-experiencia-tour">
+                        <p>Happy City Tour Exclusivo</p>
+                    </a>
+                    <a href="valle-sagrado-2-dias">
+                        <p>Vale Sagrado & MAchu Picchu</p>
+                    </a>
+                    <a href="lares-trekking-4-dias">
+                        <p>Lares caminhada de 4d/3n</p>
+                    </a>
+                    <a href="perurail-vistadome">
+                        <p>Passeio de trem Vistadome</p>
+                    </a>
+                    <a href="inca-rail-primeira-classe">
+                        <p>Passeio de trem Primeira classe</p>
+                    </a>
+                    <a href="qeswachaca-tour">
+                        <p>Tour Qeswachaca</p>
+                    </a>
+                    <a href="humantay-lagoa">
+                        <p>Tour Lagoa Humantay</p>
+                    </a>
                     </div>
                 </div>
             </div>

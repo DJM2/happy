@@ -34,13 +34,12 @@
     <div class="site-navbar-wrap">
 
         @include('layouts.english')
-        <li>
-            <a href="faqs">
-                <idioma>English</idioma>
-            </a>
-        </li>
-        <li><a href="faqs" class="nav-link" id="idioma-responsive">English</a></li>
-        </ul>
+        <li class="has-children">
+            <idioma><a><span class="icon-language"></span> English</a></idioma>
+            <ul class="dropdown arrow-top" style="width: 120px">
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Español</button></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Portugués</button ></li>
+            </ul></li>
     </div>
     </nav>
     </div>

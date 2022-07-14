@@ -127,7 +127,7 @@ a:hover {
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background: url('../img/galeria/tour-en-maras-moray.jpg');
+    background: url('../img/galeria/tour-en-maras-moray.webp');
     background-size: cover;
 }
 
@@ -145,7 +145,7 @@ a:hover {
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background: url('../img/galeria/tour-machu-picchu-andenes.jpg');
+    background: url('../img/galeria/tour-machu-picchu-andenes.webp');
     background-size: cover;
 }
 
@@ -173,6 +173,15 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background: url('../img/panoramic/inca-jungle-Machupicchu-tour-x-travel-peru.jpg');
+    background-size: cover;
+}
+
+.lima-ica-paracas {
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: url('../img/panoramic/Lima-Ica-Paracas.webp');
     background-size: cover;
 }
 
@@ -218,6 +227,15 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background: url('../img/panoramic/expedition-train-tren.webp');
+    background-size: cover;
+}
+
+.around {
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: url('../img/panoramic/tours-around-peru.webp');
     background-size: cover;
 }
 
@@ -417,7 +435,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown a {
-    font-size: 14px;
+    font-size: 13.5px;
     text-transform: none;
     letter-spacing: normal;
     -webkit-transition: 0s all;

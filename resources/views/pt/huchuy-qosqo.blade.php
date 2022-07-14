@@ -50,7 +50,7 @@
                     echo $titulo; ?>
                 </h1>
                 <p class="p-titulo">
-                    <i class="icon-map-marker"></i> Cusco - Valle Sagrado - Machupicchu&nbsp;&nbsp;
+                    <i class="icon-map-marker"></i> Cusco - Vale Sagrado - Machupicchu&nbsp;&nbsp;
                     <i class="icon-dollar"></i> <?php $precio = 100; echo $precio; ?>.00
                 </p>
                 @if (session()->has('flash'))
@@ -80,28 +80,28 @@
                     <div class="col-lg-3 display">
                         <div class="similares">
                             <h4 class="text-center">Passeios semelhantes</h4>
-                            <a href="inca-trail-4-dias">
-                                <p>Inca Trail a Machu Picchu 4 días</p>
+                            <a href="trilha-inca-4-dias">
+                                <p>Trilha Inca a Machu Picchu 4 días</p>
                             </a>
-                            <a href="inca-jungle-4-dias-tour">
-                                <p>Inca Jungle a Machupicchu 4 días</p>
+                            <a href="selva-inca-4-dias">
+                                <p>Selva Inca 4 días</p>
                             </a>
-                            <a href="choquequirao-tour-4-dias">
+                            <a href="passeio-choquequirao-4-dias">
                                 <p>Choquequirao 4 días</p>
                             </a>
-                            <a href="tour-7-lagunas-ausangate">
-                                <p>Ausangate 7 lagunas</p>
+                            <a href="7-lagoas-tour">
+                                <p>Ausangate 7 lagoas</p>
                             </a>
-                            <a href="valle-sagrado-3-dias">
-                                <p>Valle Sagrado 3 días</p>
+                            <a href="vale-sagrado-e-trilha-inca">
+                                <p>Vale Sagrado e Trilha inca 3 días</p>
                             </a>
-                            <a href="tour-salkantay-5-dias">
+                            <a href="salkantay-5-dias">
                                 <p>Salkantay 5 días</p>
                             </a>
-                            <a href="caminata-lares-4-dias">
-                                <p>Caminata Lares 4d/3n</p>
+                            <a href="lares-trekking-4-dias">
+                                <p>Caminhada Lares 4d/3n</p>
                             </a>
-                            <a href="tour-salkantay-4-dias">
+                            <a href="salkantay-4-dias">
                                 <p>Salkantay 4 días</p>
                             </a>
                         </div>
@@ -300,28 +300,28 @@
                     <div class="col-lg-12 display2">
                         <div class="similares">
                             <h4 class="text-center">Passeios semelhantes</h4>
-                            <a href="inca-trail-4-dias">
-                                <p>Inca Trail a Machu Picchu 4 días</p>
+                            <a href="trilha-inca-4-dias">
+                                <p>Trilha Inca a Machu Picchu 4 días</p>
                             </a>
-                            <a href="inca-jungle-4-dias-tour">
-                                <p>Inca Jungle a Machupicchu 4 días</p>
+                            <a href="selva-inca-4-dias">
+                                <p>Selva Inca 4 días</p>
                             </a>
-                            <a href="choquequirao-tour-4-dias">
+                            <a href="passeio-choquequirao-4-dias">
                                 <p>Choquequirao 4 días</p>
                             </a>
-                            <a href="tour-7-lagunas-ausangate">
-                                <p>Ausangate 7 lagunas</p>
+                            <a href="7-lagoas-tour">
+                                <p>Ausangate 7 lagoas</p>
                             </a>
-                            <a href="valle-sagrado-3-dias">
-                                <p>Valle Sagrado 3 días</p>
+                            <a href="vale-sagrado-e-trilha-inca">
+                                <p>Vale Sagrado e Trilha inca 3 días</p>
                             </a>
-                            <a href="tour-salkantay-5-dias">
+                            <a href="salkantay-5-dias">
                                 <p>Salkantay 5 días</p>
                             </a>
-                            <a href="caminata-lares-4-dias">
-                                <p>Caminata Lares 4d/3n</p>
+                            <a href="lares-trekking-4-dias">
+                                <p>Caminhada Lares 4d/3n</p>
                             </a>
-                            <a href="tour-salkantay-4-dias">
+                            <a href="salkantay-4-dias">
                                 <p>Salkantay 4 días</p>
                             </a>
                         </div>
