@@ -320,21 +320,30 @@
             <div class="row">
                 <div class="col-lg-3 display2">
                     <div class="similares">
-                        <h4 class="text-center">Similar Tours</h4>
-                        <a href="">
+                        <h4 class="text-center">Tours Similares</h4>
+                        <a href="valle-sagrado-full-day">
+                            <p>Valle Sagrado Full Day</p>
+                        </a>
+                        <a href="tour-7-lagunas-ausangate">
+                            <p>Ausangate 7 lagunas</p>
+                        </a>
+                        <a href="happy-city-tour-full-day">
+                            <p>Happy City Tour Full day</p>
+                        </a>
+                        <a href="maras-moray-salineras-tour">
+                            <p>Maras, Moray y Salineras</p>
+                        </a>
+                        <a href="tour-happy-experience">
+                            <p>Happy Experience Tour Exclusivo</p>
+                        </a>
+                        <a href="qeswachaca-tour">
+                            <p>Queswachaca Tour</p>
+                        </a>
+                        <a href="vinicunca-tour">
+                            <p>Vinicunca: Montaña de Colores</p>
+                        </a>
+                        <a href="cusco-city-tour">
                             <p>Cusco City Tour</p>
-                        </a>
-                        <a href="">
-                            <p>Huchuy Qosqo & Machu picchu</p>
-                        </a>
-                        <a href="">
-                            <p>Inka jungle</p>
-                        </a>
-                        <a href="lares-trek-4-days">
-                            <p>Lares trek 4d/3n</p>
-                        </a>
-                        <a href="">
-                            <p>Choquequirao 4D/3N</p>
                         </a>
                     </div>
                 </div>

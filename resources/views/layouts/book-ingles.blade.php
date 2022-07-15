@@ -17,8 +17,8 @@
             </div>
             <div class="form-group col-md-12">
                 <label for="tour">Tour:</label>
-                {{-- <input type="text" readonly class="form-control" name="tour" value="{{$titulo}}"> --}}
-                <select class="form-control" name="tour">
+                <input type="text" readonly class="form-control" name="tour" value="{{$titulo}}">
+                {{-- <select class="form-control" name="tour">
                     <option value="City Tour Cusco" selected>Happy City Tour</option>
                     <option value="Happy City Tour">Happy City Tour</option>
                     <option value="Lares trek 4 days">Lares trek 4 days</option>
@@ -45,7 +45,7 @@
                     <option value="Salkantay trek 4 days">Salkantay trek 4 days</option>
                     <option value="Salkantay trek 5 days">Salkantay trek 5 days</option>
                     <option value="Waqrapukara Full Day">Waqrapukara Full Day</option>
-                </select>
+                </select> --}}
             </div>
             <div class="form-group col-md-6">
                 <label for="adultos" class="input-form">Adults:</label>

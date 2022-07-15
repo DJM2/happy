@@ -72,7 +72,7 @@
                                             días</a></li>
                                     <li><a href="{{ route('huchuy-qosqo-a-machu-picchu') }}" class="nav-link">Huchuy
                                             Qosqo & Machu Picchu 2 días</a></li>
-                                    <li><a href="{{ route('inca-trail-4-dias') }}" class="nav-link">Camino Inca 4
+                                    <li><a href="{{ route('inca-trail-4-dias-tour') }}" class="nav-link">Camino Inca 4
                                             días</a></li>
                                     <li><a href="{{ route('inca-jungle-4-dias') }}" class="nav-link">Inca jungle 4
                                             días</a></li>

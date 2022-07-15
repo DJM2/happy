@@ -399,7 +399,7 @@
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
                             <a href="{{ asset('img/galeria/sacred-valley-tour.webp') }}" data-lightbox="photos">
                                 <img class="img-fluid" src="{{ asset('img/thumbnail/sacred-valley-tour.webp') }}"
-                                    alt="sacred valley tour">
+                          w          alt="sacred valley tour">
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-4 item">

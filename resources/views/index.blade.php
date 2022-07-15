@@ -37,7 +37,6 @@
             <li><button class="btn-lang" onclick="window.location='inicio'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location='comecar'">Português</button ></li>
         </ul></li>
-        
     </ul>
     </div>
     </nav>
@@ -73,13 +72,13 @@
                         <input type="text" class="form-control" name="name" placeholder="Name:">
                     </div>
                     <div class="form-group col-md-2">
-                        <input placeholder=" Date arrive" class="textbox-n" type="text" onfocus="(this.type='date')" name="da" style="border-radius: 5px;
+                        <input placeholder=" Date arrive" class="form-control" type="text" onfocus="(this.type='date')" name="da" style="border-radius: 5px;
                         border-style: none;
                         padding: 5px 0px;
                         padding-top: 0.41em;">
                     </div>
                     <div class="form-group col-md-2">
-                        <input placeholder=" Date arrive" class="textbox-n" type="text" onfocus="(this.type='date')" name="do" style="border-radius: 5px;
+                        <input placeholder=" Date arrive" class="form-control" type="text" onfocus="(this.type='date')" name="do" style="border-radius: 5px;
                         border-style: none;
                         padding: 5px 0px;
                         padding-top: 0.41em;">
