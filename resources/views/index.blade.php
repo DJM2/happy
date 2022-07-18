@@ -127,7 +127,7 @@
                 </div>
                 <div class="col-lg-12">
                     <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt="" width="100%">
-                    <span>Photo: </span><a href="" class="a-seo">Vinicunca (Rainbow Mountain)</a>
+                    <span>Photo: </span><a href="{{route('blog-vinicunca-english')}}" class="a-seo">Vinicunca (Rainbow Mountain)</a>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index">
                         <a href="en/lares-trek-4-days">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.webp') }}"
                                 alt="Lares tour trek">
                         </a>
                         <div class="card-body">
@@ -174,7 +174,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/cusco-city-tour">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.webp') }}"
                                 alt="Traditional City Tour">
                         </a>
                         <div class="card-body">
@@ -194,7 +194,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/happy-experience-tour">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.jpg') }}"
+                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -213,7 +213,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/salkantay-trek-tour-5-days">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/7-lagunas-tour.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/7-lagunas-tour.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -232,7 +232,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/sacred-valley-2-days">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/short-inca-trek-to-machu-picchu.jpg') }}"
+                                src="{{ asset('img/thumbnail/short-inca-trek-to-machu-picchu.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -251,7 +251,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/hiram-binghan-train-tour">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.png') }}"
+                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -268,7 +268,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/inca-trail-2-days">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/camino-inca.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/camino-inca.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -286,7 +286,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="en/inca-trail-4-days">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/salkantay-tour.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/salkantay-tour.webp') }}"
                                 alt="Card image cap">
                         </a>
                         <div class="card-body">

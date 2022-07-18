@@ -38,7 +38,7 @@
             <idioma><a><span class="icon-language"></span> English</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Español</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Portugués</button ></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('frequentes') }}'">Portugués</button ></li>
             </ul></li>
     </div>
     </nav>
@@ -67,7 +67,6 @@
                     </h2>
                     <div class="separador-naranja"></div>
                     <div class="separador-azul"></div>
-                    <br><br>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
@@ -199,8 +198,9 @@
                         <div class="card">
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
-                                    <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                                        aria-expanded="false" aria-controls="collapseFour">
+                                    <a class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         <h2 class="h2-questions">&#9755;
                                             ¿Cuáles son los lugares principales para visitar?
                                         </h2>
@@ -259,8 +259,9 @@
                         <div class="card">
                             <div class="card-header" id="five">
                                 <h2 class="mb-0">
-                                    <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-                                        aria-expanded="false" aria-controls="collapseFour">
+                                    <a class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFour">
                                         <h2 class="h2-questions">&#9755;
                                             ¿Necesito hablar español para viajar por Perú?
                                         </h2>
@@ -295,10 +296,10 @@
                         <div class="card">
                             <div class="card-header" id="five">
                                 <h2 class="mb-0">
-                                    <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix"
-                                        aria-expanded="false" aria-controls="collapsesix">
+                                    <a class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Cuando debo Viajar a peru?
+                                            ¿Cuáles son las mejores temporadas para visitar Perú?
                                         </h2>
                                     </a>
                                 </h2>
@@ -313,6 +314,98 @@
                                         algunas fechas donde puede encontra los tiquetes mas económicos y es entre
                                         septiembre y octubre.
                                     </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="seven">
+                                <h2 class="mb-0">
+                                    <a class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseseven" aria-expanded="false"
+                                        aria-controls="collapseseven">
+                                        <h2 class="h2-questions">&#9755;
+                                            ¿Perú es un buen destino familiar para visitar?
+                                        </h2>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseseven" class="collapse" aria-labelledby="seven"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        Definitivamente si. Perú es una muy buena opción para viajar en familia ya que
+                                        tiene muchas opciones para darle al gusto a personas de todas las edades.
+                                        Paisajes, turismo cultural, actividades al aire libre, aventura y turismo
+                                        gastronómico, son algunas de las opciones más comunes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="eight">
+                                <h2 class="mb-0">
+                                    <a class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseeight" aria-expanded="false"
+                                        aria-controls="collapseeight">
+                                        <h2 class="h2-questions">&#9755;
+                                            ¿Qué es el mal de altura? ¿Cómo evitarlo?
+                                        </h2>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseeight" class="collapse" aria-labelledby="eight"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>
+                                        El mal de altura o soroche, como también se le conoce en los Andes, es una
+                                        enfermedad causada por la falta de oxígeno en el cuerpo. A medida que subimos
+                                        más alto, la presión atmosférica es menor, por eso sentimos que “nos falta el
+                                        aire”.<br><br>
+                                        Ocurre cuando se asciende de forma brusca a altitudes por encima de los 2.400
+                                        metros sobre el nivel del mar, como cuando viajas de Lima (161 m.s.n.m) a Cusco
+                                        (3,399 m.s.n.m) en avión.
+                                    </p>
+                                    <h5>Síntomas del mal de altura</h5>
+                                    <p>
+                                        El mal de altura es muy fácil de reconocer por sus síntomas. Como menos oxígeno
+                                        llega al cuerpo, se siente:
+                                    </p>
+                                    <ul>
+                                        <li>Dolor de cabeza: la falta de oxígeno aumenta la presión capilar y la
+                                            hinchazón de la cabeza, causando dolor.
+                                            Este síntoma se presenta en el 80% de los casos de personas que suben de
+                                            pronto por encima de los 3.000 m de altitud.
+                                        </li>
+                                        <li>Mareos y náuseas: es normal sentir un poco de presión en la cabeza que causa
+                                            mareos y náuseas leves.</li>
+                                        <li>Cansancio general: la falta de oxígeno ocasiona una sensación de fatiga que
+                                            se debe atender descansando y bajando la velocidad de los movimientos. La
+                                            recomendación es caminar lento, no correr ni agitarse.</li>
+                                        <li>Hinchazón de manos y pies: es uno de los síntomas más comunes y el primero
+                                            en desaparecer una vez que el cuerpo se aclimata a la altitud.</li>
+                                    </ul>
+                                    <p>
+                                        Se cree que el mal de altura no afecta a las personas que están en forma, pero
+                                        esto es un mito. Hay otros factores como la edad, ascender muy rápido, hacer
+                                        actividad física sin estar aclimatado, dormir mal, comer en exceso o hidratarse
+                                        poco que también pasan factura.
+                                    </p>
+                                    <h5>Algunos consejos para prevenir el mal de altura son:</h5>
+                                    <ul>
+                                        <li>Viajar en bus hacia lugares de gran altitud como Arequipa, Cusco o Puno. El
+                                            ascenso progresivo disminuye las probabilidades de sufrir de mal de altura.
+                                        </li>
+                                        <li>Tomar una pastilla especial contra el soroche o mal de montaña. El Perú hay
+                                            opciones como el Sorojchipills que pueden tomarse para prevenir los
+                                            síntomas.</li>
+                                        <li>Masticar hojas de coca o tomarlas en té: es importante ¡no tragarse las
+                                            hogas de coca! Sólo masticar y tragar la saliva. También puedes tomar mate
+                                            de coca.</li>
+                                        <li>Mantener una dieta balanceada, baja en sal y muy ligera para que el cuerpo
+                                            pueda procesar mejor la altura.</li>
+                                        <li>Tomar mucha agua antes y durante el viaje para que el cuerpo esté más
+                                            preparado.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

@@ -33,16 +33,13 @@
     <!-- .site-mobile-menu -->
     <div class="site-navbar-wrap">
 
-        @include('layouts.spanish')
+        @include('layouts.english')
         <li class="has-children">
             <idioma><a><span class="icon-language"></span> Español</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('faqs') }}'">English</button>
-                </li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('frequentes') }}'">Portugués</button>
-                </li>
-            </ul>
-        </li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('faqs') }}'">English</button></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('frequentes') }}'">Portugués</button ></li>
+            </ul></li>
     </div>
     </nav>
     </div>
@@ -65,8 +62,8 @@
                 <div class="col-lg-12">
                     <br><br>
                     <h2 class="text-center">
-                        <m>Preguntas frecuentes</m>
-                        <o>para viajar a Perú</o>
+                        <m>Frecuently </m>
+                        <o>Questions</o>
                     </h2>
                     <div class="separador-naranja"></div>
                     <div class="separador-azul"></div>
@@ -417,7 +414,7 @@
             </div>
         </div>
     </section>
-    @include('layouts.foot-castellano')
+    @include('layouts.english-foot')
 
 </body>
 

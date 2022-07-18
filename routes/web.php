@@ -130,6 +130,7 @@ Route::get('pt/aventura', function(){return view('pt/aventura');})->name('aventu
 Route::get('pt/alternativas', function(){return view('pt/alternativas');})->name('alternativas-portugues');
 Route::get('pt/passeios-de-trem', function(){return view('pt/passeios-de-trem');})->name('tren-portugues');
 Route::get('pt/blog', function(){return view('pt/blog');})->name('blog-portugues');
+Route::get('preguntas-frequentes', function(){return view('preguntas-frequentes');})->name('frequentes');
  
 /*Tradicionales*/
 Route::get('pt/city-tour-cusco', function(){return view('pt/city-tour-cusco');})->name('city-tour-portugues');
