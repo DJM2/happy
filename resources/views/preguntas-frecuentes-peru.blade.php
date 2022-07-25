@@ -6,11 +6,11 @@
     <title>Preguntas Frecuentas al momento de viajar a Perú</title>
     <meta name="title" content="Preguntas Frecuentas al momento de viajar a Perú">
     <meta name="description"
-        content="Te presentamos la mayor cantidad de prefuntas frecuentes que necesitas saber, al momento de viajar a Perú">
+        content="Te presentamos la mayor cantidad de preguntas frecuentes que necesitas saber, al momento de viajar a Perú">
     <meta property="og:description"
-        content="Te presentamos la mayor cantidad de prefuntas frecuentes que necesitas saber, al momento de viajar a Perú" />
+        content="Te presentamos la mayor cantidad de preguntas frecuentes que necesitas saber, al momento de viajar a Perú" />
     <meta name="keywords"
-        content="Moneda de peru, sol peruano, es peru peligroso?, clima d eperu, se necesita vacuna para entrar a peru?, vacuna covid peru, donde esta ubicado peru?">
+        content="Moneda de peru, sol peruano, es peru peligroso?, clima de peru, se necesita vacuna para entrar a peru?, vacuna covid peru, donde esta ubicado peru?">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -157,7 +157,7 @@
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Necesito Visa para viajar a peru?
+                                            ¿Qué vacunas necesito para viajar a Perú?
                                         </h2>
                                     </a>
 
@@ -205,7 +205,7 @@
                                         data-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Cuáles son los lugares principales para visitar?
+                                            ¿Cuáles son los lugares principales para visitar en Perú?
                                         </h2>
                                     </a>
                                 </h2>

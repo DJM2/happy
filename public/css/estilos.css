@@ -3,6 +3,10 @@
     width: 215px;
 }
 
+#paraots {
+    display: none;
+}
+
 idioma {
     padding: 4px 13px 4px 13px;
     border-radius: 5px;
@@ -692,6 +696,20 @@ h3 {
 
 .vinicunca {
     background: url('../img/thumbnail/trek-to-rainbow-mountain.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.atracciones {
+    background: url('../img/blog/thumb/cusco.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.paucartambo {
+    background: url('../img/blog/thumb/Mirador-de-3-cruces-Paucartambo.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

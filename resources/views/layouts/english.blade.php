@@ -139,5 +139,5 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li @if (request()->is('blog')) class="active" @endif><a href="blog-peru"
+                                <li @if (request()->is('blog')) class="active" @endif><a href="{{ route('blog-english') }}"
                                         class="nav-link">Blog</a></li>

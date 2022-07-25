@@ -7,7 +7,8 @@
     <meta name="title" content="Happy Peru Tours - Travel Agency for Perú | Travel to Perú">
     <meta name="description"
         content="Happy Perú Tours, tours for Perú, Find treks, adventures and trekking tour around Perú">
-	<meta property="og:description" content="Happy Perú Tours, tours for Perú. Find treks, adventures and trekking tour around Perú" />
+    <meta property="og:description"
+        content="Happy Perú Tours, tours for Perú. Find treks, adventures and trekking tour around Perú" />
     <meta name="keywords"
         content="peru tours, trekking to machu picchu, aguas calientes, tour for cusco, tours for lima, tours for puno, tours for arequipa, treks in cusco">
     <meta name="robots" content="index, follow">
@@ -26,7 +27,7 @@
             <div class="site-mobile-menu-close mt-3">
                 <span class="icon-close2 js-menu-toggle"></span>
             </div>
-        </div> 
+        </div>
         <div class="site-mobile-menu-body"></div>
     </div>
 
@@ -35,8 +36,9 @@
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
             <li><button class="btn-lang" onclick="window.location='inicio'">Español</button></li>
-            <li><button class="btn-lang" onclick="window.location='comecar'">Português</button ></li>
-        </ul></li>
+            <li><button class="btn-lang" onclick="window.location='comecar'">Português</button></li>
+        </ul>
+    </li>
     </ul>
     </div>
     </nav>
@@ -53,16 +55,16 @@
                 <m> check Availability.</m>
             </h1>
             @if (session()->has('flash'))
-            <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
-                <p class="text-center">Your message was sent successfully, we will reply as soon as possible
-                    possible.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </p>
-            </div>
+                <div style="text-align:center" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <p class="text-center">Your message was sent successfully, we will reply as soon as possible
+                        possible.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </p>
+                </div>
             @endif
-            <form style="color: #fff" method="POST" action="{{ route('book-index') }}">
+            <form style="color: #fff" method="POST" {{-- action="{{ route('book-index') }}" --}}>
                 @csrf
                 <div class="form-row">
                     <div class="form-group col-md-2">
@@ -72,17 +74,20 @@
                         <input type="text" class="form-control" name="name" placeholder="Name:">
                     </div>
                     <div class="form-group col-md-2">
-                        <input placeholder=" Date arrive" class="form-control" type="text" onfocus="(this.type='date')" name="da" style="border-radius: 5px;
+                        <input placeholder=" Date arrive" class="form-control" type="text"
+                            onfocus="(this.type='date')" name="da"
+                            style="border-radius: 5px;
                         border-style: none;
                         padding: 5px 0px;
                         padding-top: 0.41em;">
                     </div>
                     <div class="form-group col-md-2">
-                        <input placeholder=" Date arrive" class="form-control" type="text" onfocus="(this.type='date')" name="do" style="border-radius: 5px;
+                        <input placeholder=" Date arrive" class="form-control" type="text"
+                            onfocus="(this.type='date')" name="do"
+                            style="border-radius: 5px;
                         border-style: none;
                         padding: 5px 0px;
                         padding-top: 0.41em;">
-                        
                     </div>
                     <div class="form-group col-md-2">
                         <input type="number" class="form-control" name="adults" placeholder="Adults">
@@ -92,13 +97,11 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" name="mensaje" rows="3" style="height: 40px"
-                        placeholder="Message:"></textarea>
+                    <textarea class="form-control" name="mensaje" rows="3" style="height: 40px" placeholder="Message:"></textarea>
                 </div>
                 <div class="form-group text-center">
                     <button type="submit" class="boton-happy">Send</button>
                 </div>
-
             </form>
         </div>
     </div>
@@ -126,8 +129,10 @@
                     </p>
                 </div>
                 <div class="col-lg-12">
-                    <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt="" width="100%">
-                    <span>Photo: </span><a href="{{route('blog-vinicunca-english')}}" class="a-seo">Vinicunca (Rainbow Mountain)</a>
+                    <img src="{{ asset('img/panoramic/machu-picchu-panoramico.jpg') }}" alt=""
+                        width="100%">
+                    <span>Photo: </span><a href="{{ route('blog-vinicunca-english') }}" class="a-seo">Vinicunca
+                        (Rainbow Mountain)</a>
                 </div>
             </div>
         </div>
@@ -163,7 +168,7 @@
                             <h5 class="card-titulo">Lares Trek 4d/3n</h5>
                             <p class="card-text">It is a good alternative to get to Machupicchu, although the
                                 Lares...</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 4 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>600.00</span><br>
                             </div>
@@ -182,7 +187,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
                                 bulk of the card's content.</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Day</span>
                                 <span class="price-card"><i class="icon-usd"></i>50.00</span><br>
                             </div>
@@ -202,7 +207,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
                                 bulk of the card's content.</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Day</span>
                                 <span class="price-card"><i class="icon-usd"></i>60.00</span><br>
                             </div>
@@ -220,7 +225,7 @@
                             <h5 class="card-titulo">Salkantay trek tour 5 days</h5>
                             <p class="card-text">The great mountain range of the Andes and its majestic
                                 snow-capped...</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 5 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>500.00</span><br>
                             </div>
@@ -239,7 +244,7 @@
                             <h5 class="card-titulo">Valle Sagrado & Machu Picchu 2D-1N</h5>
                             <p class="card-text">The Tour to the Sacred Valley of the Incas which lasts all day
                                 will...</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 2 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>450.00</span><br>
                             </div>
@@ -257,7 +262,7 @@
                         <div class="card-body">
                             <h5 class="card-titulo">Hiram Bingham Train tour</h5>
                             <p class="card-text">Visit Machu Picchu on the Hiram Bingham luxury train...</p>
-                             <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 1 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>100.00</span><br>
                             </div>
@@ -275,7 +280,7 @@
                             <h5 class="card-titulo">Inca Trail 2 days</h5>
                             <p class="card-text">The short Inca trail of 2 days, is a journey through the last...
                             </p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 2 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>500.00</span><br>
                             </div>
@@ -293,7 +298,7 @@
                             <h5 class="card-titulo">Inca Trail 4 days</h5>
                             <p class="card-text">The Inca trail 4 days to Machupicchu considered one of the most
                                 beautiful...</p>
-							 <div class="line-card">
+                            <div class="line-card">
                                 <span class="duration-card"><i class="icon-clock-o"></i> 4 Days</span>
                                 <span class="price-card"><i class="icon-usd"></i>650.00</span><br>
                             </div>

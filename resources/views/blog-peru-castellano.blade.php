@@ -48,7 +48,7 @@
     </div>
     </div>
     </div>
-    
+
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:5em">
@@ -89,6 +89,26 @@
             <div class="col-lg-12">
                 <h2 class="text-center">Temas de turismo Perú</h2><br><br>
             </div>
+            <div class="full-width paucartambo">
+                <div class="black">
+                    <h2>Mirador Paucartambo</h2>
+                    <p>Una espectacular vista de la salida del sol en el mirador de 3 Cruces</p>
+                    <button> <a href="{{route('mirador-paucartambo')}}">Leer articulo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="full-width atracciones">
+                <div class="black">
+                    <h2>Cusco Turístico</h2>
+                    <p>Los Principales Atractivos Turísticos de Cusco</p>
+                    <button> <a href="blog/blog-castellano/atracciones-turisticas-de-cusco">Leer articulo</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
             <div class="full-width inca-trail">
                 <div class="black">
                     <h2>Camino Inca</h2>
@@ -121,6 +141,7 @@
 
         </div>
     </div>
+
 
     @include('layouts.foot-castellano')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">

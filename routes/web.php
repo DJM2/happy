@@ -59,6 +59,7 @@ Route::get('blog/blog-ingles/what-you-need-to-know-about-inca-trail', function()
 Route::get('blog/blog-ingles/peruvian-gastronomy', function(){return view('blog/blog-ingles/peruvian-gastronomy');})->name('blog-gastronomy');
 Route::get('blog/blog-ingles/vinicunca', function(){return view('blog/blog-ingles/vinicunca');})->name('blog-vinicunca-english');
 Route::get('blog/blog-ingles/puno-tourist-information', function(){return view('blog/blog-ingles/puno-tourist-information');})->name('blog-puno-english');
+Route::get('blog/blog-ingles/attractions-of-cusco', function(){return view('blog/blog-ingles/attractions-of-cusco');})->name('blog-atracciones-english');
 
 /*ESPAÑOL*/
 
@@ -121,7 +122,8 @@ Route::get('blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca', func
 Route::get('blog/blog-castellano/gastronomia-peruana', function(){return view('blog/blog-castellano/gastronomia-peruana');})->name('blog-gastronomia');
 Route::get('blog/blog-castellano/vinicunca-castellano', function(){return view('blog/blog-castellano/vinicunca-castellano');})->name('blog-vinicunca');
 Route::get('blog/blog-castellano/informacion-turistica-puno', function(){return view('blog/blog-castellano/informacion-turistica-puno');})->name('blog-puno');
-
+Route::get('blog/blog-castellano/atracciones-turisticas-de-cusco', function(){return view('blog/blog-castellano/atracciones-turisticas-de-cusco');})->name('blog-atracciones');
+Route::get('blog/blog-castellano/mirador-3-cruces-paucartambo', function(){return view('blog/blog-castellano/mirador-3-cruces-paucartambo');})->name('mirador-paucartambo');
 
 /*PORTUGUES*/
 Route::get('comecar', function(){return view('comecar');})->name('comecar');
@@ -194,7 +196,7 @@ Route::post('book2', function(){
 }) ->name('book2');
 
 Route::post('book-index', function(){ 
-    $datos=request()->all();
+    $datos=request()->all();    
     Mail::send("emails.book-index", $datos, function($message) use($datos){
         $message->from($datos['email'], $datos['name'])
         ->to('reserve@happyperutours.com', 'DJM2')

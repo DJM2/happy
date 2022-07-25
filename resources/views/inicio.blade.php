@@ -147,7 +147,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index">
                         <a href="es/caminata-lares-4-dias">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/tour-lares-4-days-peru.webp') }}"
                                 alt="Lares tour trek" loading="lazy">
                         </a>
                         <div class="card-body">
@@ -165,7 +165,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/cusco-city-tour">
-                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.jpg') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumbnail/traditional-city-tour.webp') }}"
                                 alt="Traditional City Tour" loading="lazy">
                         </a>
                         <div class="card-body">
@@ -184,7 +184,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/tour-happy-experience">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.jpg') }}"
+                                src="{{ asset('img/thumbnail/happy-experience-tour-cusco-peru.webp') }}"
                                 alt="Happy exerience tour" loading="lazy">
                         </a>
                         <div class="card-body">
@@ -203,7 +203,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/inca-trail-360°-tren-tour">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/inca-trail-first-class-tour.jpg') }}"
+                                src="{{ asset('img/thumbnail/inca-trail-first-class-tour.webp') }}"
                                 alt="Inca Rail 360° tour en tren" loading="lazy">
                         </a>
                         <div class="card-body">
@@ -218,7 +218,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/choquequirao-tour-4-dias">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.jpg') }}"
+                                src="{{ asset('img/thumbnail/choquequirao-4-days-tour-cusco-peru.webp') }}"
                                 alt="Choquequirao Tour 4 dias" loading="lazy">
                         </a>
                         <div class="card-body">
@@ -237,7 +237,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/inca-rail-voyager-tren">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.png') }}"
+                                src="{{ asset('img/thumbnail/VOYAGER-tour-by-train-in-peru.webp') }}"
                                 alt="Inca Rail Voyager tour en tren">
                         </a>
                         <div class="card-body">
@@ -252,7 +252,7 @@
                     <div class="card card-index" style="width: 18rem;">
                         <a href="es/vinicunca-tour">
                             <img class="card-img-top"
-                                src="{{ asset('img/thumbnail/montana-de-colores-trekking.jpg') }}"
+                                src="{{ asset('img/thumbnail/montana-de-colores-trekking.webp') }}"
                                 alt="Inca Rail Voyager tour en tren">
                         </a>
                         <div class="card-body">
@@ -290,7 +290,7 @@
                     <h2 class="h2-happy">Sellos de la Empresa</h2>
                     <div class="row text-center">
                         <div class="col-sm-6 col-lg-3">
-                            <img src="{{ asset('img/certificado-exclusivo-happy-peru.png') }}"
+                            <img src="{{ asset('img/certificado-exclusivo-happy-peru.webp') }}"
                                 alt="Certificado exclusive" class="img-logo" width="90px" loading="lazy">
                         </div>
                         <div class="col-sm-6 col-lg-3">
@@ -316,6 +316,14 @@
                 <div class="col-lg-12">
                     <h2 class="text-center">Temas de turismo Perú</h2><br><br>
                 </div>
+                <div class="full-width atracciones">
+                    <div class="black">
+                        <h2>Cusco turístico</h2>
+                        <p>Conoce las principales atracciones turísticas de Cusco</p>
+                        <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer
+                                articulo</a> </button>
+                    </div>
+                </div>
                 <div class="full-width inca-trail">
                     <div class="black">
                         <h2>Camino Inca</h2>
@@ -338,14 +346,6 @@
                         <button> <a href="blog/blog-castellano/vinicunca-castellano">Leer artículo</a> </button>
                     </div>
                 </div>
-                <div class="full-width puno">
-                    <div class="black">
-                        <h2>Puno</h2>
-                        <p>Capital of Peruvian folklore</p>
-                        <button> <a href="blog/blog-castellano/informacion-turistica-puno">View Tours</a> </button>
-                    </div>
-                </div>
-
             </div>
         </div>
         <!-----------Fin Tours full width---------->
