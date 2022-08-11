@@ -76,7 +76,8 @@
                                         <li><a href="{{ route('passeio-choquequirao-4-dias') }}"
                                                 class="nav-link">Choquequirao 4
                                                 dias</a></li>
-                                        <li><a href="{{ route('huchuy-qosqo-2-dias-portugues') }}" class="nav-link">Huchuy
+                                        <li><a href="{{ route('huchuy-qosqo-2-dias-portugues') }}"
+                                                class="nav-link">Huchuy
                                                 Qosqo &
                                                 Machu Picchu</a></li>
                                         <li><a href="{{ route('trilha-inca-4-dias') }}" class="nav-link">Trilha Inca
@@ -106,7 +107,8 @@
                                     <ul class="dropdown arrow-top">
                                         <li><a href="{{ route('7-lagoas-tour') }}" class="nav-link">7 Lagoas</a>
                                         </li>
-                                        <li><a href="{{ route('huchuy-qosqo-portugues') }}" class="nav-link">Huchuy Qosqo</a></li>
+                                        <li><a href="{{ route('huchuy-qosqo-portugues') }}" class="nav-link">Huchuy
+                                                Qosqo</a></li>
                                         <li><a href="{{ route('humantay-lagoa') }}" class="nav-link">Lagoa
                                                 Humantay</a>
                                         </li>
@@ -118,16 +120,10 @@
                                         <li><a href="{{ route('waqrapukara-full-day') }}" class="nav-link">Waqra
                                                 Pucara full
                                                 day</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-children">
-                                    <a href="{{ route('tren-portugues') }}" class="nav-link"
-                                        @if (request()->is('tours by train')) id="active" @endif>Passeios de Trem</a>
-                                    <ul class="dropdown arrow-top">
                                         <li><a href="{{ route('inca-rail-360°') }}" class="nav-link">Inca Rail 360°
                                                 tour de trem</a></li>
-                                        <li><a href="{{ route('inca-rail-primeira-classe') }}"
-                                                class="nav-link">Inca Rail Primeira Classe
+                                        <li><a href="{{ route('inca-rail-primeira-classe') }}" class="nav-link">Inca
+                                                Rail Primeira Classe
                                                 tour de trem</a>
                                         </li>
                                         <li><a href="{{ route('inca-rail-voyager') }}" class="nav-link">Inca Rail
@@ -139,12 +135,21 @@
                                         <li><a href="{{ route('perurail-hiram-bingham') }}" class="nav-link">Peru
                                                 Rail Hiram
                                                 Bingham tour de trem</a></li>
-                                        <li><a href="{{ route('perurail-vale-sagrado') }}" class="nav-link">Peru Rail Vale
+                                        <li><a href="{{ route('perurail-vale-sagrado') }}" class="nav-link">Peru Rail
+                                                Vale
                                                 Sagrado
                                                 tour de trem</a></li>
-                                        <li><a href="{{ route('perurail-vistadome') }}" class="nav-link">Peru Rail Vistadome
+                                        <li><a href="{{ route('perurail-vistadome') }}" class="nav-link">Peru Rail
+                                                Vistadome
                                                 tour de trem</a>
                                         </li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="{{ route('ao-redor-do-peru') }}" class="nav-link"
+                                        @if (request()->is('ao-redor-do-peru')) id="active" @endif>Ao redor do Peru</a>
+                                    <ul class="dropdown arrow-top">
+                                        <li><a href="{{ route('lima-ica-paracas-portugues') }}" class="nav-link">Lima, Ica & Paracas</a></li>
                                     </ul>
                                 </li>
                                 <li @if (request()->is('blog')) class="active" @endif>

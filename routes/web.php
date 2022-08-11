@@ -60,6 +60,7 @@ Route::get('blog/blog-ingles/peruvian-gastronomy', function(){return view('blog/
 Route::get('blog/blog-ingles/vinicunca', function(){return view('blog/blog-ingles/vinicunca');})->name('blog-vinicunca-english');
 Route::get('blog/blog-ingles/puno-tourist-information', function(){return view('blog/blog-ingles/puno-tourist-information');})->name('blog-puno-english');
 Route::get('blog/blog-ingles/attractions-of-cusco', function(){return view('blog/blog-ingles/attractions-of-cusco');})->name('blog-atracciones-english');
+Route::get('blog/blog-ingles/paucartambo-3-crosses', function(){return view('blog/blog-ingles/paucartambo-3-crosses');})->name('blog-paucartambo-english');
 
 /*ESPAÑOL*/
 
@@ -127,12 +128,15 @@ Route::get('blog/blog-castellano/mirador-3-cruces-paucartambo', function(){retur
 
 /*PORTUGUES*/
 Route::get('comecar', function(){return view('comecar');})->name('comecar');
+Route::get('sobre-nos', function(){return view('sobre-nos');})->name('sobre-nos');
+Route::get('preguntas-frequentes', function(){return view('preguntas-frequentes');})->name('frequentes');
+Route::get('depoimentos', function(){return view('depoimentos');})->name('depoimentos');
+Route::get('termos-e-condicoes', function(){return view('termos-e-condicoes');})->name('termos-e-condicoes');
 Route::get('pt/tradicional', function(){return view('pt/tradicional');})->name('tradicional-portugues');
 Route::get('pt/aventura', function(){return view('pt/aventura');})->name('aventura-portugues');
 Route::get('pt/alternativas', function(){return view('pt/alternativas');})->name('alternativas-portugues');
 Route::get('pt/passeios-de-trem', function(){return view('pt/passeios-de-trem');})->name('tren-portugues');
 Route::get('pt/blog', function(){return view('pt/blog');})->name('blog-portugues');
-Route::get('preguntas-frequentes', function(){return view('preguntas-frequentes');})->name('frequentes');
  
 /*Tradicionales*/
 Route::get('pt/city-tour-cusco', function(){return view('pt/city-tour-cusco');})->name('city-tour-portugues');
@@ -170,6 +174,20 @@ Route::get('pt/perurail-expedition', function(){return view('pt/perurail-expedit
 Route::get('pt/perurail-hiram-bingham', function(){return view('pt/perurail-hiram-bingham');})->name('perurail-hiram-bingham');
 Route::get('pt/perurail-vale-sagrado', function(){return view('pt/perurail-vale-sagrado');})->name('perurail-vale-sagrado');
 Route::get('pt/perurail-vistadome', function(){return view('pt/perurail-vistadome');})->name('perurail-vistadome');
+
+//Ao redor do Peru
+Route::get('pt/ao-redor-do-peru', function(){return view('pt/ao-redor-do-peru');})->name('ao-redor-do-peru');
+Route::get('pt/ao-redor-do-peru/lima-ica-paracas', function(){return view('pt/ao-redor-do-peru/lima-ica-paracas');})->name('lima-ica-paracas-portugues');
+
+/*Blog  Portugues */
+Route::get('blog-portugues', function(){return view('blog-portugues');})->name('blog-portugues');
+Route::get('blog/blog-portugues/que-precisa-saber-sobre-a-trilha-inca', function(){return view('blog/blog-portugues/que-precisa-saber-sobre-a-trilha-inca');})->name('blog-trilha-inca');
+Route::get('blog/blog-portugues/gastronomia-do-peru', function(){return view('blog/blog-portugues/gastronomia-do-peru');})->name('blog-gastronomia-portugues');
+Route::get('blog/blog-portugues/montanha-vinicunca', function(){return view('blog/blog-portugues/montanha-vinicunca');})->name('blog-vinicunca-portugues');
+Route::get('blog/blog-portugues/pontos-turisticos-de-cusco', function(){return view('blog/blog-portugues/pontos-turisticos-de-cusco');})->name('blog-atracciones-portugues');
+Route::get('blog/blog-portugues/informacion-turistica-da-puno', function(){return view('blog/blog-portugues/informacion-turistica-da-puno');})->name('blog-puno-portugues');
+Route::get('blog/blog-portugues/mirante-tres-cruzes', function(){return view('blog/blog-portugues/mirante-tres-cruzes');})->name('blog-mirador-portugues');
+
 
 //Tours Around Perú
 Route::get('pt/lima-ica-paracas-3-dias-tour', function(){return view('pt/lima-ica-paracas-3-dias-tour');})->name('lima-paracas-3-dias-portugues');

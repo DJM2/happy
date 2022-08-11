@@ -31,7 +31,7 @@
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('inca-trail-4-dias') }}'">Español</button></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('inca-trail-4-dias-tour') }}'">Español</button></li>
             <li><button class="btn-lang" onclick="window.location.href='{{ route('trilha-inca-4-dias') }}'">Portugués</button ></li>
         </ul></li>
     </ul>

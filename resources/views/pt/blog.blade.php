@@ -77,9 +77,31 @@
 
     <div class="container-fluid">
         <div class="row">
+
+            
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Peru tourism topics</h2><br><br>
+                <h2 class="text-center">Temas de turismo no Peru</h2><br><br>
             </div>
+            <div class="full-width paucartambo">
+                <div class="black">
+                    <h2>Mirador 3 Cruces</h2>
+                    <p>Una espectacular vista de la salida del sol en el mirador de 3 Cruces Paucartambo</p>
+                    <button> <a href="{{route('mirador-paucartambo')}}">Leer articulo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="full-width atracciones">
+                <div class="black">
+                    <h2>Cusco Turístico</h2>
+                    <p>Los Principales Atractivos Turísticos de Cusco</p>
+                    <button> <a href="blog/blog-castellano/atracciones-turisticas-de-cusco">Leer articulo</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
             <div class="full-width inca-trail">
                 <div class="black">
                     <h2>Inca trail</h2>

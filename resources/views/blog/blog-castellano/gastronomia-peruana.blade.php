@@ -32,7 +32,7 @@
         <idioma><a><span class="icon-language"></span> Español</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
             <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-gastronomy') }}'">English</button></li>
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-gastronomy') }}'">Portugués</button ></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('blog-gastronomia-portugues') }}'">Português</button ></li>
         </ul></li>
     </div>
     </nav>

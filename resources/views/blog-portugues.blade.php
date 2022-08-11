@@ -31,14 +31,14 @@
     </div>
     <!-- .site-mobile-menu -->
     <div class="site-navbar-wrap">
-        @include('layouts.spanish')
+        @include('layouts.menu-portugues')
         <li class="has-children">
-            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <idioma><a><span class="icon-language"></span> Português</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang"
                         onclick="window.location.href='{{ route('blog-english') }}'">English</button></li>
                 <li><button class="btn-lang"
-                        onclick="window.location.href='{{ route('blog-portugues') }}'">Portugués</button></li>
+                        onclick="window.location.href='{{ route('blog-castellano') }}'">Español</button></li>
             </ul>
         </li>
         </ul>
@@ -52,7 +52,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:5em">
-                <?php $titulo = 'Peru Blog';
+                <?php $titulo = 'Blog peruano';
                 echo $titulo; ?>
             </h1>
         </div>
@@ -62,20 +62,20 @@
     <section>
         <div class="container">
             <h2 class="h2-happy">
-                <o>Blog turismo</o>
+                <o>Blog de turismo</o>
                 <m>Perú</m>
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
             <p>
-                Naturaleza, gastronomía, cultura e historia, aventura, entretenimiento y uno de los legados más
-                impresionantes del planeta. Un viaje a Perú es, posiblemente, uno de los que mayor riqueza natural,
-                cultural e histórica puede ofrecer al viajero atravesando lugares emblemáticos como el Valle sagrado, el
-                Cañon del Colca, el Lago Titicaca o el oásis de Huacachina para alcanzar poblaciones como Arequipa o
-                Cuzco o emplazamientos mágicos como los geoglifos de las Líneas Nazca, sin olvidar la majestuosa ciudad
-                de Machu Picchu, su rica variedad de platos típicos (desde Ceviche al Cuy) o la selva amazónica.
-                Conoce las últimas noticias de la red, lee las historias de alto impacto de nuestros emprendedores y
-                únete a la conversación.
+                Natureza, gastronomia, cultura e história, aventura, entretenimento e uma das mais
+                 impressionante no planeta. Uma viagem ao Peru é, possivelmente, uma das maiores riquezas naturais,
+                 cultural e histórica pode oferecer ao viajante a travessia de lugares emblemáticos como o Vale Sagrado, o
+                 Colca Canyon, Lago Titicaca ou o oásis de Huacachina para chegar a cidades como Arequipa ou
+                 Cuzco ou locais mágicos como os geoglifos das Linhas de Nazca, sem esquecer a majestosa cidade
+                 de Machu Picchu, sua rica variedade de pratos típicos (de Ceviche a Cuy) ou da selva amazônica.
+                 Receba as últimas notícias da rede, leia as histórias de alto impacto de nossos empreendedores e
+                 junte-se à conversa.
             </p><br>
             <p class="text-center">
                 <img class="img-fluid mapa-img" src="{{ asset('img/blog/el-peru-en-el-mapa-del-mundo.png') }}"
@@ -87,21 +87,21 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Temas de turismo Perú</h2><br><br>
+                <h2 class="text-center">Tópicos de turismo no Peru</h2><br><br>
             </div>
             <div class="full-width paucartambo">
                 <div class="black">
-                    <h2>Mirador 3 Cruces</h2>
-                    <p>Una espectacular vista de la salida del sol en el mirador de 3 Cruces Paucartambo</p>
-                    <button> <a href="{{route('mirador-paucartambo')}}">Leer articulo</a>
+                    <h2>Miradouro 3 Cruces</h2>
+                    <p>Uma vista espetacular do nascer do sol no mirante 3 Cruces Paucartambo</p>
+                    <button> <a href="{{route('mirador-paucartambo')}}">Leia o artigo</a>
                     </button>
                 </div>
             </div>
             <div class="full-width atracciones">
                 <div class="black">
-                    <h2>Cusco Turístico</h2>
-                    <p>Los Principales Atractivos Turísticos de Cusco</p>
-                    <button> <a href="blog/blog-castellano/atracciones-turisticas-de-cusco">Leer articulo</a>
+                    <h2>Turista Cuzco</h2>
+                    <p>As principais atrações turísticas de Cusco</p>
+                    <button> <a href="{{route('blog-atracciones-portugues')}}">Leia o artigo</a>
                     </button>
                 </div>
             </div>
@@ -111,31 +111,31 @@
         <div class="row">
             <div class="full-width inca-trail">
                 <div class="black">
-                    <h2>Camino Inca</h2>
-                    <p>Qué necesitas saber sobre el Camino Inca</p>
-                    <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer articulo</a>
+                    <h2>Trilha inca</h2>
+                    <p>O que você precisa saber sobre a Trilha Inca</p>
+                    <button> <a href="{{route('blog-trilha-inca')}}">Leia o artigo</a>
                     </button>
                 </div>
             </div>
             <div class="full-width food">
                 <div class="black">
-                    <h2>Gastronomía de Perú</h2>
-                    <p>La exquisita gastronomía peruana.</p>
-                    <button> <a href="blog/blog-castellano/gastronomia-peruana">Leer artículo</a> </button>
+                    <h2>Gastronomia do Peru</h2>
+                    <p>A requintada gastronomia peruana.</p>
+                    <button> <a href="{{route('blog-gastronomia-portugues')}}">Leia o artigo</a> </button>
                 </div>
             </div>
             <div class="full-width vinicunca">
                 <div class="black">
                     <h2>Vinicunca</h2>
-                    <p>La famosa montaña de colores</p>
-                    <button> <a href="blog/blog-castellano/vinicunca-castellano">Leer artículo</a> </button>
+                    <p>A famosa montanha de 7 cores</p>
+                    <button> <a href="{{route('blog-vinicunca-portugues')}}">Leia o artigo</a> </button>
                 </div>
             </div>
             <div class="full-width puno">
                 <div class="black">
                     <h2>Puno</h2>
-                    <p>Capital del florklore peruano</p>
-                    <button> <a href="blog/blog-castellano/informacion-turistica-puno">Leer articulo</a> </button>
+                    <p>Capital do folclore peruano</p>
+                    <button> <a href="{{route('blog-puno-portugues')}}">Leia o artigo</a> </button>
                 </div>
             </div>
 
@@ -143,7 +143,7 @@
     </div>
 
 
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 

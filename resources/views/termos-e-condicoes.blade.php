@@ -33,12 +33,12 @@
     <!-- .site-mobile-menu -->
     <div class="site-navbar-wrap">
 
-        @include('layouts.spanish')
+        @include('layouts.menu-portugues')
         <li class="has-children">
-            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <idioma><a><span class="icon-language"></span> Português</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">Portugués</button>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('terminos') }}'">Español</button>
                 </li>
             </ul>
         </li>
@@ -341,7 +341,7 @@
         </div>
     </div>
     <!-----------Fin Tours full width---------->
-    @include('layouts.foot-castellano')
+    @include('layouts.foot-portugues')
 
 </body>
 

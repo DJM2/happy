@@ -33,12 +33,12 @@
     <!-- .site-mobile-menu -->
     <div class="site-navbar-wrap">
 
-        @include('layouts.english')
+        @include('layouts.menu-portugues')
         <li class="has-children">
-            <idioma><a><span class="icon-language"></span> Español</a></idioma>
+            <idioma><a><span class="icon-language"></span> Português</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('faqs') }}'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('frequentes') }}'">Portugués</button ></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Español</button ></li>
             </ul></li>
     </div>
     </nav>
@@ -414,7 +414,7 @@
             </div>
         </div>
     </section>
-    @include('layouts.english-foot')
+    @include('layouts.foot-portugues')
 
 </body>
 

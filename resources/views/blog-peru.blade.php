@@ -72,12 +72,31 @@
             </p><br><br><br>
         </div>
     </section>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center">Peru tourism topics</h2><br><br>
+                <h2 class="text-center">Perú Tourism Topics</h2><br><br>
             </div>
+            <div class="full-width paucartambo">
+                <div class="black">
+                    <h2>Viewpoint of 3 Cruces</h2>
+                    <p>A spectacular view of the sunrise at the 3 Cruces Paucartambo viewpoint</p>
+                    <button> <a href="{{route('blog-paucartambo-english')}}">Read article</a>
+                    </button>
+                </div>
+            </div>
+            <div class="full-width atracciones">
+                <div class="black">
+                    <h2>Cusco Tourism</h2>
+                    <p>The Main Tourist Attractions of Cusco</p>
+                    <button> <a href="blog/blog-ingles/attractions-of-cusco">Read article</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
             <div class="full-width inca-trail">
                 <div class="black">
                     <h2>Inca trail</h2>

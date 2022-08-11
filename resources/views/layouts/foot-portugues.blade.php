@@ -25,10 +25,10 @@
                 <h3 class="text-center">Consulta</h3>
                 <div class="separador-foot"></div>
                 <ul>
-                    <li><a href="../../about-us">Sobre nós</a></li>
-                    <li><a href="../../testimonials">Depoimentos</a></li>
-                    <li><a href="../../terms-and-conditions">Termos e Condições</a></li>
-                    <li><a href="../../faqs">Perguntas Frequentes</a></li>
+                    <li><a href="{{route('sobre-nos')}}">Sobre nós</a></li>
+                    <li><a href="{{route('depoimentos')}}">Depoimentos</a></li>
+                    <li><a href="{{route('termos-e-condicoes')}}">Termos e Condições</a></li>
+                    <li><a href="{{route('frequentes')}}">Perguntas Frequentes</a></li>
                 </ul>
             </div>
             <div class="col-lg-4">

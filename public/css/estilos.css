@@ -649,6 +649,7 @@ h3 {
 .full-width a:hover {
     background: #0b84bc;
     border-style: none;
+    color: #fff;
     transition: 1s;
 }
 
