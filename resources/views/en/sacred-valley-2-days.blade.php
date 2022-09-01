@@ -161,6 +161,10 @@
                         called “inca living town”. We will have dinner included before boarding the train that will take
                         us to the town of Aguas Calientes where we will spend the night in a hostel. <br>
 
+                        <p class="p-tours text-center">
+                            <fuerte>DAY 02:</fuerte>
+                        </p>
+
                         The next day after breakfast we will try to take the first bus at 5:30 am to the citadel of
                         MACHUPICCHU, there will be a guided tour of the main temples and surroundings in a time of 3
                         hours, which will include photographs, then there will be a reasonable free time to Rest; To

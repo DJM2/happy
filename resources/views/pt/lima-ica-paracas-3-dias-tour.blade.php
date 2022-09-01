@@ -67,7 +67,7 @@
         </div>
     </div>
     </div>
-    <div class="inca-jungle"></div>
+    <div class="lima-ica-paracas"></div>
     <section>
         <div class="container">
             <h2 class="h2-happy">
@@ -110,9 +110,9 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                                <th scope="col">Precio</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
+                                <th scope="col">Preço</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -123,37 +123,36 @@
                             </tr>
                         </tbody>
                     </table>
-                    <h5 class="h5-tours">Vista General:</h5>
+                    <h5 class="h5-tours">Visão global:</h5>
                     <p class="p-tours">
-                        Lima es la capital de la republica de Perú, conocida como la ciudad de los reyes asi lo denomino
-                        Francisco Pizarro porque se funda el 18 de enero mes en el que se celebra la bajada de reyes. La
-                        arquitectura colonial del Centro Histórico, exquisita gastronomía, distritos modernos y el
-                        legado de culturas prehispánicas son algunas de las razones por las que <strong>Lima</strong> es
-                        atractiva para
-                        cualquier turista. <br><br>
-                        Ica, conocida como la ciudad del eterno sol porque goza de éste durante todo el año, Ica como
-                        ciudad posee construcciones coloniales que datan del siglo VIII, cuenta también con un área
-                        extensa de desierto costero donde se encuentra el oasis de la Huacachina.<br>
-                        Paracas, es un balneario, una bahía, y también es un distrito donde hay dos <strong>Áreas
-                            Naturales
-                            Protegidas: La Reserva Nacional de Paracas y las Islas Ballestas.</strong><br><br>
-                        Este tour es una excelente alternativa para todo viajero que solo tenga unos días para conocer y
-                        disfrutar de un turismo lleno de cultura, historia combinado con aventura. Es así que Happy Perú
-                        Tours les brinda este servicio donde podrá recorrer los famosos viñedos (elabora los vinos
-                        peruanos), aventura en el desierto de la Huacachina, paseo por las islas ballestas y completar
-                        el recorrido con las visitas a los museos más importantes de la ciudad de lima y la zona más
-                        visitada por los turistas.
-
+                        Lima é a capital da República do Peru, conhecida como a cidade dos reis, como Francisco Pizarro
+                        a chamou porque foi fundada em 18 de janeiro, mês em que se celebra a descida dos reis. A
+                        arquitetura colonial do Centro Histórico, a gastronomia requintada, os bairros modernos e o
+                        legado das culturas pré-hispânicas são alguns dos motivos pelos quais <strong>Lima</strong>
+                        atrai qualquer turista. <br><br>
+                        Ica, conhecida como a cidade do sol eterno porque a desfruta durante todo o ano, Ica como cidade
+                        possui construções coloniais que datam do século VIII, também possui uma extensa área de deserto
+                        costeiro onde está localizado o oásis de Huacachina.< br>
+                            Paracas é um balneário, uma baía, e também é um distrito onde existem duas <strong>Áreas
+                                Naturais Protegidas: A Reserva Nacional de Paracas e as Ilhas
+                                Ballestas.</strong><br><br>
+                            Este passeio é uma excelente alternativa para qualquer viajante que tenha apenas alguns dias
+                            para conhecer e desfrutar de um turismo repleto de cultura, história aliada à aventura. É
+                            tão feliz Peru
+                            Tours oferece este serviço onde você pode visitar os famosos vinhedos (produz vinhos
+                            peruanos), aventura no deserto de Huacachina, caminhar pelas Ilhas Ballestas e completar o
+                            passeio com visitas aos museus mais importantes da cidade de Lima e a área mais visitada por
+                            turistas.
                     </p><br>
-                    <h5 class="h5-tours"> Itinerario:</h5>
+                    <h5 class="h5-tours"> Itinerário:</h5>
                     <p class="p-tours text-center">
                         <fuerte>DIA 01:</fuerte>
                     </p>
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -165,12 +164,11 @@
                     </table>
                     <h5 class="h5-tours">ICA - HUACACHINA</h5>
                     <p class="p-tours">
-                        El recojo se realiza muy temprano desde el hotel tomamos la ruta de la panamericana sur rumbo a
-                        Ica, 15 minutos antes de llegar a la ciudad hacemos una parada en el viñedo TACAMA, para
-                        realizar el tour del vino en este lugar se tendrá el amuerzo, seguidamente nos dirigimos hacia
-                        el hotel en la ciudad de Ica después de realizar un pequeño descanso continuaremos el recorrido
-                        visitando el desierto de la Huacachina, donde practicaremos el sand boarding y buggies. Se
-                        tendrá también un tiempo libre para disfrutar del atardecer o sunset en el desierto.
+                        O pick-up é feito bem cedo do hotel tomamos a rota do Pan-Americano Sul em direção a Ica, 15
+                        minutos antes de chegar na cidade fazemos uma parada no vinhedo TACAMA, para fazer o tour do
+                        vinho neste local iremos Almoço, Em seguida, iremos para o hotel na cidade de Ica. Após uma
+                        pequena pausa, continuaremos o passeio visitando o deserto de Huacachina, onde praticaremos
+                        sandboard e buggies. Você também terá tempo livre para desfrutar do pôr do sol no deserto.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DIA 02:</fuerte>
@@ -178,8 +176,8 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -189,16 +187,15 @@
                             </tr>
                         </tbody>
                     </table>
-                    <h5 class="h5-tours">ISLAS BALLESTAS</h5>
+                    <h5 class="h5-tours">ILHAS BALLESTAS</h5>
                     <p class="p-tours">
-                        Este día también iniciamos muy temprano con el recojo del hotel, para dirigirnos hacia Paracas
-                        precisamente al muelle desde donde partiremos en bote a visitar las islas ballestas, el
-                        recorrido tiene una duración de 2 horas aproximadamente donde apreciaremos a los animales más
-                        representativos como lobos marinos, pingüinos de Humbolt, leones marinos, pelicanos y aves
-                        huaneras. Durante el trayecto tambien podremos apreciar el famoso CANDELABRO, luego del almuerzo
-                        continuaremos el retorno hacia la ciudad de Lima, una vez en la ciudad nos dirigimos a visitar
-                        el maravilloso parque de las aguas en sus funciones con danzas típicas del Perú, retornando al
-                        hotel aproximadamente 8:00pm.
+                        Este dia também começamos bem cedo com o embarque no hotel, para ir a Paracas precisamente ao
+                        cais de onde sairemos de barco para visitar as Ilhas Ballestas, o passeio dura aproximadamente 2
+                        horas onde apreciaremos os animais mais representativos como leões marinhos, pinguins de
+                        Humboldt, leões marinhos, pelicanos e pássaros huanera. Durante a viagem também poderemos
+                        apreciar o famoso CANDELABRO, após o almoço continuaremos o retorno à cidade de Lima, uma vez na
+                        cidade iremos visitar o maravilhoso parque das águas em suas funções com danças típicas do Peru
+                        , retornando ao hotel aproximadamente às 20h.
                     </p>
                     <p class="p-tours text-center">
                         <fuerte>DIA 03:</fuerte>
@@ -206,8 +203,8 @@
                     <table class="table text-center">
                         <thead>
                             <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
+                                <th scope="col">Dificuldade</th>
+                                <th scope="col">Duração</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -219,13 +216,14 @@
                     </table>
                     <p class="p-tours">
                     <h5 class="h5-tours">LIMA</h5>
-                    Iniciaremos nuestro tour alrededor de las 9:00 am con la visita al Museo Larco, museo de arte pre-
-                    colombino donde se exhibe galerías que muestran los 5000 años de desarrollo de la historia del Perú.
-                    Seguidamente llegaremos al museo convento de San francisco y catacumbas ubicado en el casco
-                    monumental, considerado uno de los museos religiosos más implementados llamando la atención de
-                    muchos turistas las famosas catacumbas. Finalmente recorreremos el boulevard de barranco, una
-                    caminata por lugares tranquilos y llenos de historia, barrios tradicionales, y las calles del barrio
-                    de Miraflores. Terminamos el tour aproximadamente 5:00 pm.
+                    Começaremos nosso passeio por volta das 9h00 com uma visita ao Museu Larco, um museu de arte
+                    pré-colombiana onde estão expostas galerias que mostram os 5.000 anos de desenvolvimento da história
+                    do Peru.
+                    Em seguida, chegaremos ao convento de São Francisco e ao museu das catacumbas localizado no centro
+                    monumental, considerado um dos museus religiosos mais implementados, chamando a atenção de muitos
+                    turistas para as famosas catacumbas. Por fim, percorreremos o boulevard de barranco, um passeio por
+                    lugares tranquilos e cheios de história, bairros tradicionais e ruas do bairro de Miraflores.
+                    Finalizamos o passeio aproximadamente às 17h00.
                     </p>
 
                     <div id="accordion">
@@ -234,7 +232,7 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Incluye:
+                                        Inclui:
                                     </button>
                                 </h5>
                             </div>
@@ -243,13 +241,13 @@
                                 data-parent="#accordion">
                                 <div class="card-body">
                                     &check; Transporte turístico Lima – Ica – Paracas – Lima <br>
-                                    &check; Guía oficial de turismo<br>
-                                    &check; Tickets de ingreso a los diversos lugares<br>
-                                    &check; Sand boarding <br>
-                                    &check; Buggies <br>
-                                    &check; Bote o Lanchas para el recorrido<br>
-                                    &check; Hotel en Ica y Lima<br>
-                                    &check; Snacks
+                                    &check; Guia oficial<br>
+                                    &check; Bilhetes de entrada para os vários locais<br>
+                                    &check; Sandboard <br>
+                                    &check; Carrinhos <br>
+                                    &check; Barco ou barcos para o passeio<br>
+                                    &check; Hotel em Ica e Lima<br>
+                                    &check; lanches
 
                                 </div>
                             </div>
@@ -259,16 +257,16 @@
                                 <h5 class="mb-0 text-center">
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        No incluye:
+                                        Não inclui:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10008; Alimentación <br>
+                                    &#10008; Comida <br>
                                     &#10008; Bebidas extras <br>
-                                    &#10008; Propinas
+                                    &#10008; pontas
                                 </div>
                             </div>
                         </div>
@@ -278,23 +276,23 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        ¿Qué necesitas llevar?:
+                                        O que precisa levar?:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Pasaporte original <br>
-                                    &#10034; Bloqueador solar<br>
-                                    &#10034; Cámara fotográfica <br>
-                                    &#10034; Portabebidas <br>
-                                    &#10034; Polos y pantalones extra <br>
-                                    &#10034; Alcohol en gel <br>
-                                    &#10034; Gorras para el sol <br>
-                                    &#10034; Dinero extra <br>
-                                    &#10034; Artículos Personales <br>
-                                    &#10034; Botiquín o medicinas personales
+                                    &#10034; Passaporte original<br>
+                                    &#10034; Protetor solar<br>
+                                    &#10034; câmera <br>
+                                    &#10034; Suportes para bebidas <br>
+                                    &#10034; Camisas pólo e calças extras <br>
+                                    &#10034; Desinfetante para as mãos <br>
+                                    &#10034; Chapéus de sol <br>
+                                    &#10034; dinheiro extra <br>
+                                    &#10034; Artigos pessoais <br>
+                                    &#10034; Kit de primeiros socorros ou medicamentos pessoais
 
                                 </div>
                             </div>
@@ -305,21 +303,20 @@
                                     <button class="btn collapsed btn-acordion btn-link" data-toggle="collapse"
                                         data-target="#collapseNotas" aria-expanded="false"
                                         aria-controls="collapseNotas">
-                                        Notas Importantes:
+                                        Anotações importantes:
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseNotas" class="collapse" aria-labelledby="notas"
                                 data-parent="#accordion">
                                 <div class="card-body">
-                                    &#10034; Salidas diarias. <br>
-                                    &#10034; Los precios no incluyen el IGV (18%).<br>
-                                    &#10034; Los precios son por persona y están expresados en (US$) dólares
-                                    americanos.<br>
-                                    &#10034; Una vez aceptada la reserva el pasajero debe enviar por e-mail la copia de
-                                    su pasaporte o cedula de identidad en forma obligatoria.<br>
-                                    &#10034; Para concretar su reserva solicitamos el pago del 50%.
-
+                                    &#10034; Saídas diárias. <br>
+                                    &#10034; Os preços não incluem IVA (18%).<br>
+                                    &#10034; Os preços são por pessoa e são expressos em dólares (US$)
+                                    Americanos.<br>
+                                    &#10034; Uma vez aceite a reserva, o passageiro deverá enviar por e-mail a cópia do
+                                    Seu passaporte ou carteira de identidade é obrigatório.<br>
+                                    &#10034; Para finalizar a sua reserva solicitamos o pagamento de 50%.
                                 </div>
                             </div>
                         </div>
@@ -350,8 +347,7 @@
                 <div class="container">
                     <div class="row photos">
                         <div class="col-sm-6 col-md-4 col-lg-4 item">
-                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.jpg') }}"
-                                data-lightbox="photos">
+                            <a href="{{ asset('img/galeria/sacred-valley-3-days-tour.jpg') }}" data-lightbox="photos">
                                 <img class="img-fluid"
                                     src="{{ asset('img/thumbnail/sacred-valley-3-days-tour.jpg') }}"
                                     alt="Valle Sagrado 3 días" loading="lazy">

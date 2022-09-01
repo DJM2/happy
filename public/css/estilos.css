@@ -110,6 +110,12 @@ idioma:hover .nav-link {
     color: #f26d00;
 }
 
+.card-reviews {
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #eaeaea7d;
+}
+
 .drop {
     visibility: hidden;
     opacity: 0;

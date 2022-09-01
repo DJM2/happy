@@ -34,7 +34,7 @@
             <li><button class="btn-lang"
                     onclick="window.location.href='{{ route('inca-trail-4-days') }}'">English</button></li>
             <li><button class="btn-lang"
-                    onclick="window.location.href='{{ route('inca-trail-4-dias') }}'">Español</button>
+                    onclick="window.location.href='{{ route('inca-trail-4-dias-tour') }}'">Español</button>
             </li>
         </ul>
     </li>

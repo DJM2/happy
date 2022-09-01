@@ -3,14 +3,14 @@
 
 <head>
     @include('layouts.links')
-    <title>About Happy Perú tours | Travel agency for Perú</title>
+    <title>Testimonials for Happy Perú tours | Travel agency for Perú</title>
     <meta name="description"
         content="We offer you a wonderful trip to Machu Picchu, surrounded by a beautiful Andean landscape that you can enjoy thanks to the widest and highest panoramic.">
     <meta name="keywords"
         content="First class, Perurail first class, Perurail trail, inca trek, Perurail tour train, perurail to machu picchu, train to machu picchu, exclusive train, inca rail train, inca rail, peru rail train">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="PeruRail Vistadome Train tour | Happy Perú tours" />
-    <meta property="og:image" content="https://happyperutours.com/img/panoramic/inca-rail-tour-train.webp" />
+    <meta property="og:image" content="https://happyperutours.com/testimonials" />
     <link rel="canonical" href="https://happyperutours.com/about-us">
 </head>
 
@@ -31,9 +31,12 @@
     <li class="has-children">
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('testimonios') }}'">Español</button></li>
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('testimonios') }}'">Portugués</button ></li>
-        </ul></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('testimonios') }}'">Español</button>
+            </li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('depoimentos') }}'">Portugués</button>
+            </li>
+        </ul>
+    </li>
     </div>
     </nav>
     </div>
@@ -42,8 +45,9 @@
     </div>
     <div class="container form">
         <div class="abs-center form-index">
-            <h1 class="text-center h1-pages" style="color: #fff; margin-top:2.5em">
-                <?php $titulo = 'Reviews for Happy Perú Tours'; echo $titulo; ?>          
+            <h1 class="text-center h1-pages" style="color: #fff;">
+                <?php $titulo = 'Reviews for Happy Perú Tours';
+                echo $titulo; ?>
             </h1>
         </div>
     </div>
@@ -52,43 +56,104 @@
     <section>
         <div class="container">
             <h2 class="h2-happy">
-                <o>Happy</o>
-                <m>Perú Tours</m>
+                Testimonials
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
-            <div class="Iam" style="padding-top: 0.4em">
-                <p>Welcome to Happy Perú Tours</p>
-                <b>
-                    <div class="innerIam">
-                        <o>The best experience in Perú.</o><br />
-                        <m>100% Peruvian company.</m><br />
-                        <o>Our goal is your happyness.</o><br />
-                        <m>We provide the best information.</m><br />
-                        <o>Live an unforgettable experience.</o>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.bleechmore%2Fposts%2Fpfbid02DXa26QUJai2z9qjWRiYAR2spzVpQE63JsJwRUjhso7VmovBKTW6tKsF1ou3qUxTCl&show_text=true&width=500"
+                            width="100%" height="760" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
                     </div>
-                </b>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid037wS7tuA9b1RqtyhK1FgwF3bv4tuUG3eNCNuAmxydaQuUJpRJWKFpBfSKvwerZ88Tl%26id%3D1177983688&show_text=true&width=500"
+                            width="100%" height="207" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpablo.lajeunesse%2Fposts%2Fpfbid09NYXiLfs6qopRsJQfoPmDh3BLBUFWNAuYWAeSstTJsHUBjVX8KoCmVSF9XQVbozEl&show_text=true&width=500"
+                            width="100%" height="329" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsoazic.levaillant%2Fposts%2Fpfbid02HaorexArHgRYUD3xgm8AH8DKDVjQnGwxspGBbwHtpuXoYrvxuWHrnpFQCrntCUkKl&show_text=true&width=500"
+                            width="100%" height="186" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkwame.tolot%2Fposts%2Fpfbid0MpCriobhcEJua2t2JXnzG84PXWqZLxZTMXcWr7suwCDaysZuTMZAFsofi9WcqWMFl&show_text=true&width=500"
+                            width="100%" height="169" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaige.holbrook.75%2Fposts%2Fpfbid035jz8APPABTm7Q8JSeFo7T7oAhYPwUERey7HVy3jRPwkWZeyaLbDC1cUmEA3Qoue6l&show_text=true&width=500"
+                            width="100%" height="227" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fstephanie.l.ryan.1%2Fposts%2Fpfbid0etCEQkdbSVEiSceoKfqhXeCfpt6Cf6vHUHiqKNwnJu8ALNZqs1pSAAoN1niZQNSKl&show_text=true&width=500"
+                            width="100%" height="169" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsantjordi%2Fposts%2Fpfbid05MGjUgCMwfR53aAbZnDGic5DEJYeZKdmHPznLovEiqm7Y8Skiprf6JavQvuPbGQ3l&show_text=true&width=500"
+                            width="100%" height="637" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjakobsson.kristina%2Fposts%2Fpfbid0hgUrh9onqQsxRGmhv3qWEWureeWs78ggJ1xMQ8mJVzgsgT6rFaFpjJLN3ZnUsmL6l&show_text=true&width=500"
+                            width="100%" height="632" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-reviews">
+                        <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarrie.ingham.20%2Fposts%2Fpfbid0w8Tcgc8BFb3KQ3QoWm1HbuzV8tBH6ortReosMqCYxFz6VLKvfx8UDPjYop4k8Q96l&show_text=true&width=500"
+                            width="100%" height="735" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
             </div>
-           <br><br><br><br> 
-            <p>
-                We are a professional team with an experience of more than 15 years as Official Tourism Guides in the
-                city of Cusco, we are a 100% local company, we are committed to forming a company with extensive
-                knowledge of the needs that travelers seek to meet on each tour no matter how small it is. The love for
-                our work, love for nature, respect for the mountains, respect for our local people of ancient customs
-                and traditions, drove us in this project in order to provide unforgettable experiences with everyone who
-                wants to know and share our Peruvian culture.<br><br>
-
-                Our commitment to our local communities; It is to generate employment opportunities, support their
-                economic income and improve their quality of life; we use natural resources in a sustainable and
-                responsible way.<br><br>
-
-                Our commitment to our clients; is to meet your expectations, meeting quality standards with honesty and
-                transparency; providing professionalism, security and confidence.
-            </p>
-           
-            <p class="text-center">
-                <img class="img-fluid mapa-img" src="{{ asset('img/blog/el-peru-en-el-mapa-del-mundo.png') }}" alt="">
-            </p><br><br>
         </div>
     </section>
 

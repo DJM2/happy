@@ -32,7 +32,7 @@
         <idioma><a><span class="icon-language"></span> English</a></idioma>
         <ul class="dropdown arrow-top" style="width: 120px">
             <li><button class="btn-lang" onclick="window.location.href='{{ route('nosotros') }}'">Español</button></li>
-            <li><button class="btn-lang" onclick="window.location.href='{{ route('nosotros') }}'">Portugués</button ></li>
+            <li><button class="btn-lang" onclick="window.location.href='{{ route('sobre-nos') }}'">Portugués</button ></li>
         </ul></li>
     </div>
     </nav>
@@ -57,19 +57,6 @@
             </h2>
             <div class="separador-naranja"></div>
             <div class="separador-azul"></div>
-            <div class="Iam" style="padding-top: 0.4em">
-                <p>Welcome to Happy Perú Tours</p>
-                <b>
-                    <div class="innerIam">
-                        <o>The best experience in Perú.</o><br />
-                        <m>100% Peruvian company.</m><br />
-                        <o>Our goal is your happyness.</o><br />
-                        <m>We provide the best information.</m><br />
-                        <o>Live an unforgettable experience.</o>
-                    </div>
-                </b>
-            </div>
-           <br><br><br><br> 
             <p>
                 We are a professional team with an experience of more than 15 years as Official Tourism Guides in the
                 city of Cusco, we are a 100% local company, we are committed to forming a company with extensive
@@ -84,7 +71,19 @@
 
                 Our commitment to our clients; is to meet your expectations, meeting quality standards with honesty and
                 transparency; providing professionalism, security and confidence.
-            </p>
+            </p><br><br>
+            <div class="Iam" style="padding-top: 0.4em">
+                <p>Welcome to Happy Perú Tours</p>
+                <b>
+                    <div class="innerIam">
+                        <o>The best experience in Perú.</o><br />
+                        <m>100% Peruvian company.</m><br />
+                        <o>Our goal is your happyness.</o><br />
+                        <m>We provide the best information.</m><br />
+                        <o>Live an unforgettable experience.</o>
+                    </div>
+                </b>
+            </div><br><br><br> <br>
            
             <p class="text-center">
                 <img class="img-fluid mapa-img" src="{{ asset('img/blog/el-peru-en-el-mapa-del-mundo.png') }}" alt="">

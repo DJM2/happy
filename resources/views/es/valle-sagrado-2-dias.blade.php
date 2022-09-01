@@ -169,33 +169,13 @@
                         <fuerte>DIA 02:</fuerte>
                     </p>
                     <p class="p-tours">
-                        Al día siguiente después del desayuno intentaremos tomar el primer bus a las 5:30 am con destino
-                        a la ciudad inca de MACHUPICCHU, tendremos una visita guiada por los principales templos y
-                        alrededores en un tiempo de 3 horas, que incluirá fotos, también un tiempo libre razonable para
-                        descansar; Para regresar a la ciudad del Cusco, debe estar 30 minutos antes de la hora indicada
-                        en el boleto de tren en la estación respectiva.<br> Arribo a Cusco a las 7pm.
-                    </p>
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Dificultad</th>
-                                <th scope="col">Duración</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Fácil</td>
-                                <td>2 días</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="p-tours">
                         Al día siguiente luego del desayuno trataremos de tomar el primer bus 5:30 am rumbo a la
                         ciudadela de MACHUPICCHU se hará una visita guiada por los principales templos y alrededores en
                         un tiempo de 3 horas, que incluirán fotografías después se dará un tiempo libre prudencial para
                         el descanso; Para el retorno a la ciudad del cusco se deberá estar 30 minutos antes de la hora
                         indicada del ticket de tren en la respectiva estación. Arribando a Cusco a las 7:00pm.
                     </p>
+                   
                     <div id="accordion">
                         <div class="card">
                             <div class="card-header" id="headingOne">

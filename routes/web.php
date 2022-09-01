@@ -164,8 +164,6 @@ Route::get('pt/huchuy-qosqo', function(){return view('pt/huchuy-qosqo');})->name
 Route::get('pt/qeswachaca-tour', function(){return view('pt/qeswachaca-tour');})->name('qeswachaca-portugues');
 Route::get('pt/vinicunca-montanha', function(){return view('pt/vinicunca-montanha');})->name('vinicunca-montanha');
 Route::get('pt/waqrapukara-full-day', function(){return view('pt/waqrapukara-full-day');})->name('waqrapukara-full-day');
-
-
 /*Tours de tren*/
 Route::get('pt/inca-rail-360°', function(){return view('pt/inca-rail-360°');})->name('inca-rail-360°');
 Route::get('pt/inca-rail-primeira-classe', function(){return view('pt/inca-rail-primeira-classe');})->name('inca-rail-primeira-classe');

@@ -38,7 +38,7 @@
             <idioma><a><span class="icon-language"></span> Español</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('about-us') }}'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('about-us') }}'">Portugués</button ></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('sobre-nos') }}'">Portugués</button ></li>
             </ul></li>
     </div>
     </nav>
@@ -89,7 +89,7 @@
                                 </div>
                             </b>
                         </div>
-                    </div><br><br><br>
+                    </div><br><br><br><br>
                     <p class="text-center">
                         <img class="img-fluid mapa-img" src="{{ asset('img/blog/el-peru-en-el-mapa-del-mundo.png') }}" alt="">
                     </p><br><br><br>

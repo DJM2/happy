@@ -38,8 +38,10 @@
             <idioma><a><span class="icon-language"></span> Português</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('faqs') }}'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Español</button ></li>
-            </ul></li>
+                <li><button class="btn-lang" onclick="window.location.href='{{ route('preguntas') }}'">Español</button>
+                </li>
+            </ul>
+        </li>
     </div>
     </nav>
     </div>
@@ -49,8 +51,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-tours">
-                <o>Preguntas</o>
-                <m> Frecuentes</m>
+                Perguntas frequentes para viajar para o Peru
             </h1>
         </div>
     </div>
@@ -62,8 +63,8 @@
                 <div class="col-lg-12">
                     <br><br>
                     <h2 class="text-center">
-                        <m>Frecuently </m>
-                        <o>Questions</o>
+                        <m>Perguntas </m>
+                        <o>frequentes</o>
                     </h2>
                     <div class="separador-naranja"></div>
                     <div class="separador-azul"></div>
@@ -73,9 +74,8 @@
                                 <h2 class="clearfix mb-0">
                                     <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne">
-                                        <h2 class="h2-questions">&#9755; ¿Qué
-                                            requisitos necesito
-                                            para ingresar a Perú?</h2>
+                                        <h2 class="h2-questions">&#9755; Quais requisitos eu preciso?
+                                            entrar no Peru?</h2>
                                     </a>
                                 </h2>
                             </div>
@@ -83,35 +83,34 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="">
-                                        <li>Pasaporte emitido válidamente por un Estado y con una vigencia mínima de
-                                            seis meses contados desde su ingreso al territorio nacional.</li>
-                                        <li>Salvoconducto vigente emitido válidamente por un Estado y sólo por razones
-                                            excepcionales establecidas en los tratados y convenios internacionales de
-                                            los cuales el Perú es parte, o por disposición del Estado que emite el
-                                            Salvoconducto, siempre que el Perú hubiese reconocido y aceptado dichas
-                                            condiciones. También es válido el Salvoconducto vigente emitido por
-                                            Migraciones.</li>
-                                        <li>Documento de viaje o Laissez Passer emitido válidamente por un Estado o en
-                                            consideración de los tratados y convenios internacionales de los cuales el
-                                            Perú es parte, por razones humanitarias.
+                                        <li>Passaporte validamente emitido por um Estado e com validade mínima de
+                                            seis meses contados a partir da sua entrada em território nacional.</li>
+                                        <li>Salvo-conduto válido validamente emitido por um Estado e apenas por motivos
+                                            exceções estabelecidas nos tratados e convenções internacionais de
+                                            do qual o Peru é parte, ou por disposição do Estado que emite o
+                                            Salvo-conduto, desde que o Peru tenha reconhecido e aceito tal
+                                            condições. O salvo-conduto atual emitido por Migrações.</li>
+                                        <li>Documento de viagem ou Laissez Passer validamente emitido por um Estado ou
+                                            em consideração dos tratados e convenções internacionais dos quais o
+                                            O Peru faz parte, por razões humanitárias.
                                         </li>
-                                        <li>Documento de viaje para refugiados o asilados expedidos por el Perú u otros
-                                            Estados en el marco de los tratados y convenios internacionales de los
-                                            cuales el Perú es parte.
+                                        <li>Documento de viagem para refugiados ou asilados emitido pelo Peru ou outro
+                                            Estados no âmbito de tratados e convenções internacionais da
+                                            do qual o Peru faz parte.
                                         </li>
-                                        <li>Documento de identidad extranjero vigente, de conformidad con los tratados y
-                                            convenios internacionales de los cuales el Perú es parte que regulen y
-                                            definan los supuestos en los que será aplicado.
+                                        <li>Documento de identidade estrangeiro atual, de acordo com os tratados e
+                                            convenções internacionais das quais o Peru é parte que regulam e
+                                            definir as premissas em que será aplicado.
                                         </li>
-                                        <li>Otros documentos de viaje vigentes, de conformidad con los tratados y
-                                            convenios internacionales de los cuales el Perú es parte que regulen y
-                                            definan los supuestos en los que será aplicado.
+                                        <li>Outros documentos de viagem válidos, de acordo com os tratados e
+                                            convenções internacionais das quais o Peru é parte que regulam e
+                                            definir as premissas em que será aplicado.
                                         </li>
                                     </ul>
-                                    Para mayores detalles ingresar al link de referencia para ver <a target="_blank"
+                                    Para mais detalhes entre no link de referência para ver<a target="_blank"
                                         href="https://www.migraciones.gob.pe/wp-content/uploads/2018/03/ley1350_migraciones_reglamento.pdf">Ley
-                                        y Reglamentos de Migraciones para Perú</a>
-                                    o comunicarse al (+511) 200 1000.
+                                        e Regulamentos de Migração para o Peru</a>
+                                    ou ligue para (+511) 200 1000.
                                 </div>
                             </div>
                         </div>
@@ -120,8 +119,8 @@
                                 <h2 class="mb-0">
                                     <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo">
-                                        <h2 class="h2-questions">&#9755; Visa y
-                                            trámites de entrada
+                                        <h2 class="h2-questions">&#9755; Visto e
+                                            formalidades de entrada
                                         </h2>
                                     </a>
                                 </h2>
@@ -130,19 +129,19 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        El Perú es un país de acceso básicamente libre. La mayoría de los países de
-                                        América y Europa Occidental no requieren visa de turismo para ingresar al
-                                        Perú, y el tiempo máximo de estadía que otorgan las autoridades es de 183
-                                        días (no se puede prorrogar). Para una permanencia por un plazo mayor con
-                                        otros objetivos (negocios, estudio, trabajo, etc.) es necesario solicitar
-                                        previamente la visa correspondiente a los consulados peruanos.<br>
-                                        Para ingresar al Perú es un requisito indispensable presentar el pasaporte
-                                        vigente con una vigencia mínima de seis meses contados desde su ingreso al
-                                        territorio nacional. Los ciudadanos de Argentina, Brasil, Paraguay, Uruguay,
-                                        Ecuador, Colombia, Bolivia y Chile pueden ingresar con su documento de
-                                        identificación nacional.<br>
-                                        Para consultar si necesitas visa, haz clic <a target="_blanck"
-                                            href="https://www.gob.pe/1062-obtener-visa-para-ingresar-a-peru">aquí.</a>
+                                        O Peru é um país com acesso basicamente gratuito. A maioria dos países de
+                                        A América e a Europa Ocidental não precisam de visto de turista para entrar no
+                                        Peru, e a permanência máxima concedida pelas autoridades é de 183
+                                        dias (não pode ser prorrogado). Para uma estadia mais longa com
+                                        outros objetivos (negócios, estudos, trabalho, etc.) é necessário solicitar
+                                        anteriormente o visto correspondente aos consulados peruanos.<br>
+                                        Para entrar no Peru é requisito essencial apresentar um passaporte
+                                        em vigor com validade mínima de seis meses contados a partir de sua entrada no
+                                        território nacional. Cidadãos da Argentina, Brasil, Paraguai, Uruguai,
+                                        Equador, Colômbia, Bolívia e Chile podem entrar com seu documento de
+                                        identificação identidade nacional.<br>
+                                        Para verificar se você precisa de um visto, clique em<a target="_blanck"
+                                            href="https://www.gob.pe/1062-obtener-visa-para-ingresar-a-peru">aqui.</a>
                                     </p>
                                 </div>
                             </div>
@@ -154,7 +153,7 @@
                                         data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Necesito Visa para viajar a peru?
+                                            Quais vacinas eu preciso para viajar para o Peru?
                                         </h2>
                                     </a>
 
@@ -164,33 +163,33 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p class="p-salkantay">
-                                        El Decreto Supremo N° 041-2022-PCM establece que los peruanos, extranjeros
-                                        residentes y extranjeros no residentes de 12 años a más cuyo destino final sea
-                                        el territorio nacional, en calidad de pasajeros e independientemente del país de
-                                        procedencia, deben acreditar haberse aplicado la primera y segunda dosis de
-                                        vacunación contra la COVID-19 en el Perú o en el extranjero, y la tercera dosis
-                                        los mayores de 18 años que residan en el país y se encuentren habilitados para
-                                        recibirla, según protocolo vigente. <br>
-                                        En su defecto, pueden presentar una prueba molecular negativa con fecha de
-                                        resultado no mayor a 48 horas antes de abordar en su punto de origen. Los
-                                        menores de 12 años solo requieren estar asintomáticos para abordar. Aquellas
-                                        personas que muestren síntomas al arribar a territorio nacional ingresan a
-                                        aislamiento obligatorio, según regulaciones sobre la materia.<br><br>
+                                        Decreto Supremo nº 041-2022-PCM estabelece que peruanos, estrangeiros
+                                        estrangeiros residentes e não residentes com idade igual ou superior a 12 anos
+                                        cujo destino final seja território nacional, como passageiros e
+                                        independentemente do país de origem, devem comprovar que aplicaram a primeira e
+                                        a segunda dose de vacinação contra COVID-19 no Peru ou no exterior, e a terceira
+                                        dose maiores de 18 anos que residam no país e estejam autorizados a
+                                        recebê-lo, de acordo com o protocolo vigente. <br><br>
+                                        Caso contrário, podem apresentar um teste molecular negativo datado
+                                        resultado em até 48 horas antes do embarque em seu ponto de origem. o
+                                        crianças menores de 12 anos só precisam ser assintomáticas para embarcar.
+                                        Aqueles As pessoas que apresentam sintomas à chegada ao território nacional
+                                        entram no isolamento obrigatório, conforme regulamentação sobre o
+                                        assunto.<br><br>
 
-                                        La Autoridad Sanitaria Nacional se encuentra facultada para la toma de pruebas
-                                        diagnósticas para la COVID-19 a los pasajeros que arriben al país, estableciendo
-                                        las medidas sanitarias complementarias para los casos positivos.<br><br>
+                                        A Autoridade Nacional de Saúde está habilitada a fazer testes
+                                        testes de diagnóstico para COVID-19 aos passageiros que chegam ao país,
+                                        estabelecendo
+                                        medidas complementares de saúde para casos positivos.<br><br>
 
-                                        Es obligatorio completar la <a target="_blank"
-                                            href="https://djsaludviajero.minsa.gob.pe/dj-salud/">Declaración Jurada de
-                                            Salud
-                                            y Autorización de Geolocalización</a> dentro de las 72 horas previas al
-                                        viaje.
+                                        É obrigatório o preenchimento do <a target="_blank"
+                                            href="https://djsaludviajero.minsa.gob.pe/dj-salud/">declaração de
+                                            Saúde e Autorização de Geolocalização</a> nas 72 horas anteriores
+                                        viagem.
 
-                                        Asimismo, durante su traslado al Perú y en los espacios cerrados, los pasajeros
-                                        deben utilizar protección respiratoria adecuada (doble mascarilla o una
-                                        mascarilla
-                                        con gran capacidad de filtración: N95, KN95, etc.).
+                                        Da mesma forma, durante sua transferência para o Peru e em espaços fechados, os
+                                        passageiros deve usar proteção respiratória adequada (máscara dupla ou
+                                        máscara facial com alta capacidade de filtragem: N95, KN95, etc.).
                                     </p>
                                 </div>
                             </div>
@@ -202,7 +201,7 @@
                                         data-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Cuáles son los lugares principales para visitar?
+                                            Quais são os principais lugares para visitar no Peru?
                                         </h2>
                                     </a>
                                 </h2>
@@ -211,45 +210,43 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        Perú tiene una gran variedad de lugares para visitar, es tambien gracias a la
-                                        gran
-                                        biodiversidad que acá existe, que permite a los visitantes tener varias opciones
-                                        cuando deciden hacer turismo en este hermoso país.<br>
-                                        Te mostramos uan lista, no de todos, pero si de los principales lugares
-                                        turísticos
-                                        para conocer Perú.
+                                        O Peru tem uma grande variedade de lugares para visitar, também graças à
+                                        excelente biodiversidade que aqui existe, o que permite ao visitante ter várias
+                                        opções quando decidem fazer turismo neste belo país.<br>
+                                        Mostramos uma lista, não de todos eles, mas dos principais lugares turísticos
+                                        para visitar o Peru.
                                     </p>
                                     <ul>
                                         <li>Machu Picchu, Cusco</li>
-                                        <li>Valle del Colca, Arequipa</li>
+                                        <li>Vale do Colca, Arequipa</li>
                                         <li>Choquequirao, Cusco</li>
-                                        <li>Líneas de Nazca, Ica</li>
+                                        <li>Linhas de Nazca, Ica</li>
                                         <li>Kuelap, Amazonas</li>
                                         <li>Reserva Nacional de Paracas</li>
                                         <li>Islas Ballestas</li>
                                         <li>Caral, Lima</li>
                                         <li>Lago Titicaca, Puno</li>
                                         <li>Parque Nacional de Manu, Madre de Dios</li>
-                                        <li>Río Amazonas, Loreto</li>
+                                        <li>Rio Amazonas, Loreto</li>
                                         <li>Parque Nacional del Huascarán, Ancash</li>
-                                        <li>Lagunas de Llanganuco, Ancash</li>
-                                        <li>Valle Sagrado de los Incas, Cusco</li>
-                                        <li>Montaña de Colores, Cusco</li>
-                                        <li>Camino Inca, Cusco</li>
+                                        <li>Lagoas de Llanganuco, Ancash</li>
+                                        <li>Vale Sagrado dos Incas, Cusco</li>
+                                        <li>Montanha de Cores, Cusco</li>
+                                        <li>Trilha inca, Cusco</li>
                                         <li>Reserva Nacional de Tambopata, Madre de Dios</li>
                                         <li>Lago Sandoval, Madre de Dios</li>
                                         <li>Catarata de Gocta, Amazonas</li>
-                                        <li>Laguna Huacachina, Ica</li>
+                                        <li>Lagoa Huacachina, Ica</li>
                                         <li>Los Manglares de Tumbes</li>
-                                        <li>Playa Pocitas, Piura</li>
-                                        <li>Ciudadela de Chan Chan, Trujillo</li>
-                                        <li>Tumbas Reales de Sipán, Lambayeque</li>
+                                        <li>Praia Pocitas, Piura</li>
+                                        <li>Cidadela do Chan Chan, Trujillo</li>
+                                        <li>Tumbas Reais de Sipán, Lambayeque</li>
                                         <li>Punta Sal, Tumbes</li>
-                                        <li>Monasterio de Santa Catalina, Arequipa</li>
+                                        <li>Mosteiro de Santa Catarina, Arequipa</li>
                                         <li>Chavín de Huántar, Ancash</li>
                                         <li>Pacaya Samiria, Loreto</li>
                                         <li>Huanchaco, Trujillo</li>
-                                        <li>Los Baños del Inca, Cajamarca</li>
+                                        <li>As Termas do Inca, Cajamarca</li>
                                         <li>Salkantay, Cusco</li>
                                         <li>Huaca Pucllana, Lima</li>
                                     </ul>
@@ -263,7 +260,7 @@
                                         data-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Necesito hablar español para viajar por Perú?
+                                            Preciso falar espanhol para viajar pelo Peru?
                                         </h2>
                                     </a>
                                 </h2>
@@ -272,23 +269,24 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        La respuesta es no. Sin saber hablar español puedes viajar por todo el Perú y
-                                        visitar todos los sitios que desees, desde los más conocidos hasta los menos
-                                        concurridos. Además, la mayoría de sitios turísticos cuentan con guías
-                                        capacitados para hablar en inglés, un idioma con el que la mayoría de turistas
-                                        se comunica.<br><br>
-                                        Si quieres tener un viaje más cercano, realizar turismo vivencial y acercarte
-                                        más a las comunidades locales, hablar español será un plus que mejorará tu
-                                        experiencia. Cabe recalcar que en el país hay comunidades y lugares en donde se
-                                        hablan otras lenguas, como el quechua o el aimara. Si aprendes solo algunas
-                                        palabras básicas en español, no habrá problema para desplazarte de un lugar a
-                                        otro, ordenar tu comida en un restaurante o realizar algún pago.<br><br>
+                                        A resposta é não. Sem saber falar espanhol você pode viajar por todo o Peru e
+                                        visite todos os sites que quiser, dos mais conhecidos aos menos
+                                        ocupado. Além disso, a maioria dos pontos turísticos tem guias
+                                        treinados para falar inglês, idioma com o qual a maioria dos turistas
+                                        comunica.<br><br>
+                                        Se você quer ter uma viagem mais próxima, faça turismo experiencial e chegue
+                                        mais perto mais para as comunidades locais, falar espanhol será uma vantagem que
+                                        melhorará sua experiência. Deve-se notar que existem comunidades e lugares no
+                                        país onde falam outras línguas, como o quíchua ou o aimará. Se você aprender
+                                        apenas alguns palavras básicas em espanhol, não haverá problema em mudar de um
+                                        lugar para outro outro, peça sua comida em um restaurante ou faça um
+                                        pagamento.<br><br>
 
-                                        Según el ranking EF English Proficiency Index de Latinoamérica, el Perú se
-                                        encuentra en el puesto 10 de 15 respecto a las habilidades para hablar inglés.
-                                        Recuerda que en nuestro país se enseña a hablar este segundo idioma desde el
-                                        colegio, por lo que algunas personas logran comprender fácilmente a los turistas
-                                        en esta lengua.
+                                        De acordo com o ranking do Índice de Proficiência em Inglês da EF para a América
+                                        Latina, o Peru é ocupa o 10º lugar de 15 em habilidades de falar inglês.
+                                        Lembre-se que em nosso país se ensina a falar esta segunda língua desde o
+                                        escola, para que algumas pessoas possam entender facilmente os turistas
+                                        nesta língua.
                                     </p>
                                 </div>
                             </div>
@@ -299,7 +297,7 @@
                                     <a class="btn btn-link collapsed" data-toggle="collapse"
                                         data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Cuáles son las mejores temporadas para visitar Perú?
+                                            Quais são as melhores épocas para visitar o Peru?
                                         </h2>
                                     </a>
                                 </h2>
@@ -308,11 +306,11 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        A Perú lo puede visitar en todo el año, pero, hay una temporada que es desde
-                                        Marzo hasta octubre, porque es la temporada seca. Los meses más lluviosos son
-                                        enero y febrero. La temporada turística alta es entre junio y agosto. hay
-                                        algunas fechas donde puede encontra los tiquetes mas económicos y es entre
-                                        septiembre y octubre.
+                                        Você pode visitar o Peru durante todo o ano, mas há uma temporada que é de
+                                        Março a outubro, porque é a estação seca. Os meses mais chuvosos são
+                                        Janeiro e fevereiro. A alta temporada turística é entre junho e agosto. existem
+                                        algumas datas onde você pode encontrar os bilhetes mais baratos e é entre
+                                        setembro e outubro.
                                     </p>
                                 </div>
                             </div>
@@ -324,7 +322,7 @@
                                         data-target="#collapseseven" aria-expanded="false"
                                         aria-controls="collapseseven">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Perú es un buen destino familiar para visitar?
+                                            O Peru é um bom destino familiar para visitar?
                                         </h2>
                                     </a>
                                 </h2>
@@ -333,10 +331,10 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        Definitivamente si. Perú es una muy buena opción para viajar en familia ya que
-                                        tiene muchas opciones para darle al gusto a personas de todas las edades.
-                                        Paisajes, turismo cultural, actividades al aire libre, aventura y turismo
-                                        gastronómico, son algunas de las opciones más comunes.
+                                        Definitivamente sim. Peru é uma opção muito boa para viajar em família desde
+                                        Tem muitas opções para agradar pessoas de todas as idades.
+                                        Paisagens, turismo cultural, atividades ao ar livre, aventura e turismo
+                                        gastronômicos, são algumas das opções mais comuns.
                                     </p>
                                 </div>
                             </div>
@@ -348,7 +346,7 @@
                                         data-target="#collapseeight" aria-expanded="false"
                                         aria-controls="collapseeight">
                                         <h2 class="h2-questions">&#9755;
-                                            ¿Qué es el mal de altura? ¿Cómo evitarlo?
+                                            O que é doença de altitude? Como evitá-lo?
                                         </h2>
                                     </a>
                                 </h2>
@@ -357,54 +355,55 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <p>
-                                        El mal de altura o soroche, como también se le conoce en los Andes, es una
-                                        enfermedad causada por la falta de oxígeno en el cuerpo. A medida que subimos
-                                        más alto, la presión atmosférica es menor, por eso sentimos que “nos falta el
-                                        aire”.<br><br>
-                                        Ocurre cuando se asciende de forma brusca a altitudes por encima de los 2.400
-                                        metros sobre el nivel del mar, como cuando viajas de Lima (161 m.s.n.m) a Cusco
-                                        (3,399 m.s.n.m) en avión.
+                                        A doença da altitude ou soroche, como também é conhecida nos Andes, é uma doença
+                                        doença causada pela falta de oxigênio no corpo. enquanto subimos
+                                        maior, a pressão atmosférica é menor, então sentimos que "nos falta a
+                                        ar”.<br><br>
+                                        Ocorre ao subir abruptamente para altitudes acima de 2.400
+                                        metros acima do nível do mar, como quando você viaja de Lima (161 m.a.s.l.) para
+                                        Cusco (3.399 m.s.n.m) de avião.
                                     </p>
-                                    <h5>Síntomas del mal de altura</h5>
+                                    <h5>Sintomas do mal de altitude</h5>
                                     <p>
-                                        El mal de altura es muy fácil de reconocer por sus síntomas. Como menos oxígeno
-                                        llega al cuerpo, se siente:
+                                        A doença da altitude é muito fácil de reconhecer pelos seus sintomas. como menos
+                                        oxigênio atinge o corpo, sente:
                                     </p>
                                     <ul>
-                                        <li>Dolor de cabeza: la falta de oxígeno aumenta la presión capilar y la
-                                            hinchazón de la cabeza, causando dolor.
-                                            Este síntoma se presenta en el 80% de los casos de personas que suben de
-                                            pronto por encima de los 3.000 m de altitud.
+                                        <li>Cefaléia: falta de oxigênio aumenta a pressão capilar e
+                                            inchaço da cabeça, causando dor. Este sintoma ocorre em 80% dos casos de
+                                            pessoas que sobem de logo acima de 3.000 m de altitude.
                                         </li>
-                                        <li>Mareos y náuseas: es normal sentir un poco de presión en la cabeza que causa
-                                            mareos y náuseas leves.</li>
-                                        <li>Cansancio general: la falta de oxígeno ocasiona una sensación de fatiga que
-                                            se debe atender descansando y bajando la velocidad de los movimientos. La
-                                            recomendación es caminar lento, no correr ni agitarse.</li>
-                                        <li>Hinchazón de manos y pies: es uno de los síntomas más comunes y el primero
-                                            en desaparecer una vez que el cuerpo se aclimata a la altitud.</li>
+                                        <li>Tonturas e náuseas: é normal sentir um pouco de pressão na cabeça que causa
+                                            tontura e náusea leve.</li>
+                                        <li>Cansaço geral: a falta de oxigênio causa uma sensação de fadiga que
+                                            Deve ser acompanhado por repouso e desaceleração dos movimentos. o
+                                            A recomendação é caminhar devagar, não correr ou tremer.</li>
+                                        <li>Inchaço das mãos e pés: é um dos sintomas mais comuns e o primeiro
+                                            desaparecer assim que o corpo se aclimatar à altitude.</li>
                                     </ul>
                                     <p>
-                                        Se cree que el mal de altura no afecta a las personas que están en forma, pero
-                                        esto es un mito. Hay otros factores como la edad, ascender muy rápido, hacer
-                                        actividad física sin estar aclimatado, dormir mal, comer en exceso o hidratarse
-                                        poco que también pasan factura.
+                                        Acredita-se que o mal da altitude não afete as pessoas que estão em boa forma,
+                                        mas
+                                        isso é um mito. Existem outros fatores como idade, subir muito rápido, fazer
+                                        atividade física sem aclimatação, sono ruim, comer demais ou hidratação
+                                        pouco que também cobram seu preço.
                                     </p>
-                                    <h5>Algunos consejos para prevenir el mal de altura son:</h5>
+                                    <h5>Algumas dicas para prevenir o mal de altitude são:</h5>
                                     <ul>
-                                        <li>Viajar en bus hacia lugares de gran altitud como Arequipa, Cusco o Puno. El
-                                            ascenso progresivo disminuye las probabilidades de sufrir de mal de altura.
+                                        <li>Viaje de ônibus para lugares de grande altitude como Arequipa, Cusco ou
+                                            Puno. o A subida progressiva diminui as chances de sofrer de mal de
+                                            altitude.
                                         </li>
-                                        <li>Tomar una pastilla especial contra el soroche o mal de montaña. El Perú hay
-                                            opciones como el Sorojchipills que pueden tomarse para prevenir los
-                                            síntomas.</li>
-                                        <li>Masticar hojas de coca o tomarlas en té: es importante ¡no tragarse las
-                                            hogas de coca! Sólo masticar y tragar la saliva. También puedes tomar mate
-                                            de coca.</li>
-                                        <li>Mantener una dieta balanceada, baja en sal y muy ligera para que el cuerpo
-                                            pueda procesar mejor la altura.</li>
-                                        <li>Tomar mucha agua antes y durante el viaje para que el cuerpo esté más
-                                            preparado.</li>
+                                        <li>Tome uma pílula especial contra soroche ou doença da montanha. Peru existe
+                                            opções como Sorojchipills que podem ser tomadas para evitar
+                                            sintomas.</li>
+                                        <li>Mastigar folhas de coca ou tomá-las no chá: é importante não engolir
+                                            folhas de coca! Basta mastigar e engolir a saliva. Você também pode beber
+                                            mate de coca.</li>
+                                        <li>Mantenha uma dieta equilibrada, pobre em sal e muito leve para que o corpo
+                                            pode processar a altura melhor.</li>
+                                        <li>Beba bastante água antes e durante a viagem para que o corpo fique mais
+                                            pronto.</li>
                                     </ul>
                                 </div>
                             </div>

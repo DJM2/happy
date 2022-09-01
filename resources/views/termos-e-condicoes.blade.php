@@ -3,7 +3,7 @@
 
 <head>
     @include('layouts.links')
-    <title>Happy Perú Tours | Agencia de viajes y turismo Perú</title>
+    <title>Termos e Condições Happy Perú Tours | Agência de viagens e turismo do Peru</title>
     <meta name="title" content="Happy Peru Tours - Travel Agency for Perú | Viajes a Perú">
     <meta name="description"
         content="Happy Perú Tours, tours para Perú, caminatas, tours de aventura, caminatas en cusco, ciclismo, machu picchu">
@@ -51,7 +51,7 @@
     <div class="container form">
         <div class="abs-center form-index">
             <h1 class="text-center h1-pages" style="color: #fff; margin-top:2em">
-                <?php $titulo = 'Términos y Condiciones';
+                <?php $titulo = 'Termos e Condições';
                 echo $titulo; ?>
             </h1>
         </div>
@@ -63,284 +63,219 @@
             <div class="row">
                 <div class="col-lg-12 pt-5">
                     <div>
-                        <h2 class="text-center">Términos y Condiciones Happy Peru Tours </h2>
+                        <h2 class="text-center">Termos e Condições Happy Peru Tours</h2>
 
-                        <p>Tómese el tiempo para leer y comprender las condiciones de reserva que se establecen a
-                            continuación antes de
-                            reservar un viaje con Happy Perú Tours. Le recomendamos encarecidamente que también lea la
-                            "Información
-                            esencial" relacionada con su viaje antes de reservar para asegurarse de que comprende el
-                            itinerario, el
-                            estilo y las exigencias físicas del viaje que está realizando.</p>
-
-                        <h3>Nuestro Contrato</h3>
-                        <p>Todas las reservas se realizan con Happy Perú Tours (RUC: ---------------) Al reservar un
-                            viaje con nosotros,
-                            se le considera haber aceptado estas Condiciones de reserva (que constituyen la totalidad
-                            acuerdo entre
-                            usted y nosotros) y su reserva será aceptada en esta base. Los servicios a prestar son los
-                            servicios
-                            indicados en su factura con la confirmación de la reserva.</p>
-
-                        <h3>Aceptación de reservas y pagos.</h3>
-                        <p>Puede reservar en línea y aceptamos su reserva. Una vez realizada la reserva, nuestro
-                            Departamento de
-                            Reservas le envía un correo electrónico junto con una factura de confirmación de la reserva.
-                            (Revise también
-                            su carpeta de correo no deseado). Se concluirá un contrato entre nosotros a partir de la
-                            fecha de la factura
-                            de confirmación, o si reserva un recorrido dentro de los 2 días antes de su partida, el
-                            contrato entrará en
-                            vigencia tan pronto como aceptemos su 100 % pago.
-
-                            Los detalles de pago se pueden encontrar en la factura de confirmación de la reserva. Si su
-                            depósito (o el
-                            pago del 100% en el caso de una reserva 2 días antes de la salida del tour) no se paga antes
-                            de la fecha de
-                            vencimiento, ¡nos reservamos el derecho de considerar su reserva como cancelada!
+                        <p>
+                            Por favor, reserve um tempo para ler e entender as condições de reserva estabelecidas abaixo
+                            antes de reservar uma viagem com a Happy Peru Tours. Recomendamos fortemente que você também
+                            leia as "Informações Essenciais" relacionadas à sua viagem antes de reservar para garantir
+                            que você entenda o itinerário, estilo e exigências físicas da viagem que você está fazendo.
                         </p>
 
-                        <h5>- Requisito de depósito</h5>
-                        <p>Para que su reserva sea confirmada se requiere un depósito del 20% o 50% por persona y por
-                            viaje. El saldo adeudado se puede pagar en efectivo a su llegada a la ciudad de Cusco. Si su
-                            reserva se realiza dentro de los 2 días anteriores a la fecha de salida, el 100% del monto
-                            total se debe pagar en el momento de la reserva. ¡Tenga en cuenta que las tarifas de
-                            transferencia bancaria ya están incluidas en el precio del primer pago!</p>
-
-                        <h3>Precios y Recargos</h3>
-                        <p>Dado que publicamos nuestros precios con mucha anticipación, ocasionalmente podemos enfrentar
-                            aumentos significativos en los costos debido a factores que escapan a nuestro control. Por
-                            esta razón, nos reservamos el derecho de imponer recargos (o reducir precios) hasta un mes
-                            antes de la fecha de salida debido a aumentos de admisión, tarifas u otros costos de
-                            transporte, impuestos si así lo requiere una acción gubernamental, u otros. Cualquier
-                            recargo o bajada de precio será plenamente explicado y justificado por Happy Perú Tours
-                            antes de su implementación. Si algún recargo supusiera un incremento superior al 10% del
-                            coste del programa, el cliente podrá cancelar la reserva, que deberá realizar al menos un
-                            mes antes de la fecha de salida, y recibirá un reembolso reducido únicamente por los gastos
-                            ya incurridos.</p>
-
-                        <h5>- Asunción de riesgos</h5>
-                        <p>Algunos itinerarios de Happy Perú Tours han sido diseñados para brindar a los participantes
-                            una exposición a la verdadera naturaleza del entorno visitado. Implican, por tanto, un
-                            elemento de riesgo personal y exposición a un riesgo potencial que podría resultar en
-                            lesiones físicas o emocionales, parálisis, muerte o daño al cliente, a su propiedad o a
-                            terceros. El cliente entiende que tales riesgos no pueden ser simplemente descartados sin
-                            comprometer las cualidades básicas de la actividad y por lo tanto los asume como parte del
-                            tour. El cliente declara que es consciente de su estado de salud y físico y que ha decidido
-                            conscientemente asumir los riesgos antes mencionados. El cliente excluye a Happy Perú Tours
-                            de cualquier responsabilidad asociada con cualquier accidente o lesión que pueda ocurrir en
-                            relación con la salud, el estado físico o de otro tipo del cliente.</p>
-
-                        <h5>- Autoridad en el Tour</h5>
-                        <p>La decisión del Guía u otro representante de Happy Peru Tours será siempre final en todos los
-                            asuntos que puedan poner en peligro la seguridad y el bienestar del grupo turístico. El
-                            cliente
-                            siempre debe cumplir estrictamente con las leyes, aduanas, normas cambiarias y de drogas del
-                            Perú. Si el cliente no cumple con lo anterior, o si perturba el bienestar del grupo, el Guía
-                            u
-                            otro representante de la empresa podrá ordenar al cliente que abandone el tour sin
-                            reembolso.</p>
-
-                        <h5>- Documentos de viaje</h5>
-                        <p>El cliente debe estar en posesión de un pasaporte válido y todas las visas requeridas para la
-                            totalidad del viaje y el cliente acepta la responsabilidad de obtenerlas. Cualquier
-                            información o consejo sobre visas, vacunas, clima, vestimenta, equipaje, equipo especial,
-                            etc. son brindados por Happy Perú Tours de buena fe pero sin responsabilidad por parte de la
-                            empresa.
-                            Factores Fuera del Control de la Compañía (Fuerza Mayor)
-                            La empresa se esforzará por minimizar el impacto de los asuntos fuera de su control, pero no
-                            puede aceptar ninguna responsabilidad por tales asuntos, que incluyen disputas políticas,
-                            cierre de fronteras, denegación de visas, protestas, vuelos retrasados, clima impredecible,
-                            deslizamientos de tierra, etc. El cliente acepta aceptar todos los costos adicionales
-                            derivados de estos factores.
+                        <h3>Nosso Contrato</h3>
+                        <p>
+                            Todas as reservas são feitas com Happy Peru Tours (RUC:20608801686) Ao reservar uma viagem
+                            conosco, considera-se que você aceitou estas Condições de Reserva (que constituem o acordo
+                            integral entre você e nós) e sua reserva será aceita com base nisso. Os serviços a prestar
+                            são os serviços indicados na sua fatura com a confirmação da reserva.
                         </p>
 
-                        <h5>- Responsabilidad</h5>
-                        <p>La empresa no es responsable de ningún daño o pérdida si el incumplimiento del contrato
-                            fuera:
+                        <h3>Aceitação de reservas e pagamentos.</h3>
+                        <p>
+                            Pode reservar online e nós aceitamos a sua reserva. Uma vez efetuada a reserva, o nosso
+                            Departamento de Reservas envia-lhe um e-mail juntamente com a fatura de confirmação da
+                            reserva. (Por favor, verifique também sua pasta de spam.) Um contrato entre nós será
+                            concluído a partir da data da fatura de confirmação, ou se você reservar um passeio dentro
+                            de 2 dias antes da sua partida, o contrato entrará em vigor assim que aceitarmos seu
+                            pagamento de 100%. Os detalhes de pagamento podem ser encontrados na fatura de confirmação
+                            da reserva. Se o seu depósito (ou pagamento de 100% no caso de uma reserva 2 dias antes da
+                            partida da excursão) não for pago até a data de vencimento, nos reservamos o direito de
+                            considerar sua reserva como cancelada!
+                        </p>
 
+                        <h5>Exigência de depósito</h5>
+                        <p>
+                            Para que sua reserva seja confirmada, é necessário um depósito de 20% ou 50% por pessoa e
+                            por viagem. O saldo devedor pode ser pago em dinheiro na chegada à cidade de Cusco. Se a sua
+                            reserva for feita até 2 dias antes da data de partida, 100% do valor total deverá ser pago
+                            no ato da reserva. Observe que as taxas de transferência bancária já estão incluídas no
+                            preço do primeiro pagamento!
+                        </p>
+
+                        <h3>Preços e Sobretaxas</h3>
+                        <p>
+                            Como publicamos nossos preços com bastante antecedência, podemos ocasionalmente enfrentar
+                            aumentos de custos significativos devido a fatores além de nosso controle. Por esse motivo,
+                            nos reservamos o direito de impor sobretaxas (ou reduzir preços) até um mês antes da partida
+                            devido ao aumento de admissão, taxas ou outros custos de transporte, impostos, se exigido
+                            por ação governamental ou de outra forma. Qualquer sobretaxa ou redução de preço será
+                            totalmente explicada e justificada pela Happy Peru Tours antes de sua implementação. Caso
+                            alguma sobretaxa suponha um acréscimo superior a 10% do custo do programa, o cliente poderá
+                            cancelar a reserva, que deverá ser feita pelo menos um mês antes da data de partida, e
+                            receberá um reembolso reduzido apenas pelas despesas já efetuadas. incorridos.
+                        </p>
+
+                        <h5>Suposição de risco</h5>
+                        <p>
+                            Alguns itinerários da Happy Peru Tours foram projetados para proporcionar aos participantes
+                            a exposição à verdadeira natureza do ambiente visitado. Envolvem, portanto, um elemento de
+                            risco pessoal e exposição a risco potencial que pode resultar em lesões físicas ou
+                            emocionais, paralisia, morte ou danos ao cliente, sua propriedade ou terceiros. O cliente
+                            entende que tais riscos não podem ser simplesmente descartados sem comprometer as qualidades
+                            básicas da atividade e, portanto, os assume como parte do passeio. O cliente declara que
+                            está ciente de sua saúde e condição física e que decidiu conscientemente assumir os riscos
+                            mencionados. O cliente exclui a Happy Peru Tours de qualquer responsabilidade associada a
+                            qualquer acidente ou lesão que possa ocorrer em relação à saúde, condição física ou outra do
+                            cliente.
+                        </p>
+
+                        <h5>Autoridade em turnê</h5>
+                        <p>
+                            A decisão do Guia ou de outro representante da Happy Peru Tours será sempre final em todos
+                            os assuntos que possam colocar em risco a segurança e o bem-estar do grupo turístico. O
+                            cliente deve sempre cumprir rigorosamente as leis, costumes, câmbio e regulamentos de drogas
+                            do Peru. Se o cliente não cumprir o acima exposto, ou se perturbar o bem-estar do grupo, o
+                            Guia ou outro representante da empresa poderá ordenar que o cliente deixe o passeio sem
+                            reembolso.
+                        </p>
+
+                        <h5>Documentos de viagem</h5>
+                        <p>
+                            O Cliente deve estar de posse de um passaporte válido e de todos os vistos necessários para
+                            toda a viagem e o Cliente aceita a responsabilidade de obtê-los. Qualquer informação ou
+                            aconselhamento sobre vistos, vacinas, clima, vestuário, bagagem, equipamento especial, etc.
+                            são fornecidos pela Happy Peru Tours de boa fé, mas sem responsabilidade por parte da
+                            empresa. <br><br>
+                            Fatores Fora do Controle da Empresa (Força Maior) A empresa se esforçará para
+                            minimizar o impacto de assuntos além de seu controle, mas não pode aceitar qualquer
+                            responsabilidade por tais assuntos, que incluem disputas políticas, fechamento de
+                            fronteiras, negação de visto, protestos, atrasos em voos, clima imprevisível , deslizamentos
+                            de terra, etc. O cliente concorda em aceitar todos os custos adicionais derivados desses
+                            fatores.
+                        </p>
+
+                        <h5>Responsabilidade</h5>
+                        <p>A empresa não se responsabiliza por qualquer dano ou perda se a violação do contrato for:</p>
                         <ul>
-                            <li>1. Atribuibles al cliente.</li>
-                            <li> 2. Atribuibles a un tercero ajeno a la prestación de los servicios contratados, y el
-                                hecho sea imprevisible o inevitable.</li>
-                            <li> 3. Debido a circunstancias imprevistas e inusuales fuera del control de la empresa,
-                                cuyas consecuencias no podrían haberse evitado incluso si se hubieran tomado las debidas
-                                precauciones.</li>
-                            <li> 4. Por disputas políticas, huelgas, clima u otros asuntos de similar naturaleza y
-                                cualquier otra fuerza mayor.</li>
-                            <li> 5. Por un acontecimiento que la empresa no pudo prever o prevenir con toda diligencia.
-                                Cualquier responsabilidad se limita al precio total pagado por el tour. En cualquier
-                                caso, la empresa excluye expresamente toda responsabilidad por pérdida o gasto indirecto
-                                o consecuencial, incluido el lucro cesante.
+                            <li>Atribuível ao cliente.</li>
+                            <li>Atribuível a terceiro alheio à prestação dos serviços contratados, sendo o evento
+                                imprevisível ou inevitável.</li>
+                            <li>Devido a circunstâncias imprevistas e incomuns fora do controle da empresa, cujas
+                                consequências não poderiam ter sido evitadas mesmo que as devidas precauções tivessem
+                                sido tomadas.</li>
+                            <li>Para disputas políticas, greves, clima ou outros assuntos de natureza semelhante e
+                                qualquer outra força maior.</li>
+                            <li>Para um evento que a empresa não poderia prever ou prevenir com toda a diligência.
+                                Qualquer responsabilidade é limitada ao preço total pago pelo passeio. Em qualquer caso,
+                                a empresa exclui expressamente toda a responsabilidade por perdas ou despesas indiretas
+                                ou consequentes, incluindo lucros cessantes.
                             </li>
                         </ul>
+
+                        <h3>Reclamações e Reclamações</h3>
+                        <p>
+                            Caso o cliente tenha alguma reclamação sobre a empresa, deverá informar previamente o
+                            Guia/representante da empresa durante a viagem para que o guia/representante possa tentar
+                            corrigir a situação. Quaisquer outras reclamações devem ser enviadas à empresa por escrito
+                            dentro de 7 dias após a conclusão do passeio. Declaro que tive ampla oportunidade de ler
+                            este documento na íntegra, que o li e compreendi, e concordo em cumprir seus termos.
                         </p>
-                        <h3>Reclamos y Quejas</h3>
 
-                        <p>Si el cliente tiene una queja sobre la empresa, primero debe informar al Guía de
-                            turismo/representante de la empresa durante el viaje para que el guía/representante intente
-                            corregir la situación. Cualquier otra queja debe enviarse a la empresa por escrito dentro de
-                            los 7 días posteriores a la finalización del recorrido. Declaro que he tenido amplia
-                            oportunidad de leer este documento completo, que lo he leído y entendido y acepto estar
-                            sujeto a sus términos.</p>
-
-                        <h3>Inlcusiones</h3>
-
-                        <p>El precio total de tu viaje incluye:
-
+                        <h3>inclusões</h3>
+                        <p>O preço total da sua viagem inclui:</p>
                         <ul>
-                            <li>Todos los alojamientos que se enumeran en la sección Información esencial de cada
-                                recorrido.</li>
-                            <li> Todos los transportes mencionados en la Información Esencial.</li>
-                            <li> Visitas turísticas enumeradas en la información esencial.</li>
-                            <li> Comidas mencionadas en la Información Esencial.</li>
-                            <li> Los servicios de un líder de grupo como se describe en la Información esencial.
+                            <li>Todas as acomodações listadas na seção Informações essenciais de cada passeio.</li>
+                            <li>Todos os transportes mencionados nas Informações Essenciais.</li>
+                            <li>Visitas turísticas listadas nas informações essenciais.</li>
+                            <li>Refeições mencionadas nas Informações Essenciais.</li>
+                            <li>Os serviços de um líder de grupo, conforme descrito em Informações Essenciais.
                             </li>
                         </ul>
-                        </p>
 
-                        <h3>Exclusiones</h3>
-
-                        <p>El precio total de tu viaje no incluye:
+                        <h3>Exclusões</h3>
+                        <p>O preço total da sua viagem não inclui:</p>
 
                         <ul>
-                            <li>Tarifas de visa y pasaporte.</li>
-                            <li> Seguro de viaje.</li>
-                            <li> Vuelos internacionales o locales (nacionales) a menos que se especifique en la sección
-                                Información esencial de cada tour.</li>
-                            <li> Traslados al aeropuerto, impuestos y cargos por exceso de equipaje a menos que se
-                                especifique en la Información esencial.</li>
-                            <li> Comidas distintas a las especificadas en la Información Esencial.</li>
-                            <li> Actividades opcionales y cualquier gasto personal.
-                            </li>
+                            <li>Taxas de visto e passaporte.</li>
+                            <li>Seguro de viagem.</li>
+                            <li>Voos internacionais ou locais (domésticos), a menos que especificado na seção
+                                Informações essenciais de cada passeio.</li>
+                            <li>Transferências de aeroporto, impostos e taxas de excesso de bagagem, a menos que
+                                especificado em Informações Essenciais.</li>
+                            <li>Refeições diferentes das especificadas nas Informações Essenciais.</li>
+                            <li>Atividades opcionais e quaisquer despesas pessoais. </li>
                         </ul>
+
+                        <h3>Atividades opcionais</h3>
+                        <p>
+                            Atividades opcionais de terceiros que não estão incluídas no preço do passeio e não fazem
+                            parte do passeio ou deste contrato. Você concorda que qualquer assistência fornecida por seu
+                            líder de grupo ou representante local na organização de atividades opcionais não nos torna
+                            responsáveis ​​por elas. O contrato para a prestação desta atividade será entre você e o
+                            provedor da atividade.
                         </p>
 
-                        <h3>Actividades Opcionales</h3>
-                        <p>Actividades opcionales de terceros que no están incluidas en el precio del tour y no forman
-                            parte del tour ni de este contrato. Usted acepta que cualquier asistencia proporcionada por
-                            el líder de su grupo o representante local para organizar actividades opcionales no nos hace
-                            responsables de ellas. <br>El contrato para la prestación de esta actividad será entre usted
-                            y
-                            el proveedor de la actividad.</p>
-
-                        <h3>Seguro de viaje</h3>
-
-                        <p>El seguro de viaje es obligatorio para todos nuestros viajeros y debe contratarse en el
-                            momento de la reserva. Tu seguro de viaje debe cubrir accidentes personales, muerte, gastos
-                            médicos y repatriación de emergencia con una cobertura mínima recomendada de USD 200.000
-                            para cada una de las categorías de cobertura.<br><br> También recomendamos enfáticamente que
-                            cubra
-                            cancelación, restricción, responsabilidad personal, pérdida de equipaje y bienes
-                            personales.<br>
-                            ¡Debe proporcionar prueba de su seguro de viaje el primer día de su viaje! ¡No podrás unirte
-                            al viaje sin él! Si obtiene un seguro de viaje a través de nosotros, debe informarnos antes
-                            del viaje si está satisfecho con el nivel de seguro que hemos contratado.</p>
-
-                        <h3>Campamentos Camino Inca</h3>
-
-                        <p>Tenga en cuenta: los sitios para acampar pueden cambiar (es decir, pueden ser diferentes a
-                            los que se indican en el sitio web) según el tiempo de reserva y la disponibilidad, las
-                            condiciones climáticas o las restricciones implementadas por razones de seguridad por parte
-                            del gobierno peruano.</p>
-
-                        <h3>Aceptación de Reserva y Pago</h3>
-
-                        <p>¡El hecho más importante sobre el Camino Inca es que debe reservarse con mucha anticipación!
-                            Puede reservar esta caminata en línea. Una vez realizada la reserva, nuestro Departamento de
-                            Reservas le enviará un correo electrónico junto con una factura de confirmación de la
-                            reserva. (Revise también su carpeta de correo no deseado). <br>Un contrato entre nosotros se
-                            concluirá a partir de la fecha de la factura de confirmación. Los detalles de pago se pueden
-                            encontrar en la factura de confirmación de la reserva.<br><br>
-
-                            Durante el proceso de reserva, confirme si desea subir al Huayna Picchu (un ascenso de 45
-                            minutos sobre la ciudadela de Machu Picchu) o a la montaña Machu Picchu (un ascenso de 1
-                            hora y media para tomar algunas fotos panorámicas de la ciudadela Inca) como ¡esto también
-                            debe especificarse con anticipación! Cada ascenso a la montaña tiene un costo adicional de
-                            USD 85.00 por persona.<br> Hay dos franjas horarias: de 7 a 8 de la mañana o de 10 a 11 de
-                            la
-                            mañana. También debe especificarse, aunque debe ser flexible en cualquier momento.
+                        <h3>Acampamentos de trilha inca</h3>
+                        <p>
+                            Observação: os locais de acampamento podem mudar (ou seja, podem ser diferentes dos listados
+                            no site) com base no horário e disponibilidade da reserva, condições climáticas ou
+                            restrições impostas por motivos de segurança pelo governo peruano.
                         </p>
 
-                        <h3>Cancelaciones</h3>
+                        <h3>Aceitação de Reserva e Pagamento</h3>
 
-                        <p>Si su recorrido incluye un Camino Inca, el depósito no es reembolsable ya que se utiliza para
-                            el compra inmediata de permisos Camino Inca, boletos Machu Picchu, gastos de maletero,
-                            Huayna Entradas a la montaña Picchu/Machu Picchu (si corresponde) que no son reembolsables
-                            ni transferibles a cualquier otra fecha, persona o tour (según el Reglamento del Camino Inca
-                            y Machu Picchu)! Happy Perú debe ser informado de cualquier cambio o cancelación de su
-                            caminata tan pronto como tenga conocimiento de ellos, ya sea por correo electrónico o por
-                            fax, para que no incurramos en gastos no cubiertos por el depósito. <br><br>
+                        <p>
+                            O fato mais importante sobre a Trilha Inca é que ela deve ser reservada com bastante
+                            antecedência! Você pode reservar esta caminhada online. Uma vez efetuada a reserva, o nosso
+                            Departamento de Reservas enviar-lhe-á um e-mail juntamente com a fatura de confirmação da
+                            reserva. (Por favor, verifique também sua pasta de spam.)
+                            Um contrato entre nós será concluído a partir da data da fatura de confirmação. Os detalhes
+                            de pagamento podem ser encontrados na fatura de confirmação da reserva.<br><br>
 
-                            Los recorridos por el Camino Inca se pueden cancelar con un reembolso del 30% del depósito
-                            hasta 15 días antes del recorrido; 20% hasta una semana antes del tour, reembolso del 10%
-                            menos de 5 días antes del tour y habrá una pérdida del 100% del depósito en caso de que la
-                            cancelación se realice con menos de 48 horas de antelación. <br> Una vez el saldo final ha
-                            sido
-                            pagado, ¡no podremos reembolsar en caso de cancelación! Sin embargo, habrá partes de la ruta
-                            que aún puede usar, como un boleto Machu Picchu, un tren billete, un billete de autobús.
+                            Durante o processo de reserva, confirme se você deseja escalar Huayna Picchu (uma escalada
+                            de 45 minutos sobre a cidadela de Machu Picchu) ou a Montanha Machu Picchu (uma escalada de
+                            1,5 horas para tirar algumas fotos panorâmicas da cidadela inca), pois isso deve também ser
+                            especificado com antecedência! Cada subida à montanha tem um custo adicional de USD 85,00
+                            por pessoa. Há dois horários: das 7 às 8 da manhã ou das 10 às 11 da manhã. Também deve ser
+                            especificado, embora deva ser flexível a qualquer momento.
+                        </p>
+
+                        <h3>Cancelamentos</h3>
+
+                        <p>
+                            Se o seu passeio inclui uma Trilha Inca, o depósito não é reembolsável, pois é usado para a
+                            compra imediata de licenças da Trilha Inca, ingressos para Machu Picchu, taxas de porteiro,
+                            taxas de entrada para a Montanha Huayna Picchu/Machu Picchu (se aplicável) que não são
+                            reembolsáveis ou transferível para qualquer outra data, pessoa ou passeio (de acordo com os
+                            Regulamentos da Trilha Inca e Machu Picchu)! A Happy Peru Tours deve ser informada de
+                            qualquer alteração ou cancelamento de sua caminhada assim que tomar conhecimento, por e-mail
+                            ou fax, para que não incorramos em despesas não cobertas pelo depósito.<br><br>
+
+                            Os passeios da Trilha Inca podem ser cancelados com reembolso de 30% do depósito até 15 dias
+                            antes do passeio; 20% até uma semana antes do passeio, reembolso de 10% menos de 5 dias
+                            antes do passeio e haverá perda de 100% do depósito caso o cancelamento seja feito com menos
+                            de 48 horas de antecedência. Uma vez que o saldo final tenha sido pago, não poderemos
+                            reembolsar em caso de cancelamento! No entanto, haverá partes da rota que você ainda poderá
+                            usar, como uma passagem de Machu Picchu, uma passagem de trem, uma passagem de ônibus.
                             <br><br>
 
-                            <strong>Si pagó solo el 20% no es reembolsable.<br>
-                                Previa solicitud, también podemos proporcionar una carta de reclamación a su compañía de
+                            <strong>Se você pagou apenas 30%, não é reembolsável.<br>
+                                Mediante solicitação, também podemos fornecer uma carta de reclamação à sua companhia de
                                 seguros.</strong>
 
                         </p>
-                        <h5> <strong>Nota IMPORTANTE:</strong></h5>
-                        <p>
+                        <h5> <strong>Nota importante:</strong></h5>
                         <ul>
-                            <li>Aplica solo para reservas iniciadas entre el 01 de enero al 31 de diciembre de 2022.
+                            <li>Aplica-se apenas para reservas iniciadas entre 1º de janeiro e 31 de dezembro de 2022.
                             </li>
-                            <li> El reembolso se enviará a la tarjeta de crédito del cliente, este proceso demorará
-                                entre 7 y 20 días.</li>
-                            <li> Su banco puede aplicar una tarifa de transacción. <br><br>
-                            </li>
+                            <li>Seu banco pode aplicar uma taxa de transação.</li>
                         </ul>
-                        </p>
+                        <br><br><br>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-       <!---------Prueba tours full width--------->
-       <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="text-center">Temas de turismo Perú</h2><br><br>
-            </div>
-            <div class="full-width atracciones">
-                <div class="black">
-                    <h2>Cusco turístico</h2>
-                    <p>Conoce las principales atracciones turísticas de Cusco</p>
-                    <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer
-                            articulo</a> </button>
-                </div>
-            </div>
-            <div class="full-width inca-trail">
-                <div class="black">
-                    <h2>Camino Inca</h2>
-                    <p>Qué necesitas saber sobre el Camino Inca</p>
-                    <button> <a href="blog/blog-castellano/que-necesitas-saber-sobre-el-camino-inca">Leer
-                            articulo</a> </button>
-                </div>
-            </div>
-            <div class="full-width food">
-                <div class="black">
-                    <h2>Gastronomía de Perú</h2>
-                    <p>La exquisita gastronomía peruana.</p>
-                    <button> <a href="blog/blog-castellano/gastronomia-peruana">Leer artículo</a> </button>
-                </div>
-            </div>
-            <div class="full-width vinicunca">
-                <div class="black">
-                    <h2>Vinicunca</h2>
-                    <p>La famosa montaña de colores</p>
-                    <button> <a href="blog/blog-castellano/vinicunca-castellano">Leer artículo</a> </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-----------Fin Tours full width---------->
     @include('layouts.foot-portugues')
 
 </body>

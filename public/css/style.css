@@ -96,11 +96,11 @@ a:hover {
 }
 
 .reviews {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background: url('../img/panoramic/reviews-happy-peru.webp');
+    background: linear-gradient( rgb(7 58 66 / 50%) 100%, rgb(59 168 255 / 50%)100%), url(../img/panoramic/reviews-happy-peru.webp);
     background-size: cover;
 }
 

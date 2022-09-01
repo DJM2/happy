@@ -38,7 +38,8 @@
             <idioma><a><span class="icon-language"></span> Español</a></idioma>
             <ul class="dropdown arrow-top" style="width: 120px">
                 <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">English</button></li>
-                <li><button class="btn-lang" onclick="window.location.href='{{ route('terms') }}'">Portugués</button>
+                <li><button class="btn-lang"
+                        onclick="window.location.href='{{ route('termos-e-condicoes') }}'">Português</button>
                 </li>
             </ul>
         </li>
@@ -74,7 +75,7 @@
                             estilo y las exigencias físicas del viaje que está realizando.</p>
 
                         <h3>Nuestro Contrato</h3>
-                        <p>Todas las reservas se realizan con Happy Perú Tours (RUC: ---------------) Al reservar un
+                        <p>Todas las reservas se realizan con Happy Perú Tours (RUC:20608801686) Al reservar un
                             viaje con nosotros,
                             se le considera haber aceptado estas Condiciones de reserva (que constituyen la totalidad
                             acuerdo entre
@@ -100,7 +101,7 @@
                             vencimiento, ¡nos reservamos el derecho de considerar su reserva como cancelada!
                         </p>
 
-                        <h5>- Requisito de depósito</h5>
+                        <h5>Requisito de depósito</h5>
                         <p>Para que su reserva sea confirmada se requiere un depósito del 20% o 50% por persona y por
                             viaje. El saldo adeudado se puede pagar en efectivo a su llegada a la ciudad de Cusco. Si su
                             reserva se realiza dentro de los 2 días anteriores a la fecha de salida, el 100% del monto
@@ -119,7 +120,7 @@
                             mes antes de la fecha de salida, y recibirá un reembolso reducido únicamente por los gastos
                             ya incurridos.</p>
 
-                        <h5>- Asunción de riesgos</h5>
+                        <h5>Asunción de riesgos</h5>
                         <p>Algunos itinerarios de Happy Perú Tours han sido diseñados para brindar a los participantes
                             una exposición a la verdadera naturaleza del entorno visitado. Implican, por tanto, un
                             elemento de riesgo personal y exposición a un riesgo potencial que podría resultar en
@@ -131,7 +132,7 @@
                             de cualquier responsabilidad asociada con cualquier accidente o lesión que pueda ocurrir en
                             relación con la salud, el estado físico o de otro tipo del cliente.</p>
 
-                        <h5>- Autoridad en el Tour</h5>
+                        <h5>Autoridad en el Tour</h5>
                         <p>La decisión del Guía u otro representante de Happy Peru Tours será siempre final en todos los
                             asuntos que puedan poner en peligro la seguridad y el bienestar del grupo turístico. El
                             cliente
@@ -141,7 +142,7 @@
                             otro representante de la empresa podrá ordenar al cliente que abandone el tour sin
                             reembolso.</p>
 
-                        <h5>- Documentos de viaje</h5>
+                        <h5>Documentos de viaje</h5>
                         <p>El cliente debe estar en posesión de un pasaporte válido y todas las visas requeridas para la
                             totalidad del viaje y el cliente acepta la responsabilidad de obtenerlas. Cualquier
                             información o consejo sobre visas, vacunas, clima, vestimenta, equipaje, equipo especial,
@@ -155,7 +156,7 @@
                             derivados de estos factores.
                         </p>
 
-                        <h5>- Responsabilidad</h5>
+                        <h5>Responsabilidad</h5>
                         <p>La empresa no es responsable de ningún daño o pérdida si el incumplimiento del contrato
                             fuera:
 
@@ -184,7 +185,7 @@
                             oportunidad de leer este documento completo, que lo he leído y entendido y acepto estar
                             sujeto a sus términos.</p>
 
-                        <h3>Inlcusiones</h3>
+                        <h3>Inclusiones</h3>
 
                         <p>El precio total de tu viaje incluye:
 
@@ -224,19 +225,6 @@
                             y
                             el proveedor de la actividad.</p>
 
-                        <h3>Seguro de viaje</h3>
-
-                        <p>El seguro de viaje es obligatorio para todos nuestros viajeros y debe contratarse en el
-                            momento de la reserva. Tu seguro de viaje debe cubrir accidentes personales, muerte, gastos
-                            médicos y repatriación de emergencia con una cobertura mínima recomendada de USD 200.000
-                            para cada una de las categorías de cobertura.<br><br> También recomendamos enfáticamente que
-                            cubra
-                            cancelación, restricción, responsabilidad personal, pérdida de equipaje y bienes
-                            personales.<br>
-                            ¡Debe proporcionar prueba de su seguro de viaje el primer día de su viaje! ¡No podrás unirte
-                            al viaje sin él! Si obtiene un seguro de viaje a través de nosotros, debe informarnos antes
-                            del viaje si está satisfecho con el nivel de seguro que hemos contratado.</p>
-
                         <h3>Campamentos Camino Inca</h3>
 
                         <p>Tenga en cuenta: los sitios para acampar pueden cambiar (es decir, pueden ser diferentes a
@@ -268,7 +256,7 @@
                             el compra inmediata de permisos Camino Inca, boletos Machu Picchu, gastos de maletero,
                             Huayna Entradas a la montaña Picchu/Machu Picchu (si corresponde) que no son reembolsables
                             ni transferibles a cualquier otra fecha, persona o tour (según el Reglamento del Camino Inca
-                            y Machu Picchu)! Happy Perú debe ser informado de cualquier cambio o cancelación de su
+                            y Machu Picchu)! Happy Perú Tours debe ser informado de cualquier cambio o cancelación de su
                             caminata tan pronto como tenga conocimiento de ellos, ya sea por correo electrónico o por
                             fax, para que no incurramos en gastos no cubiertos por el depósito. <br><br>
 
@@ -281,7 +269,7 @@
                             que aún puede usar, como un boleto Machu Picchu, un tren billete, un billete de autobús.
                             <br><br>
 
-                            <strong>Si pagó solo el 20% no es reembolsable.<br>
+                            <strong>Si pagó solo el 30% no es reembolsable.<br>
                                 Previa solicitud, también podemos proporcionar una carta de reclamación a su compañía de
                                 seguros.</strong>
 
@@ -291,8 +279,6 @@
                         <ul>
                             <li>Aplica solo para reservas iniciadas entre el 01 de enero al 31 de diciembre de 2022.
                             </li>
-                            <li> El reembolso se enviará a la tarjeta de crédito del cliente, este proceso demorará
-                                entre 7 y 20 días.</li>
                             <li> Su banco puede aplicar una tarifa de transacción. <br><br>
                             </li>
                         </ul>
@@ -302,8 +288,8 @@
             </div>
         </div>
     </section>
-       <!---------Prueba tours full width--------->
-       <div class="container-fluid">
+    <!---------Prueba tours full width--------->
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="text-center">Temas de turismo Perú</h2><br><br>
